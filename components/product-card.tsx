@@ -5,12 +5,7 @@ import Link from "next/link";
 import { ShoppingCart } from "lucide-react";
 import { useState } from "react";
 import { useCart } from "@/lib/cart-context";
-
-const categoryFallbacks: Record<string, string> = {
-  "Board Game Inserts": "/images/default-inserts.svg",
-  "Token Upgrades": "/images/default-tokens.svg",
-  "Replacement Pieces": "/images/default-pieces.svg",
-};
+import { getImageSrc, categoryFallbacks } from "@/app/assets/images";
 
 interface ProductCardProps {
   id: string;
@@ -28,7 +23,7 @@ export default function ProductCard({
   category,
 }: ProductCardProps) {
   const { addToCart } = useCart();
-  const [imgSrc, setImgSrc] = useState(image);
+  const [imgSrc, setImgSrc] = useState(getImageSrc(image));
 
   const handleAddToCart = (e: React.MouseEvent) => {
     e.preventDefault();

@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { useState } from "react";
+import { getImageSrc } from "@/app/assets/images";
 
 interface CategoryCardProps {
   id: string;
@@ -24,11 +25,13 @@ export default function CategoryCard({
   productCount,
   icon,
 }: CategoryCardProps) {
-  const [imgSrc, setImgSrc] = useState(image);
+  const resolvedImage = getImageSrc(image);
+  const resolvedDefault = defaultImage ? getImageSrc(defaultImage) : undefined;
+  const [imgSrc, setImgSrc] = useState(resolvedImage);
 
   const handleImageError = () => {
-    if (defaultImage && imgSrc !== defaultImage) {
-      setImgSrc(defaultImage);
+    if (resolvedDefault && imgSrc !== resolvedDefault) {
+      setImgSrc(resolvedDefault);
     }
   };
 

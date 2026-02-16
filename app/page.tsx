@@ -1,7 +1,6 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import SearchBox, { type SearchSuggestion } from "@/components/search-box";
@@ -9,42 +8,14 @@ import CategoryCard from "@/components/category-card";
 import ProductCard from "@/components/product-card";
 import NewsletterSignup from "@/components/newsletter-signup";
 import { ArrowRight } from "lucide-react";
+import { products, categories, getFeaturedProducts } from "@/app/assets/data";
+import { heroBackdrop, logo } from "@/app/assets/images";
 
-interface Product {
-  id: string;
-  name: string;
-  category: string;
-  price: number;
-  image: string;
-  featured: boolean;
-}
-
-interface Category {
-  id: string;
-  name: string;
-  description: string;
-  image: string;
-  defaultImage?: string;
-  productCount: number;
-  icon: string;
-}
+const allProducts: SearchSuggestion[] = products;
+const featuredProducts = getFeaturedProducts();
 
 export default function Home() {
   const router = useRouter();
-  const [categories, setCategories] = useState<Category[]>([]);
-  const [allProducts, setAllProducts] = useState<SearchSuggestion[]>([]);
-  const [featuredProducts, setFeaturedProducts] = useState<Product[]>([]);
-
-  useEffect(() => {
-    Promise.all([
-      fetch("/data/categories.json").then((res) => res.json()),
-      fetch("/data/products.json").then((res) => res.json()),
-    ]).then(([categoriesData, productsData]) => {
-      setCategories(categoriesData);
-      setAllProducts(productsData);
-      setFeaturedProducts(productsData.filter((p: Product) => p.featured));
-    });
-  }, []);
 
   const handleSearch = (query: string) => {
     if (query.trim()) {
@@ -59,7 +30,7 @@ export default function Home() {
         {/* Backdrop illustration */}
         <div
           className="absolute inset-0 bg-center bg-no-repeat bg-cover pointer-events-none select-none"
-          style={{ backgroundImage: "url('/images/hero-backdrop.svg')" }}
+          style={{ backgroundImage: `url('${heroBackdrop.src}')` }}
           aria-hidden="true"
         />
         <div className="relative section-padding">
@@ -174,7 +145,7 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Image
-                  src="/images/logo.svg"
+                  src={logo}
                   alt="Tabletop Re-Boxing"
                   width={32}
                   height={32}

@@ -13,27 +13,8 @@ import {
   ZoomIn,
 } from "lucide-react";
 import { useCart } from "@/lib/cart-context";
-
-const categoryFallbacks: Record<string, string> = {
-  "Board Game Inserts": "/images/default-inserts.svg",
-  "Token Upgrades": "/images/default-tokens.svg",
-  "Replacement Pieces": "/images/default-pieces.svg",
-};
-
-interface Product {
-  id: string;
-  name: string;
-  category: string;
-  price: number;
-  image: string;
-  images?: string[];
-  description: string;
-  featured: boolean;
-  specs: {
-    material: string;
-    [key: string]: string;
-  };
-}
+import { products, type Product } from "@/app/assets/data";
+import { getImageSrc, categoryFallbacks } from "@/app/assets/images";
 
 export interface ProductClientProps {
   params: Promise<{ id: string }>;
@@ -182,12 +163,8 @@ export default function ProductClient({ params }: ProductClientProps) {
 
   useEffect(() => {
     if (!id) return;
-    fetch("/data/products.json")
-      .then((res) => res.json())
-      .then((products: Product[]) => {
-        const found = products.find((p) => p.id === id);
-        setProduct(found || null);
-      });
+    const found = products.find((p) => p.id === id);
+    setProduct(found || null);
   }, [id]);
 
   const handleAddToCart = () => {
@@ -206,9 +183,9 @@ export default function ProductClient({ params }: ProductClientProps) {
 
   const allImages =
     product?.images && product.images.length > 0
-      ? product.images
+      ? product.images.map(getImageSrc)
       : product
-        ? [product.image]
+        ? [getImageSrc(product.image)]
         : [];
 
   const handleOpenLightbox = (index: number) => {
@@ -220,7 +197,7 @@ export default function ProductClient({ params }: ProductClientProps) {
     setSelectedImageIndex(index);
   };
 
-  const getImageSrc = (src: string) => {
+  const resolveImageSrc = (src: string) => {
     if (failedImages.has(src) && product) {
       return categoryFallbacks[product.category] || src;
     }
@@ -288,7 +265,7 @@ export default function ProductClient({ params }: ProductClientProps) {
                 onClick={() => handleOpenLightbox(selectedImageIndex)}
               >
                 <Image
-                  src={getImageSrc(allImages[selectedImageIndex])}
+                  src={resolveImageSrc(allImages[selectedImageIndex])}
                   alt={product.name}
                   width={600}
                   height={600}
@@ -316,7 +293,7 @@ export default function ProductClient({ params }: ProductClientProps) {
                       }`}
                     >
                       <Image
-                        src={getImageSrc(img)}
+                        src={resolveImageSrc(img)}
                         alt={`${product.name} - Image ${idx + 1}`}
                         fill
                         className="object-cover"
@@ -431,7 +408,7 @@ export default function ProductClient({ params }: ProductClientProps) {
       {/* Lightbox Modal */}
       {lightboxOpen && (
         <LightboxModal
-          images={allImages.map((img) => getImageSrc(img))}
+          images={allImages.map((img) => resolveImageSrc(img))}
           currentIndex={selectedImageIndex}
           onClose={() => setLightboxOpen(false)}
           onNavigate={handleLightboxNavigate}

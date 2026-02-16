@@ -1,75 +1,24 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import ProductCard from "@/components/product-card";
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
-
-interface Product {
-  id: string;
-  name: string;
-  category: string;
-  price: number;
-  image: string;
-  featured: boolean;
-}
-
-interface Category {
-  id: string;
-  name: string;
-  description: string;
-  icon: string;
-}
+import {
+  categories as allCategories,
+  products as allProducts,
+  getCategoryById,
+  getProductsByCategory,
+} from "@/app/assets/data";
 
 export default function CategoryClient() {
   const params = useParams();
   const categoryId = params.id as string;
 
-  const [category, setCategory] = useState<Category | null>(null);
-  const [products, setProducts] = useState<Product[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    const loadData = async () => {
-      try {
-        const [categoriesRes, productsRes] = await Promise.all([
-          fetch("/data/categories.json"),
-          fetch("/data/products.json"),
-        ]);
-
-        const categories = await categoriesRes.json();
-        const productsData = await productsRes.json();
-
-        const foundCategory = categories.find(
-          (c: Category) => c.id === categoryId
-        );
-        setCategory(foundCategory);
-
-        const filteredProducts = productsData.filter(
-          (p: Product) => p.category === foundCategory?.name
-        );
-        setProducts(filteredProducts);
-      } catch (error) {
-        console.error("Error loading category:", error);
-      } finally {
-        setIsLoading(false);
-      }
-    };
-
-    if (categoryId) loadData();
-  }, [categoryId]);
-
-  if (isLoading) {
-    return (
-      <div className="min-h-[60vh] flex items-center justify-center">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-8 w-8 border-2 border-primary border-t-transparent mx-auto mb-3" />
-          <p className="text-sm text-muted-foreground">Loading category...</p>
-        </div>
-      </div>
-    );
-  }
+  const category = getCategoryById(categoryId);
+  const categoryProducts = category
+    ? getProductsByCategory(category.name)
+    : [];
 
   if (!category) {
     return (
@@ -129,13 +78,13 @@ export default function CategoryClient() {
       {/* Products Grid */}
       <section className="section-padding">
         <div className="page-container">
-          {products.length > 0 ? (
+          {categoryProducts.length > 0 ? (
             <>
               <p className="text-xs text-muted-foreground mb-6">
-                {products.length} product{products.length !== 1 ? "s" : ""}
+                {categoryProducts.length} product{categoryProducts.length !== 1 ? "s" : ""}
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                {products.map((product) => (
+                {categoryProducts.map((product) => (
                   <ProductCard
                     key={product.id}
                     id={product.id}

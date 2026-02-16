@@ -6,20 +6,11 @@ import SearchBox from "@/components/search-box";
 import ProductCard from "@/components/product-card";
 import Link from "next/link";
 import { ChevronRight, ArrowUpDown, Check } from "lucide-react";
-
-interface Product {
-  id: string;
-  name: string;
-  category: string;
-  price: number;
-  image: string;
-  featured: boolean;
-}
+import { products as allProducts } from "@/app/assets/data";
 
 export default function ProductsClient() {
   const searchParams = useSearchParams();
-  const [products, setProducts] = useState<Product[]>([]);
-  const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
+  const [filteredProducts, setFilteredProducts] = useState(allProducts);
   const [selectedCategory, setSelectedCategory] = useState<string>("");
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [sortBy, setSortBy] = useState<string>("featured");
@@ -37,13 +28,7 @@ export default function ProductsClient() {
   const searchFilter = searchParams.get("search") || "";
 
   useEffect(() => {
-    fetch("/data/products.json")
-      .then((res) => res.json())
-      .then((data) => setProducts(data));
-  }, []);
-
-  useEffect(() => {
-    let filtered = products;
+    let filtered = allProducts;
 
     if (categoryFilter) {
       setSelectedCategory(categoryFilter);
@@ -82,7 +67,7 @@ export default function ProductsClient() {
     });
 
     setFilteredProducts(sorted);
-  }, [products, categoryFilter, searchFilter, sortBy]);
+  }, [categoryFilter, searchFilter, sortBy]);
 
   const handleSearch = (query: string) => {
     setSearchQuery(query);

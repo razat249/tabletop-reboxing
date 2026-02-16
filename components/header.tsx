@@ -3,10 +3,14 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ShoppingCart, Menu, X } from "lucide-react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useCart } from "@/lib/cart-context";
 import SearchBox, { type SearchSuggestion } from "@/components/search-box";
+import { products as productsData } from "@/app/assets/data";
+import { logo } from "@/app/assets/images";
+
+const products: SearchSuggestion[] = productsData;
 
 interface HeaderProps {
   onCartClick: () => void;
@@ -17,13 +21,6 @@ export default function Header({ onCartClick }: HeaderProps) {
   const { items } = useCart();
   const cartCount = items.reduce((sum, item) => sum + item.quantity, 0);
   const router = useRouter();
-  const [products, setProducts] = useState<SearchSuggestion[]>([]);
-
-  useEffect(() => {
-    fetch("/data/products.json")
-      .then((res) => res.json())
-      .then((data) => setProducts(data));
-  }, []);
 
   const handleSearch = (query: string) => {
     if (query.trim()) {
@@ -38,7 +35,7 @@ export default function Header({ onCartClick }: HeaderProps) {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group flex-shrink-0">
             <Image
-              src="/images/logo.svg"
+              src={logo}
               alt="Tabletop Re-Boxing"
               width={36}
               height={36}
