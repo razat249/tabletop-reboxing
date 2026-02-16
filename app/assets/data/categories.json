@@ -21,8 +21,8 @@
     "id": "replacement-pieces",
     "name": "Replacement Pieces",
     "description": "Replace lost or damaged game components with precision-printed pieces",
-    "image": "/images/category-pieces.svg",
-    "defaultImage": "/images/default-pieces.png",
+    "image": "/images/category-pieces.png",
+    "defaultImage": "/images/default-pieces.svg",
     "productCount": 0,
     "icon": "🎲"
   }
