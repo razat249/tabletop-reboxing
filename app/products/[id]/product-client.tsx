@@ -185,8 +185,8 @@ export default function ProductClient({ params }: ProductClientProps) {
     product?.images && product.images.length > 0
       ? product.images.map(getImageSrc)
       : product
-        ? [getImageSrc(product.image)]
-        : [];
+      ? [getImageSrc(product.image)]
+      : [];
 
   const handleOpenLightbox = (index: number) => {
     setSelectedImageIndex(index);
@@ -271,7 +271,9 @@ export default function ProductClient({ params }: ProductClientProps) {
                   height={600}
                   className="w-full h-full object-cover smooth-transition group-hover:scale-[1.02]"
                   priority
-                  onError={() => handleImageError(allImages[selectedImageIndex])}
+                  onError={() =>
+                    handleImageError(allImages[selectedImageIndex])
+                  }
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 smooth-transition" />
                 <div className="absolute bottom-3 right-3 bg-black/50 backdrop-blur-sm text-white p-2 rounded-lg opacity-0 group-hover:opacity-100 smooth-transition">
@@ -396,8 +398,8 @@ export default function ProductClient({ params }: ProductClientProps) {
               <div className="flex items-center gap-2 text-xs text-muted-foreground">
                 <Truck size={14} strokeWidth={1.75} />
                 <span>
-                  Free shipping on orders over ₹2,000. Ships within 2-3
-                  business days.
+                  Free shipping on orders over ₹1,000. Ships within 4-5 business
+                  days.
                 </span>
               </div>
             </div>

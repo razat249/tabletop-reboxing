@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-b from-secondary/60 via-secondary/20 to-background">
+      <section className="relative bg-gradient-to-b from-secondary/60 via-secondary/20 to-background">
         {/* Backdrop illustration */}
         <div
           className="absolute inset-0 bg-center bg-no-repeat bg-cover pointer-events-none select-none"
@@ -45,7 +45,7 @@ export default function Home() {
               Custom inserts, token upgrades, and replacement pieces designed
               and printed for modern board games.
             </p>
-            <div className="max-w-xl mx-auto">
+            <div className="max-w-xl mx-auto pb-4">
               <SearchBox
                 onSearch={handleSearch}
                 suggestions={allProducts}
