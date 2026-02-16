@@ -18,6 +18,9 @@ import spiritIslandTokens from "./spirit-island-tokens.svg";
 import splendorCoins from "./splendor-coins.svg";
 import ticketToRideTrains from "./ticket-to-ride-trains.svg";
 import wingspanEggs from "./wingspan-eggs.svg";
+import categoryInsertsPng from "./category-inserts.png";
+import categoryTokensPng from "./category-tokens.png";
+import defaultPiecesPng from "./default-pieces.png";
 
 type ImageImport = {
   src: string;
@@ -46,6 +49,9 @@ const imageMap: Record<string, ImageImport> = {
   "/images/splendor-coins.svg": splendorCoins,
   "/images/ticket-to-ride-trains.svg": ticketToRideTrains,
   "/images/wingspan-eggs.svg": wingspanEggs,
+  "/images/category-inserts.png": categoryInsertsPng,
+  "/images/category-tokens.png": categoryTokensPng,
+  "/images/default-pieces.png": defaultPiecesPng,
 };
 
 /** Resolve an image path to the bundled asset src. Falls back to the original path. */
@@ -63,7 +69,7 @@ export function getImage(path: string): ImageImport | undefined {
 export const categoryFallbacks: Record<string, string> = {
   "Board Game Inserts": defaultInserts.src,
   "Token Upgrades": defaultTokens.src,
-  "Replacement Pieces": defaultPieces.src,
+  "Replacement Pieces": defaultPiecesPng.src,
 };
 
 export { logo, heroBackdrop, defaultInserts, defaultTokens, defaultPieces };
