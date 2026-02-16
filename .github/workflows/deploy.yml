@@ -36,7 +36,7 @@ jobs:
       - name: Build static site
         run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: /board-game-inserts
+          NEXT_PUBLIC_BASE_PATH: /tabletop-reboxing
 
       - name: Add .nojekyll
         run: touch out/.nojekyll
