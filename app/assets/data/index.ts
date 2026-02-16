@@ -27,7 +27,14 @@ export interface Category {
 }
 
 export const products: Product[] = productsData as Product[];
-export const categories: Category[] = categoriesData as Category[];
+
+// Compute productCount from actual products data
+export const categories: Category[] = (categoriesData as Category[]).map(
+  (cat) => ({
+    ...cat,
+    productCount: products.filter((p) => p.category === cat.name).length,
+  })
+);
 
 export function getProductById(id: string): Product | undefined {
   return products.find((p) => p.id === id);

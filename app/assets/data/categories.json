@@ -5,7 +5,6 @@
     "description": "Organize and protect your games with custom-designed inserts",
     "image": "/images/category-inserts.png",
     "defaultImage": "/images/default-inserts.svg",
-    "productCount": 25,
     "icon": "📦"
   },
   {
@@ -14,7 +13,6 @@
     "description": "Premium replacement tokens to enhance your gaming experience",
     "image": "/images/category-tokens.png",
     "defaultImage": "/images/default-tokens.svg",
-    "productCount": 0,
     "icon": "✨"
   },
   {
@@ -23,7 +21,6 @@
     "description": "Replace lost or damaged game components with precision-printed pieces",
     "image": "/images/category-pieces.png",
     "defaultImage": "/images/default-pieces.svg",
-    "productCount": 0,
     "icon": "🎲"
   }
 ]
