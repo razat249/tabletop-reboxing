@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1a2e"/>
+      <stop offset="1" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="box-top" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a3728"/>
+      <stop offset="1" stop-color="#3d2e22"/>
+    </linearGradient>
+    <linearGradient id="box-front" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2d1f14"/>
+      <stop offset="1" stop-color="#1a120c"/>
+    </linearGradient>
+    <linearGradient id="divider" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a4230"/>
+      <stop offset="1" stop-color="#4a3520"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c9a84c"/>
+      <stop offset="1" stop-color="#a08030"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <!-- Subtle grid pattern -->
+  <g opacity="0.05" stroke="#c9a84c" stroke-width="0.5">
+    <line x1="0" y1="100" x2="800" y2="100"/><line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="300" x2="800" y2="300"/><line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="0" y1="500" x2="800" y2="500"/>
+    <line x1="100" y1="0" x2="100" y2="600"/><line x1="200" y1="0" x2="200" y2="600"/>
+    <line x1="300" y1="0" x2="300" y2="600"/><line x1="400" y1="0" x2="400" y2="600"/>
+    <line x1="500" y1="0" x2="500" y2="600"/><line x1="600" y1="0" x2="600" y2="600"/>
+    <line x1="700" y1="0" x2="700" y2="600"/>
+  </g>
+  <!-- Box base - 3D effect -->
+  <path d="M150,200 L400,140 L680,200 L680,420 L400,480 L150,420Z" fill="url(#box-front)"/>
+  <path d="M150,200 L400,140 L680,200 L400,260Z" fill="url(#box-top)"/>
+  <!-- Dividers -->
+  <path d="M275,170 L275,440" stroke="url(#divider)" stroke-width="4"/>
+  <path d="M400,140 L400,480" stroke="url(#divider)" stroke-width="4"/>
+  <path d="M540,170 L540,440" stroke="url(#divider)" stroke-width="4"/>
+  <path d="M150,310 L680,310" stroke="url(#divider)" stroke-width="3"/>
+  <!-- Compartment highlights -->
+  <rect x="160" y="210" width="108" height="90" rx="4" fill="#c9a84c" opacity="0.06"/>
+  <rect x="285" y="210" width="108" height="90" rx="4" fill="#c9a84c" opacity="0.04"/>
+  <rect x="410" y="210" width="120" height="90" rx="4" fill="#c9a84c" opacity="0.06"/>
+  <rect x="550" y="210" width="120" height="90" rx="4" fill="#c9a84c" opacity="0.04"/>
+  <!-- Mini cards in compartment -->
+  <g transform="translate(180, 230)" opacity="0.6">
+    <rect width="24" height="34" rx="2" fill="#ddd" stroke="#999" stroke-width="0.5"/>
+    <rect x="8" y="-2" width="24" height="34" rx="2" fill="#eee" stroke="#999" stroke-width="0.5"/>
+    <rect x="16" y="-4" width="24" height="34" rx="2" fill="#fff" stroke="#999" stroke-width="0.5"/>
+  </g>
+  <!-- Miniature silhouettes -->
+  <g transform="translate(310, 230)" opacity="0.5" fill="#c9a84c">
+    <path d="M15,0 C15,0 20,-8 25,-8 C30,-8 35,0 35,0 L32,30 L18,30Z"/>
+    <circle cx="25" cy="-14" r="7"/>
+    <path d="M50,5 C50,5 55,-3 60,-3 C65,-3 70,5 70,5 L67,30 L53,30Z"/>
+    <circle cx="60" cy="-9" r="6"/>
+  </g>
+  <!-- Gold accent line -->
+  <path d="M200,500 L600,500" stroke="url(#accent)" stroke-width="2" opacity="0.4"/>
+  <!-- Title area -->
+  <text x="400" y="550" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#c9a84c" opacity="0.8" font-weight="bold">GLOOMHAVEN INSERT</text>
+  <!-- Decorative corners -->
+  <path d="M130,180 L130,160 L150,160" stroke="#c9a84c" stroke-width="2" fill="none" opacity="0.3"/>
+  <path d="M700,180 L700,160 L680,160" stroke="#c9a84c" stroke-width="2" fill="none" opacity="0.3"/>
+  <path d="M130,440 L130,460 L150,460" stroke="#c9a84c" stroke-width="2" fill="none" opacity="0.3"/>
+  <path d="M700,440 L700,460 L680,460" stroke="#c9a84c" stroke-width="2" fill="none" opacity="0.3"/>
+</svg>

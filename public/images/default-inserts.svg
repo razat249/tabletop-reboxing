@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f0f7f5"/>
+      <stop offset="1" stop-color="#dceee9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.06" stroke="#2a8a6e" stroke-width="0.5">
+    <line x1="0" y1="100" x2="800" y2="100"/><line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="300" x2="800" y2="300"/><line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="0" y1="500" x2="800" y2="500"/>
+    <line x1="100" y1="0" x2="100" y2="600"/><line x1="200" y1="0" x2="200" y2="600"/>
+    <line x1="300" y1="0" x2="300" y2="600"/><line x1="400" y1="0" x2="400" y2="600"/>
+    <line x1="500" y1="0" x2="500" y2="600"/><line x1="600" y1="0" x2="600" y2="600"/>
+    <line x1="700" y1="0" x2="700" y2="600"/>
+  </g>
+
+  <!-- Open box with dividers -->
+  <g transform="translate(250, 120)">
+    <!-- Box bottom -->
+    <rect x="0" y="100" width="300" height="200" rx="8" fill="#c9a86c" opacity="0.35"/>
+    <!-- Box left side -->
+    <rect x="0" y="40" width="12" height="260" rx="4" fill="#a88850" opacity="0.4"/>
+    <!-- Box right side -->
+    <rect x="288" y="40" width="12" height="260" rx="4" fill="#a88850" opacity="0.4"/>
+    <!-- Box back -->
+    <rect x="0" y="40" width="300" height="12" rx="4" fill="#b89860" opacity="0.35"/>
+    <!-- Dividers -->
+    <rect x="98" y="55" width="6" height="245" rx="2" fill="#a88850" opacity="0.3"/>
+    <rect x="196" y="55" width="6" height="245" rx="2" fill="#a88850" opacity="0.3"/>
+    <!-- Horizontal divider -->
+    <rect x="12" y="185" width="276" height="5" rx="2" fill="#a88850" opacity="0.25"/>
+
+    <!-- Items in compartments -->
+    <rect x="30" y="110" width="40" height="55" rx="3" fill="#2a8a6e" opacity="0.15"/>
+    <rect x="40" y="105" width="40" height="55" rx="3" fill="#2a8a6e" opacity="0.12"/>
+    <circle cx="150" cy="140" r="18" fill="#d4785a" opacity="0.15"/>
+    <circle cx="148" cy="155" r="14" fill="#5b8dd9" opacity="0.12"/>
+    <rect x="220" y="108" width="48" height="60" rx="4" fill="#8b6bbd" opacity="0.12"/>
+    <rect x="30" y="210" width="55" height="35" rx="3" fill="#5b8dd9" opacity="0.12"/>
+    <circle cx="150" cy="230" r="15" fill="#2a8a6e" opacity="0.12"/>
+    <rect x="220" y="210" width="45" height="38" rx="3" fill="#d4785a" opacity="0.1"/>
+  </g>
+
+  <!-- Icon badge -->
+  <circle cx="400" cy="430" r="28" fill="#2a8a6e" opacity="0.12"/>
+  <rect x="387" y="420" width="26" height="20" rx="3" fill="none" stroke="#2a8a6e" stroke-width="2" opacity="0.35"/>
+  <line x1="392" y1="427" x2="408" y2="427" stroke="#2a8a6e" stroke-width="1.5" opacity="0.3"/>
+  <line x1="392" y1="432" x2="403" y2="432" stroke="#2a8a6e" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Label -->
+  <text x="400" y="490" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#2a8a6e" opacity="0.45" font-weight="600" letter-spacing="2">BOARD GAME INSERT</text>
+  <text x="400" y="512" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#2a8a6e" opacity="0.3">Image coming soon</text>
+</svg>

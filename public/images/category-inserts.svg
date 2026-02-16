@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#28907A"/>
+      <stop offset="1" stop-color="#1a6858"/>
+    </linearGradient>
+    <linearGradient id="box-light" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9a86c"/>
+      <stop offset="1" stop-color="#a88850"/>
+    </linearGradient>
+    <linearGradient id="box-dark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a7040"/>
+      <stop offset="1" stop-color="#6a5530"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <!-- Background pattern -->
+  <g opacity="0.06" stroke="#fff" stroke-width="0.5">
+    <rect x="50" y="50" width="100" height="100" rx="5"/><rect x="200" y="30" width="80" height="80" rx="5"/>
+    <rect x="520" y="40" width="90" height="90" rx="5"/><rect x="660" y="60" width="80" height="80" rx="5"/>
+  </g>
+  <!-- Main insert box - isometric -->
+  <g transform="translate(150, 120)">
+    <!-- Box bottom -->
+    <path d="M0,150 L250,60 L500,150 L250,240Z" fill="url(#box-dark)"/>
+    <!-- Box left wall -->
+    <path d="M0,150 L0,310 L250,400 L250,240Z" fill="#7a6030" opacity="0.9"/>
+    <!-- Box right wall -->
+    <path d="M250,240 L250,400 L500,310 L500,150Z" fill="url(#box-light)" opacity="0.9"/>
+    <!-- Dividers on top face -->
+    <line x1="125" y1="105" x2="125" y2="345" stroke="#5a4520" stroke-width="3"/>
+    <line x1="250" y1="60" x2="250" y2="400" stroke="#5a4520" stroke-width="3"/>
+    <line x1="375" y1="105" x2="375" y2="345" stroke="#5a4520" stroke-width="3"/>
+    <line x1="0" y1="230" x2="500" y2="230" stroke="#5a4520" stroke-width="2.5"/>
+    <!-- Highlight on compartments -->
+    <path d="M10,155 L125,110 L125,225 L10,230Z" fill="#fff" opacity="0.04"/>
+    <path d="M255,65 L375,110 L375,225 L255,230Z" fill="#fff" opacity="0.04"/>
+  </g>
+  <!-- Small organized components -->
+  <g transform="translate(210, 210)" opacity="0.5">
+    <rect width="12" height="16" rx="1" fill="#fff"/><rect x="15" y="-2" width="12" height="16" rx="1" fill="#eee"/>
+    <rect x="30" y="-4" width="12" height="16" rx="1" fill="#fff"/>
+  </g>
+  <g transform="translate(370, 200)" opacity="0.5">
+    <circle cx="8" cy="8" r="6" fill="#e85d5d"/><circle cx="22" cy="10" r="6" fill="#5b8dd9"/>
+    <circle cx="14" cy="22" r="6" fill="#4db88a"/>
+  </g>
+  <!-- Decorative text -->
+  <text x="400" y="520" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#fff" opacity="0.9" font-weight="bold">Board Game Inserts</text>
+  <text x="400" y="555" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#fff" opacity="0.5">Organize &amp; protect your games</text>
+</svg>

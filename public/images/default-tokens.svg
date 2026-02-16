@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5f0f8"/>
+      <stop offset="1" stop-color="#ebe3f2"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+
+  <!-- Soft radial decoration -->
+  <circle cx="400" cy="260" r="200" fill="#8b6bbd" opacity="0.04"/>
+  <circle cx="400" cy="260" r="140" fill="#8b6bbd" opacity="0.03"/>
+
+  <!-- Scattered token shapes -->
+  <!-- Large coin -->
+  <g transform="translate(310, 140)">
+    <circle cx="90" cy="90" r="70" fill="#d4a853" opacity="0.18"/>
+    <circle cx="90" cy="90" r="55" fill="none" stroke="#d4a853" stroke-width="2" opacity="0.2"/>
+    <text x="90" y="97" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#d4a853" opacity="0.25" font-weight="bold">★</text>
+  </g>
+
+  <!-- Small gem -->
+  <g transform="translate(190, 200)">
+    <polygon points="30,0 55,22 45,55 15,55 5,22" fill="#5b8dd9" opacity="0.14"/>
+    <polygon points="30,8 48,25 40,48 20,48 12,25" fill="none" stroke="#5b8dd9" stroke-width="1" opacity="0.18"/>
+  </g>
+
+  <!-- Hexagonal token -->
+  <g transform="translate(500, 180)">
+    <polygon points="35,0 65,18 65,52 35,70 5,52 5,18" fill="#2a8a6e" opacity="0.14"/>
+    <polygon points="35,10 55,23 55,47 35,60 15,47 15,23" fill="none" stroke="#2a8a6e" stroke-width="1.5" opacity="0.18"/>
+  </g>
+
+  <!-- Round token -->
+  <g transform="translate(240, 300)">
+    <circle cx="25" cy="25" r="25" fill="#d4785a" opacity="0.15"/>
+    <circle cx="25" cy="25" r="16" fill="none" stroke="#d4785a" stroke-width="1.5" opacity="0.2"/>
+  </g>
+
+  <!-- Square token -->
+  <g transform="translate(480, 290)">
+    <rect width="45" height="45" rx="6" fill="#5b8dd9" opacity="0.12"/>
+    <rect x="8" y="8" width="29" height="29" rx="3" fill="none" stroke="#5b8dd9" stroke-width="1.5" opacity="0.18"/>
+  </g>
+
+  <!-- Tiny scattered tokens -->
+  <circle cx="170" cy="170" r="10" fill="#d4a853" opacity="0.12"/>
+  <circle cx="620" cy="160" r="12" fill="#d4785a" opacity="0.1"/>
+  <circle cx="580" cy="340" r="8" fill="#2a8a6e" opacity="0.1"/>
+  <circle cx="260" cy="370" r="9" fill="#8b6bbd" opacity="0.1"/>
+
+  <!-- Icon badge -->
+  <circle cx="400" cy="430" r="28" fill="#8b6bbd" opacity="0.1"/>
+  <text x="400" y="439" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#8b6bbd" opacity="0.35">✦</text>
+
+  <!-- Label -->
+  <text x="400" y="490" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#8b6bbd" opacity="0.45" font-weight="600" letter-spacing="2">TOKEN UPGRADE</text>
+  <text x="400" y="512" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#8b6bbd" opacity="0.3">Image coming soon</text>
+</svg>

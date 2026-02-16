@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2050"/>
+      <stop offset="1" stop-color="#2a1040"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f0c04a" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#f0c04a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <!-- Background sparkle -->
+  <circle cx="400" cy="280" r="250" fill="url(#glow1)"/>
+  <g fill="#fff" opacity="0.08">
+    <circle cx="120" cy="100" r="1.5"/><circle cx="280" cy="60" r="1"/>
+    <circle cx="450" cy="40" r="1.5"/><circle cx="620" cy="80" r="1"/>
+    <circle cx="700" cy="200" r="1.5"/><circle cx="80" cy="400" r="1"/>
+    <circle cx="720" cy="450" r="1.5"/><circle cx="350" cy="520" r="1"/>
+  </g>
+  <!-- Large gold coin -->
+  <g transform="translate(280, 100)">
+    <circle cx="100" cy="100" r="90" fill="#d4a332" stroke="#f0c04a" stroke-width="3"/>
+    <circle cx="100" cy="100" r="75" fill="none" stroke="#f5d06a" stroke-width="2" opacity="0.4"/>
+    <circle cx="100" cy="100" r="80" fill="#f0c04a" opacity="0.3"/>
+    <text x="100" y="115" text-anchor="middle" font-family="Georgia, serif" font-size="48" fill="#886611" opacity="0.6" font-weight="bold">$</text>
+  </g>
+  <!-- Gem token - red -->
+  <g transform="translate(100, 200)">
+    <polygon points="50,10 90,35 80,80 20,80 10,35" fill="#e85d5d" stroke="#ff8080" stroke-width="2"/>
+    <polygon points="50,20 40,40 50,55 60,40" fill="#fff" opacity="0.15"/>
+  </g>
+  <!-- Gem token - blue -->
+  <g transform="translate(560, 160)">
+    <polygon points="50,10 90,35 80,80 20,80 10,35" fill="#5b8dd9" stroke="#88aaff" stroke-width="2"/>
+    <polygon points="50,20 40,40 50,55 60,40" fill="#fff" opacity="0.15"/>
+  </g>
+  <!-- Resource tokens row -->
+  <g transform="translate(130, 350)">
+    <circle cx="50" cy="50" r="42" fill="#4db88a" stroke="#6eeea4" stroke-width="2"/>
+    <circle cx="50" cy="50" r="32" fill="none" stroke="#fff" stroke-width="1" opacity="0.2"/>
+  </g>
+  <g transform="translate(280, 370)">
+    <circle cx="45" cy="45" r="38" fill="#e8944a" stroke="#ffaa66" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="none" stroke="#fff" stroke-width="1" opacity="0.2"/>
+  </g>
+  <g transform="translate(420, 360)">
+    <circle cx="48" cy="48" r="40" fill="#9b7ed8" stroke="#bb99ee" stroke-width="2"/>
+    <circle cx="48" cy="48" r="30" fill="none" stroke="#fff" stroke-width="1" opacity="0.2"/>
+  </g>
+  <g transform="translate(570, 340)">
+    <circle cx="45" cy="45" r="38" fill="#4ecdc4" stroke="#80ffe8" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="none" stroke="#fff" stroke-width="1" opacity="0.2"/>
+  </g>
+  <!-- Title -->
+  <text x="400" y="520" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#f0c04a" opacity="0.9" font-weight="bold">Token Upgrades</text>
+  <text x="400" y="555" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#f0c04a" opacity="0.5">Premium replacement tokens</text>
+</svg>

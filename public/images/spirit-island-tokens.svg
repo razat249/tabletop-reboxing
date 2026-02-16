@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a3830"/>
+      <stop offset="1" stop-color="#0f2820"/>
+    </linearGradient>
+    <linearGradient id="spirit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4ecdc4"/>
+      <stop offset="1" stop-color="#2a9d8f"/>
+    </linearGradient>
+    <linearGradient id="fire" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e85d5d"/>
+      <stop offset="1" stop-color="#c74444"/>
+    </linearGradient>
+    <linearGradient id="earth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a08060"/>
+      <stop offset="1" stop-color="#806040"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4ecdc4" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#4ecdc4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <!-- Mystical vines background -->
+  <g stroke="#4ecdc4" stroke-width="1" fill="none" opacity="0.08">
+    <path d="M0,200 Q100,180 200,220 Q300,260 400,200 Q500,140 600,200 Q700,260 800,220"/>
+    <path d="M0,400 Q100,380 200,420 Q300,460 400,400 Q500,340 600,400 Q700,460 800,420"/>
+    <path d="M0,300 Q150,260 300,310 Q450,360 600,300 Q700,250 800,300"/>
+  </g>
+  <!-- Central glow -->
+  <circle cx="400" cy="280" r="200" fill="url(#glow)"/>
+  <!-- Spirit presence tokens (teal) -->
+  <g transform="translate(100, 120)">
+    <circle cx="50" cy="50" r="42" fill="url(#spirit)" stroke="#6eeee4" stroke-width="2"/>
+    <circle cx="50" cy="50" r="32" fill="none" stroke="#fff" stroke-width="1" opacity="0.2"/>
+    <!-- Spiral symbol -->
+    <path d="M50,30 Q65,30 65,45 Q65,60 50,60 Q38,60 38,48 Q38,38 50,38 Q58,38 58,46" stroke="#fff" stroke-width="2.5" fill="none" opacity="0.5"/>
+  </g>
+  <g transform="translate(250, 80)">
+    <circle cx="50" cy="50" r="42" fill="url(#spirit)" stroke="#6eeee4" stroke-width="2"/>
+    <circle cx="50" cy="50" r="32" fill="none" stroke="#fff" stroke-width="1" opacity="0.2"/>
+    <path d="M50,30 Q65,30 65,45 Q65,60 50,60 Q38,60 38,48 Q38,38 50,38 Q58,38 58,46" stroke="#fff" stroke-width="2.5" fill="none" opacity="0.5"/>
+  </g>
+  <!-- Fire element tokens (red) -->
+  <g transform="translate(440, 100)">
+    <circle cx="45" cy="45" r="38" fill="url(#fire)" stroke="#ff8080" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="none" stroke="#fff" stroke-width="1" opacity="0.2"/>
+    <!-- Flame icon -->
+    <path d="M45,22 C45,22 55,32 55,42 C55,50 50,55 45,55 C48,50 42,45 42,40 C42,40 38,48 38,50 C35,48 32,42 35,35 C38,28 45,22 45,22Z" fill="#fff" opacity="0.4"/>
+  </g>
+  <!-- Earth element tokens (brown) -->
+  <g transform="translate(580, 140)">
+    <circle cx="45" cy="45" r="38" fill="url(#earth)" stroke="#c0a080" stroke-width="2"/>
+    <circle cx="45" cy="45" r="28" fill="none" stroke="#fff" stroke-width="1" opacity="0.2"/>
+    <!-- Mountain icon -->
+    <polygon points="45,25 25,60 65,60" fill="#fff" opacity="0.3"/>
+    <polygon points="55,35 40,60 70,60" fill="#fff" opacity="0.2"/>
+  </g>
+  <!-- Invader tokens -->
+  <g transform="translate(150, 310)">
+    <rect width="80" height="80" rx="8" fill="#444" stroke="#666" stroke-width="2"/>
+    <rect x="10" y="10" width="60" height="60" rx="4" fill="none" stroke="#888" stroke-width="1"/>
+    <!-- Sword icon -->
+    <line x1="40" y1="20" x2="40" y2="55" stroke="#aaa" stroke-width="3"/>
+    <line x1="30" y1="30" x2="50" y2="30" stroke="#aaa" stroke-width="3"/>
+    <rect x="35" y="55" width="10" height="6" rx="2" fill="#aaa"/>
+  </g>
+  <!-- Damage tokens -->
+  <g transform="translate(310, 340)">
+    <polygon points="40,5 48,28 72,28 52,42 60,65 40,50 20,65 28,42 8,28 32,28" fill="#e85d5d" stroke="#c74444" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(390, 360)">
+    <polygon points="30,4 36,21 54,21 39,32 45,49 30,38 15,49 21,32 6,21 24,21" fill="#e85d5d" stroke="#c74444" stroke-width="1.5" opacity="0.8"/>
+  </g>
+  <!-- Dahan tokens -->
+  <g transform="translate(500, 320)">
+    <circle cx="40" cy="40" r="35" fill="#8a6840" stroke="#a08060" stroke-width="2"/>
+    <circle cx="40" cy="40" r="25" fill="none" stroke="#c0a080" stroke-width="1" opacity="0.3"/>
+    <!-- Hut icon -->
+    <polygon points="40,20 20,35 60,35" fill="#c0a080" opacity="0.5"/>
+    <rect x="28" y="35" width="24" height="18" rx="2" fill="#c0a080" opacity="0.4"/>
+  </g>
+  <g transform="translate(600, 340)">
+    <circle cx="35" cy="35" r="30" fill="#8a6840" stroke="#a08060" stroke-width="2" opacity="0.8"/>
+    <circle cx="35" cy="35" r="20" fill="none" stroke="#c0a080" stroke-width="1" opacity="0.3"/>
+    <polygon points="35,18 18,30 52,30" fill="#c0a080" opacity="0.4"/>
+    <rect x="24" y="30" width="22" height="15" rx="2" fill="#c0a080" opacity="0.35"/>
+  </g>
+  <!-- Title -->
+  <text x="400" y="540" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#4ecdc4" opacity="0.7" font-weight="bold">SPIRIT ISLAND TOKEN SET</text>
+</svg>

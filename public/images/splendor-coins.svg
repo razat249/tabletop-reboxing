@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1020"/>
+      <stop offset="1" stop-color="#100818"/>
+    </linearGradient>
+    <radialGradient id="ruby" cx="0.35" cy="0.35" r="0.65">
+      <stop offset="0" stop-color="#ff6666"/>
+      <stop offset="0.5" stop-color="#cc2222"/>
+      <stop offset="1" stop-color="#881111"/>
+    </radialGradient>
+    <radialGradient id="emerald" cx="0.35" cy="0.35" r="0.65">
+      <stop offset="0" stop-color="#66ff88"/>
+      <stop offset="0.5" stop-color="#22aa44"/>
+      <stop offset="1" stop-color="#116622"/>
+    </radialGradient>
+    <radialGradient id="sapphire" cx="0.35" cy="0.35" r="0.65">
+      <stop offset="0" stop-color="#6688ff"/>
+      <stop offset="0.5" stop-color="#2244cc"/>
+      <stop offset="1" stop-color="#112288"/>
+    </radialGradient>
+    <radialGradient id="diamond" cx="0.35" cy="0.35" r="0.65">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.5" stop-color="#ccddee"/>
+      <stop offset="1" stop-color="#8899aa"/>
+    </radialGradient>
+    <radialGradient id="onyx" cx="0.35" cy="0.35" r="0.65">
+      <stop offset="0" stop-color="#666666"/>
+      <stop offset="0.5" stop-color="#333333"/>
+      <stop offset="1" stop-color="#111111"/>
+    </radialGradient>
+    <radialGradient id="gold" cx="0.35" cy="0.35" r="0.65">
+      <stop offset="0" stop-color="#ffe066"/>
+      <stop offset="0.5" stop-color="#ccaa22"/>
+      <stop offset="1" stop-color="#886611"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <!-- Sparkle background -->
+  <g fill="#fff" opacity="0.1">
+    <circle cx="100" cy="80" r="1"/><circle cx="250" cy="50" r="1.5"/>
+    <circle cx="400" cy="30" r="1"/><circle cx="550" cy="60" r="1.5"/>
+    <circle cx="700" cy="40" r="1"/><circle cx="150" cy="520" r="1"/>
+    <circle cx="350" cy="550" r="1.5"/><circle cx="650" cy="530" r="1"/>
+    <circle cx="50" cy="300" r="1.2"/><circle cx="750" cy="280" r="1.2"/>
+  </g>
+  <!-- Ruby token -->
+  <g transform="translate(80, 140)">
+    <circle cx="70" cy="70" r="62" fill="url(#ruby)" stroke="#ff4444" stroke-width="2"/>
+    <circle cx="70" cy="70" r="52" fill="none" stroke="#ff8888" stroke-width="1" opacity="0.3"/>
+    <!-- Gem facet -->
+    <polygon points="70,30 45,55 50,90 90,90 95,55" fill="#fff" opacity="0.08"/>
+    <polygon points="70,30 55,50 70,65 85,50" fill="#fff" opacity="0.12"/>
+  </g>
+  <!-- Emerald token -->
+  <g transform="translate(280, 100)">
+    <circle cx="70" cy="70" r="62" fill="url(#emerald)" stroke="#44cc66" stroke-width="2"/>
+    <circle cx="70" cy="70" r="52" fill="none" stroke="#88ff88" stroke-width="1" opacity="0.3"/>
+    <polygon points="70,30 45,55 50,90 90,90 95,55" fill="#fff" opacity="0.08"/>
+    <polygon points="70,30 55,50 70,65 85,50" fill="#fff" opacity="0.12"/>
+  </g>
+  <!-- Sapphire token -->
+  <g transform="translate(480, 130)">
+    <circle cx="70" cy="70" r="62" fill="url(#sapphire)" stroke="#4466dd" stroke-width="2"/>
+    <circle cx="70" cy="70" r="52" fill="none" stroke="#88aaff" stroke-width="1" opacity="0.3"/>
+    <polygon points="70,30 45,55 50,90 90,90 95,55" fill="#fff" opacity="0.08"/>
+    <polygon points="70,30 55,50 70,65 85,50" fill="#fff" opacity="0.12"/>
+  </g>
+  <!-- Diamond token -->
+  <g transform="translate(120, 340)">
+    <circle cx="70" cy="70" r="62" fill="url(#diamond)" stroke="#aabbcc" stroke-width="2"/>
+    <circle cx="70" cy="70" r="52" fill="none" stroke="#ddeeff" stroke-width="1" opacity="0.3"/>
+    <polygon points="70,30 45,55 50,90 90,90 95,55" fill="#fff" opacity="0.1"/>
+    <polygon points="70,30 55,50 70,65 85,50" fill="#fff" opacity="0.15"/>
+  </g>
+  <!-- Onyx token -->
+  <g transform="translate(340, 360)">
+    <circle cx="70" cy="70" r="62" fill="url(#onyx)" stroke="#555" stroke-width="2"/>
+    <circle cx="70" cy="70" r="52" fill="none" stroke="#888" stroke-width="1" opacity="0.3"/>
+    <polygon points="70,30 45,55 50,90 90,90 95,55" fill="#fff" opacity="0.05"/>
+    <polygon points="70,30 55,50 70,65 85,50" fill="#fff" opacity="0.08"/>
+  </g>
+  <!-- Gold token -->
+  <g transform="translate(560, 320)">
+    <circle cx="70" cy="70" r="62" fill="url(#gold)" stroke="#ccaa22" stroke-width="2"/>
+    <circle cx="70" cy="70" r="52" fill="none" stroke="#ffe066" stroke-width="1" opacity="0.3"/>
+    <polygon points="70,30 45,55 50,90 90,90 95,55" fill="#fff" opacity="0.1"/>
+    <polygon points="70,30 55,50 70,65 85,50" fill="#fff" opacity="0.15"/>
+    <text x="70" y="78" text-anchor="middle" font-family="serif" font-size="24" fill="#886611" opacity="0.5" font-weight="bold">*</text>
+  </g>
+  <!-- Title -->
+  <text x="400" y="560" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#ccaa44" opacity="0.7" font-weight="bold">SPLENDOR GEM TOKENS</text>
+</svg>

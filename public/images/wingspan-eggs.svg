@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8f4f0"/>
+      <stop offset="1" stop-color="#d5ebe4"/>
+    </linearGradient>
+    <linearGradient id="egg1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5efe6"/>
+      <stop offset="1" stop-color="#e8ddd0"/>
+    </linearGradient>
+    <linearGradient id="egg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d4e8f0"/>
+      <stop offset="1" stop-color="#b8d4e0"/>
+    </linearGradient>
+    <linearGradient id="egg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0e0d0"/>
+      <stop offset="1" stop-color="#dcc8b0"/>
+    </linearGradient>
+    <linearGradient id="egg4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e0f0d8"/>
+      <stop offset="1" stop-color="#c8e0b8"/>
+    </linearGradient>
+    <linearGradient id="egg5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0d8e8"/>
+      <stop offset="1" stop-color="#e0c0d0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <!-- Branch decorations -->
+  <g stroke="#8aaa80" stroke-width="2" fill="none" opacity="0.2">
+    <path d="M50,100 Q200,80 350,120"/>
+    <path d="M200,90 Q180,60 160,40"/>
+    <path d="M280,105 Q270,70 250,50"/>
+    <path d="M450,100 Q600,80 750,120"/>
+    <path d="M600,90 Q590,55 570,35"/>
+  </g>
+  <!-- Leaf accents -->
+  <g fill="#8aaa80" opacity="0.15">
+    <ellipse cx="160" cy="38" rx="12" ry="6" transform="rotate(-40 160 38)"/>
+    <ellipse cx="152" cy="44" rx="10" ry="5" transform="rotate(20 152 44)"/>
+    <ellipse cx="250" cy="48" rx="12" ry="6" transform="rotate(-30 250 48)"/>
+    <ellipse cx="570" cy="33" rx="12" ry="6" transform="rotate(30 570 33)"/>
+    <ellipse cx="578" cy="40" rx="10" ry="5" transform="rotate(-25 578 40)"/>
+  </g>
+  <!-- Nest base -->
+  <g opacity="0.3">
+    <ellipse cx="400" cy="420" rx="250" ry="40" fill="#a08060"/>
+    <path d="M150,420 Q200,350 250,380 Q300,340 350,370 Q400,330 450,370 Q500,340 550,380 Q600,350 650,420" stroke="#8a6840" stroke-width="8" fill="none"/>
+    <path d="M170,415 Q230,360 280,390 Q340,350 390,380 Q440,350 490,380 Q540,350 600,390 Q640,370 640,415" stroke="#a08060" stroke-width="6" fill="none"/>
+  </g>
+  <!-- Large cream egg -->
+  <g transform="translate(240, 200)">
+    <ellipse cx="60" cy="80" rx="50" ry="68" fill="url(#egg1)" stroke="#d0c8b8" stroke-width="1.5"/>
+    <ellipse cx="48" cy="60" rx="20" ry="30" fill="#fff" opacity="0.15"/>
+    <!-- Speckles -->
+    <circle cx="40" cy="50" r="2.5" fill="#c0b8a0" opacity="0.4"/>
+    <circle cx="70" cy="65" r="2" fill="#c0b8a0" opacity="0.3"/>
+    <circle cx="55" cy="90" r="3" fill="#c0b8a0" opacity="0.35"/>
+    <circle cx="45" cy="110" r="2" fill="#c0b8a0" opacity="0.3"/>
+    <circle cx="75" cy="100" r="2.5" fill="#c0b8a0" opacity="0.3"/>
+  </g>
+  <!-- Blue egg -->
+  <g transform="translate(380, 180)">
+    <ellipse cx="55" cy="75" rx="45" ry="62" fill="url(#egg2)" stroke="#a0c0d0" stroke-width="1.5"/>
+    <ellipse cx="44" cy="55" rx="18" ry="28" fill="#fff" opacity="0.15"/>
+  </g>
+  <!-- Brown egg -->
+  <g transform="translate(120, 240)">
+    <ellipse cx="50" cy="70" rx="42" ry="58" fill="url(#egg3)" stroke="#c0a888" stroke-width="1.5"/>
+    <ellipse cx="40" cy="52" rx="16" ry="25" fill="#fff" opacity="0.12"/>
+    <circle cx="35" cy="45" r="2" fill="#b0a080" opacity="0.4"/>
+    <circle cx="55" cy="60" r="3" fill="#b0a080" opacity="0.35"/>
+    <circle cx="42" cy="80" r="2.5" fill="#b0a080" opacity="0.3"/>
+  </g>
+  <!-- Green egg -->
+  <g transform="translate(490, 220)">
+    <ellipse cx="48" cy="65" rx="40" ry="55" fill="url(#egg4)" stroke="#a8c8a0" stroke-width="1.5"/>
+    <ellipse cx="38" cy="48" rx="15" ry="24" fill="#fff" opacity="0.15"/>
+  </g>
+  <!-- Pink egg -->
+  <g transform="translate(580, 260)">
+    <ellipse cx="42" cy="58" rx="36" ry="50" fill="url(#egg5)" stroke="#d0a8c0" stroke-width="1.5"/>
+    <ellipse cx="34" cy="42" rx="14" ry="22" fill="#fff" opacity="0.12"/>
+  </g>
+  <!-- Small feather decoration -->
+  <g transform="translate(150, 150) rotate(-20)" opacity="0.2">
+    <path d="M0,0 Q10,20 5,50 Q0,20 -5,0Z" fill="#8aaa80"/>
+    <line x1="0" y1="0" x2="5" y2="50" stroke="#6a8a60" stroke-width="0.5"/>
+  </g>
+  <g transform="translate(650, 180) rotate(15)" opacity="0.15">
+    <path d="M0,0 Q8,15 4,40 Q0,15 -4,0Z" fill="#a08860"/>
+    <line x1="0" y1="0" x2="4" y2="40" stroke="#806840" stroke-width="0.5"/>
+  </g>
+  <!-- Title -->
+  <text x="400" y="550" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#5a7a60" opacity="0.7" font-weight="bold">WINGSPAN EGG TOKENS</text>
+</svg>

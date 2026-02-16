@@ -1,0 +1,533 @@
+[
+  {
+    "id": "brass-birmingham",
+    "name": "Brass: Birmingham",
+    "category": "Board Game Inserts",
+    "price": 7499,
+    "image": "/images/brass-birmingham.svg",
+    "images": [
+      "/images/brass-birmingham-board.svg",
+      "/images/brass-birmingham-components.svg"
+    ],
+    "description": "An economic strategy masterpiece set during the Industrial Revolution. Build networks, develop industries, and navigate a changing market in canal and rail eras.",
+    "featured": true,
+    "specs": {
+      "players": "2-4",
+      "playtime": "60-120 min",
+      "complexity": "3.9/5"
+    }
+  },
+  {
+    "id": "pandemic-legacy-s1",
+    "name": "Pandemic Legacy: Season 1",
+    "category": "Board Game Inserts",
+    "price": 6999,
+    "image": "/images/pandemic-legacy-s1.svg",
+    "images": ["/images/pandemic-s1-box.svg"],
+    "description": "An epic cooperative experience where your decisions carry over to future games. Watch the world change as you fight to contain four deadly diseases over a 12-month campaign.",
+    "featured": true,
+    "specs": {
+      "players": "2-4",
+      "playtime": "60 min",
+      "complexity": "2.8/5"
+    }
+  },
+  {
+    "id": "gloomhaven",
+    "name": "Gloomhaven",
+    "category": "Board Game Inserts",
+    "price": 12999,
+    "image": "/images/gloomhaven.svg",
+    "images": [
+      "/images/gloomhaven-box.svg",
+      "/images/gloomhaven-miniatures.svg"
+    ],
+    "description": "A massive legacy-style dungeon crawl with tactical card-driven combat. Explore a persistent world, unlock new characters, and make choices that permanently alter the city.",
+    "featured": true,
+    "specs": {
+      "players": "1-4",
+      "playtime": "60-120 min",
+      "complexity": "3.9/5"
+    }
+  },
+  {
+    "id": "ark-nova",
+    "name": "Ark Nova",
+    "category": "Board Game Inserts",
+    "price": 6499,
+    "image": "/images/ark-nova.svg",
+    "images": ["/images/ark-nova-board.svg"],
+    "description": "Plan and design a modern, scientifically managed zoo. Support conservation projects and house diverse animals in this complex, high-interaction card game.",
+    "featured": true,
+    "specs": {
+      "players": "1-4",
+      "playtime": "90-150 min",
+      "complexity": "3.7/5"
+    }
+  },
+  {
+    "id": "twilight-imperium-4th",
+    "name": "Twilight Imperium (4th Ed)",
+    "category": "Board Game Inserts",
+    "price": 14999,
+    "image": "/images/ti4.svg",
+    "images": ["/images/ti4-ships.svg"],
+    "description": "The definitive game of galactic conquest and diplomacy. Lead your civilization to the throne of Mecatol Rex through war, trade, and political maneuvering.",
+    "featured": true,
+    "specs": {
+      "players": "3-6",
+      "playtime": "240-480 min",
+      "complexity": "4.3/5"
+    }
+  },
+  {
+    "id": "dune-imperium",
+    "name": "Dune: Imperium",
+    "category": "Board Game Inserts",
+    "price": 4999,
+    "image": "/images/dune-imperium.svg",
+    "images": ["/images/dune-board.svg"],
+    "description": "A blend of deck building and worker placement inspired by the Dune universe. Influence the Great Houses and lead your troops to victory on the desert planet.",
+    "featured": true,
+    "specs": {
+      "players": "1-4",
+      "playtime": "60-120 min",
+      "complexity": "3.0/5"
+    }
+  },
+  {
+    "id": "terraforming-mars",
+    "name": "Terraforming Mars",
+    "category": "Board Game Inserts",
+    "price": 5999,
+    "image": "/images/terraforming-mars.svg",
+    "images": ["/images/mars-board.svg"],
+    "description": "Compete as giant corporations to make Mars habitable. Raise the temperature, oxygen levels, and ocean coverage while building your industrial empire.",
+    "featured": false,
+    "specs": {
+      "players": "1-5",
+      "playtime": "120 min",
+      "complexity": "3.3/5"
+    }
+  },
+  {
+    "id": "gloomhaven-jaws-lion",
+    "name": "Gloomhaven: Jaws of the Lion",
+    "category": "Board Game Inserts",
+    "price": 3999,
+    "image": "/images/jaws-of-the-lion.svg",
+    "images": ["/images/jaws-box.svg"],
+    "description": "A standalone, accessible prequel to Gloomhaven. Perfect for newcomers, featuring a tutorial-driven campaign that builds complexity as you play.",
+    "featured": false,
+    "specs": {
+      "players": "1-4",
+      "playtime": "30-120 min",
+      "complexity": "3.6/5"
+    }
+  },
+  {
+    "id": "war-of-the-ring-2nd",
+    "name": "War of the Ring (2nd Ed)",
+    "category": "Board Game Inserts",
+    "price": 8499,
+    "image": "/images/war-of-the-ring.svg",
+    "images": ["/images/ring-miniatures.svg"],
+    "description": "Relive the epic struggle of Tolkien’s Lord of the Rings. One player leads the Free Peoples while the other commands the Shadow Armies in an asymmetric war.",
+    "featured": false,
+    "specs": {
+      "players": "2-4",
+      "playtime": "150-180 min",
+      "complexity": "4.2/5"
+    }
+  },
+  {
+    "id": "star-wars-rebellion",
+    "name": "Star Wars: Rebellion",
+    "category": "Board Game Inserts",
+    "price": 8999,
+    "image": "/images/rebellion.svg",
+    "images": ["/images/rebellion-board.svg"],
+    "description": "A game of cat and mouse on a galactic scale. The Galactic Empire must find and destroy the Rebel base, while the Rebels use hit-and-run tactics to stir an uprising.",
+    "featured": false,
+    "specs": {
+      "players": "2-4",
+      "playtime": "180-240 min",
+      "complexity": "3.7/5"
+    }
+  },
+  {
+    "id": "spirit-island",
+    "name": "Spirit Island",
+    "category": "Board Game Inserts",
+    "price": 6499,
+    "image": "/images/spirit-island.svg",
+    "images": [],
+    "description": "Powerful spirits must protect their island from colonizing Invaders. A complex, highly strategic cooperative game where every spirit has unique powers.",
+    "featured": false,
+    "specs": {
+      "players": "1-4",
+      "playtime": "90-120 min",
+      "complexity": "4.0/5"
+    }
+  },
+  {
+    "id": "gaia-project",
+    "name": "Gaia Project",
+    "category": "Board Game Inserts",
+    "price": 7999,
+    "image": "/images/gaia-project.svg",
+    "images": [],
+    "description": "The sci-fi successor to Terra Mystica. Colonize the galaxy, research technologies, and terraform planets to suit your unique faction's needs.",
+    "featured": false,
+    "specs": {
+      "players": "1-4",
+      "playtime": "60-150 min",
+      "complexity": "4.4/5"
+    }
+  },
+  {
+    "id": "twilight-struggle",
+    "name": "Twilight Struggle",
+    "category": "Board Game Inserts",
+    "price": 4499,
+    "image": "/images/twilight-struggle.svg",
+    "images": [],
+    "description": "The ultimate Cold War duel. Replay decades of intrigue, prestige, and political maneuvering as the US or USSR in this card-driven strategy game.",
+    "featured": false,
+    "specs": {
+      "players": "2",
+      "playtime": "120-180 min",
+      "complexity": "3.6/5"
+    }
+  },
+  {
+    "id": "through-the-ages",
+    "name": "Through the Ages: A New Story",
+    "category": "Board Game Inserts",
+    "price": 5999,
+    "image": "/images/through-the-ages.svg",
+    "images": [],
+    "description": "Build your civilization from antiquity to the modern age. Manage resources, leaders, and military strength in one of the deepest strategy games ever designed.",
+    "featured": false,
+    "specs": {
+      "players": "2-4",
+      "playtime": "120-240 min",
+      "complexity": "4.4/5"
+    }
+  },
+  {
+    "id": "great-western-trail-2nd",
+    "name": "Great Western Trail (2nd Ed)",
+    "category": "Board Game Inserts",
+    "price": 5499,
+    "image": "/images/gwt.svg",
+    "images": [],
+    "description": "Drive cattle from Texas to Kansas City. Hire cowboys, build structures, and manage your hand of cattle cards in this refined strategic journey.",
+    "featured": false,
+    "specs": {
+      "players": "1-4",
+      "playtime": "75-150 min",
+      "complexity": "3.7/5"
+    }
+  },
+  {
+    "id": "castles-of-burgundy",
+    "name": "The Castles of Burgundy",
+    "category": "Board Game Inserts",
+    "price": 4299,
+    "image": "/images/burgundy.svg",
+    "images": [],
+    "description": "A classic dice-rolling and tile-placement game. Develop your 15th-century estate in the Loire Valley through trade, agriculture, and city building.",
+    "featured": false,
+    "specs": {
+      "players": "2-4",
+      "playtime": "30-90 min",
+      "complexity": "3.0/5"
+    }
+  },
+  {
+    "id": "scythe",
+    "name": "Scythe",
+    "category": "Board Game Inserts",
+    "price": 7999,
+    "image": "/images/scythe.svg",
+    "images": [],
+    "description": "Set in an alternate-history 1920s, lead your faction to power. Build mechs, harvest resources, and control territory in a world of engine-building and combat.",
+    "featured": false,
+    "specs": {
+      "players": "1-5",
+      "playtime": "90-115 min",
+      "complexity": "3.4/5"
+    }
+  },
+  {
+    "id": "7-wonders-duel",
+    "name": "7 Wonders Duel",
+    "category": "Board Game Inserts",
+    "price": 2799,
+    "image": "/images/7-wonders-duel.svg",
+    "images": [],
+    "description": "The best head-to-head drafting game. Build your civilization, construct wonders, and race for military or scientific supremacy against a single opponent.",
+    "featured": false,
+    "specs": {
+      "players": "2",
+      "playtime": "30 min",
+      "complexity": "2.2/5"
+    }
+  },
+  {
+    "id": "brass-lancashire",
+    "name": "Brass: Lancashire",
+    "category": "Board Game Inserts",
+    "price": 6999,
+    "image": "/images/brass-lancashire.svg",
+    "images": [],
+    "description": "The original industrial strategy game. Build your empire in Lancashire during the industrial revolution through clever networking and market timing.",
+    "featured": false,
+    "specs": {
+      "players": "2-4",
+      "playtime": "60-120 min",
+      "complexity": "3.9/5"
+    }
+  },
+  {
+    "id": "nemesis",
+    "name": "Nemesis",
+    "category": "Board Game Inserts",
+    "price": 11999,
+    "image": "/images/nemesis.svg",
+    "images": [],
+    "description": "A cinematic semi-cooperative sci-fi horror survival. You and your crewmates must survive a ship infested with hostile organisms while completing secret objectives.",
+    "featured": false,
+    "specs": {
+      "players": "1-5",
+      "playtime": "90-180 min",
+      "complexity": "3.4/5"
+    }
+  },
+  {
+    "id": "heat-pedal-metal",
+    "name": "Heat: Pedal to the Metal",
+    "category": "Board Game Inserts",
+    "price": 5499,
+    "image": "/images/heat.svg",
+    "images": [],
+    "description": "High-octane racing strategy where you manage your car's heat to push the limit. Features a campaign mode and modular weather systems for endless replayability.",
+    "featured": true,
+    "specs": {
+      "players": "1-6",
+      "playtime": "60 min",
+      "complexity": "2.2/5"
+    }
+  },
+  {
+    "id": "concordia",
+    "name": "Concordia",
+    "category": "Board Game Inserts",
+    "price": 4499,
+    "image": "/images/concordia.svg",
+    "images": [],
+    "description": "A peaceful strategy game of economic development in Roman times. Use a simple card mechanism to expand your trade network and please the gods.",
+    "featured": false,
+    "specs": {
+      "players": "2-5",
+      "playtime": "100 min",
+      "complexity": "3.0/5"
+    }
+  },
+  {
+    "id": "wingspan",
+    "name": "Wingspan",
+    "category": "Board Game Inserts",
+    "price": 4999,
+    "image": "/images/wingspan.svg",
+    "images": [],
+    "description": "A relaxing yet strategic bird-themed engine builder. Attract the best birds to your wildlife preserves to create powerful chains of actions.",
+    "featured": false,
+    "specs": {
+      "players": "1-5",
+      "playtime": "40-70 min",
+      "complexity": "2.5/5"
+    }
+  },
+  {
+    "id": "viticulture-essential",
+    "name": "Viticulture Essential Edition",
+    "category": "Board Game Inserts",
+    "price": 4799,
+    "image": "/images/viticulture.svg",
+    "images": [],
+    "description": "Manage a vineyard in Tuscany. Assign workers to plant vines, harvest grapes, and fill wine orders in this beautiful and refined worker placement game.",
+    "featured": false,
+    "specs": {
+      "players": "1-6",
+      "playtime": "45-90 min",
+      "complexity": "2.9/5"
+    }
+  },
+  {
+    "id": "terra-mystica",
+    "name": "Terra Mystica",
+    "category": "Board Game Inserts",
+    "price": 6999,
+    "image": "/images/terra-mystica.svg",
+    "images": [],
+    "description": "Control one of 14 unique factions in a world of magic. Terraform the landscape and build structures to expand your influence without relying on luck.",
+    "featured": false,
+    "specs": {
+      "players": "2-5",
+      "playtime": "60-150 min",
+      "complexity": "4.0/5"
+    }
+  },
+  {
+    "id": "brass-birmingham-tokens",
+    "name": "Industrial Resource Kit (Brass Upgrade)",
+    "category": "Token Upgrades",
+    "price": 2499,
+    "image": "/images/brass-tokens.svg",
+    "images": ["/images/brass-coal-iron.svg", "/images/brass-beer-barrels.svg"],
+    "description": "Upgrade your cardboard tokens with high-detail resin coal, iron, and beer barrels. Features realistic textures and weighted feel for an immersive industrial experience.",
+    "featured": true,
+    "specs": {
+      "material": "High-Detail Resin",
+      "count": "15 Barrels, 30 Coal, 25 Iron",
+      "compatibility": "Brass: Birmingham / Lancashire"
+    }
+  },
+  {
+    "id": "ark-nova-zoo-kit",
+    "name": "Deluxe Kiosk & Pavilion Set",
+    "category": "Token Upgrades",
+    "price": 1899,
+    "image": "/images/ark-nova-kiosks.svg",
+    "images": ["/images/ark-nova-3d-buildings.svg"],
+    "description": "Replace your flat tiles with 3D-printed kiosks and pavilions. These custom models fit perfectly on your player board and make your zoo layout pop visually.",
+    "featured": true,
+    "specs": {
+      "material": "PLA / Bioplastic",
+      "count": "41 Pieces",
+      "compatibility": "Ark Nova"
+    }
+  },
+  {
+    "id": "terraforming-mars-cubes",
+    "name": "Metallic Resource Cube Set",
+    "category": "Token Upgrades",
+    "price": 3499,
+    "image": "/images/mars-cubes.svg",
+    "images": ["/images/mars-metal-tokens.svg"],
+    "description": "Solid metal cubes in Gold, Silver, and Copper finishes. Weighted for stability and designed to last through hundreds of Mars colonization sessions.",
+    "featured": false,
+    "specs": {
+      "material": "Zinc Alloy",
+      "count": "200 Cubes",
+      "compatibility": "Terraforming Mars"
+    }
+  },
+  {
+    "id": "dune-imperium-water",
+    "name": "Glass Water Drop Tokens",
+    "category": "Token Upgrades",
+    "price": 1299,
+    "image": "/images/dune-water.svg",
+    "images": [],
+    "description": "Beautiful translucent blue glass droplets to represent the most precious resource on Arrakis. Smooth finish and elegant aesthetic.",
+    "featured": false,
+    "specs": {
+      "material": "Polished Glass",
+      "count": "25 Drops",
+      "compatibility": "Dune: Imperium"
+    }
+  },
+  {
+    "id": "twilight-imperium-fleet-stands",
+    "name": "Galactic Fleet Stands",
+    "category": "Token Upgrades",
+    "price": 2999,
+    "image": "/images/ti4-stands.svg",
+    "images": [],
+    "description": "Clear acrylic stands to help manage your massive fleets in space sectors. Helps differentiate ships from ground troops and prevents table clutter.",
+    "featured": false,
+    "specs": {
+      "material": "Clear Acrylic",
+      "count": "8 Stands",
+      "compatibility": "Twilight Imperium 4th Ed"
+    }
+  },
+  {
+    "id": "gloomhaven-standees",
+    "name": "Acrylic Monster Standee Set",
+    "category": "Replacement Pieces",
+    "price": 4599,
+    "image": "/images/gloomhaven-monsters.svg",
+    "images": ["/images/gloom-monster-detail.svg"],
+    "description": "Crystal clear acrylic replacements for original cardboard monster standees. High-durability and better visibility for your dungeon tactical combat.",
+    "featured": false,
+    "specs": {
+      "material": "Shatterproof Acrylic",
+      "count": "230 Pieces",
+      "compatibility": "Gloomhaven / Jaws of the Lion"
+    }
+  },
+  {
+    "id": "scythe-mech-replacements",
+    "name": "Single Replacement Mech (Assorted)",
+    "category": "Replacement Pieces",
+    "price": 499,
+    "image": "/images/scythe-mech.svg",
+    "images": [],
+    "description": "Individual replacement mechs for all Scythe factions. Lost a Polanian walker? We've got you covered with original-spec plastic miniatures.",
+    "featured": false,
+    "specs": {
+      "material": "Original Factory Plastic",
+      "count": "1 Piece",
+      "compatibility": "Scythe (All Factions)"
+    }
+  },
+  {
+    "id": "pandemic-cube-pack",
+    "name": "Disease Cube Refill Pack",
+    "category": "Replacement Pieces",
+    "price": 799,
+    "image": "/images/pandemic-cubes.svg",
+    "images": [],
+    "description": "Essential replacement cubes for Pandemic. Includes the standard four colors (Red, Blue, Black, Yellow) in the original 8mm transparent style.",
+    "featured": false,
+    "specs": {
+      "material": "Transparent Plastic",
+      "count": "100 Cubes (25/color)",
+      "compatibility": "Pandemic / Pandemic Legacy"
+    }
+  },
+  {
+    "id": "war-of-ring-dice",
+    "name": "Shadow & Free Peoples Dice Set",
+    "category": "Replacement Pieces",
+    "price": 1499,
+    "image": "/images/ring-dice.svg",
+    "images": [],
+    "description": "Official replacement action dice for War of the Ring. Includes the unique icons for both the Shadow and Free Peoples armies.",
+    "featured": false,
+    "specs": {
+      "material": "Engraved Plastic",
+      "count": "11 Dice",
+      "compatibility": "War of the Ring 2nd Ed"
+    }
+  },
+  {
+    "id": "nemesis-intruder-egg",
+    "name": "Replacement Intruder Egg Set",
+    "category": "Replacement Pieces",
+    "price": 999,
+    "image": "/images/nemesis-egg.svg",
+    "images": [],
+    "description": "Set of replacement plastic egg miniatures for the Nemesis nest. Matches the original sculpt and scale of the core game components.",
+    "featured": false,
+    "specs": {
+      "material": "PVC Plastic",
+      "count": "8 Eggs",
+      "compatibility": "Nemesis / Lockdown"
+    }
+  }
+]

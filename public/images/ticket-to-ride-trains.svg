@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#faf5eb"/>
+      <stop offset="1" stop-color="#f0e8d5"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <!-- Track lines background -->
+  <g stroke="#d4cfc4" stroke-width="3" opacity="0.3">
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="306" x2="800" y2="306"/>
+  </g>
+  <!-- Track ties -->
+  <g stroke="#c0b8a8" stroke-width="6" opacity="0.2">
+    <line x1="50" y1="295" x2="50" y2="312"/><line x1="90" y1="295" x2="90" y2="312"/>
+    <line x1="130" y1="295" x2="130" y2="312"/><line x1="170" y1="295" x2="170" y2="312"/>
+    <line x1="210" y1="295" x2="210" y2="312"/><line x1="250" y1="295" x2="250" y2="312"/>
+    <line x1="290" y1="295" x2="290" y2="312"/><line x1="330" y1="295" x2="330" y2="312"/>
+    <line x1="370" y1="295" x2="370" y2="312"/><line x1="410" y1="295" x2="410" y2="312"/>
+    <line x1="450" y1="295" x2="450" y2="312"/><line x1="490" y1="295" x2="490" y2="312"/>
+    <line x1="530" y1="295" x2="530" y2="312"/><line x1="570" y1="295" x2="570" y2="312"/>
+    <line x1="610" y1="295" x2="610" y2="312"/><line x1="650" y1="295" x2="650" y2="312"/>
+    <line x1="690" y1="295" x2="690" y2="312"/><line x1="730" y1="295" x2="730" y2="312"/>
+    <line x1="770" y1="295" x2="770" y2="312"/>
+  </g>
+  <!-- Red train -->
+  <g transform="translate(80, 120)">
+    <rect x="0" y="20" width="120" height="50" rx="8" fill="#e85d5d" stroke="#c74444" stroke-width="2"/>
+    <rect x="10" y="8" width="40" height="20" rx="4" fill="#c74444"/>
+    <circle cx="25" cy="75" r="12" fill="#444" stroke="#333" stroke-width="2"/>
+    <circle cx="95" cy="75" r="12" fill="#444" stroke="#333" stroke-width="2"/>
+    <circle cx="25" cy="75" r="5" fill="#666"/><circle cx="95" cy="75" r="5" fill="#666"/>
+    <rect x="70" y="28" width="35" height="25" rx="3" fill="#fff" opacity="0.3"/>
+  </g>
+  <!-- Blue train -->
+  <g transform="translate(280, 100)">
+    <rect x="0" y="20" width="120" height="50" rx="8" fill="#5b8dd9" stroke="#4070b8" stroke-width="2"/>
+    <rect x="10" y="8" width="40" height="20" rx="4" fill="#4070b8"/>
+    <circle cx="25" cy="75" r="12" fill="#444" stroke="#333" stroke-width="2"/>
+    <circle cx="95" cy="75" r="12" fill="#444" stroke="#333" stroke-width="2"/>
+    <circle cx="25" cy="75" r="5" fill="#666"/><circle cx="95" cy="75" r="5" fill="#666"/>
+    <rect x="70" y="28" width="35" height="25" rx="3" fill="#fff" opacity="0.3"/>
+  </g>
+  <!-- Green train -->
+  <g transform="translate(480, 130)">
+    <rect x="0" y="20" width="120" height="50" rx="8" fill="#4db88a" stroke="#2d7a6d" stroke-width="2"/>
+    <rect x="10" y="8" width="40" height="20" rx="4" fill="#2d7a6d"/>
+    <circle cx="25" cy="75" r="12" fill="#444" stroke="#333" stroke-width="2"/>
+    <circle cx="95" cy="75" r="12" fill="#444" stroke="#333" stroke-width="2"/>
+    <circle cx="25" cy="75" r="5" fill="#666"/><circle cx="95" cy="75" r="5" fill="#666"/>
+    <rect x="70" y="28" width="35" height="25" rx="3" fill="#fff" opacity="0.3"/>
+  </g>
+  <!-- Yellow train -->
+  <g transform="translate(130, 350)">
+    <rect x="0" y="20" width="120" height="50" rx="8" fill="#f0c04a" stroke="#d4a332" stroke-width="2"/>
+    <rect x="10" y="8" width="40" height="20" rx="4" fill="#d4a332"/>
+    <circle cx="25" cy="75" r="12" fill="#444" stroke="#333" stroke-width="2"/>
+    <circle cx="95" cy="75" r="12" fill="#444" stroke="#333" stroke-width="2"/>
+    <circle cx="25" cy="75" r="5" fill="#666"/><circle cx="95" cy="75" r="5" fill="#666"/>
+    <rect x="70" y="28" width="35" height="25" rx="3" fill="#fff" opacity="0.3"/>
+  </g>
+  <!-- Purple train -->
+  <g transform="translate(360, 370)">
+    <rect x="0" y="20" width="120" height="50" rx="8" fill="#9b7ed8" stroke="#7c5fbf" stroke-width="2"/>
+    <rect x="10" y="8" width="40" height="20" rx="4" fill="#7c5fbf"/>
+    <circle cx="25" cy="75" r="12" fill="#444" stroke="#333" stroke-width="2"/>
+    <circle cx="95" cy="75" r="12" fill="#444" stroke="#333" stroke-width="2"/>
+    <circle cx="25" cy="75" r="5" fill="#666"/><circle cx="95" cy="75" r="5" fill="#666"/>
+    <rect x="70" y="28" width="35" height="25" rx="3" fill="#fff" opacity="0.3"/>
+  </g>
+  <!-- Orange train -->
+  <g transform="translate(560, 350)">
+    <rect x="0" y="20" width="120" height="50" rx="8" fill="#e8944a" stroke="#d07530" stroke-width="2"/>
+    <rect x="10" y="8" width="40" height="20" rx="4" fill="#d07530"/>
+    <circle cx="25" cy="75" r="12" fill="#444" stroke="#333" stroke-width="2"/>
+    <circle cx="95" cy="75" r="12" fill="#444" stroke="#333" stroke-width="2"/>
+    <circle cx="25" cy="75" r="5" fill="#666"/><circle cx="95" cy="75" r="5" fill="#666"/>
+    <rect x="70" y="28" width="35" height="25" rx="3" fill="#fff" opacity="0.3"/>
+  </g>
+  <!-- Title -->
+  <text x="400" y="560" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#6B5040" opacity="0.7" font-weight="bold">TICKET TO RIDE TRAINS</text>
+</svg>

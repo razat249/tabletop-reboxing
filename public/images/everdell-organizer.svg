@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2d4a2e"/>
+      <stop offset="1" stop-color="#1a3020"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9a86c"/>
+      <stop offset="1" stop-color="#a88850"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7db847"/>
+      <stop offset="1" stop-color="#5a9030"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <!-- Leaf decorations -->
+  <g opacity="0.15" fill="url(#leaf)">
+    <ellipse cx="100" cy="80" rx="30" ry="15" transform="rotate(-30 100 80)"/>
+    <ellipse cx="130" cy="60" rx="25" ry="12" transform="rotate(20 130 60)"/>
+    <ellipse cx="700" cy="100" rx="28" ry="14" transform="rotate(40 700 100)"/>
+    <ellipse cx="680" cy="75" rx="22" ry="11" transform="rotate(-20 680 75)"/>
+    <ellipse cx="120" cy="520" rx="25" ry="12" transform="rotate(15 120 520)"/>
+    <ellipse cx="680" cy="530" rx="30" ry="14" transform="rotate(-25 680 530)"/>
+  </g>
+  <!-- Main organizer box - isometric view -->
+  <path d="M200,180 L400,120 L620,180 L620,400 L400,460 L200,400Z" fill="#a88850" opacity="0.9"/>
+  <path d="M200,180 L400,120 L620,180 L400,240Z" fill="url(#wood)"/>
+  <!-- Compartments -->
+  <path d="M200,180 L200,400 L400,460 L400,240Z" fill="#8a7040" opacity="0.8"/>
+  <path d="M400,240 L400,460 L620,400 L620,180Z" fill="#9a8050" opacity="0.8"/>
+  <!-- Divider lines -->
+  <line x1="300" y1="150" x2="300" y2="430" stroke="#6a5530" stroke-width="3"/>
+  <line x1="500" y1="150" x2="500" y2="430" stroke="#6a5530" stroke-width="3"/>
+  <line x1="200" y1="290" x2="620" y2="290" stroke="#6a5530" stroke-width="2.5"/>
+  <!-- Small tokens in compartments -->
+  <g opacity="0.6">
+    <circle cx="250" cy="210" r="12" fill="#e8944a"/><circle cx="280" cy="220" r="10" fill="#d07530"/>
+    <circle cx="260" cy="235" r="11" fill="#e8944a"/>
+    <circle cx="350" cy="200" r="10" fill="#9b7ed8"/><circle cx="370" cy="215" r="9" fill="#7c5fbf"/>
+    <circle cx="445" cy="200" r="12" fill="#4ecdc4"/><circle cx="470" cy="210" r="10" fill="#36b5ac"/>
+    <circle cx="555" cy="200" r="11" fill="#e85d5d"/><circle cx="575" cy="215" r="9" fill="#c74444"/>
+  </g>
+  <!-- Card slots -->
+  <g opacity="0.5">
+    <rect x="215" y="310" width="22" height="32" rx="2" fill="#fff" stroke="#8a7040" stroke-width="1"/>
+    <rect x="240" y="308" width="22" height="32" rx="2" fill="#fff" stroke="#8a7040" stroke-width="1"/>
+    <rect x="265" y="306" width="22" height="32" rx="2" fill="#fff" stroke="#8a7040" stroke-width="1"/>
+  </g>
+  <!-- Berry tokens -->
+  <g opacity="0.6">
+    <circle cx="450" cy="330" r="8" fill="#e85d5d"/>
+    <circle cx="470" cy="340" r="8" fill="#e85d5d"/>
+    <circle cx="460" cy="320" r="8" fill="#c74444"/>
+    <circle cx="440" cy="345" r="7" fill="#e85d5d"/>
+  </g>
+  <!-- Tree silhouette decoration -->
+  <g transform="translate(350, 50)" opacity="0.15" fill="#7db847">
+    <polygon points="50,0 20,40 35,40 10,70 30,70 0,100 100,100 70,70 90,70 65,40 80,40"/>
+    <rect x="42" y="100" width="16" height="20" rx="3"/>
+  </g>
+  <!-- Title -->
+  <text x="400" y="540" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#c9a86c" opacity="0.8" font-weight="bold">EVERDELL ORGANIZER</text>
+  <!-- Decorative vine -->
+  <path d="M140,500 Q200,480 260,500 Q320,520 380,500" stroke="#7db847" stroke-width="2" fill="none" opacity="0.2"/>
+  <path d="M420,500 Q480,480 540,500 Q600,520 660,500" stroke="#7db847" stroke-width="2" fill="none" opacity="0.2"/>
+</svg>

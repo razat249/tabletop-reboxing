@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8f5f0"/>
+      <stop offset="1" stop-color="#efe8dd"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <!-- Subtle circle pattern -->
+  <g opacity="0.04" fill="#888">
+    <circle cx="100" cy="100" r="80"/><circle cx="300" cy="50" r="60"/>
+    <circle cx="500" cy="80" r="70"/><circle cx="700" cy="60" r="90"/>
+    <circle cx="200" cy="500" r="70"/><circle cx="600" cy="520" r="80"/>
+  </g>
+  <!-- Large Red meeple -->
+  <g transform="translate(100, 140)">
+    <circle cx="60" cy="20" r="28" fill="#e85d5d"/>
+    <path d="M32,48 C32,48 42,26 60,26 C78,26 88,48 88,48 C88,48 110,110 110,140 C110,155 96,162 82,162 L78,220 L42,220 L38,162 C24,162 10,155 10,140 C10,110 32,48 32,48Z" fill="#e85d5d"/>
+    <circle cx="60" cy="20" r="22" fill="#f07070" opacity="0.4"/>
+    <path d="M44,60 C44,60 52,42 60,42 C68,42 76,60 76,60" fill="#f07070" opacity="0.3"/>
+  </g>
+  <!-- Large Blue meeple -->
+  <g transform="translate(280, 120)">
+    <circle cx="60" cy="20" r="28" fill="#5b8dd9"/>
+    <path d="M32,48 C32,48 42,26 60,26 C78,26 88,48 88,48 C88,48 110,110 110,140 C110,155 96,162 82,162 L78,220 L42,220 L38,162 C24,162 10,155 10,140 C10,110 32,48 32,48Z" fill="#5b8dd9"/>
+    <circle cx="60" cy="20" r="22" fill="#70a0e8" opacity="0.4"/>
+    <path d="M44,60 C44,60 52,42 60,42 C68,42 76,60 76,60" fill="#70a0e8" opacity="0.3"/>
+  </g>
+  <!-- Large Green meeple -->
+  <g transform="translate(460, 150)">
+    <circle cx="60" cy="20" r="28" fill="#4db88a"/>
+    <path d="M32,48 C32,48 42,26 60,26 C78,26 88,48 88,48 C88,48 110,110 110,140 C110,155 96,162 82,162 L78,220 L42,220 L38,162 C24,162 10,155 10,140 C10,110 32,48 32,48Z" fill="#4db88a"/>
+    <circle cx="60" cy="20" r="22" fill="#60d0a0" opacity="0.4"/>
+    <path d="M44,60 C44,60 52,42 60,42 C68,42 76,60 76,60" fill="#60d0a0" opacity="0.3"/>
+  </g>
+  <!-- Large Yellow meeple -->
+  <g transform="translate(630, 130)">
+    <circle cx="60" cy="20" r="28" fill="#f0c04a"/>
+    <path d="M32,48 C32,48 42,26 60,26 C78,26 88,48 88,48 C88,48 110,110 110,140 C110,155 96,162 82,162 L78,220 L42,220 L38,162 C24,162 10,155 10,140 C10,110 32,48 32,48Z" fill="#f0c04a"/>
+    <circle cx="60" cy="20" r="22" fill="#f8d060" opacity="0.4"/>
+    <path d="M44,60 C44,60 52,42 60,42 C68,42 76,60 76,60" fill="#f8d060" opacity="0.3"/>
+  </g>
+  <!-- Small meeples row -->
+  <g transform="translate(180, 400) scale(0.5)">
+    <circle cx="60" cy="20" r="28" fill="#9b7ed8"/>
+    <path d="M32,48 C32,48 42,26 60,26 C78,26 88,48 88,48 C88,48 110,110 110,140 C110,155 96,162 82,162 L78,220 L42,220 L38,162 C24,162 10,155 10,140 C10,110 32,48 32,48Z" fill="#9b7ed8"/>
+  </g>
+  <g transform="translate(270, 410) scale(0.5)">
+    <circle cx="60" cy="20" r="28" fill="#e8944a"/>
+    <path d="M32,48 C32,48 42,26 60,26 C78,26 88,48 88,48 C88,48 110,110 110,140 C110,155 96,162 82,162 L78,220 L42,220 L38,162 C24,162 10,155 10,140 C10,110 32,48 32,48Z" fill="#e8944a"/>
+  </g>
+  <g transform="translate(360, 405) scale(0.5)">
+    <circle cx="60" cy="20" r="28" fill="#e87bb5"/>
+    <path d="M32,48 C32,48 42,26 60,26 C78,26 88,48 88,48 C88,48 110,110 110,140 C110,155 96,162 82,162 L78,220 L42,220 L38,162 C24,162 10,155 10,140 C10,110 32,48 32,48Z" fill="#e87bb5"/>
+  </g>
+  <g transform="translate(450, 400) scale(0.5)">
+    <circle cx="60" cy="20" r="28" fill="#4ecdc4"/>
+    <path d="M32,48 C32,48 42,26 60,26 C78,26 88,48 88,48 C88,48 110,110 110,140 C110,155 96,162 82,162 L78,220 L42,220 L38,162 C24,162 10,155 10,140 C10,110 32,48 32,48Z" fill="#4ecdc4"/>
+  </g>
+  <g transform="translate(540, 408) scale(0.5)">
+    <circle cx="60" cy="20" r="28" fill="#e85d5d"/>
+    <path d="M32,48 C32,48 42,26 60,26 C78,26 88,48 88,48 C88,48 110,110 110,140 C110,155 96,162 82,162 L78,220 L42,220 L38,162 C24,162 10,155 10,140 C10,110 32,48 32,48Z" fill="#e85d5d"/>
+  </g>
+  <!-- Title -->
+  <text x="400" y="560" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#666" opacity="0.7" font-weight="bold">MEEPLE REPLACEMENT PACK</text>
+</svg>
