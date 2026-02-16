@@ -91,7 +91,7 @@ export default function CheckoutPage() {
         order_date: orderDate,
         customer_name: `${formData.firstName} ${formData.lastName}`,
         customer_email: formData.email,
-        customer_phone: formData.phone || "Not provided",
+        customer_phone: formData.phone,
         shipping_address: `${formData.address}, ${formData.city}, ${formData.state} ${formData.zipCode}`,
         items_text: itemsText,
         items_html: itemsHtml,
@@ -230,7 +230,7 @@ export default function CheckoutPage() {
                       <input
                         type="text"
                         name="firstName"
-                        placeholder="John"
+                        placeholder="Rahul"
                         required
                         value={formData.firstName}
                         onChange={handleChange}
@@ -244,7 +244,7 @@ export default function CheckoutPage() {
                       <input
                         type="text"
                         name="lastName"
-                        placeholder="Doe"
+                        placeholder="Sharma"
                         required
                         value={formData.lastName}
                         onChange={handleChange}
@@ -260,7 +260,7 @@ export default function CheckoutPage() {
                       <input
                         type="email"
                         name="email"
-                        placeholder="john@example.com"
+                        placeholder="rahul.sharma@gmail.com"
                         required
                         value={formData.email}
                         onChange={handleChange}
@@ -269,12 +269,13 @@ export default function CheckoutPage() {
                     </div>
                     <div>
                       <label className="block text-xs font-medium text-muted-foreground mb-1.5">
-                        Phone (optional)
+                        Phone
                       </label>
                       <input
                         type="tel"
                         name="phone"
-                        placeholder="(555) 123-4567"
+                        placeholder="+91 98765 43210"
+                        required
                         value={formData.phone}
                         onChange={handleChange}
                         className={inputClasses}
@@ -295,7 +296,7 @@ export default function CheckoutPage() {
                     <input
                       type="text"
                       name="address"
-                      placeholder="123 Main St"
+                      placeholder="42, MG Road, Indiranagar"
                       required
                       value={formData.address}
                       onChange={handleChange}
@@ -310,7 +311,7 @@ export default function CheckoutPage() {
                       <input
                         type="text"
                         name="city"
-                        placeholder="New York"
+                        placeholder="Bengaluru"
                         required
                         value={formData.city}
                         onChange={handleChange}
@@ -324,7 +325,7 @@ export default function CheckoutPage() {
                       <input
                         type="text"
                         name="state"
-                        placeholder="NY"
+                        placeholder="Karnataka"
                         required
                         value={formData.state}
                         onChange={handleChange}
@@ -333,12 +334,12 @@ export default function CheckoutPage() {
                     </div>
                     <div>
                       <label className="block text-xs font-medium text-muted-foreground mb-1.5">
-                        ZIP Code
+                        PIN Code
                       </label>
                       <input
                         type="text"
                         name="zipCode"
-                        placeholder="10001"
+                        placeholder="560038"
                         required
                         value={formData.zipCode}
                         onChange={handleChange}
