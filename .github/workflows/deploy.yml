@@ -26,15 +26,14 @@ jobs:
         with:
           node-version: 20
 
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Install dependencies
-        run: |
-          npm install --legacy-peer-deps
-          ls node_modules/.bin/next
+        run: pnpm install --no-frozen-lockfile
 
       - name: Build static site
-        run: |
-          export PATH="$PWD/node_modules/.bin:$PATH"
-          next build
+        run: pnpm next build
         env:
           NEXT_PUBLIC_BASE_PATH: /tabletop-reboxing
 
