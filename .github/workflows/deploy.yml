@@ -28,13 +28,13 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install --legacy-peer-deps
 
       - name: Remove API routes (unsupported in static export)
         run: rm -rf app/api
 
       - name: Build static site
-        run: npm run build
+        run: npx next build
         env:
           NEXT_PUBLIC_BASE_PATH: /tabletop-reboxing
 
