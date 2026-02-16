@@ -4,8 +4,24 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
+import emailjs from "@emailjs/browser";
 import { useCart } from "@/lib/cart-context";
 import { Check, ChevronRight, Lock } from "lucide-react";
+
+const EMAILJS_SERVICE_ID = "service_tabletop";
+const EMAILJS_TEMPLATE_ID = "template_order";
+const EMAILJS_PUBLIC_KEY = "A5xzuca3qOi9L7JUT";
+
+function formatINR(amount: number): string {
+  return `₹${amount.toLocaleString("en-IN")}`;
+}
+
+function generateOrderId(): string {
+  const now = new Date();
+  const datePart = now.toISOString().slice(2, 10).replace(/-/g, "");
+  const randomPart = Math.random().toString(36).substring(2, 6).toUpperCase();
+  return `TRB-${datePart}-${randomPart}`;
+}
 
 export default function CheckoutPage() {
   const router = useRouter();
@@ -35,29 +51,68 @@ export default function CheckoutPage() {
     setIsLoading(true);
 
     try {
-      const response = await fetch("/api/checkout", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          ...formData,
-          items: items.map((item) => ({
-            id: item.id,
-            name: item.name,
-            price: item.price,
-            quantity: item.quantity,
-          })),
-          total,
-        }),
+      const orderId = generateOrderId();
+      const orderDate = new Date().toLocaleString("en-IN", {
+        dateStyle: "full",
+        timeStyle: "short",
+        timeZone: "Asia/Kolkata",
       });
 
-      if (!response.ok) throw new Error("Failed to process checkout");
+      const itemsText = items
+        .map(
+          (item) =>
+            `${item.name} x${item.quantity} — ${formatINR(
+              item.price
+            )} each = ${formatINR(item.price * item.quantity)}`
+        )
+        .join("\n");
+
+      const itemsHtml = items
+        .map(
+          (item) => `
+          <tr>
+            <td style="padding:10px 14px;border-bottom:1px solid #e5e7eb;font-size:14px;color:#1f2937;">${
+              item.name
+            }</td>
+            <td style="padding:10px 14px;border-bottom:1px solid #e5e7eb;text-align:center;font-size:14px;color:#6b7280;">${
+              item.quantity
+            }</td>
+            <td style="padding:10px 14px;border-bottom:1px solid #e5e7eb;text-align:right;font-size:14px;color:#6b7280;">${formatINR(
+              item.price
+            )}</td>
+            <td style="padding:10px 14px;border-bottom:1px solid #e5e7eb;text-align:right;font-size:14px;color:#1f2937;font-weight:600;">${formatINR(
+              item.price * item.quantity
+            )}</td>
+          </tr>`
+        )
+        .join("");
+
+      const templateParams = {
+        order_id: orderId,
+        order_date: orderDate,
+        customer_name: `${formData.firstName} ${formData.lastName}`,
+        customer_email: formData.email,
+        customer_phone: formData.phone || "Not provided",
+        shipping_address: `${formData.address}, ${formData.city}, ${formData.state} ${formData.zipCode}`,
+        items_text: itemsText,
+        items_html: itemsHtml,
+        order_total: formatINR(total),
+        to_email: "razat249@gmail.com",
+      };
+
+      await emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        templateParams,
+        EMAILJS_PUBLIC_KEY
+      );
 
       setOrderPlaced(true);
       clearCart();
       setTimeout(() => router.push("/"), 3000);
     } catch (err) {
       setError("Failed to process your order. Please try again.");
-      console.error(err);
+      console.error("EmailJS error:", err);
     } finally {
       setIsLoading(false);
     }
@@ -292,7 +347,7 @@ export default function CheckoutPage() {
                   <Lock size={14} strokeWidth={2} />
                   {isLoading
                     ? "Processing..."
-                    : `Place Order \u2014 ₹${total.toLocaleString('en-IN')}`}
+                    : `Place Order \u2014 ₹${total.toLocaleString("en-IN")}`}
                 </button>
               </form>
             </div>
@@ -326,7 +381,8 @@ export default function CheckoutPage() {
                           Qty: {item.quantity}
                         </p>
                         <p className="text-sm font-medium text-foreground mt-0.5 tabular-nums">
-                          ₹{(item.price * item.quantity).toLocaleString('en-IN')}
+                          ₹
+                          {(item.price * item.quantity).toLocaleString("en-IN")}
                         </p>
                       </div>
                     </div>
@@ -336,7 +392,9 @@ export default function CheckoutPage() {
                 <div className="border-t border-border pt-4 space-y-2">
                   <div className="flex justify-between text-sm text-muted-foreground">
                     <span>Subtotal</span>
-                    <span className="tabular-nums">₹{total.toLocaleString('en-IN')}</span>
+                    <span className="tabular-nums">
+                      ₹{total.toLocaleString("en-IN")}
+                    </span>
                   </div>
                   <div className="flex justify-between text-sm text-muted-foreground">
                     <span>Shipping</span>
@@ -344,7 +402,9 @@ export default function CheckoutPage() {
                   </div>
                   <div className="flex justify-between text-sm font-semibold text-foreground pt-2.5 border-t border-border">
                     <span>Total</span>
-                    <span className="tabular-nums">₹{total.toLocaleString('en-IN')}</span>
+                    <span className="tabular-nums">
+                      ₹{total.toLocaleString("en-IN")}
+                    </span>
                   </div>
                 </div>
 

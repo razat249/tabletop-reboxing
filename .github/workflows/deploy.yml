@@ -30,9 +30,6 @@ jobs:
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
-      - name: Remove API routes (unsupported in static export)
-        run: rm -rf app/api
-
       - name: Build static site
         run: ./node_modules/.bin/next build
         env:
