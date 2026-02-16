@@ -4,11 +4,10 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import emailjs from "@emailjs/browser";
 import { useCart } from "@/lib/cart-context";
 import { Check, ChevronRight, Lock } from "lucide-react";
 
-const EMAILJS_SERVICE_ID = "service_tabletop";
+const EMAILJS_SERVICE_ID = "service_k00i427";
 const EMAILJS_TEMPLATE_ID = "template_order";
 const EMAILJS_PUBLIC_KEY = "A5xzuca3qOi9L7JUT";
 
@@ -100,19 +99,35 @@ export default function CheckoutPage() {
         to_email: "razat249@gmail.com",
       };
 
-      await emailjs.send(
-        EMAILJS_SERVICE_ID,
-        EMAILJS_TEMPLATE_ID,
-        templateParams,
-        EMAILJS_PUBLIC_KEY
-      );
+      try {
+        const response = await fetch(
+          "https://api.emailjs.com/api/v1.0/email/send",
+          {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              service_id: EMAILJS_SERVICE_ID,
+              template_id: EMAILJS_TEMPLATE_ID,
+              user_id: EMAILJS_PUBLIC_KEY,
+              template_params: templateParams,
+            }),
+          }
+        );
+
+        if (!response.ok) {
+          const errorText = await response.text();
+          console.error("EmailJS response:", response.status, errorText);
+        }
+      } catch (emailErr) {
+        console.error("Email send failed (order still placed):", emailErr);
+      }
 
       setOrderPlaced(true);
       clearCart();
       setTimeout(() => router.push("/"), 3000);
     } catch (err) {
       setError("Failed to process your order. Please try again.");
-      console.error("EmailJS error:", err);
+      console.error("Order error:", err);
     } finally {
       setIsLoading(false);
     }
