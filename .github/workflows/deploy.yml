@@ -34,7 +34,7 @@ jobs:
         run: rm -rf app/api
 
       - name: Build static site
-        run: npx next build
+        run: ./node_modules/.bin/next build
         env:
           NEXT_PUBLIC_BASE_PATH: /tabletop-reboxing
 
