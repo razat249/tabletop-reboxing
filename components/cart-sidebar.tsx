@@ -25,12 +25,12 @@ export default function CartSidebar({ isOpen, onClose }: CartSidebarProps) {
 
       {/* Sidebar */}
       <div
-        className={`fixed right-0 top-0 h-screen w-full max-w-md bg-background border-l border-border z-50 flex flex-col smooth-transition transform ${
+        className={`fixed right-0 top-0 h-dvh w-full max-w-md bg-background border-l border-border z-50 flex flex-col smooth-transition transform ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
         {/* Header */}
-        <div className="flex items-center justify-between px-6 py-5 border-b border-border">
+        <div className="flex items-center justify-between px-5 py-4 sm:px-6 sm:py-5 border-b border-border">
           <h2 className="font-serif text-xl text-foreground">Shopping Cart</h2>
           <button
             onClick={onClose}
@@ -42,7 +42,7 @@ export default function CartSidebar({ isOpen, onClose }: CartSidebarProps) {
         </div>
 
         {/* Items */}
-        <div className="flex-1 overflow-y-auto p-6 space-y-3">
+        <div className="flex-1 overflow-y-auto p-4 sm:p-6 space-y-3">
           {items.length === 0 ? (
             <div className="flex flex-col items-center justify-center h-full gap-3">
               <ShoppingBag
@@ -109,7 +109,7 @@ export default function CartSidebar({ isOpen, onClose }: CartSidebarProps) {
 
         {/* Footer */}
         {items.length > 0 && (
-          <div className="border-t border-border px-6 py-5 space-y-4">
+          <div className="border-t border-border px-5 py-4 sm:px-6 sm:py-5 space-y-3 sm:space-y-4">
             <div className="flex justify-between items-center">
               <span className="text-sm text-muted-foreground">Total</span>
               <span className="text-lg font-semibold text-foreground tabular-nums">

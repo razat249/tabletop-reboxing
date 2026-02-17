@@ -1,23 +1,24 @@
 [
   {
     "id": "terraforming_mars_inserts",
-    "name": "Terraforming Mars inserts",
+    "name": "Terraforming Mars inserts - Color may vary",
     "category": "Board Game Inserts",
-    "price": 1000,
-    "description": "Compete as giant corporations to make Mars habitable. Raise the temperature, oxygen levels, and ocean coverage while building your industrial empire.",
+    "price": 1200,
+    "description": "Custom inserts for Terraforming Mars game. It will be single color. Can be black, white, or other color according to the availability of the material.",
     "featured": true,
     "specs": {
-      "players": "1-5",
-      "playtime": "120 min",
-      "complexity": "3.3/5"
+      "compatibility": "Terraforming Mars - base game",
+      "material": "High quality PLA",
+      "weight": "~250g",
+      "color": "Single color - black/white/gray/wood"
     }
   },
   {
-    "id": "wingspan",
-    "name": "Wingspan",
+    "id": "wingspan_inserts",
+    "name": "Wingspan inserts - Color may vary",
     "category": "Board Game Inserts",
     "price": 4999,
-    "description": "A relaxing yet strategic bird-themed engine builder. Attract the best birds to your wildlife preserves to create powerful chains of actions.",
+    "description": "Custom inserts for Wingspan game.",
     "featured": false,
     "specs": {
       "players": "1-5",

@@ -2,11 +2,14 @@
 // Run `npm run generate-images` to regenerate. Do not edit manually.
 
 import img_0 from "./terraforming_mars_inserts_1.jpg";
+import img_1 from "./terraforming_mars_inserts_2.jpg";
+import img_2 from "./terraforming_mars_inserts_3.jpg";
+import img_3 from "./terraforming_mars_inserts_4.jpg";
 
 type ImageImport = { src: string; width: number; height: number };
 
 const productImages: Record<string, ImageImport[]> = {
-  "terraforming_mars_inserts": [img_0]
+  "terraforming_mars_inserts": [img_0, img_1, img_2, img_3]
 };
 
 export default productImages;
