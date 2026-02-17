@@ -1,6 +1,6 @@
 import productsData from "./products.json";
 import categoriesData from "./categories.json";
-import imageManifest from "./image-manifest.json";
+import productImages from "../images/product-images";
 
 export interface Product {
   id: string;
@@ -27,22 +27,20 @@ export interface Category {
   icon: string;
 }
 
-const manifest = imageManifest as Record<string, string[]>;
-
 /**
- * Enrich products with images discovered from public/images/.
+ * Enrich products with images discovered from app/assets/images/.
  * Convention: [product_id]_1.ext is the primary image, _2, _3, etc. are gallery images.
- * If no images exist in the manifest, `image` and `images` remain empty strings/arrays
- * and the component-level fallback (category default) handles display.
+ * Images are webpack-imported so they get hashed URLs that work with basePath on GitHub Pages.
+ * If no images exist, components fall back to category default images.
  */
 export const products: Product[] = (
   productsData as Omit<Product, "image" | "images">[]
 ).map((p) => {
-  const discovered = manifest[p.id] || [];
+  const imgs = productImages[p.id] || [];
   return {
     ...p,
-    image: discovered[0] || "",
-    images: discovered,
+    image: imgs[0]?.src || "",
+    images: imgs.map((img) => img.src),
   };
 });
 
