@@ -42,6 +42,20 @@
     }
   },
   {
+    "id": "codenames_travel_box",
+    "name": "Codenames Travel Box",
+    "category": "Board Game Inserts",
+    "price": 250,
+    "description": "Custom inserts travel box for Condenames. It will be single color. Can be black, white, or other color according to the availability of the material.",
+    "featured": true,
+    "specs": {
+      "compatibility": "Condenames - base game",
+      "material": "High quality PLA",
+      "weight": "~150g",
+      "color": "Single color - black/white/gray/wood"
+    }
+  },
+  {
     "id": "terraforming-mars-cubes",
     "name": "Metallic Resource Cube Set",
     "category": "Token Upgrades",
