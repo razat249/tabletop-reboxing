@@ -26,20 +26,18 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-b from-secondary/60 via-secondary/20 to-background">
-        {/* Backdrop illustration */}
-        <div
-          className="absolute inset-0 bg-center bg-no-repeat bg-cover pointer-events-none select-none"
-          style={{ backgroundImage: `url('${heroBackdrop.src}')` }}
-          aria-hidden="true"
-        />
-        <div className="relative section-padding">
+      <section className="relative">
+        <div className="section-padding">
           <div className="page-container max-w-3xl text-center">
             <p className="text-sm font-medium text-primary tracking-wide uppercase mb-4">
               Premium Board Game Accessories
             </p>
             <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl text-foreground mb-5 text-balance">
-              Elevate Your Board Game Collection
+              Elevate Your{" "}
+              <span className="bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-500 bg-clip-text text-transparent">
+                Board Game
+              </span>{" "}
+              Collection
             </h1>
             <p className="text-lg text-muted-foreground mb-10 max-w-xl mx-auto text-balance leading-relaxed">
               Custom inserts, token upgrades, and replacement pieces designed

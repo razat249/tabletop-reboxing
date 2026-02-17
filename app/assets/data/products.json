@@ -28,16 +28,17 @@
     }
   },
   {
-    "id": "viticulture-essential",
-    "name": "Viticulture Essential Edition",
+    "id": "sky_team_inserts",
+    "name": "Sky Team inserts",
     "category": "Board Game Inserts",
-    "price": 4799,
-    "description": "Manage a vineyard in Tuscany. Assign workers to plant vines, harvest grapes, and fill wine orders in this beautiful and refined worker placement game.",
-    "featured": false,
+    "price": 570,
+    "description": "Custom inserts for Sky Team game with Turbulance expansion. It will be single color. Can be black, white, or other color according to the availability of the material.",
+    "featured": true,
     "specs": {
-      "players": "1-6",
-      "playtime": "45-90 min",
-      "complexity": "2.9/5"
+      "compatibility": "Sky Team with Turbulance expansion",
+      "material": "High quality PLA",
+      "weight": "~200g",
+      "color": "Single color - black/white/gray/wood"
     }
   },
   {

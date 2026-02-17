@@ -340,12 +340,12 @@ export default function ProductClient({ params }: ProductClientProps) {
                   {Object.entries(product.specs).map(([key, value]) => (
                     <div
                       key={key}
-                      className="flex justify-between items-center text-sm"
+                      className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-0.5 sm:gap-4 text-sm"
                     >
-                      <span className="text-muted-foreground capitalize">
+                      <span className="text-muted-foreground capitalize flex-shrink-0">
                         {key}
                       </span>
-                      <span className="font-medium text-foreground">
+                      <span className="font-medium text-foreground sm:text-right break-words">
                         {value}
                       </span>
                     </div>
