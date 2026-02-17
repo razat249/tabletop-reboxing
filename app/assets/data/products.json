@@ -1,7 +1,7 @@
 [
   {
     "id": "terraforming_mars_inserts",
-    "name": "Terraforming Mars inserts - Color may vary",
+    "name": "Terraforming Mars inserts ",
     "category": "Board Game Inserts",
     "price": 1200,
     "description": "Custom inserts for Terraforming Mars game. It will be single color. Can be black, white, or other color according to the availability of the material.",
@@ -9,21 +9,22 @@
     "specs": {
       "compatibility": "Terraforming Mars - base game",
       "material": "High quality PLA",
-      "weight": "~250g",
+      "weight": "~450g",
       "color": "Single color - black/white/gray/wood"
     }
   },
   {
     "id": "wingspan_inserts",
-    "name": "Wingspan inserts - Color may vary",
+    "name": "Wingspan inserts with magnets",
     "category": "Board Game Inserts",
-    "price": 4999,
-    "description": "Custom inserts for Wingspan game.",
-    "featured": false,
+    "price": 1400,
+    "description": "Custom inserts for Wingspan game with expansions (European, Oceana and Asia). It has magnets to close the inserts. It will be single color. Can be black, white, or other color according to the availability of the material.",
+    "featured": true,
     "specs": {
-      "players": "1-5",
-      "playtime": "40-70 min",
-      "complexity": "2.5/5"
+      "compatibility": "Wingspan with expansions (European, Oceana and Asia)",
+      "material": "High quality PLA",
+      "weight": "~500g",
+      "color": "Single color - black/white/gray/wood"
     }
   },
   {

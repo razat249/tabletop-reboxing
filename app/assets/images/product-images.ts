@@ -5,11 +5,17 @@ import img_0 from "./terraforming_mars_inserts_1.jpg";
 import img_1 from "./terraforming_mars_inserts_2.jpg";
 import img_2 from "./terraforming_mars_inserts_3.jpg";
 import img_3 from "./terraforming_mars_inserts_4.jpg";
+import img_4 from "./wingspan_inserts_1.jpeg";
+import img_5 from "./wingspan_inserts_2.jpeg";
+import img_6 from "./wingspan_inserts_3.jpeg";
+import img_7 from "./wingspan_inserts_4.jpeg";
+import img_8 from "./wingspan_inserts_5.jpeg";
 
 type ImageImport = { src: string; width: number; height: number };
 
 const productImages: Record<string, ImageImport[]> = {
-  "terraforming_mars_inserts": [img_0, img_1, img_2, img_3]
+  "terraforming_mars_inserts": [img_0, img_1, img_2, img_3],
+  "wingspan_inserts": [img_4, img_5, img_6, img_7, img_8]
 };
 
 export default productImages;
