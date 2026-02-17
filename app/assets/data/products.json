@@ -68,18 +68,5 @@
       "color": "Single color - black/white/gray/wood",
       "compatibility": "Terraforming Mars - base game"
     }
-  },
-  {
-    "id": "gloomhaven-standees",
-    "name": "Acrylic Monster Standee Set",
-    "category": "Replacement Pieces",
-    "price": 4599,
-    "description": "Crystal clear acrylic replacements for original cardboard monster standees. High-durability and better visibility for your dungeon tactical combat.",
-    "featured": false,
-    "specs": {
-      "material": "Shatterproof Acrylic",
-      "count": "230 Pieces",
-      "compatibility": "Gloomhaven / Jaws of the Lion"
-    }
   }
 ]
