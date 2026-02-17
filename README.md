@@ -1,6 +1,6 @@
 # 3D Print Board Games - E-Commerce Website
 
-A modern, beautiful e-commerce platform for selling board game inserts, token upgrades, and replacement pieces.
+A modern, beautiful e-commerce platform for selling board game inserts, board game upgrades, and replacement pieces.
 
 ## Features
 

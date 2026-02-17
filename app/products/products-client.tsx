@@ -87,7 +87,7 @@ export default function ProductsClient() {
 
   const categories = [
     { id: "board-game-inserts", name: "Board Game Inserts" },
-    { id: "token-upgrades", name: "Token Upgrades" },
+    { id: "board-game-upgrades", name: "Board Game Upgrades" },
     { id: "replacement-pieces", name: "Replacement Pieces" },
   ];
 

@@ -56,42 +56,17 @@
     }
   },
   {
-    "id": "terraforming-mars-cubes",
-    "name": "Metallic Resource Cube Set",
-    "category": "Token Upgrades",
-    "price": 3499,
-    "description": "Solid metal cubes in Gold, Silver, and Copper finishes. Weighted for stability and designed to last through hundreds of Mars colonization sessions.",
-    "featured": false,
+    "id": "terraforming_mars_overlay_mats",
+    "name": "Terraforming Mars Overlay Mats",
+    "category": "Board Game Upgrades",
+    "price": 90,
+    "description": "Overlay mats for Terraforming Mars game. It will be single color. Can be black, white, or other color according to the availability of the material.",
+    "featured": true,
     "specs": {
-      "material": "Zinc Alloy",
-      "count": "200 Cubes",
-      "compatibility": "Terraforming Mars"
-    }
-  },
-  {
-    "id": "dune-imperium-water",
-    "name": "Glass Water Drop Tokens",
-    "category": "Token Upgrades",
-    "price": 1299,
-    "description": "Beautiful translucent blue glass droplets to represent the most precious resource on Arrakis. Smooth finish and elegant aesthetic.",
-    "featured": false,
-    "specs": {
-      "material": "Polished Glass",
-      "count": "25 Drops",
-      "compatibility": "Dune: Imperium"
-    }
-  },
-  {
-    "id": "twilight-imperium-fleet-stands",
-    "name": "Galactic Fleet Stands",
-    "category": "Token Upgrades",
-    "price": 2999,
-    "description": "Clear acrylic stands to help manage your massive fleets in space sectors. Helps differentiate ships from ground troops and prevents table clutter.",
-    "featured": false,
-    "specs": {
-      "material": "Clear Acrylic",
-      "count": "8 Stands",
-      "compatibility": "Twilight Imperium 4th Ed"
+      "material": "High quality PLA",
+      "weight": "~150g",
+      "color": "Single color - black/white/gray/wood",
+      "compatibility": "Terraforming Mars - base game"
     }
   },
   {

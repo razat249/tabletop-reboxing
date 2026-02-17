@@ -160,7 +160,7 @@ Utilities
    - Pandemic Legacy Insert
    - Plus customizable slots
 
-2. Token Upgrades (5 products)
+2. Board Game Upgrades (5 products)
    - Catan Resource Tokens
    - Splendor Gem Tokens
    - Wingspan Egg Tokens

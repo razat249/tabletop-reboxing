@@ -69,7 +69,7 @@ export function getImage(path: string): ImageImport | undefined {
 /** Category fallback images */
 export const categoryFallbacks: Record<string, string> = {
   "Board Game Inserts": defaultInserts.src,
-  "Token Upgrades": defaultTokens.src,
+  "Board Game Upgrades": defaultTokens.src,
   "Replacement Pieces": defaultPieces.src,
 };
 

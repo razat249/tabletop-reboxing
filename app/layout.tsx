@@ -18,7 +18,7 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Tabletop Re-Boxing - Custom Board Game Inserts & Accessories",
   description:
-    "Premium board game inserts, token upgrades, and replacement pieces. Re-box your games with custom-fit accessories.",
+    "Premium board game inserts, board game upgrades, and replacement pieces. Re-box your games with custom-fit accessories.",
 };
 
 export const viewport: Viewport = {

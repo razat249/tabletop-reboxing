@@ -40,7 +40,7 @@ export default function Home() {
               Collection
             </h1>
             <p className="text-lg text-muted-foreground mb-10 max-w-xl mx-auto text-balance leading-relaxed">
-              Custom inserts, token upgrades, and replacement pieces designed
+              Custom inserts, board game upgrades, and replacement pieces designed
               and printed for modern board games.
             </p>
             <div className="max-w-xl mx-auto pb-4">
@@ -158,7 +158,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Premium board game inserts, token upgrades, and replacement
+                Premium board game inserts, board game upgrades, and replacement
                 pieces. Designed with care, crafted with precision.
               </p>
             </div>

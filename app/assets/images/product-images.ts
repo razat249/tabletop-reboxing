@@ -11,11 +11,15 @@ import img_6 from "./terraforming_mars_inserts_1.jpg";
 import img_7 from "./terraforming_mars_inserts_2.jpg";
 import img_8 from "./terraforming_mars_inserts_3.jpg";
 import img_9 from "./terraforming_mars_inserts_4.jpg";
-import img_10 from "./wingspan_inserts_1.jpeg";
-import img_11 from "./wingspan_inserts_2.jpeg";
-import img_12 from "./wingspan_inserts_3.jpeg";
-import img_13 from "./wingspan_inserts_4.jpeg";
-import img_14 from "./wingspan_inserts_5.jpeg";
+import img_10 from "./terraforming_mars_overlay_mats_1.jpg";
+import img_11 from "./terraforming_mars_overlay_mats_2.webp";
+import img_12 from "./terraforming_mars_overlay_mats_3.jpg";
+import img_13 from "./terraforming_mars_overlay_mats_4.jpg";
+import img_14 from "./wingspan_inserts_1.jpeg";
+import img_15 from "./wingspan_inserts_2.jpeg";
+import img_16 from "./wingspan_inserts_3.jpeg";
+import img_17 from "./wingspan_inserts_4.jpeg";
+import img_18 from "./wingspan_inserts_5.jpeg";
 
 type ImageImport = { src: string; width: number; height: number };
 
@@ -23,7 +27,8 @@ const productImages: Record<string, ImageImport[]> = {
   "codenames_travel_box": [img_0, img_1, img_2],
   "sky_team_inserts": [img_3, img_4, img_5],
   "terraforming_mars_inserts": [img_6, img_7, img_8, img_9],
-  "wingspan_inserts": [img_10, img_11, img_12, img_13, img_14]
+  "terraforming_mars_overlay_mats": [img_10, img_11, img_12, img_13],
+  "wingspan_inserts": [img_14, img_15, img_16, img_17, img_18]
 };
 
 export default productImages;
