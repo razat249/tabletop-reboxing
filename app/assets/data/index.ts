@@ -1,5 +1,6 @@
 import productsData from "./products.json";
 import categoriesData from "./categories.json";
+import imageManifest from "./image-manifest.json";
 
 export interface Product {
   id: string;
@@ -7,7 +8,7 @@ export interface Product {
   category: string;
   price: number;
   image: string;
-  images?: string[];
+  images: string[];
   description: string;
   featured: boolean;
   specs: {
@@ -26,7 +27,24 @@ export interface Category {
   icon: string;
 }
 
-export const products: Product[] = productsData as Product[];
+const manifest = imageManifest as Record<string, string[]>;
+
+/**
+ * Enrich products with images discovered from public/images/.
+ * Convention: [product_id]_1.ext is the primary image, _2, _3, etc. are gallery images.
+ * If no images exist in the manifest, `image` and `images` remain empty strings/arrays
+ * and the component-level fallback (category default) handles display.
+ */
+export const products: Product[] = (
+  productsData as Omit<Product, "image" | "images">[]
+).map((p) => {
+  const discovered = manifest[p.id] || [];
+  return {
+    ...p,
+    image: discovered[0] || "",
+    images: discovered,
+  };
+});
 
 // Compute productCount from actual products data
 export const categories: Category[] = (categoriesData as Category[]).map(

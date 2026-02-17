@@ -23,7 +23,10 @@ export default function ProductCard({
   category,
 }: ProductCardProps) {
   const { addToCart } = useCart();
-  const [imgSrc, setImgSrc] = useState(getImageSrc(image));
+  const fallback = categoryFallbacks[category] || "";
+  const [imgSrc, setImgSrc] = useState(
+    image ? getImageSrc(image) : fallback
+  );
 
   const handleAddToCart = (e: React.MouseEvent) => {
     e.preventDefault();

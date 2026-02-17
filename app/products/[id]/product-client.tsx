@@ -181,11 +181,17 @@ export default function ProductClient({ params }: ProductClientProps) {
     setTimeout(() => setIsAdded(false), 2000);
   };
 
+  const fallbackSrc = product
+    ? categoryFallbacks[product.category] || ""
+    : "";
+
   const allImages =
     product?.images && product.images.length > 0
       ? product.images.map(getImageSrc)
-      : product
+      : product?.image
       ? [getImageSrc(product.image)]
+      : fallbackSrc
+      ? [fallbackSrc]
       : [];
 
   const handleOpenLightbox = (index: number) => {
