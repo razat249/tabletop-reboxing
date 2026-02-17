@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useCart } from "@/lib/cart-context";
@@ -8,7 +8,6 @@ import {
   Check,
   ChevronRight,
   Lock,
-  X,
   QrCode,
   MessageCircle,
   Mail,
@@ -50,119 +49,119 @@ function PaymentModal({
   onCancel: () => void;
   isProcessing: boolean;
 }) {
-  const handleKeyDown = useCallback(
-    (e: KeyboardEvent) => {
-      if (e.key === "Escape" && !isProcessing) onCancel();
-    },
-    [onCancel, isProcessing]
-  );
-
   useEffect(() => {
-    document.addEventListener("keydown", handleKeyDown);
     document.body.style.overflow = "hidden";
     return () => {
-      document.removeEventListener("keydown", handleKeyDown);
       document.body.style.overflow = "";
     };
-  }, [handleKeyDown]);
+  }, []);
 
   return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
+    <div className="fixed inset-0 z-[100] flex items-end sm:items-center sm:justify-center sm:p-4">
       {/* Backdrop */}
-      <div
-        className="absolute inset-0 bg-black/60 backdrop-blur-sm animate-in fade-in duration-200"
-        onClick={!isProcessing ? onCancel : undefined}
-      />
+      <div className="absolute inset-0 bg-black/60 backdrop-blur-sm animate-in fade-in duration-200" />
 
-      {/* Modal */}
-      <div className="relative bg-background border border-border rounded-2xl shadow-2xl w-full max-w-md max-h-[90dvh] overflow-y-auto animate-in zoom-in-95 fade-in duration-200">
-        {/* Close button */}
-        {!isProcessing && (
-          <button
-            onClick={onCancel}
-            className="absolute top-4 right-4 z-10 p-1.5 text-muted-foreground hover:text-foreground hover:bg-secondary rounded-lg smooth-transition"
-            aria-label="Close"
-          >
-            <X size={18} strokeWidth={1.75} />
-          </button>
-        )}
-
-        <div className="p-6 sm:p-8">
-          {/* Header */}
-          <div className="text-center mb-6">
-            <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-              <QrCode size={22} className="text-primary" strokeWidth={1.75} />
+      {/* Modal — full screen on mobile, centered card on desktop */}
+      <div className="relative bg-background w-full h-dvh sm:h-auto sm:max-h-[90dvh] sm:max-w-md sm:border sm:border-border sm:rounded-2xl sm:shadow-2xl flex flex-col animate-in slide-in-from-bottom-4 sm:zoom-in-95 fade-in duration-200">
+        {/* Scrollable content */}
+        <div className="flex-1 overflow-y-auto px-5 pt-5 pb-4 sm:px-8 sm:pt-6 sm:pb-5">
+          {/* Header — compact row */}
+          <div className="flex items-center justify-between mb-4">
+            <div>
+              <h2 className="font-serif text-xl text-foreground">
+                Complete Payment
+              </h2>
+              <p className="text-xs text-muted-foreground mt-0.5">
+                Pay via any UPI app
+              </p>
             </div>
-            <h2 className="font-serif text-2xl text-foreground mb-2">
-              Complete Your Payment
-            </h2>
-            <p className="text-sm text-muted-foreground leading-relaxed">
-              Thank you for placing your order with us! To complete your
-              purchase, please scan the QR code below using any UPI app
-              (PhonePe, Google Pay, Paytm, etc.)
+            <div className="text-right">
+              <p className="text-[10px] text-muted-foreground uppercase tracking-wider font-medium">
+                Total
+              </p>
+              <p className="text-xl font-semibold text-foreground tabular-nums">
+                {formatINR(total)}
+              </p>
+            </div>
+          </div>
+
+          {/* Trust message */}
+          <div className="bg-emerald-50 border border-emerald-200/60 rounded-lg px-3.5 py-2.5 mb-3 space-y-1.5">
+            <div className="flex items-center gap-1.5">
+              <Lock size={12} className="text-emerald-600 flex-shrink-0" strokeWidth={2.5} />
+              <p className="text-[11px] text-emerald-800 font-medium">
+                Your payment is safe with us
+              </p>
+            </div>
+            <p className="text-[11px] text-emerald-700/80 leading-relaxed">
+              We personally confirm every order via WhatsApp and email within a few hours. Your items are carefully handcrafted and shipped within 4-5 business days with tracking.
+            </p>
+            <p className="text-[11px] text-emerald-700/80 leading-relaxed">
+              Have any concerns? We&apos;re just a message away at{" "}
+              <a
+                href="https://wa.me/917014186406"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-emerald-700 underline underline-offset-2"
+              >
+                +91 70141 86406
+              </a>
+              {" "}— happy to help before, during, or after your purchase.
             </p>
           </div>
 
-          {/* Amount */}
-          <div className="bg-secondary/60 border border-border/40 rounded-xl p-4 mb-5 text-center">
-            <p className="text-xs text-muted-foreground uppercase tracking-wider mb-1 font-medium">
-              Amount to Pay
-            </p>
-            <p className="text-2xl font-semibold text-foreground tabular-nums">
-              {formatINR(total)}
-            </p>
+          {/* UPI Pay Link */}
+          <a
+            href={`upi://pay?pa=razathdfc@ybl&am=${total}&cu=INR`}
+            className="flex items-center justify-center gap-2 w-full py-2.5 rounded-lg text-sm font-medium smooth-transition mb-3 bg-primary/10 backdrop-blur-md text-primary border border-primary/20 shadow-sm hover:bg-primary/15 hover:shadow-md"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
+              <rect x="2" y="5" width="20" height="14" rx="2" />
+              <path d="M2 10h20" />
+            </svg>
+            Pay via UPI
+          </a>
+
+          {/* Divider */}
+          <div className="flex items-center gap-3 mb-3">
+            <div className="flex-1 border-t border-border/60" />
+            <span className="text-[11px] text-muted-foreground font-medium">or scan QR</span>
+            <div className="flex-1 border-t border-border/60" />
           </div>
 
           {/* QR Code */}
-          <div className="flex justify-center mb-5">
-            <div className="bg-white rounded-xl p-3 border border-border/40 shadow-sm">
+          <div className="flex justify-center mb-4">
+            <div className="bg-white rounded-xl p-2 border border-border/40 shadow-sm">
               <Image
                 src={phonepeQr}
                 alt="Scan to pay via UPI"
-                width={220}
-                height={220}
+                width={200}
+                height={200}
                 className="rounded-lg"
                 priority
               />
             </div>
           </div>
 
-          {/* Important Notes */}
-          <div className="space-y-3 mb-6">
-            <div className="flex gap-3 items-start">
-              <ShieldCheck
-                size={16}
-                className="text-primary mt-0.5 flex-shrink-0"
-                strokeWidth={1.75}
-              />
-              <p className="text-xs text-muted-foreground leading-relaxed">
-                Your order will be processed and shipped once we confirm
-                your payment. This typically happens within a few hours.
+          {/* Important Notes — compact */}
+          <div className="bg-secondary/40 rounded-lg px-3.5 py-3 space-y-2">
+            <div className="flex gap-2 items-start">
+              <ShieldCheck size={13} className="text-primary mt-0.5 flex-shrink-0" strokeWidth={2} />
+              <p className="text-[11px] text-muted-foreground leading-relaxed">
+                Order ships after payment confirmation (within a few hours).
               </p>
             </div>
-
-            <div className="flex gap-3 items-start">
-              <Clock
-                size={16}
-                className="text-primary mt-0.5 flex-shrink-0"
-                strokeWidth={1.75}
-              />
-              <p className="text-xs text-muted-foreground leading-relaxed">
-                You will receive a confirmation email and WhatsApp message
-                within <span className="font-medium text-foreground">1-3 hours</span> of
-                your payment.
+            <div className="flex gap-2 items-start">
+              <Clock size={13} className="text-primary mt-0.5 flex-shrink-0" strokeWidth={2} />
+              <p className="text-[11px] text-muted-foreground leading-relaxed">
+                Confirmation via email &amp; WhatsApp within{" "}
+                <span className="font-medium text-foreground">1-3 hours</span>.
               </p>
             </div>
-
-            <div className="flex gap-3 items-start">
-              <MessageCircle
-                size={16}
-                className="text-primary mt-0.5 flex-shrink-0"
-                strokeWidth={1.75}
-              />
-              <p className="text-xs text-muted-foreground leading-relaxed">
-                If you don&apos;t receive a confirmation, please reach out to us
-                on WhatsApp at{" "}
+            <div className="flex gap-2 items-start">
+              <MessageCircle size={13} className="text-primary mt-0.5 flex-shrink-0" strokeWidth={2} />
+              <p className="text-[11px] text-muted-foreground leading-relaxed">
+                Questions? WhatsApp us at{" "}
                 <a
                   href="https://wa.me/917014186406"
                   target="_blank"
@@ -171,40 +170,39 @@ function PaymentModal({
                 >
                   +91 70141 86406
                 </a>
-                {" "}and we&apos;ll be happy to assist you.
               </p>
             </div>
           </div>
+        </div>
 
-          {/* Action Buttons */}
-          <div className="space-y-2.5">
-            <button
-              onClick={onConfirmPayment}
-              disabled={isProcessing}
-              className="w-full bg-primary text-primary-foreground py-3 rounded-lg text-sm font-medium hover:bg-primary/90 smooth-transition disabled:opacity-60 flex items-center justify-center gap-2"
-            >
-              {isProcessing ? (
-                <>
-                  <div className="animate-spin rounded-full h-4 w-4 border-2 border-primary-foreground border-t-transparent" />
-                  Confirming your order...
-                </>
-              ) : (
-                <>
-                  <Check size={16} strokeWidth={2} />
-                  I&apos;ve Completed the Payment
-                </>
-              )}
-            </button>
-
-            {!isProcessing && (
-              <button
-                onClick={onCancel}
-                className="w-full py-2.5 rounded-lg text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-secondary smooth-transition"
-              >
-                Cancel Order
-              </button>
+        {/* Sticky Action Buttons */}
+        <div className="flex-shrink-0 border-t border-border bg-background px-5 py-3 sm:px-6 sm:py-4 space-y-2 sm:rounded-b-2xl">
+          <button
+            onClick={onConfirmPayment}
+            disabled={isProcessing}
+            className="w-full bg-primary text-primary-foreground py-3 rounded-lg text-sm font-medium hover:bg-primary/90 smooth-transition disabled:opacity-60 flex items-center justify-center gap-2"
+          >
+            {isProcessing ? (
+              <>
+                <div className="animate-spin rounded-full h-4 w-4 border-2 border-primary-foreground border-t-transparent" />
+                Confirming your order...
+              </>
+            ) : (
+              <>
+                <Check size={16} strokeWidth={2} />
+                I&apos;ve Completed the Payment
+              </>
             )}
-          </div>
+          </button>
+
+          {!isProcessing && (
+            <button
+              onClick={onCancel}
+              className="w-full py-2.5 rounded-lg text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-secondary smooth-transition"
+            >
+              Cancel Order
+            </button>
+          )}
         </div>
       </div>
     </div>
