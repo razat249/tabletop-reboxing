@@ -21,6 +21,7 @@ import wingspanEggs from "./wingspan-eggs.svg";
 import categoryInsertsPng from "./category-inserts.png";
 import categoryTokensPng from "./category-tokens.png";
 import categoryPiecesPng from "./category-pieces.png";
+import phonepeQr from "./phonepe_qr.jpg";
 
 type ImageImport = {
   src: string;
@@ -72,4 +73,11 @@ export const categoryFallbacks: Record<string, string> = {
   "Replacement Pieces": defaultPieces.src,
 };
 
-export { logo, heroBackdrop, defaultInserts, defaultTokens, defaultPieces };
+export {
+  logo,
+  heroBackdrop,
+  defaultInserts,
+  defaultTokens,
+  defaultPieces,
+  phonepeQr,
+};

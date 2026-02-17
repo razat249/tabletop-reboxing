@@ -3,7 +3,7 @@
 import { useCart } from "@/lib/cart-context";
 import Link from "next/link";
 import Image from "next/image";
-import { X, Minus, Plus, ShoppingBag } from "lucide-react";
+import { X, Minus, Plus, ShoppingBag, Truck } from "lucide-react";
 
 interface CartSidebarProps {
   isOpen: boolean;
@@ -12,6 +12,11 @@ interface CartSidebarProps {
 
 export default function CartSidebar({ isOpen, onClose }: CartSidebarProps) {
   const { items, removeFromCart, updateQuantity, total } = useCart();
+  const FREE_SHIPPING_THRESHOLD = 1000;
+  const SHIPPING_CHARGE = 120;
+  const shipping = total >= FREE_SHIPPING_THRESHOLD ? 0 : SHIPPING_CHARGE;
+  const grandTotal = total + shipping;
+  const amountToFreeShipping = Math.max(0, FREE_SHIPPING_THRESHOLD - total);
 
   return (
     <>
@@ -110,12 +115,48 @@ export default function CartSidebar({ isOpen, onClose }: CartSidebarProps) {
         {/* Footer */}
         {items.length > 0 && (
           <div className="border-t border-border px-5 py-4 sm:px-6 sm:py-5 space-y-3 sm:space-y-4">
-            <div className="flex justify-between items-center">
-              <span className="text-sm text-muted-foreground">Total</span>
-              <span className="text-lg font-semibold text-foreground tabular-nums">
-                ₹{total.toLocaleString("en-IN")}
-              </span>
+            {/* Free shipping nudge */}
+            {amountToFreeShipping > 0 ? (
+              <div className="flex items-start gap-2 bg-amber-50 border border-amber-200/60 rounded-lg px-3 py-2">
+                <Truck size={14} className="text-amber-600 mt-0.5 flex-shrink-0" strokeWidth={1.75} />
+                <p className="text-xs text-amber-800 leading-relaxed">
+                  Add{" "}
+                  <span className="font-semibold">
+                    ₹{amountToFreeShipping.toLocaleString("en-IN")}
+                  </span>{" "}
+                  more for <span className="font-semibold">free shipping!</span>
+                </p>
+              </div>
+            ) : (
+              <div className="flex items-center gap-2 bg-emerald-50 border border-emerald-200/60 rounded-lg px-3 py-2">
+                <Truck size={14} className="text-emerald-600 flex-shrink-0" strokeWidth={1.75} />
+                <p className="text-xs text-emerald-700 font-medium">
+                  Free shipping unlocked!
+                </p>
+              </div>
+            )}
+
+            <div className="space-y-1.5">
+              <div className="flex justify-between items-center text-xs text-muted-foreground">
+                <span>Subtotal</span>
+                <span className="tabular-nums">₹{total.toLocaleString("en-IN")}</span>
+              </div>
+              <div className="flex justify-between items-center text-xs text-muted-foreground">
+                <span>Shipping</span>
+                {shipping === 0 ? (
+                  <span className="text-emerald-600 font-medium">Free</span>
+                ) : (
+                  <span className="tabular-nums">₹{shipping.toLocaleString("en-IN")}</span>
+                )}
+              </div>
+              <div className="flex justify-between items-center pt-1.5 border-t border-border">
+                <span className="text-sm font-medium text-foreground">Total</span>
+                <span className="text-lg font-semibold text-foreground tabular-nums">
+                  ₹{grandTotal.toLocaleString("en-IN")}
+                </span>
+              </div>
             </div>
+
             <Link
               href="/checkout"
               onClick={onClose}
