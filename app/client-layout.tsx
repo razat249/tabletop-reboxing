@@ -4,6 +4,7 @@ import { useState } from "react";
 import { CartProvider } from "@/lib/cart-context";
 import Header from "@/components/header";
 import CartSidebar from "@/components/cart-sidebar";
+import FloatingCartBar from "@/components/floating-cart-bar";
 import AnimatedBackground from "@/components/animated-background";
 
 export default function ClientLayout({
@@ -23,6 +24,7 @@ export default function ClientLayout({
           onClose={() => setIsCartOpen(false)}
         />
         <main>{children}</main>
+        <FloatingCartBar onCartClick={() => setIsCartOpen(true)} />
       </div>
     </CartProvider>
   );
