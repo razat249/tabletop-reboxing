@@ -142,5 +142,85 @@
       "count": "75 tokens (5 types x 15 each)",
       "color": "Multi-color - black/white/gray/wood"
     }
+  },
+  {
+    "id": "7_wonders_duel_travel_box",
+    "name": "7 Wonders Duel Travel Box",
+    "category": "Board Game Inserts",
+    "price": 290,
+    "description": "A compact travel box for 7 Wonders Duel, designed to securely hold all game components in a portable form factor. Perfect for gaming on the go. It will be single color. Can be black, white, or other color according to the availability of the material.",
+    "featured": true,
+    "hidden": false,
+    "outOfStock": false,
+    "specs": {
+      "compatibility": "7 Wonders Duel - base game",
+      "material": "High quality PLA",
+      "weight": "~200g",
+      "color": "Single color - black/white/gray/wood"
+    }
+  },
+  {
+    "id": "7_wonders_duel_with_all_expansions_inserts",
+    "name": "7 Wonders Duel Inserts (All Expansions)",
+    "category": "Board Game Inserts",
+    "price": 690,
+    "description": "Custom inserts for 7 Wonders Duel with all expansions including Pantheon and Agora. Keeps every component neatly organized with dedicated slots. It will be single color. Can be black, white, or other color according to the availability of the material.",
+    "featured": true,
+    "hidden": false,
+    "outOfStock": false,
+    "specs": {
+      "compatibility": "7 Wonders Duel with Pantheon and Agora expansions",
+      "material": "High quality PLA",
+      "weight": "~400g",
+      "color": "Single color - black/white/gray/wood"
+    }
+  },
+  {
+    "id": "cascadia_board_game_Insert",
+    "name": "Cascadia Inserts",
+    "category": "Board Game Inserts",
+    "price": 590,
+    "description": "Custom inserts for Cascadia board game. Organizes all tiles, tokens, and components for quick setup and teardown. It will be single color. Can be black, white, or other color according to the availability of the material.",
+    "featured": true,
+    "hidden": false,
+    "outOfStock": false,
+    "specs": {
+      "compatibility": "Cascadia - base game",
+      "material": "High quality PLA",
+      "weight": "~300g",
+      "color": "Single color - black/white/gray/wood"
+    }
+  },
+  {
+    "id": "clank_caatacombs_token_holder",
+    "name": "Clank! Catacombs Token Holder",
+    "category": "Other Accessories",
+    "price": 190,
+    "description": "A dedicated token holder for Clank! Catacombs. Keeps all tokens organized and easily accessible during gameplay. It will be single color. Can be black, white, or other color according to the availability of the material.",
+    "featured": true,
+    "hidden": false,
+    "outOfStock": false,
+    "specs": {
+      "compatibility": "Clank! Catacombs",
+      "material": "High quality PLA",
+      "weight": "~100g",
+      "color": "Single color - black/white/gray/wood"
+    }
+  },
+  {
+    "id": "decrypto_inserts",
+    "name": "Decrypto Inserts",
+    "category": "Board Game Inserts",
+    "price": 390,
+    "description": "Custom inserts for Decrypto game. Neatly organizes all cards, screens, and components for quick setup. It will be single color. Can be black, white, or other color according to the availability of the material.",
+    "featured": true,
+    "hidden": false,
+    "outOfStock": false,
+    "specs": {
+      "compatibility": "Decrypto - base game",
+      "material": "High quality PLA",
+      "weight": "~200g",
+      "color": "Single color - black/white/gray/wood"
+    }
   }
 ]
