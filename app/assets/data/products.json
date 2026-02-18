@@ -21,7 +21,7 @@
     "category": "Board Game Inserts",
     "price": 1400,
     "description": "Custom inserts for Wingspan game with expansions (European, Oceana and Asia). It has magnets to close the inserts. It will be single color. Can be black, white, or other color according to the availability of the material.",
-    "featured": true,
+    "featured": false,
     "hidden": false,
     "outOfStock": true,
     "specs": {
@@ -37,7 +37,7 @@
     "category": "Board Game Inserts",
     "price": 570,
     "description": "Custom inserts for Sky Team game with Turbulance expansion. It will be single color. Can be black, white, or other color according to the availability of the material.",
-    "featured": true,
+    "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
@@ -53,7 +53,7 @@
     "category": "Board Game Inserts",
     "price": 250,
     "description": "Custom inserts travel box for Condenames. It will be single color. Can be black, white, or other color according to the availability of the material.",
-    "featured": true,
+    "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
@@ -69,7 +69,7 @@
     "category": "Board Game Upgrades",
     "price": 90,
     "description": "Overlay mats for Terraforming Mars game. It will be single color. Can be black, white, or other color according to the availability of the material.",
-    "featured": true,
+    "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
@@ -85,7 +85,7 @@
     "category": "Other Accessories",
     "price": 80,
     "description": "A versatile tray designed for organizing cards and resources for board games. When ordering multiple trays, up to four distinct colors will be provided (one color per tray). For orders exceeding four trays, colors will be assigned in sets of four.",
-    "featured": true,
+    "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
@@ -101,7 +101,7 @@
     "category": "Other Accessories",
     "price": 60,
     "description": "A fun meeple-shaped stackable tray, perfect for holding tokens, coins, and resources during gameplay. Available in vibrant colors — when ordering multiple trays, up to four distinct colors will be provided. Designed to stack neatly for easy storage.",
-    "featured": true,
+    "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
@@ -117,7 +117,7 @@
     "category": "Other Accessories",
     "price": 50,
     "description": "A hexagonal stackable tray designed for organizing tokens, dice, and small game components. Multiple trays stack securely on top of each other for compact storage. Available in assorted colors — up to four distinct colors per order.",
-    "featured": true,
+    "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
@@ -133,7 +133,7 @@
     "category": "Board Game Upgrades",
     "price": 250,
     "description": "Upgrade your Wingspan experience with beautifully detailed 3D printed food tokens. Replaces the original cardboard tokens with realistic miniatures — worms, wheat, berries, fish, and mice. Each set is carefully printed and painted in distinct colors for easy identification during gameplay.",
-    "featured": true,
+    "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
@@ -149,7 +149,7 @@
     "category": "Board Game Inserts",
     "price": 290,
     "description": "A compact travel box for 7 Wonders Duel, designed to securely hold all game components in a portable form factor. Perfect for gaming on the go. It will be single color. Can be black, white, or other color according to the availability of the material.",
-    "featured": true,
+    "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
@@ -181,7 +181,7 @@
     "category": "Board Game Inserts",
     "price": 590,
     "description": "Custom inserts for Cascadia board game. Organizes all tiles, tokens, and components for quick setup and teardown. It will be single color. Can be black, white, or other color according to the availability of the material.",
-    "featured": true,
+    "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
@@ -197,7 +197,7 @@
     "category": "Other Accessories",
     "price": 190,
     "description": "A dedicated token holder for Clank! Catacombs. Keeps all tokens organized and easily accessible during gameplay. It will be single color. Can be black, white, or other color according to the availability of the material.",
-    "featured": true,
+    "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
@@ -213,7 +213,7 @@
     "category": "Board Game Inserts",
     "price": 390,
     "description": "Custom inserts for Decrypto game. Neatly organizes all cards, screens, and components for quick setup. It will be single color. Can be black, white, or other color according to the availability of the material.",
-    "featured": true,
+    "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
@@ -244,7 +244,7 @@
     "category": "Other Accessories",
     "price": 146,
     "description": "A spacious 6-compartment tray for organizing tokens, resources, and small components during gameplay. Each compartment keeps different pieces separated and easily accessible. Available in assorted colors.",
-    "featured": true,
+    "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
@@ -259,7 +259,7 @@
     "category": "Other Accessories",
     "price": 118,
     "description": "A versatile 3-slot tray designed to hold cards and resources for any board game. The three compartments keep different card types or resources neatly separated. Available in assorted colors.",
-    "featured": true,
+    "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
@@ -303,7 +303,7 @@
     "id": "lost_ruins_with_all_expensions",
     "name": "Lost Ruins of Arnak Inserts (All Expansions)",
     "category": "Board Game Inserts",
-    "price": 1300,
+    "price": 1390,
     "description": "Custom inserts for Lost Ruins of Arnak with all expansions. Comprehensive organizer with dedicated slots for every component, keeping the base game and expansions neatly sorted. It will be single color. Can be black, white, or other color according to the availability of the material.",
     "featured": true,
     "hidden": false,
