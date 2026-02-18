@@ -81,10 +81,10 @@
   },
   {
     "id": "card_and_resource_tray",
-    "name": "Card and Resource Tray",
+    "name": "Card & Resource Tray - 4 Small Slots",
     "category": "Other Accessories",
     "price": 80,
-    "description": "A versatile tray designed for organizing cards and resources for board games. When ordering multiple trays, up to four distinct colors will be provided (one color per tray). For orders exceeding four trays, colors will be assigned in sets of four.",
+    "description": "A versatile 4-compartment tray designed for organizing cards and resources for board games. When ordering multiple trays, up to four distinct colors will be provided (one color per tray). For orders exceeding four trays, colors will be assigned in sets of four.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
@@ -225,7 +225,7 @@
   },
   {
     "id": "funnel_tray",
-    "name": "Funnel Tray",
+    "name": "Stackable Funnel Tray",
     "category": "Other Accessories",
     "price": 37,
     "description": "A handy funnel-shaped tray for quickly sorting and pouring small game components like tokens, cubes, and beads back into bags or containers. Lightweight and stackable. Available in assorted colors.",
@@ -240,7 +240,7 @@
   },
   {
     "id": "6_comartment_game_tray",
-    "name": "6 Compartment Game Tray",
+    "name": "Resource Tray - 6 Slots",
     "category": "Other Accessories",
     "price": 146,
     "description": "A spacious 6-compartment tray for organizing tokens, resources, and small components during gameplay. Each compartment keeps different pieces separated and easily accessible. Available in assorted colors.",
@@ -255,7 +255,7 @@
   },
   {
     "id": "universal_3_slot_card_and_resource_tray",
-    "name": "Universal 3-Slot Card & Resource Tray",
+    "name": "Card & Resource Tray - 3 Medium Slots",
     "category": "Other Accessories",
     "price": 118,
     "description": "A versatile 3-slot tray designed to hold cards and resources for any board game. The three compartments keep different card types or resources neatly separated. Available in assorted colors.",
@@ -270,10 +270,10 @@
   },
   {
     "id": "double_slot_resource_tray",
-    "name": "Double Slot Resource Tray",
+    "name": "Resource Tray - 2 Slots",
     "category": "Other Accessories",
     "price": 38,
-    "description": "A double slot tray designed to hold cards and resources for any board game. The two compartments keep different card types or resources neatly separated. Available in assorted colors.",
+    "description": "A double compartment tray designed to hold cards and resources for any board game. The two compartments keep different card types or resources neatly separated. Available in assorted colors.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
