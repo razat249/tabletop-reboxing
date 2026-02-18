@@ -167,7 +167,7 @@ Utilities
    - Spirit Island Token Set
    - Ticket to Ride Trains
 
-3. Replacement Pieces (3 products)
+3. Other Accessories (3 products)
    - Universal Meeple Pack
    - Dice Tower
    - Precision Dice Set

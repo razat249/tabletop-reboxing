@@ -11,8 +11,11 @@ import {
   Truck,
   X,
   ZoomIn,
+  Sparkles,
+  MessageCircle,
 } from "lucide-react";
 import { useCart } from "@/lib/cart-context";
+import { useRequest } from "@/lib/request-context";
 import { products, type Product } from "@/app/assets/data";
 import { getImageSrc, categoryFallbacks } from "@/app/assets/images";
 
@@ -149,6 +152,7 @@ function LightboxModal({
 
 export default function ProductClient({ params }: ProductClientProps) {
   const { addToCart } = useCart();
+  const { openRequest } = useRequest();
   const [product, setProduct] = useState<Product | null>(null);
   const [quantity, setQuantity] = useState(1);
   const [isAdded, setIsAdded] = useState(false);
@@ -354,52 +358,69 @@ export default function ProductClient({ params }: ProductClientProps) {
               </div>
 
               {/* Add to Cart */}
-              <div className="flex items-center gap-3 mb-6">
-                <div className="flex items-center border border-border rounded-lg">
+              {product.outOfStock ? (
+                <div className="mb-6 space-y-3">
+                  <div className="bg-destructive/5 border border-destructive/20 rounded-lg px-4 py-3 flex items-center gap-2">
+                    <span className="text-sm font-medium text-destructive">
+                      Currently Out of Stock
+                    </span>
+                  </div>
                   <button
-                    onClick={() => setQuantity(Math.max(1, quantity - 1))}
-                    className="px-3 py-2.5 text-sm text-muted-foreground hover:text-foreground hover:bg-secondary smooth-transition rounded-l-lg"
+                    onClick={openRequest}
+                    className="w-full py-3 rounded-lg text-sm font-medium smooth-transition flex items-center justify-center gap-2 bg-secondary text-foreground hover:bg-secondary/80 border border-border"
                   >
-                    -
-                  </button>
-                  <input
-                    type="number"
-                    value={quantity}
-                    onChange={(e) =>
-                      setQuantity(Math.max(1, parseInt(e.target.value) || 1))
-                    }
-                    className="w-12 text-center py-2.5 border-x border-border bg-background text-foreground text-sm font-medium tabular-nums focus:outline-none"
-                    min="1"
-                  />
-                  <button
-                    onClick={() => setQuantity(quantity + 1)}
-                    className="px-3 py-2.5 text-sm text-muted-foreground hover:text-foreground hover:bg-secondary smooth-transition rounded-r-lg"
-                  >
-                    +
+                    <MessageCircle size={16} strokeWidth={2} />
+                    Request When Available
                   </button>
                 </div>
+              ) : (
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="flex items-center border border-border rounded-lg">
+                    <button
+                      onClick={() => setQuantity(Math.max(1, quantity - 1))}
+                      className="px-3 py-2.5 text-sm text-muted-foreground hover:text-foreground hover:bg-secondary smooth-transition rounded-l-lg"
+                    >
+                      -
+                    </button>
+                    <input
+                      type="number"
+                      value={quantity}
+                      onChange={(e) =>
+                        setQuantity(Math.max(1, parseInt(e.target.value) || 1))
+                      }
+                      className="w-12 text-center py-2.5 border-x border-border bg-background text-foreground text-sm font-medium tabular-nums focus:outline-none"
+                      min="1"
+                    />
+                    <button
+                      onClick={() => setQuantity(quantity + 1)}
+                      className="px-3 py-2.5 text-sm text-muted-foreground hover:text-foreground hover:bg-secondary smooth-transition rounded-r-lg"
+                    >
+                      +
+                    </button>
+                  </div>
 
-                <button
-                  onClick={handleAddToCart}
-                  className={`flex-1 py-3 rounded-lg text-sm font-medium smooth-transition flex items-center justify-center gap-2 ${
-                    isAdded
-                      ? "bg-emerald-600 text-white"
-                      : "bg-primary text-primary-foreground hover:bg-primary/90"
-                  }`}
-                >
-                  {isAdded ? (
-                    <>
-                      <Check size={16} strokeWidth={2} />
-                      Added to Cart
-                    </>
-                  ) : (
-                    <>
-                      <ShoppingCart size={16} strokeWidth={2} />
-                      Add to Cart
-                    </>
-                  )}
-                </button>
-              </div>
+                  <button
+                    onClick={handleAddToCart}
+                    className={`flex-1 py-3 rounded-lg text-sm font-medium smooth-transition flex items-center justify-center gap-2 ${
+                      isAdded
+                        ? "bg-emerald-600 text-white"
+                        : "bg-primary text-primary-foreground hover:bg-primary/90"
+                    }`}
+                  >
+                    {isAdded ? (
+                      <>
+                        <Check size={16} strokeWidth={2} />
+                        Added to Cart
+                      </>
+                    ) : (
+                      <>
+                        <ShoppingCart size={16} strokeWidth={2} />
+                        Add to Cart
+                      </>
+                    )}
+                  </button>
+                </div>
+              )}
 
               <div className="flex items-center gap-2 text-xs text-muted-foreground">
                 <Truck size={14} strokeWidth={1.75} />
@@ -409,6 +430,36 @@ export default function ProductClient({ params }: ProductClientProps) {
                 </span>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Custom Request CTA */}
+      <div className="border-t border-border/60 bg-secondary/20">
+        <div className="page-container max-w-5xl py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-2xl mx-auto text-center">
+            <div className="w-11 h-11 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Sparkles size={20} className="text-primary" strokeWidth={1.75} />
+            </div>
+            <h2 className="font-serif text-2xl sm:text-3xl text-foreground mb-3">
+              Looking for Something Different?
+            </h2>
+            <p className="text-sm text-muted-foreground leading-relaxed mb-3 max-w-lg mx-auto">
+              Hi, I&apos;m Rajat — the person behind Tabletop Re-Boxing. I understand that every board game collection is unique. If you need a custom color, a different size, or an insert for a game we haven&apos;t listed yet — I&apos;d love to help. Every piece is handcrafted with care, and I&apos;m always happy to work with you on something special.
+            </p>
+            <p className="text-sm text-muted-foreground leading-relaxed mb-6 max-w-lg mx-auto">
+              Just tell me what you have in mind, and I&apos;ll get back to you with a quote and timeline. No obligation, no pressure — just a friendly conversation.
+            </p>
+            <button
+              onClick={openRequest}
+              className="inline-flex items-center justify-center gap-2 bg-primary/10 backdrop-blur-md text-primary border border-primary/20 shadow-sm hover:bg-primary/15 hover:shadow-md px-6 py-3 rounded-lg text-sm font-medium smooth-transition group"
+            >
+              <MessageCircle size={16} strokeWidth={2} className="group-hover:scale-110 smooth-transition" />
+              Send Us a Custom Request
+            </button>
+            <p className="text-[11px] text-muted-foreground mt-3">
+              Opens WhatsApp — we usually respond within a few hours
+            </p>
           </div>
         </div>
       </div>

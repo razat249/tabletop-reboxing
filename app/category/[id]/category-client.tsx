@@ -92,6 +92,7 @@ export default function CategoryClient() {
                     price={product.price}
                     image={product.image}
                     category={product.category}
+                    outOfStock={product.outOfStock}
                   />
                 ))}
               </div>

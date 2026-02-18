@@ -129,6 +129,33 @@
   @apply transition-all duration-200 ease-out;
 }
 
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Request button animations */
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@keyframes request-glow {
+  0%, 100% { opacity: 0; box-shadow: none; }
+  50% { opacity: 1; box-shadow: 0 0 8px 0 rgba(var(--primary-rgb, 0 0 0) / 0.15); }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2s ease-in-out infinite;
+}
+
+.animate-request-glow {
+  animation: request-glow 2.5s ease-in-out infinite;
+}
+
 /* Floating animations for background elements */
 @keyframes float-slow {
   0%, 100% { transform: translateY(0px); }

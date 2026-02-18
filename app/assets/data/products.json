@@ -6,6 +6,8 @@
     "price": 1200,
     "description": "Custom inserts for Terraforming Mars game. It will be single color. Can be black, white, or other color according to the availability of the material.",
     "featured": true,
+    "hidden": false,
+    "outOfStock": false,
     "specs": {
       "compatibility": "Terraforming Mars - base game",
       "material": "High quality PLA",
@@ -20,6 +22,8 @@
     "price": 1400,
     "description": "Custom inserts for Wingspan game with expansions (European, Oceana and Asia). It has magnets to close the inserts. It will be single color. Can be black, white, or other color according to the availability of the material.",
     "featured": true,
+    "hidden": false,
+    "outOfStock": true,
     "specs": {
       "compatibility": "Wingspan with expansions (European, Oceana and Asia)",
       "material": "High quality PLA",
@@ -34,6 +38,8 @@
     "price": 570,
     "description": "Custom inserts for Sky Team game with Turbulance expansion. It will be single color. Can be black, white, or other color according to the availability of the material.",
     "featured": true,
+    "hidden": false,
+    "outOfStock": false,
     "specs": {
       "compatibility": "Sky Team with Turbulance expansion",
       "material": "High quality PLA",
@@ -48,6 +54,8 @@
     "price": 250,
     "description": "Custom inserts travel box for Condenames. It will be single color. Can be black, white, or other color according to the availability of the material.",
     "featured": true,
+    "hidden": false,
+    "outOfStock": false,
     "specs": {
       "compatibility": "Condenames - base game",
       "material": "High quality PLA",
@@ -62,11 +70,77 @@
     "price": 90,
     "description": "Overlay mats for Terraforming Mars game. It will be single color. Can be black, white, or other color according to the availability of the material.",
     "featured": true,
+    "hidden": false,
+    "outOfStock": false,
     "specs": {
       "material": "High quality PLA",
       "weight": "~150g",
       "color": "Single color - black/white/gray/wood",
       "compatibility": "Terraforming Mars - base game"
+    }
+  },
+  {
+    "id": "card_and_resource_tray",
+    "name": "Card and Resource Tray",
+    "category": "Other Accessories",
+    "price": 80,
+    "description": "A versatile tray designed for organizing cards and resources for board games. When ordering multiple trays, up to four distinct colors will be provided (one color per tray). For orders exceeding four trays, colors will be assigned in sets of four.",
+    "featured": true,
+    "hidden": false,
+    "outOfStock": false,
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~40g",
+      "size": "20cm x 6cm",
+      "color": "Single color - black/white/gray/wood"
+    }
+  },
+  {
+    "id": "meeple_shaped_stackable_board_game_resource_tray",
+    "name": "Meeple Shaped Stackable Resource Tray",
+    "category": "Other Accessories",
+    "price": 60,
+    "description": "A fun meeple-shaped stackable tray, perfect for holding tokens, coins, and resources during gameplay. Available in vibrant colors — when ordering multiple trays, up to four distinct colors will be provided. Designed to stack neatly for easy storage.",
+    "featured": true,
+    "hidden": false,
+    "outOfStock": false,
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~25g",
+      "size": "Meeple shaped (~10cm tall)",
+      "color": "Vibrant colors - black/white/gray/wood"
+    }
+  },
+  {
+    "id": "stackable_hexagon_token_tray",
+    "name": "Stackable Hexagon Token Tray",
+    "category": "Other Accessories",
+    "price": 50,
+    "description": "A hexagonal stackable tray designed for organizing tokens, dice, and small game components. Multiple trays stack securely on top of each other for compact storage. Available in assorted colors — up to four distinct colors per order.",
+    "featured": true,
+    "hidden": false,
+    "outOfStock": false,
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~25g",
+      "size": "Hexagonal (~10cm wide)",
+      "color": "Assorted colors - black/white/gray/wood"
+    }
+  },
+  {
+    "id": "wingspan_food_tokens",
+    "name": "Wingspan 3D Food Tokens",
+    "category": "Board Game Upgrades",
+    "price": 250,
+    "description": "Upgrade your Wingspan experience with beautifully detailed 3D printed food tokens. Replaces the original cardboard tokens with realistic miniatures — worms, wheat, berries, fish, and mice. Each set is carefully printed and painted in distinct colors for easy identification during gameplay.",
+    "featured": true,
+    "hidden": false,
+    "outOfStock": false,
+    "specs": {
+      "compatibility": "Wingspan - base game and all expansions",
+      "material": "High quality PLA",
+      "count": "75 tokens (5 types x 15 each)",
+      "color": "Multi-color - black/white/gray/wood"
     }
   }
 ]

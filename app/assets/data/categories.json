@@ -16,9 +16,9 @@
     "icon": "✨"
   },
   {
-    "id": "replacement-pieces",
-    "name": "Replacement Pieces",
-    "description": "Replace lost or damaged game components with precision-printed pieces",
+    "id": "other-accessories",
+    "name": "Other Accessories",
+    "description": "Essential board game accessories to complete your collection",
     "image": "/images/category-pieces.png",
     "defaultImage": "/images/default-pieces.svg",
     "icon": "🎲"

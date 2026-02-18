@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { ShoppingCart, Menu, X } from "lucide-react";
+import { ShoppingCart, Menu, X, Sparkles } from "lucide-react";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useCart } from "@/lib/cart-context";
@@ -14,9 +14,10 @@ const products: SearchSuggestion[] = productsData;
 
 interface HeaderProps {
   onCartClick: () => void;
+  onRequestClick: () => void;
 }
 
-export default function Header({ onCartClick }: HeaderProps) {
+export default function Header({ onCartClick, onRequestClick }: HeaderProps) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const { items } = useCart();
   const cartCount = items.reduce((sum, item) => sum + item.quantity, 0);
@@ -77,6 +78,16 @@ export default function Header({ onCartClick }: HeaderProps) {
               >
                 Products
               </Link>
+              <button
+                onClick={onRequestClick}
+                className="relative px-3.5 py-2 text-sm font-medium rounded-lg smooth-transition bg-primary/10 text-primary hover:bg-primary/15 group"
+              >
+                <span className="flex items-center gap-1.5">
+                  <Sparkles size={14} strokeWidth={2} className="animate-pulse-subtle" />
+                  Request
+                </span>
+                <span className="absolute inset-0 rounded-lg border border-primary/20 animate-request-glow pointer-events-none" />
+              </button>
             </nav>
 
             <button
@@ -136,6 +147,16 @@ export default function Header({ onCartClick }: HeaderProps) {
             >
               Products
             </Link>
+            <button
+              onClick={() => {
+                onRequestClick();
+                setIsMobileMenuOpen(false);
+              }}
+              className="flex items-center gap-2 w-full px-3 py-2.5 text-sm font-medium rounded-lg smooth-transition bg-primary/10 text-primary hover:bg-primary/15"
+            >
+              <Sparkles size={14} strokeWidth={2} className="animate-pulse-subtle" />
+              Custom Request
+            </button>
           </nav>
         )}
       </div>

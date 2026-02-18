@@ -11,6 +11,8 @@ export interface Product {
   images: string[];
   description: string;
   featured: boolean;
+  hidden: boolean;
+  outOfStock: boolean;
   specs: {
     material?: string;
     [key: string]: string | undefined;
@@ -33,7 +35,7 @@ export interface Category {
  * Images are webpack-imported so they get hashed URLs that work with basePath on GitHub Pages.
  * If no images exist, components fall back to category default images.
  */
-export const products: Product[] = (
+const allProducts: Product[] = (
   productsData as Omit<Product, "image" | "images">[]
 ).map((p) => {
   const imgs = productImages[p.id] || [];
@@ -44,7 +46,10 @@ export const products: Product[] = (
   };
 });
 
-// Compute productCount from actual products data
+/** Visible products (hidden = false). Used for listings, search, and featured. */
+export const products: Product[] = allProducts.filter((p) => !p.hidden);
+
+// Compute productCount from visible products only
 export const categories: Category[] = (categoriesData as Category[]).map(
   (cat) => ({
     ...cat,
@@ -52,8 +57,9 @@ export const categories: Category[] = (categoriesData as Category[]).map(
   })
 );
 
+/** Find product by ID — includes hidden products so direct URLs still work. */
 export function getProductById(id: string): Product | undefined {
-  return products.find((p) => p.id === id);
+  return allProducts.find((p) => p.id === id);
 }
 
 export function getFeaturedProducts(): Product[] {

@@ -70,7 +70,7 @@ export function getImage(path: string): ImageImport | undefined {
 export const categoryFallbacks: Record<string, string> = {
   "Board Game Inserts": defaultInserts.src,
   "Board Game Upgrades": defaultTokens.src,
-  "Replacement Pieces": defaultPieces.src,
+  "Other Accessories": defaultPieces.src,
 };
 
 export {
