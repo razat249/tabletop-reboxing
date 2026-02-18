@@ -269,11 +269,11 @@
     }
   },
   {
-    "id": "universal_3_slot_card_and_resource_tray_mini",
-    "name": "Universal 3-Slot Card & Resource Tray (Mini)",
+    "id": "double_slot_resource_tray",
+    "name": "Double Slot Resource Tray",
     "category": "Other Accessories",
     "price": 38,
-    "description": "A compact mini version of the 3-slot tray, perfect for smaller card games or as a personal resource holder. Lightweight and easy to pass around the table. Available in assorted colors.",
+    "description": "A double slot tray designed to hold cards and resources for any board game. The two compartments keep different card types or resources neatly separated. Available in assorted colors.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
@@ -287,7 +287,7 @@
     "id": "brass_birmingham_inserts",
     "name": "Brass Birmingham Inserts",
     "category": "Board Game Inserts",
-    "price": 680,
+    "price": 980,
     "description": "Custom inserts for Brass Birmingham game. Organizes all player components, cards, tiles, and tokens with dedicated slots for quick setup and teardown. It will be single color. Can be black, white, or other color according to the availability of the material.",
     "featured": true,
     "hidden": false,
