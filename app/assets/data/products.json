@@ -148,7 +148,7 @@
     "name": "7 Wonders Duel Travel Box",
     "category": "Board Game Inserts",
     "price": 290,
-    "description": "A compact travel box for 7 Wonders Duel, designed to securely hold all game components in a portable form factor. Perfect for gaming on the go. It will be single color. Can be black, white, or other color according to the availability of the material.",
+    "description": "A compact travel box for 7 Wonders Duel, designed to securely hold all game components in a portable form factor. Perfect for gaming on the go.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
@@ -328,6 +328,66 @@
       "compatibility": "Viticulture Essential Edition, Tuscany Essential Edition, Bordeaux, Moor Visitors, Visit from the Rhine Valley, Metal Coins, Sleeved Cards (excludes Viticulture Worlds)",
       "material": "High quality PLA",
       "weight": "~450g",
+      "color": "Single color - black/white/gray/wood"
+    }
+  },
+  {
+    "id": "castle_dice_150gm_tower",
+    "name": "Castle Dice Tower",
+    "category": "Other Accessories",
+    "price": 300,
+    "description": "A castle-themed dice tower for a satisfying and fair dice roll every time. Simply drop your dice in the top and watch them tumble down through the internal baffles. Adds a fun thematic element to any game night.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~150g",
+      "color": "Single color - black/white/gray/wood"
+    }
+  },
+  {
+    "id": "draw_and_discard_78gm_tray",
+    "name": "Draw & Discard Tray",
+    "category": "Other Accessories",
+    "price": 156,
+    "description": "A dedicated two-section tray for draw and discard piles. Keeps your card game table organized with clearly separated slots for the draw deck and discard pile. Works with standard and sleeved cards.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~78g",
+      "color": "Single color - black/white/gray/wood"
+    }
+  },
+  {
+    "id": "hex_dice_tray_70gm",
+    "name": "Hexagonal Dice Tray",
+    "category": "Other Accessories",
+    "price": 140,
+    "description": "A hexagonal dice tray with a geometric low-poly textured base. Keeps dice contained during rolls and looks great on the table. Available in vibrant colors — when ordering multiple trays, up to four distinct colors will be provided.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~70g",
+      "color": "Assorted colors - black/white/gray/wood"
+    }
+  },
+  {
+    "id": "smash_castle_dice_tower_290gm",
+    "name": "Smash Castle Dice Tower",
+    "category": "Other Accessories",
+    "price": 580,
+    "description": "A large castle-themed dice tower with a smash design. Drop dice in from the top and watch them tumble through the tower for a dramatic and fair roll. A statement piece for any game night.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~290g",
       "color": "Single color - black/white/gray/wood"
     }
   }
