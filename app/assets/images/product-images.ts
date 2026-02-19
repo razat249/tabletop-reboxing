@@ -54,13 +54,15 @@ import img_49 from "./terraforming_mars_overlay_mats_3.jpg";
 import img_50 from "./terraforming_mars_overlay_mats_4.jpg";
 import img_51 from "./universal_3_slot_card_and_resource_tray_1.jpg";
 import img_52 from "./universal_3_slot_card_and_resource_tray_2.jpg";
-import img_53 from "./wingspan_food_tokens_1.png";
-import img_54 from "./wingspan_food_tokens_2.jpg";
-import img_55 from "./wingspan_inserts_1.jpeg";
-import img_56 from "./wingspan_inserts_2.jpeg";
-import img_57 from "./wingspan_inserts_3.jpeg";
-import img_58 from "./wingspan_inserts_4.jpeg";
-import img_59 from "./wingspan_inserts_5.jpeg";
+import img_53 from "./viticulture_insert_with_expension_1.jpg";
+import img_54 from "./viticulture_insert_with_expension_2.jpg";
+import img_55 from "./wingspan_food_tokens_1.png";
+import img_56 from "./wingspan_food_tokens_2.jpg";
+import img_57 from "./wingspan_inserts_1.jpeg";
+import img_58 from "./wingspan_inserts_2.jpeg";
+import img_59 from "./wingspan_inserts_3.jpeg";
+import img_60 from "./wingspan_inserts_4.jpeg";
+import img_61 from "./wingspan_inserts_5.jpeg";
 
 type ImageImport = { src: string; width: number; height: number };
 
@@ -83,8 +85,9 @@ const productImages: Record<string, ImageImport[]> = {
   "terraforming_mars_inserts": [img_43, img_44, img_45, img_46],
   "terraforming_mars_overlay_mats": [img_47, img_48, img_49, img_50],
   "universal_3_slot_card_and_resource_tray": [img_51, img_52],
-  "wingspan_food_tokens": [img_53, img_54],
-  "wingspan_inserts": [img_55, img_56, img_57, img_58, img_59]
+  "viticulture_insert_with_expension": [img_53, img_54],
+  "wingspan_food_tokens": [img_55, img_56],
+  "wingspan_inserts": [img_57, img_58, img_59, img_60, img_61]
 };
 
 export default productImages;

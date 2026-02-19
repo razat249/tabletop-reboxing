@@ -314,5 +314,21 @@
       "weight": "~400g",
       "color": "Single color - black/white/gray/wood"
     }
+  },
+  {
+    "id": "viticulture_insert_with_expension",
+    "name": "Viticulture Inserts (All Expansions)",
+    "category": "Board Game Inserts",
+    "price": 1290,
+    "description": "Custom inserts for Viticulture with all expansions. Fits Viticulture Essential Edition, Tuscany Essential Edition, Bordeaux Expansion, Moor Visitors Expansion, Visit from the Rhine Valley Expansion, Metal Coins, and Sleeved Cards. Does not include Viticulture Worlds. It will be single color. Can be black, white, or other color according to the availability of the material.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "specs": {
+      "compatibility": "Viticulture Essential Edition, Tuscany Essential Edition, Bordeaux, Moor Visitors, Visit from the Rhine Valley, Metal Coins, Sleeved Cards (excludes Viticulture Worlds)",
+      "material": "High quality PLA",
+      "weight": "~450g",
+      "color": "Single color - black/white/gray/wood"
+    }
   }
 ]
