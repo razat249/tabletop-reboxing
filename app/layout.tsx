@@ -19,6 +19,12 @@ export const metadata: Metadata = {
   title: "Tabletop Re-Boxing - Custom Board Game Inserts & Accessories",
   description:
     "Premium board game inserts, board game upgrades, and accessories. Re-box your games with custom-fit accessories.",
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    apple: "/icon.svg",
+  },
 };
 
 export const viewport: Viewport = {

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none">
+  <path d="M6,17 L20,9 L34,17" fill="none" stroke="#3BB998" stroke-width="0.5"/>
+  <path d="M6,17 L20,9 L20,3.5 L6,11.5Z" fill="#55D4AD"/>
+  <path d="M20,9 L34,17 L34,11.5 L20,3.5Z" fill="#3BB998"/>
+  <path d="M6,23.5 L20,31.5 L20,36 L6,28Z" fill="#1F7565"/>
+  <path d="M20,31.5 L34,23.5 L34,28 L20,36Z" fill="#176558"/>
+  <path d="M6,23.5 L20,15.5 L34,23.5 L20,31.5Z" fill="#28907A"/>
+  <clipPath id="box">
+    <path d="M6,23.5 L20,15.5 L34,23.5 L20,31.5Z"/>
+  </clipPath>
+  <g clip-path="url(#box)">
+    <path d="M20,15.5 L27,19.5 L20,23.5 L13,19.5Z" fill="#9B59B6"/>
+    <path d="M27,19.5 L34,23.5 L27,27.5 L20,23.5Z" fill="#F5C542"/>
+    <path d="M20,23.5 L27,27.5 L20,31.5 L13,27.5Z" fill="#E05555"/>
+    <path d="M13,19.5 L20,23.5 L13,27.5 L6,23.5Z" fill="#4A90D9"/>
+    <path d="M13,19.5 L27,27.5" stroke="#176558" stroke-width="1.1"/>
+    <path d="M27,19.5 L13,27.5" stroke="#176558" stroke-width="1.1"/>
+    <path d="M6,23.5 L20,15.5 L34,23.5 L20,31.5Z" fill="none" stroke="#176558" stroke-width="2.2"/>
+  </g>
+</svg>
