@@ -448,7 +448,7 @@
     "featured": true,
     "hidden": false,
     "outOfStock": false,
-    "showColorOption": false,
+    "showColorOption": true,
     "specs": {
       "compatibility": "Twilight Imperium 4th Edition - base game",
       "material": "High quality PLA",
