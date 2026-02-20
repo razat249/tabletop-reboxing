@@ -1,5 +1,6 @@
 import productsData from "./products.json";
 import categoriesData from "./categories.json";
+import colorsData from "./colors.json";
 import productImages from "../images/product-images";
 
 export interface Product {
@@ -13,11 +14,20 @@ export interface Product {
   featured: boolean;
   hidden: boolean;
   outOfStock: boolean;
+  showColorOption: boolean;
   specs: {
     material?: string;
     [key: string]: string | undefined;
   };
 }
+
+export interface Color {
+  id: string;
+  name: string;
+  hex: string;
+}
+
+export const colors: Color[] = colorsData as Color[];
 
 export interface Category {
   id: string;

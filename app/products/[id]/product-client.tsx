@@ -16,7 +16,7 @@ import {
 } from "lucide-react";
 import { useCart } from "@/lib/cart-context";
 import { useRequest } from "@/lib/request-context";
-import { products, type Product } from "@/app/assets/data";
+import { products, colors, type Product } from "@/app/assets/data";
 import { getImageSrc, categoryFallbacks } from "@/app/assets/images";
 
 export interface ProductClientProps {
@@ -155,6 +155,7 @@ export default function ProductClient({ params }: ProductClientProps) {
   const { openRequest } = useRequest();
   const [product, setProduct] = useState<Product | null>(null);
   const [quantity, setQuantity] = useState(1);
+  const [selectedColor, setSelectedColor] = useState(colors[0]?.id || "");
   const [isAdded, setIsAdded] = useState(false);
   const [id, setId] = useState<string>("");
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
@@ -173,10 +174,13 @@ export default function ProductClient({ params }: ProductClientProps) {
 
   const handleAddToCart = () => {
     if (!product) return;
+    const colorName = product.showColorOption
+      ? colors.find((c) => c.id === selectedColor)?.name || ""
+      : "";
     for (let i = 0; i < quantity; i++) {
       addToCart({
-        id: product.id,
-        name: product.name,
+        id: product.showColorOption ? `${product.id}__${selectedColor}` : product.id,
+        name: colorName ? `${product.name} (${colorName})` : product.name,
         price: product.price,
         image: product.image,
       });
@@ -331,9 +335,51 @@ export default function ProductClient({ params }: ProductClientProps) {
                 ₹{product.price.toLocaleString("en-IN")}
               </p>
 
-              <p className="text-sm text-muted-foreground mb-8 leading-relaxed">
+              <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
                 {product.description}
               </p>
+
+              {/* Color Selector */}
+              {product.showColorOption && (
+                <div className="mb-6">
+                  <div className="flex items-center gap-2 mb-3">
+                    <h3 className="text-xs font-semibold text-foreground uppercase tracking-wider font-sans">
+                      Color
+                    </h3>
+                    <span className="text-xs text-muted-foreground">
+                      — {colors.find((c) => c.id === selectedColor)?.name}
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2.5">
+                    {colors.map((color) => (
+                      <button
+                        key={color.id}
+                        onClick={() => setSelectedColor(color.id)}
+                        className={`relative w-9 h-9 rounded-full smooth-transition ${
+                          selectedColor === color.id
+                            ? "ring-2 ring-primary ring-offset-2 ring-offset-background scale-110"
+                            : "ring-1 ring-border hover:scale-105"
+                        }`}
+                        style={{ backgroundColor: color.hex }}
+                        aria-label={`Select ${color.name}`}
+                        title={color.name}
+                      >
+                        {selectedColor === color.id && (
+                          <Check
+                            size={14}
+                            strokeWidth={3}
+                            className={`absolute inset-0 m-auto ${
+                              color.id === "white" || color.id === "wood"
+                                ? "text-foreground"
+                                : "text-white"
+                            }`}
+                          />
+                        )}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* Specs */}
               <div className="bg-secondary/60 border border-border/40 rounded-xl p-5 mb-8">

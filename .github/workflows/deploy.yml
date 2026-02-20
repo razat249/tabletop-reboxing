@@ -35,7 +35,7 @@ jobs:
       - name: Build static site
         run: pnpm next build
         env:
-          NEXT_PUBLIC_BASE_PATH: /tabletop-reboxing
+          NEXT_PUBLIC_BASE_PATH: ""
 
       - name: Add .nojekyll
         run: touch out/.nojekyll

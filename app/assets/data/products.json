@@ -4,15 +4,15 @@
     "name": "Terraforming Mars inserts ",
     "category": "Board Game Inserts",
     "price": 1200,
-    "description": "Custom inserts for Terraforming Mars game. It will be single color. Can be black, white, or other color according to the availability of the material.",
+    "description": "Custom inserts for Terraforming Mars game.",
     "featured": true,
     "hidden": false,
     "outOfStock": false,
+    "showColorOption": true,
     "specs": {
       "compatibility": "Terraforming Mars - base game",
       "material": "High quality PLA",
-      "weight": "~450g",
-      "color": "Single color - black/white/gray/wood"
+      "weight": "~450g"
     }
   },
   {
@@ -20,64 +20,64 @@
     "name": "Wingspan inserts with magnets",
     "category": "Board Game Inserts",
     "price": 1400,
-    "description": "Custom inserts for Wingspan game with expansions (European, Oceana and Asia). It has magnets to close the inserts. It will be single color. Can be black, white, or other color according to the availability of the material.",
+    "description": "Custom inserts for Wingspan game with expansions (European, Oceana and Asia). It has magnets to close the inserts.",
     "featured": false,
     "hidden": false,
     "outOfStock": true,
     "specs": {
       "compatibility": "Wingspan with expansions (European, Oceana and Asia)",
       "material": "High quality PLA",
-      "weight": "~500g",
-      "color": "Single color - black/white/gray/wood"
-    }
+      "weight": "~500g"
+    },
+    "showColorOption": true
   },
   {
     "id": "sky_team_inserts",
     "name": "Sky Team inserts",
     "category": "Board Game Inserts",
     "price": 570,
-    "description": "Custom inserts for Sky Team game with Turbulance expansion. It will be single color. Can be black, white, or other color according to the availability of the material.",
+    "description": "Custom inserts for Sky Team game with Turbulance expansion.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
       "compatibility": "Sky Team with Turbulance expansion",
       "material": "High quality PLA",
-      "weight": "~200g",
-      "color": "Single color - black/white/gray/wood"
-    }
+      "weight": "~200g"
+    },
+    "showColorOption": true
   },
   {
     "id": "codenames_travel_box",
     "name": "Codenames Travel Box",
     "category": "Board Game Inserts",
     "price": 250,
-    "description": "Custom inserts travel box for Condenames. It will be single color. Can be black, white, or other color according to the availability of the material.",
+    "description": "Custom inserts travel box for Condenames.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
       "compatibility": "Condenames - base game",
       "material": "High quality PLA",
-      "weight": "~150g",
-      "color": "Single color - black/white/gray/wood"
-    }
+      "weight": "~150g"
+    },
+    "showColorOption": true
   },
   {
     "id": "terraforming_mars_overlay_mats",
     "name": "Terraforming Mars Overlay Mats",
     "category": "Board Game Upgrades",
     "price": 90,
-    "description": "Overlay mats for Terraforming Mars game. It will be single color. Can be black, white, or other color according to the availability of the material.",
+    "description": "Overlay mats for Terraforming Mars game.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
       "material": "High quality PLA",
       "weight": "~40g",
-      "color": "Single color - black/white/gray/wood",
       "compatibility": "Terraforming Mars - base game"
-    }
+    },
+    "showColorOption": true
   },
   {
     "id": "card_and_resource_tray",
@@ -91,41 +91,41 @@
     "specs": {
       "material": "High quality PLA",
       "weight": "~40g",
-      "size": "20cm x 6cm",
-      "color": "Single color - black/white/gray/wood"
-    }
+      "size": "20cm x 6cm"
+    },
+    "showColorOption": true
   },
   {
     "id": "meeple_shaped_stackable_board_game_resource_tray",
     "name": "Meeple Shaped Stackable Resource Tray",
     "category": "Other Accessories",
     "price": 60,
-    "description": "A fun meeple-shaped stackable tray, perfect for holding tokens, coins, and resources during gameplay. Available in vibrant colors — when ordering multiple trays, up to four distinct colors will be provided. Designed to stack neatly for easy storage.",
+    "description": "A fun meeple-shaped stackable tray, perfect for holding tokens, coins, and resources during gameplay. when ordering multiple trays, up to four distinct colors will be provided. Designed to stack neatly for easy storage.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
       "material": "High quality PLA",
       "weight": "~25g",
-      "size": "Meeple shaped (~10cm tall)",
-      "color": "Vibrant colors - black/white/gray/wood"
-    }
+      "size": "Meeple shaped (~10cm tall)"
+    },
+    "showColorOption": true
   },
   {
     "id": "stackable_hexagon_token_tray",
     "name": "Stackable Hexagon Token Tray",
     "category": "Other Accessories",
     "price": 50,
-    "description": "A hexagonal stackable tray designed for organizing tokens, dice, and small game components. Multiple trays stack securely on top of each other for compact storage. Available in assorted colors — up to four distinct colors per order.",
+    "description": "A hexagonal stackable tray designed for organizing tokens, dice, and small game components. Multiple trays stack securely on top of each other for compact storage. up to four distinct colors per order.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
       "material": "High quality PLA",
       "weight": "~25g",
-      "size": "Hexagonal (~10cm wide)",
-      "color": "Assorted colors - black/white/gray/wood"
-    }
+      "size": "Hexagonal (~10cm wide)"
+    },
+    "showColorOption": true
   },
   {
     "id": "wingspan_food_tokens",
@@ -139,9 +139,9 @@
     "specs": {
       "compatibility": "Wingspan - base game and all expansions",
       "material": "High quality PLA",
-      "count": "75 tokens (5 types x 15 each)",
-      "color": "Multi-color - black/white/gray/wood"
-    }
+      "count": "75 tokens (5 types x 15 each)"
+    },
+    "showColorOption": true
   },
   {
     "id": "7_wonders_duel_travel_box",
@@ -155,181 +155,181 @@
     "specs": {
       "compatibility": "7 Wonders Duel - base game",
       "material": "High quality PLA",
-      "weight": "~200g",
-      "color": "Single color - black/white/gray/wood"
-    }
+      "weight": "~200g"
+    },
+    "showColorOption": true
   },
   {
     "id": "7_wonders_duel_with_all_expansions_inserts",
     "name": "7 Wonders Duel Inserts (All Expansions)",
     "category": "Board Game Inserts",
     "price": 1200,
-    "description": "Custom inserts for 7 Wonders Duel with all expansions including Pantheon and Agora. Keeps every component neatly organized with dedicated slots. It will be single color. Can be black, white, or other color according to the availability of the material.",
+    "description": "Custom inserts for 7 Wonders Duel with all expansions including Pantheon and Agora. Keeps every component neatly organized with dedicated slots.",
     "featured": true,
     "hidden": false,
     "outOfStock": false,
     "specs": {
       "compatibility": "7 Wonders Duel with Pantheon and Agora expansions",
       "material": "High quality PLA",
-      "weight": "~400g",
-      "color": "Single color - black/white/gray/wood"
-    }
+      "weight": "~400g"
+    },
+    "showColorOption": true
   },
   {
     "id": "cascadia_board_game_Insert",
     "name": "Cascadia Inserts",
     "category": "Board Game Inserts",
     "price": 590,
-    "description": "Custom inserts for Cascadia board game. Organizes all tiles, tokens, and components for quick setup and teardown. It will be single color. Can be black, white, or other color according to the availability of the material.",
+    "description": "Custom inserts for Cascadia board game. Organizes all tiles, tokens, and components for quick setup and teardown.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
       "compatibility": "Cascadia - base game",
       "material": "High quality PLA",
-      "weight": "~300g",
-      "color": "Single color - black/white/gray/wood"
-    }
+      "weight": "~300g"
+    },
+    "showColorOption": true
   },
   {
     "id": "clank_caatacombs_token_holder",
     "name": "Clank! Catacombs Token Holder",
     "category": "Other Accessories",
     "price": 190,
-    "description": "A dedicated token holder for Clank! Catacombs. Keeps all tokens organized and easily accessible during gameplay. It will be single color. Can be black, white, or other color according to the availability of the material.",
+    "description": "A dedicated token holder for Clank! Catacombs. Keeps all tokens organized and easily accessible during gameplay.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
       "compatibility": "Clank! Catacombs",
       "material": "High quality PLA",
-      "weight": "~100g",
-      "color": "Single color - black/white/gray/wood"
-    }
+      "weight": "~100g"
+    },
+    "showColorOption": true
   },
   {
     "id": "decrypto_inserts",
     "name": "Decrypto Inserts",
     "category": "Board Game Inserts",
     "price": 390,
-    "description": "Custom inserts for Decrypto game. Neatly organizes all cards, screens, and components for quick setup. It will be single color. Can be black, white, or other color according to the availability of the material.",
+    "description": "Custom inserts for Decrypto game. Neatly organizes all cards, screens, and components for quick setup.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
       "compatibility": "Decrypto - base game",
       "material": "High quality PLA",
-      "weight": "~200g",
-      "color": "Single color - black/white/gray/wood"
-    }
+      "weight": "~200g"
+    },
+    "showColorOption": true
   },
   {
     "id": "funnel_tray",
     "name": "Stackable Funnel Tray",
     "category": "Other Accessories",
     "price": 37,
-    "description": "A handy funnel-shaped tray for quickly sorting and pouring small game components like tokens, cubes, and beads back into bags or containers. Lightweight and stackable. Available in assorted colors.",
+    "description": "A handy funnel-shaped tray for quickly sorting and pouring small game components like tokens, cubes, and beads back into bags or containers. Lightweight and stackable.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
       "material": "High quality PLA",
-      "weight": "~17g",
-      "color": "Single color - black/white/gray/wood"
-    }
+      "weight": "~17g"
+    },
+    "showColorOption": true
   },
   {
     "id": "6_comartment_game_tray",
     "name": "Resource Tray - 6 Slots",
     "category": "Other Accessories",
     "price": 146,
-    "description": "A spacious 6-compartment tray for organizing tokens, resources, and small components during gameplay. Each compartment keeps different pieces separated and easily accessible. Available in assorted colors.",
+    "description": "A spacious 6-compartment tray for organizing tokens, resources, and small components during gameplay. Each compartment keeps different pieces separated and easily accessible.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
       "material": "High quality PLA",
-      "weight": "~80g",
-      "color": "Single color - black/white/gray/wood"
-    }
+      "weight": "~80g"
+    },
+    "showColorOption": true
   },
   {
     "id": "universal_3_slot_card_and_resource_tray",
     "name": "Card & Resource Tray - 3 Medium Slots",
     "category": "Other Accessories",
     "price": 118,
-    "description": "A versatile 3-slot tray designed to hold cards and resources for any board game. The three compartments keep different card types or resources neatly separated. Available in assorted colors.",
+    "description": "A versatile 3-slot tray designed to hold cards and resources for any board game. The three compartments keep different card types or resources neatly separated.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
       "material": "High quality PLA",
-      "weight": "~60g",
-      "color": "Single color - black/white/gray/wood"
-    }
+      "weight": "~60g"
+    },
+    "showColorOption": true
   },
   {
     "id": "double_slot_resource_tray",
     "name": "Resource Tray - 2 Slots",
     "category": "Other Accessories",
     "price": 38,
-    "description": "A double compartment tray designed to hold cards and resources for any board game. The two compartments keep different card types or resources neatly separated. Available in assorted colors.",
+    "description": "A double compartment tray designed to hold cards and resources for any board game. The two compartments keep different card types or resources neatly separated.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
       "material": "High quality PLA",
-      "weight": "~18g",
-      "color": "Single color - black/white/gray/wood"
-    }
+      "weight": "~18g"
+    },
+    "showColorOption": true
   },
   {
     "id": "brass_birmingham_inserts",
     "name": "Brass Birmingham Inserts",
     "category": "Board Game Inserts",
     "price": 980,
-    "description": "Custom inserts for Brass Birmingham game. Organizes all player components, cards, tiles, and tokens with dedicated slots for quick setup and teardown. It will be single color. Can be black, white, or other color according to the availability of the material.",
+    "description": "Custom inserts for Brass Birmingham game. Organizes all player components, cards, tiles, and tokens with dedicated slots for quick setup and teardown.",
     "featured": true,
     "hidden": false,
     "outOfStock": false,
     "specs": {
       "compatibility": "Brass Birmingham - base game",
       "material": "High quality PLA",
-      "weight": "~350g",
-      "color": "Single color - black/white/gray/wood"
-    }
+      "weight": "~350g"
+    },
+    "showColorOption": true
   },
   {
     "id": "lost_ruins_with_all_expensions",
     "name": "Lost Ruins of Arnak Inserts (All Expansions)",
     "category": "Board Game Inserts",
     "price": 1390,
-    "description": "Custom inserts for Lost Ruins of Arnak with all expansions. Comprehensive organizer with dedicated slots for every component, keeping the base game and expansions neatly sorted. It will be single color. Can be black, white, or other color according to the availability of the material.",
+    "description": "Custom inserts for Lost Ruins of Arnak with all expansions. Comprehensive organizer with dedicated slots for every component, keeping the base game and expansions neatly sorted.",
     "featured": true,
     "hidden": false,
     "outOfStock": false,
     "specs": {
       "compatibility": "Lost Ruins of Arnak with all expansions",
       "material": "High quality PLA",
-      "weight": "~400g",
-      "color": "Single color - black/white/gray/wood"
-    }
+      "weight": "~400g"
+    },
+    "showColorOption": true
   },
   {
     "id": "viticulture_insert_with_expension",
     "name": "Viticulture Inserts (All Expansions)",
     "category": "Board Game Inserts",
     "price": 1290,
-    "description": "Custom inserts for Viticulture with all expansions. Fits Viticulture Essential Edition, Tuscany Essential Edition, Bordeaux Expansion, Moor Visitors Expansion, Visit from the Rhine Valley Expansion, Metal Coins, and Sleeved Cards. Does not include Viticulture Worlds. It will be single color. Can be black, white, or other color according to the availability of the material.",
+    "description": "Custom inserts for Viticulture with all expansions. Fits Viticulture Essential Edition, Tuscany Essential Edition, Bordeaux Expansion, Moor Visitors Expansion, Visit from the Rhine Valley Expansion, Metal Coins, and Sleeved Cards. Does not include Viticulture Worlds.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
       "compatibility": "Viticulture Essential Edition, Tuscany Essential Edition, Bordeaux, Moor Visitors, Visit from the Rhine Valley, Metal Coins, Sleeved Cards (excludes Viticulture Worlds)",
       "material": "High quality PLA",
-      "weight": "~450g",
-      "color": "Single color - black/white/gray/wood"
-    }
+      "weight": "~450g"
+    },
+    "showColorOption": true
   },
   {
     "id": "castle_dice_150gm_tower",
@@ -342,9 +342,9 @@
     "outOfStock": false,
     "specs": {
       "material": "High quality PLA",
-      "weight": "~150g",
-      "color": "Single color - black/white/gray/wood"
-    }
+      "weight": "~150g"
+    },
+    "showColorOption": true
   },
   {
     "id": "draw_and_discard_78gm_tray",
@@ -357,24 +357,24 @@
     "outOfStock": false,
     "specs": {
       "material": "High quality PLA",
-      "weight": "~78g",
-      "color": "Single color - black/white/gray/wood"
-    }
+      "weight": "~78g"
+    },
+    "showColorOption": true
   },
   {
     "id": "hex_dice_tray_70gm",
     "name": "Hexagonal Dice Tray",
     "category": "Other Accessories",
     "price": 140,
-    "description": "A hexagonal dice tray with a geometric low-poly textured base. Keeps dice contained during rolls and looks great on the table. Available in vibrant colors — when ordering multiple trays, up to four distinct colors will be provided.",
+    "description": "A hexagonal dice tray with a geometric low-poly textured base. Keeps dice contained during rolls and looks great on the table. when ordering multiple trays, up to four distinct colors will be provided.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
     "specs": {
       "material": "High quality PLA",
-      "weight": "~70g",
-      "color": "Assorted colors - black/white/gray/wood"
-    }
+      "weight": "~70g"
+    },
+    "showColorOption": true
   },
   {
     "id": "smash_castle_dice_tower_290gm",
@@ -387,8 +387,8 @@
     "outOfStock": false,
     "specs": {
       "material": "High quality PLA",
-      "weight": "~290g",
-      "color": "Single color - black/white/gray/wood"
-    }
+      "weight": "~290g"
+    },
+    "showColorOption": true
   }
 ]
