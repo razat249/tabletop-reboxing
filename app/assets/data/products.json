@@ -438,5 +438,21 @@
       "weight": "~140g",
       "count": "25 skull tokens"
     }
+  },
+  {
+    "id": "twilight_imperium_base_game_700gm_inserts",
+    "name": "Twilight Imperium Inserts",
+    "category": "Board Game Inserts",
+    "price": 1680,
+    "description": "A massive multi-tray organizer for Twilight Imperium (4th Edition). Color-coded player trays, card slots, and tile compartments — tames this epic game's sprawling components.",
+    "featured": true,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": false,
+    "specs": {
+      "compatibility": "Twilight Imperium 4th Edition - base game",
+      "material": "High quality PLA",
+      "weight": "~700g"
+    }
   }
 ]

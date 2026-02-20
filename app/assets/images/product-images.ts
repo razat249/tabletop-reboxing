@@ -64,17 +64,21 @@ import img_59 from "./terraforming_mars_overlay_mats_1.jpg";
 import img_60 from "./terraforming_mars_overlay_mats_2.webp";
 import img_61 from "./terraforming_mars_overlay_mats_3.jpg";
 import img_62 from "./terraforming_mars_overlay_mats_4.jpg";
-import img_63 from "./universal_3_slot_card_and_resource_tray_1.jpg";
-import img_64 from "./universal_3_slot_card_and_resource_tray_2.jpg";
-import img_65 from "./viticulture_insert_with_expension_1.jpg";
-import img_66 from "./viticulture_insert_with_expension_2.jpg";
-import img_67 from "./wingspan_food_tokens_1.png";
-import img_68 from "./wingspan_food_tokens_2.jpg";
-import img_69 from "./wingspan_inserts_1.jpeg";
-import img_70 from "./wingspan_inserts_2.jpeg";
-import img_71 from "./wingspan_inserts_3.jpeg";
-import img_72 from "./wingspan_inserts_4.jpeg";
-import img_73 from "./wingspan_inserts_5.jpeg";
+import img_63 from "./twilight_imperium_base_game_700gm_inserts_1.jpg";
+import img_64 from "./twilight_imperium_base_game_700gm_inserts_2.jpg";
+import img_65 from "./twilight_imperium_base_game_700gm_inserts_3.jpg";
+import img_66 from "./twilight_imperium_base_game_700gm_inserts_4.jpg";
+import img_67 from "./universal_3_slot_card_and_resource_tray_1.jpg";
+import img_68 from "./universal_3_slot_card_and_resource_tray_2.jpg";
+import img_69 from "./viticulture_insert_with_expension_1.jpg";
+import img_70 from "./viticulture_insert_with_expension_2.jpg";
+import img_71 from "./wingspan_food_tokens_1.png";
+import img_72 from "./wingspan_food_tokens_2.jpg";
+import img_73 from "./wingspan_inserts_1.jpeg";
+import img_74 from "./wingspan_inserts_2.jpeg";
+import img_75 from "./wingspan_inserts_3.jpeg";
+import img_76 from "./wingspan_inserts_4.jpeg";
+import img_77 from "./wingspan_inserts_5.jpeg";
 
 type ImageImport = { src: string; width: number; height: number };
 
@@ -103,10 +107,11 @@ const productImages: Record<string, ImageImport[]> = {
   "stackable_hexagon_token_tray": [img_53, img_54],
   "terraforming_mars_inserts": [img_55, img_56, img_57, img_58],
   "terraforming_mars_overlay_mats": [img_59, img_60, img_61, img_62],
-  "universal_3_slot_card_and_resource_tray": [img_63, img_64],
-  "viticulture_insert_with_expension": [img_65, img_66],
-  "wingspan_food_tokens": [img_67, img_68],
-  "wingspan_inserts": [img_69, img_70, img_71, img_72, img_73]
+  "twilight_imperium_base_game_700gm_inserts": [img_63, img_64, img_65, img_66],
+  "universal_3_slot_card_and_resource_tray": [img_67, img_68],
+  "viticulture_insert_with_expension": [img_69, img_70],
+  "wingspan_food_tokens": [img_71, img_72],
+  "wingspan_inserts": [img_73, img_74, img_75, img_76, img_77]
 };
 
 export default productImages;
