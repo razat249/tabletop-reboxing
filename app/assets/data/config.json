@@ -1,0 +1,10 @@
+{
+  "defaultSort": "price-asc",
+  "freeShippingThreshold": 1000,
+  "shippingCharge": 120,
+  "currency": "INR",
+  "currencySymbol": "₹",
+  "whatsappNumber": "917014186406",
+  "contactEmail": "razat249@gmail.com",
+  "shippingDays": "4-5"
+}

@@ -51,6 +51,15 @@ export default function Home() {
                 placeholder="Search for game inserts, tokens, or pieces..."
                 variant="hero"
               />
+              <div className="mt-4 flex items-center justify-center">
+                <Link
+                  href="/products"
+                  className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:text-primary/80 smooth-transition group"
+                >
+                  Browse all products
+                  <ArrowRight size={14} strokeWidth={2} className="group-hover:translate-x-0.5 smooth-transition" />
+                </Link>
+              </div>
             </div>
           </div>
         </div>

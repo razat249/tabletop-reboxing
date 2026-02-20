@@ -6,14 +6,14 @@ import SearchBox from "@/components/search-box";
 import ProductCard from "@/components/product-card";
 import Link from "next/link";
 import { ChevronRight, ArrowUpDown, Check, LayoutGrid, List } from "lucide-react";
-import { products as allProducts } from "@/app/assets/data";
+import { products as allProducts, config } from "@/app/assets/data";
 
 export default function ProductsClient() {
   const searchParams = useSearchParams();
   const [filteredProducts, setFilteredProducts] = useState(allProducts);
   const [selectedCategory, setSelectedCategory] = useState<string>("");
   const [searchQuery, setSearchQuery] = useState<string>("");
-  const [sortBy, setSortBy] = useState<string>("featured");
+  const [sortBy, setSortBy] = useState<string>(config.defaultSort);
   const [isSortOpen, setIsSortOpen] = useState(false);
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
 

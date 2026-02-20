@@ -1,6 +1,7 @@
 import productsData from "./products.json";
 import categoriesData from "./categories.json";
 import colorsData from "./colors.json";
+import configData from "./config.json";
 import productImages from "../images/product-images";
 
 export interface Product {
@@ -28,6 +29,19 @@ export interface Color {
 }
 
 export const colors: Color[] = colorsData as Color[];
+
+export interface SiteConfig {
+  defaultSort: string;
+  freeShippingThreshold: number;
+  shippingCharge: number;
+  currency: string;
+  currencySymbol: string;
+  whatsappNumber: string;
+  contactEmail: string;
+  shippingDays: string;
+}
+
+export const config: SiteConfig = configData as SiteConfig;
 
 export interface Category {
   id: string;
