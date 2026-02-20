@@ -390,5 +390,21 @@
       "weight": "~290g"
     },
     "showColorOption": true
+  },
+  {
+    "id": "catan_cities_and_knights_player_token_holder_with_lid_75gm",
+    "name": "Catan Cities & Knights Player Token Holder with Lid",
+    "category": "Other Accessories",
+    "price": 150,
+    "description": "A compact holder for all Catan Cities & Knights player pieces — cities, settlements, roads, and knights neatly organized in one tray with a color-coded lid.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Catan Cities & Knights",
+      "material": "High quality PLA",
+      "weight": "~75g"
+    }
   }
 ]
