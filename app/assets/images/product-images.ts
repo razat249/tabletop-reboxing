@@ -25,51 +25,52 @@ import img_20 from "./cascadia_board_game_Insert_2.jpg";
 import img_21 from "./cascadia_board_game_Insert_3.jpg";
 import img_22 from "./castle_dice_150gm_tower_1.jpg";
 import img_23 from "./castle_dice_150gm_tower_2.jpg";
-import img_24 from "./clank_caatacombs_token_holder_1.jpg";
-import img_25 from "./clank_caatacombs_token_holder_2.jpg";
-import img_26 from "./clank_caatacombs_token_holder_3.jpg";
-import img_27 from "./codenames_travel_box_1.png";
-import img_28 from "./codenames_travel_box_2.png";
-import img_29 from "./codenames_travel_box_3.png";
-import img_30 from "./decrypto_inserts_1.jpg";
-import img_31 from "./decrypto_inserts_2.jpg";
-import img_32 from "./double_slot_resource_tray_1.jpg";
-import img_33 from "./draw_and_discard_78gm_tray_1.jpg";
-import img_34 from "./draw_and_discard_78gm_tray_2.jpg";
-import img_35 from "./funnel_tray_1.jpg";
-import img_36 from "./hex_dice_tray_70gm_1.jpg";
-import img_37 from "./hex_dice_tray_70gm_2.jpg";
-import img_38 from "./lost_ruins_with_all_expensions_1.jpg";
-import img_39 from "./lost_ruins_with_all_expensions_2.jpg";
-import img_40 from "./lost_ruins_with_all_expensions_3.jpg";
-import img_41 from "./lost_ruins_with_all_expensions_4.jpg";
-import img_42 from "./meeple_shaped_stackable_board_game_resource_tray_1.jpg";
-import img_43 from "./meeple_shaped_stackable_board_game_resource_tray_2.jpg";
-import img_44 from "./sky_team_inserts_1.jpg";
-import img_45 from "./sky_team_inserts_2.jpg";
-import img_46 from "./sky_team_inserts_3.jpg";
-import img_47 from "./smash_castle_dice_tower_290gm_1.webp";
-import img_48 from "./stackable_hexagon_token_tray_1.jpg";
-import img_49 from "./stackable_hexagon_token_tray_2.jpg";
-import img_50 from "./terraforming_mars_inserts_1.jpg";
-import img_51 from "./terraforming_mars_inserts_2.jpg";
-import img_52 from "./terraforming_mars_inserts_3.jpg";
-import img_53 from "./terraforming_mars_inserts_4.jpg";
-import img_54 from "./terraforming_mars_overlay_mats_1.jpg";
-import img_55 from "./terraforming_mars_overlay_mats_2.webp";
-import img_56 from "./terraforming_mars_overlay_mats_3.jpg";
-import img_57 from "./terraforming_mars_overlay_mats_4.jpg";
-import img_58 from "./universal_3_slot_card_and_resource_tray_1.jpg";
-import img_59 from "./universal_3_slot_card_and_resource_tray_2.jpg";
-import img_60 from "./viticulture_insert_with_expension_1.jpg";
-import img_61 from "./viticulture_insert_with_expension_2.jpg";
-import img_62 from "./wingspan_food_tokens_1.png";
-import img_63 from "./wingspan_food_tokens_2.jpg";
-import img_64 from "./wingspan_inserts_1.jpeg";
-import img_65 from "./wingspan_inserts_2.jpeg";
-import img_66 from "./wingspan_inserts_3.jpeg";
-import img_67 from "./wingspan_inserts_4.jpeg";
-import img_68 from "./wingspan_inserts_5.jpeg";
+import img_24 from "./catan_cities_and_knights_player_token_holder_with_lid_75gm_1.jpg";
+import img_25 from "./clank_caatacombs_token_holder_1.jpg";
+import img_26 from "./clank_caatacombs_token_holder_2.jpg";
+import img_27 from "./clank_caatacombs_token_holder_3.jpg";
+import img_28 from "./codenames_travel_box_1.png";
+import img_29 from "./codenames_travel_box_2.png";
+import img_30 from "./codenames_travel_box_3.png";
+import img_31 from "./decrypto_inserts_1.jpg";
+import img_32 from "./decrypto_inserts_2.jpg";
+import img_33 from "./double_slot_resource_tray_1.jpg";
+import img_34 from "./draw_and_discard_78gm_tray_1.jpg";
+import img_35 from "./draw_and_discard_78gm_tray_2.jpg";
+import img_36 from "./funnel_tray_1.jpg";
+import img_37 from "./hex_dice_tray_70gm_1.jpg";
+import img_38 from "./hex_dice_tray_70gm_2.jpg";
+import img_39 from "./lost_ruins_with_all_expensions_1.jpg";
+import img_40 from "./lost_ruins_with_all_expensions_2.jpg";
+import img_41 from "./lost_ruins_with_all_expensions_3.jpg";
+import img_42 from "./lost_ruins_with_all_expensions_4.jpg";
+import img_43 from "./meeple_shaped_stackable_board_game_resource_tray_1.jpg";
+import img_44 from "./meeple_shaped_stackable_board_game_resource_tray_2.jpg";
+import img_45 from "./sky_team_inserts_1.jpg";
+import img_46 from "./sky_team_inserts_2.jpg";
+import img_47 from "./sky_team_inserts_3.jpg";
+import img_48 from "./smash_castle_dice_tower_290gm_1.webp";
+import img_49 from "./stackable_hexagon_token_tray_1.jpg";
+import img_50 from "./stackable_hexagon_token_tray_2.jpg";
+import img_51 from "./terraforming_mars_inserts_1.jpg";
+import img_52 from "./terraforming_mars_inserts_2.jpg";
+import img_53 from "./terraforming_mars_inserts_3.jpg";
+import img_54 from "./terraforming_mars_inserts_4.jpg";
+import img_55 from "./terraforming_mars_overlay_mats_1.jpg";
+import img_56 from "./terraforming_mars_overlay_mats_2.webp";
+import img_57 from "./terraforming_mars_overlay_mats_3.jpg";
+import img_58 from "./terraforming_mars_overlay_mats_4.jpg";
+import img_59 from "./universal_3_slot_card_and_resource_tray_1.jpg";
+import img_60 from "./universal_3_slot_card_and_resource_tray_2.jpg";
+import img_61 from "./viticulture_insert_with_expension_1.jpg";
+import img_62 from "./viticulture_insert_with_expension_2.jpg";
+import img_63 from "./wingspan_food_tokens_1.png";
+import img_64 from "./wingspan_food_tokens_2.jpg";
+import img_65 from "./wingspan_inserts_1.jpeg";
+import img_66 from "./wingspan_inserts_2.jpeg";
+import img_67 from "./wingspan_inserts_3.jpeg";
+import img_68 from "./wingspan_inserts_4.jpeg";
+import img_69 from "./wingspan_inserts_5.jpeg";
 
 type ImageImport = { src: string; width: number; height: number };
 
@@ -81,24 +82,25 @@ const productImages: Record<string, ImageImport[]> = {
   "card_and_resource_tray": [img_16, img_17, img_18],
   "cascadia_board_game_Insert": [img_19, img_20, img_21],
   "castle_dice_150gm_tower": [img_22, img_23],
-  "clank_caatacombs_token_holder": [img_24, img_25, img_26],
-  "codenames_travel_box": [img_27, img_28, img_29],
-  "decrypto_inserts": [img_30, img_31],
-  "double_slot_resource_tray": [img_32],
-  "draw_and_discard_78gm_tray": [img_33, img_34],
-  "funnel_tray": [img_35],
-  "hex_dice_tray_70gm": [img_36, img_37],
-  "lost_ruins_with_all_expensions": [img_38, img_39, img_40, img_41],
-  "meeple_shaped_stackable_board_game_resource_tray": [img_42, img_43],
-  "sky_team_inserts": [img_44, img_45, img_46],
-  "smash_castle_dice_tower_290gm": [img_47],
-  "stackable_hexagon_token_tray": [img_48, img_49],
-  "terraforming_mars_inserts": [img_50, img_51, img_52, img_53],
-  "terraforming_mars_overlay_mats": [img_54, img_55, img_56, img_57],
-  "universal_3_slot_card_and_resource_tray": [img_58, img_59],
-  "viticulture_insert_with_expension": [img_60, img_61],
-  "wingspan_food_tokens": [img_62, img_63],
-  "wingspan_inserts": [img_64, img_65, img_66, img_67, img_68]
+  "catan_cities_and_knights_player_token_holder_with_lid_75gm": [img_24],
+  "clank_caatacombs_token_holder": [img_25, img_26, img_27],
+  "codenames_travel_box": [img_28, img_29, img_30],
+  "decrypto_inserts": [img_31, img_32],
+  "double_slot_resource_tray": [img_33],
+  "draw_and_discard_78gm_tray": [img_34, img_35],
+  "funnel_tray": [img_36],
+  "hex_dice_tray_70gm": [img_37, img_38],
+  "lost_ruins_with_all_expensions": [img_39, img_40, img_41, img_42],
+  "meeple_shaped_stackable_board_game_resource_tray": [img_43, img_44],
+  "sky_team_inserts": [img_45, img_46, img_47],
+  "smash_castle_dice_tower_290gm": [img_48],
+  "stackable_hexagon_token_tray": [img_49, img_50],
+  "terraforming_mars_inserts": [img_51, img_52, img_53, img_54],
+  "terraforming_mars_overlay_mats": [img_55, img_56, img_57, img_58],
+  "universal_3_slot_card_and_resource_tray": [img_59, img_60],
+  "viticulture_insert_with_expension": [img_61, img_62],
+  "wingspan_food_tokens": [img_63, img_64],
+  "wingspan_inserts": [img_65, img_66, img_67, img_68, img_69]
 };
 
 export default productImages;
