@@ -477,6 +477,7 @@ export default function CheckoutPage() {
       setConfirmedOrderId(orderId);
       setOrderPlaced(true);
       clearCart();
+      window.scrollTo({ top: 0, behavior: "smooth" });
     } catch (err) {
       setError("Something went wrong. Please try again or contact us on WhatsApp.");
       setShowPaymentModal(false);
