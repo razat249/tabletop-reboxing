@@ -406,5 +406,20 @@
       "material": "High quality PLA",
       "weight": "~75g"
     }
+  },
+  {
+    "id": "3_row_playing_card_holder_95gm",
+    "name": "3-Row Playing Card Holder",
+    "category": "Other Accessories",
+    "price": 190,
+    "description": "A curved three-row card holder that fans your hand out neatly. Great for kids, accessibility, or anyone juggling a big hand of cards.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~95g"
+    }
   }
 ]
