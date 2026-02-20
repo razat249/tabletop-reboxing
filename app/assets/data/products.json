@@ -421,5 +421,22 @@
       "material": "High quality PLA",
       "weight": "~95g"
     }
+  },
+  {
+    "id": "lords_of_waterdeep_skulls_25_pack_140gm",
+    "name": "Lords of Waterdeep Skull Tokens (25 Pack)",
+    "category": "Board Game Upgrades",
+    "price": 280,
+    "description": "A set of 25 detailed 3D-printed skull tokens for the Scoundrels of Skullport expansion. Replaces the cardboard corruption tokens with satisfyingly tactile miniatures.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": false,
+    "specs": {
+      "compatibility": "Lords of Waterdeep: Scoundrels of Skullport",
+      "material": "High quality PLA",
+      "weight": "~140g",
+      "count": "25 skull tokens"
+    }
   }
 ]
