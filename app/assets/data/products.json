@@ -508,5 +508,22 @@
       "material": "High quality PLA",
       "weight": "~90g"
     }
+  },
+  {
+    "id": "cubitos_with_expensions_inserts_700gm",
+    "name": "Cubitos Inserts (with Expansions)",
+    "category": "Board Game Inserts",
+    "price": 1750,
+    "description": "Inserts for Cubitos designed to fit the Fowl Play expansion along with the GeekUp Storage Bin Set. If you don't have the GeekUp bins, a custom-designed display bin is included. Lids are only needed for the 2 bins with their tops exposed. Supports sleeved cards.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Cubitos + Fowl Play expansion + GeekUp Box Set",
+      "material": "High quality PLA",
+      "weight": "~700g",
+      "sleeves": "Sleeved card compatible"
+    }
   }
 ]
