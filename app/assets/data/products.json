@@ -141,7 +141,7 @@
       "material": "High quality PLA",
       "count": "75 tokens (5 types x 15 each)"
     },
-    "showColorOption": true
+    "showColorOption": false
   },
   {
     "id": "7_wonders_duel_travel_box",
@@ -448,11 +448,29 @@
     "featured": true,
     "hidden": false,
     "outOfStock": false,
-    "showColorOption": true,
+    "showColorOption": false,
     "specs": {
       "compatibility": "Twilight Imperium 4th Edition - base game",
       "material": "High quality PLA",
       "weight": "~2100g"
+    }
+  },
+  {
+    "id": "old_kings_crown_insert_1200gm",
+    "name": "Old King's Crown Inserts (All Expansions)",
+    "category": "Board Game Inserts",
+    "price": 2970,
+    "description": "Variable inserts for Old King's Crown — fits all core and expansion components into a single box with minimal lift, or splits neatly between the core and expansion boxes with no lift at all. Supports premium sleeves and vertical storage.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Old King's Crown - core + all expansions",
+      "material": "High quality PLA",
+      "weight": "~1200g",
+      "sleeves": "Premium sleeve compatible",
+      "storage": "Vertical storage supported"
     }
   }
 ]

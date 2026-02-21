@@ -50,35 +50,40 @@ import img_45 from "./lost_ruins_with_all_expensions_3.jpg";
 import img_46 from "./lost_ruins_with_all_expensions_4.jpg";
 import img_47 from "./meeple_shaped_stackable_board_game_resource_tray_1.jpg";
 import img_48 from "./meeple_shaped_stackable_board_game_resource_tray_2.jpg";
-import img_49 from "./sky_team_inserts_1.jpg";
-import img_50 from "./sky_team_inserts_2.jpg";
-import img_51 from "./sky_team_inserts_3.jpg";
-import img_52 from "./smash_castle_dice_tower_290gm_1.webp";
-import img_53 from "./stackable_hexagon_token_tray_1.jpg";
-import img_54 from "./stackable_hexagon_token_tray_2.jpg";
-import img_55 from "./terraforming_mars_inserts_1.jpg";
-import img_56 from "./terraforming_mars_inserts_2.jpg";
-import img_57 from "./terraforming_mars_inserts_3.jpg";
-import img_58 from "./terraforming_mars_inserts_4.jpg";
-import img_59 from "./terraforming_mars_overlay_mats_1.jpg";
-import img_60 from "./terraforming_mars_overlay_mats_2.webp";
-import img_61 from "./terraforming_mars_overlay_mats_3.jpg";
-import img_62 from "./terraforming_mars_overlay_mats_4.jpg";
-import img_63 from "./twilight_imperium_base_game_700gm_inserts_1.jpg";
-import img_64 from "./twilight_imperium_base_game_700gm_inserts_2.jpg";
-import img_65 from "./twilight_imperium_base_game_700gm_inserts_3.jpg";
-import img_66 from "./twilight_imperium_base_game_700gm_inserts_4.jpg";
-import img_67 from "./universal_3_slot_card_and_resource_tray_1.jpg";
-import img_68 from "./universal_3_slot_card_and_resource_tray_2.jpg";
-import img_69 from "./viticulture_insert_with_expension_1.jpg";
-import img_70 from "./viticulture_insert_with_expension_2.jpg";
-import img_71 from "./wingspan_food_tokens_1.png";
-import img_72 from "./wingspan_food_tokens_2.jpg";
-import img_73 from "./wingspan_inserts_1.jpeg";
-import img_74 from "./wingspan_inserts_2.jpeg";
-import img_75 from "./wingspan_inserts_3.jpeg";
-import img_76 from "./wingspan_inserts_4.jpeg";
-import img_77 from "./wingspan_inserts_5.jpeg";
+import img_49 from "./old_kings_crown_insert_1200gm_1.jpg";
+import img_50 from "./old_kings_crown_insert_1200gm_2.jpg";
+import img_51 from "./old_kings_crown_insert_1200gm_3.jpg";
+import img_52 from "./old_kings_crown_insert_1200gm_4.jpg";
+import img_53 from "./old_kings_crown_insert_1200gm_5.jpg";
+import img_54 from "./sky_team_inserts_1.jpg";
+import img_55 from "./sky_team_inserts_2.jpg";
+import img_56 from "./sky_team_inserts_3.jpg";
+import img_57 from "./smash_castle_dice_tower_290gm_1.webp";
+import img_58 from "./stackable_hexagon_token_tray_1.jpg";
+import img_59 from "./stackable_hexagon_token_tray_2.jpg";
+import img_60 from "./terraforming_mars_inserts_1.jpg";
+import img_61 from "./terraforming_mars_inserts_2.jpg";
+import img_62 from "./terraforming_mars_inserts_3.jpg";
+import img_63 from "./terraforming_mars_inserts_4.jpg";
+import img_64 from "./terraforming_mars_overlay_mats_1.jpg";
+import img_65 from "./terraforming_mars_overlay_mats_2.webp";
+import img_66 from "./terraforming_mars_overlay_mats_3.jpg";
+import img_67 from "./terraforming_mars_overlay_mats_4.jpg";
+import img_68 from "./twilight_imperium_base_game_700gm_inserts_1.jpg";
+import img_69 from "./twilight_imperium_base_game_700gm_inserts_2.jpg";
+import img_70 from "./twilight_imperium_base_game_700gm_inserts_3.jpg";
+import img_71 from "./twilight_imperium_base_game_700gm_inserts_4.jpg";
+import img_72 from "./universal_3_slot_card_and_resource_tray_1.jpg";
+import img_73 from "./universal_3_slot_card_and_resource_tray_2.jpg";
+import img_74 from "./viticulture_insert_with_expension_1.jpg";
+import img_75 from "./viticulture_insert_with_expension_2.jpg";
+import img_76 from "./wingspan_food_tokens_1.png";
+import img_77 from "./wingspan_food_tokens_2.jpg";
+import img_78 from "./wingspan_inserts_1.jpeg";
+import img_79 from "./wingspan_inserts_2.jpeg";
+import img_80 from "./wingspan_inserts_3.jpeg";
+import img_81 from "./wingspan_inserts_4.jpeg";
+import img_82 from "./wingspan_inserts_5.jpeg";
 
 type ImageImport = { src: string; width: number; height: number };
 
@@ -102,16 +107,17 @@ const productImages: Record<string, ImageImport[]> = {
   "lords_of_waterdeep_skulls_25_pack_140gm": [img_42],
   "lost_ruins_with_all_expensions": [img_43, img_44, img_45, img_46],
   "meeple_shaped_stackable_board_game_resource_tray": [img_47, img_48],
-  "sky_team_inserts": [img_49, img_50, img_51],
-  "smash_castle_dice_tower_290gm": [img_52],
-  "stackable_hexagon_token_tray": [img_53, img_54],
-  "terraforming_mars_inserts": [img_55, img_56, img_57, img_58],
-  "terraforming_mars_overlay_mats": [img_59, img_60, img_61, img_62],
-  "twilight_imperium_base_game_700gm_inserts": [img_63, img_64, img_65, img_66],
-  "universal_3_slot_card_and_resource_tray": [img_67, img_68],
-  "viticulture_insert_with_expension": [img_69, img_70],
-  "wingspan_food_tokens": [img_71, img_72],
-  "wingspan_inserts": [img_73, img_74, img_75, img_76, img_77]
+  "old_kings_crown_insert_1200gm": [img_49, img_50, img_51, img_52, img_53],
+  "sky_team_inserts": [img_54, img_55, img_56],
+  "smash_castle_dice_tower_290gm": [img_57],
+  "stackable_hexagon_token_tray": [img_58, img_59],
+  "terraforming_mars_inserts": [img_60, img_61, img_62, img_63],
+  "terraforming_mars_overlay_mats": [img_64, img_65, img_66, img_67],
+  "twilight_imperium_base_game_700gm_inserts": [img_68, img_69, img_70, img_71],
+  "universal_3_slot_card_and_resource_tray": [img_72, img_73],
+  "viticulture_insert_with_expension": [img_74, img_75],
+  "wingspan_food_tokens": [img_76, img_77],
+  "wingspan_inserts": [img_78, img_79, img_80, img_81, img_82]
 };
 
 export default productImages;
