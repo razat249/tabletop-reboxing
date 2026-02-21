@@ -18,5 +18,15 @@
     "id": "red",
     "name": "Red",
     "hex": "#ff0000"
+  },
+  {
+    "id": "blue",
+    "name": "Blue",
+    "hex": "#0000ff"
+  },
+  {
+    "id": "dark_green",
+    "name": "Dark Green",
+    "hex": "#008000"
   }
 ]

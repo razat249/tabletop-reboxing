@@ -472,5 +472,37 @@
       "sleeves": "Premium sleeve compatible",
       "storage": "Vertical storage supported"
     }
+  },
+  {
+    "id": "bomb_busters_inserts_740gm",
+    "name": "Bomb Busters Inserts",
+    "category": "Board Game Inserts",
+    "price": 1980,
+    "description": "Custom inserts for Bomb Busters with dedicated slots for every card, tile, and token. Quick setup, clean teardown — everything stays organized between games.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Bomb Busters - base game",
+      "material": "High quality PLA",
+      "weight": "~740g"
+    }
+  },
+  {
+    "id": "bomb_busters_tile_holder_70gm",
+    "name": "Bomb Busters Tile Holder",
+    "category": "Other Accessories",
+    "price": 146,
+    "description": "A purpose-built tile holder for Bomb Busters. Keeps tiles upright and easy to browse during gameplay — no more fumbling through face-down stacks.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Bomb Busters",
+      "material": "High quality PLA",
+      "weight": "~90g"
+    }
   }
 ]
