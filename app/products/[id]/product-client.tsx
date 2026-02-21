@@ -335,9 +335,11 @@ export default function ProductClient({ params }: ProductClientProps) {
                 ₹{product.price.toLocaleString("en-IN")}
               </p>
 
-              <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
-                {product.description}
-              </p>
+              <div className="text-sm text-muted-foreground mb-6 leading-relaxed space-y-2">
+                {product.description.split("\n").filter(Boolean).map((para, i) => (
+                  <p key={i}>{para}</p>
+                ))}
+              </div>
 
               {/* Color Selector */}
               {product.showColorOption && (
