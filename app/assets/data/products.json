@@ -234,7 +234,8 @@
     "outOfStock": false,
     "specs": {
       "material": "High quality PLA",
-      "weight": "~17g"
+      "weight": "~17g",
+      "size": "9.5cm x 9.5cm x 2cm"
     },
     "showColorOption": true
   },
@@ -264,7 +265,8 @@
     "outOfStock": false,
     "specs": {
       "material": "High quality PLA",
-      "weight": "~60g"
+      "weight": "~60g",
+      "size": "20cm x 9cm x 2cm"
     },
     "showColorOption": true
   },
@@ -279,7 +281,8 @@
     "outOfStock": false,
     "specs": {
       "material": "High quality PLA",
-      "weight": "~18g"
+      "weight": "~18g",
+      "size": "7cm x 6cm x 2cm (hexagonal, stackable)"
     },
     "showColorOption": true
   },
@@ -357,7 +360,8 @@
     "outOfStock": false,
     "specs": {
       "material": "High quality PLA",
-      "weight": "~78g"
+      "weight": "~78g",
+      "size": "15cm x 12cm x 4cm"
     },
     "showColorOption": true
   },
