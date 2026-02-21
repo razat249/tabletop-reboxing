@@ -525,5 +525,21 @@
       "weight": "~700g",
       "sleeves": "Sleeved card compatible"
     }
+  },
+  {
+    "id": "deep_sea_adventure_insert_60gm",
+    "name": "Deep Sea Adventure Inserts",
+    "category": "Board Game Inserts",
+    "price": 120,
+    "description": "Compact inserts for Deep Sea Adventure. Keeps all the treasure tokens, dice, and diver pieces snug in the tiny box — perfect for this pocket-sized push-your-luck classic.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Deep Sea Adventure - base game",
+      "material": "High quality PLA",
+      "weight": "~60g"
+    }
   }
 ]
