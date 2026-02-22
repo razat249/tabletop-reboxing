@@ -68,40 +68,41 @@ import img_63 from "./lost_ruins_with_all_expensions_3.jpg";
 import img_64 from "./lost_ruins_with_all_expensions_4.jpg";
 import img_65 from "./meeple_shaped_stackable_board_game_resource_tray_1.jpg";
 import img_66 from "./meeple_shaped_stackable_board_game_resource_tray_2.jpg";
-import img_67 from "./old_kings_crown_insert_1200gm_1.jpg";
-import img_68 from "./old_kings_crown_insert_1200gm_2.jpg";
-import img_69 from "./old_kings_crown_insert_1200gm_3.jpg";
-import img_70 from "./old_kings_crown_insert_1200gm_4.jpg";
-import img_71 from "./old_kings_crown_insert_1200gm_5.jpg";
-import img_72 from "./sky_team_inserts_1.jpg";
-import img_73 from "./sky_team_inserts_2.jpg";
-import img_74 from "./sky_team_inserts_3.jpg";
-import img_75 from "./smash_castle_dice_tower_290gm_1.webp";
-import img_76 from "./stackable_hexagon_token_tray_1.jpg";
-import img_77 from "./stackable_hexagon_token_tray_2.jpg";
-import img_78 from "./terraforming_mars_inserts_1.jpg";
-import img_79 from "./terraforming_mars_inserts_2.jpg";
-import img_80 from "./terraforming_mars_inserts_3.jpg";
-import img_81 from "./terraforming_mars_inserts_4.jpg";
-import img_82 from "./terraforming_mars_overlay_mats_1.jpg";
-import img_83 from "./terraforming_mars_overlay_mats_2.webp";
-import img_84 from "./terraforming_mars_overlay_mats_3.jpg";
-import img_85 from "./terraforming_mars_overlay_mats_4.jpg";
-import img_86 from "./twilight_imperium_base_game_700gm_inserts_1.jpg";
-import img_87 from "./twilight_imperium_base_game_700gm_inserts_2.jpg";
-import img_88 from "./twilight_imperium_base_game_700gm_inserts_3.jpg";
-import img_89 from "./twilight_imperium_base_game_700gm_inserts_4.jpg";
-import img_90 from "./universal_3_slot_card_and_resource_tray_1.jpg";
-import img_91 from "./universal_3_slot_card_and_resource_tray_2.jpg";
-import img_92 from "./viticulture_insert_with_expension_1.jpg";
-import img_93 from "./viticulture_insert_with_expension_2.jpg";
-import img_94 from "./wingspan_food_tokens_1.png";
-import img_95 from "./wingspan_food_tokens_2.jpg";
-import img_96 from "./wingspan_inserts_1.jpeg";
-import img_97 from "./wingspan_inserts_2.jpeg";
-import img_98 from "./wingspan_inserts_3.jpeg";
-import img_99 from "./wingspan_inserts_4.jpeg";
-import img_100 from "./wingspan_inserts_5.jpeg";
+import img_67 from "./mountain_goats_145gm_1.jpg";
+import img_68 from "./old_kings_crown_insert_1200gm_1.jpg";
+import img_69 from "./old_kings_crown_insert_1200gm_2.jpg";
+import img_70 from "./old_kings_crown_insert_1200gm_3.jpg";
+import img_71 from "./old_kings_crown_insert_1200gm_4.jpg";
+import img_72 from "./old_kings_crown_insert_1200gm_5.jpg";
+import img_73 from "./sky_team_inserts_1.jpg";
+import img_74 from "./sky_team_inserts_2.jpg";
+import img_75 from "./sky_team_inserts_3.jpg";
+import img_76 from "./smash_castle_dice_tower_290gm_1.webp";
+import img_77 from "./stackable_hexagon_token_tray_1.jpg";
+import img_78 from "./stackable_hexagon_token_tray_2.jpg";
+import img_79 from "./terraforming_mars_inserts_1.jpg";
+import img_80 from "./terraforming_mars_inserts_2.jpg";
+import img_81 from "./terraforming_mars_inserts_3.jpg";
+import img_82 from "./terraforming_mars_inserts_4.jpg";
+import img_83 from "./terraforming_mars_overlay_mats_1.jpg";
+import img_84 from "./terraforming_mars_overlay_mats_2.webp";
+import img_85 from "./terraforming_mars_overlay_mats_3.jpg";
+import img_86 from "./terraforming_mars_overlay_mats_4.jpg";
+import img_87 from "./twilight_imperium_base_game_700gm_inserts_1.jpg";
+import img_88 from "./twilight_imperium_base_game_700gm_inserts_2.jpg";
+import img_89 from "./twilight_imperium_base_game_700gm_inserts_3.jpg";
+import img_90 from "./twilight_imperium_base_game_700gm_inserts_4.jpg";
+import img_91 from "./universal_3_slot_card_and_resource_tray_1.jpg";
+import img_92 from "./universal_3_slot_card_and_resource_tray_2.jpg";
+import img_93 from "./viticulture_insert_with_expension_1.jpg";
+import img_94 from "./viticulture_insert_with_expension_2.jpg";
+import img_95 from "./wingspan_food_tokens_1.png";
+import img_96 from "./wingspan_food_tokens_2.jpg";
+import img_97 from "./wingspan_inserts_1.jpeg";
+import img_98 from "./wingspan_inserts_2.jpeg";
+import img_99 from "./wingspan_inserts_3.jpeg";
+import img_100 from "./wingspan_inserts_4.jpeg";
+import img_101 from "./wingspan_inserts_5.jpeg";
 
 type ImageImport = { src: string; width: number; height: number };
 
@@ -130,17 +131,18 @@ const productImages: Record<string, ImageImport[]> = {
   "lords_of_waterdeep_skulls_25_pack_140gm": [img_60],
   "lost_ruins_with_all_expensions": [img_61, img_62, img_63, img_64],
   "meeple_shaped_stackable_board_game_resource_tray": [img_65, img_66],
-  "old_kings_crown_insert_1200gm": [img_67, img_68, img_69, img_70, img_71],
-  "sky_team_inserts": [img_72, img_73, img_74],
-  "smash_castle_dice_tower_290gm": [img_75],
-  "stackable_hexagon_token_tray": [img_76, img_77],
-  "terraforming_mars_inserts": [img_78, img_79, img_80, img_81],
-  "terraforming_mars_overlay_mats": [img_82, img_83, img_84, img_85],
-  "twilight_imperium_base_game_700gm_inserts": [img_86, img_87, img_88, img_89],
-  "universal_3_slot_card_and_resource_tray": [img_90, img_91],
-  "viticulture_insert_with_expension": [img_92, img_93],
-  "wingspan_food_tokens": [img_94, img_95],
-  "wingspan_inserts": [img_96, img_97, img_98, img_99, img_100]
+  "mountain_goats_145gm": [img_67],
+  "old_kings_crown_insert_1200gm": [img_68, img_69, img_70, img_71, img_72],
+  "sky_team_inserts": [img_73, img_74, img_75],
+  "smash_castle_dice_tower_290gm": [img_76],
+  "stackable_hexagon_token_tray": [img_77, img_78],
+  "terraforming_mars_inserts": [img_79, img_80, img_81, img_82],
+  "terraforming_mars_overlay_mats": [img_83, img_84, img_85, img_86],
+  "twilight_imperium_base_game_700gm_inserts": [img_87, img_88, img_89, img_90],
+  "universal_3_slot_card_and_resource_tray": [img_91, img_92],
+  "viticulture_insert_with_expension": [img_93, img_94],
+  "wingspan_food_tokens": [img_95, img_96],
+  "wingspan_inserts": [img_97, img_98, img_99, img_100, img_101]
 };
 
 export default productImages;

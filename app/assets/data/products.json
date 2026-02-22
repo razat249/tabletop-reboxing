@@ -557,5 +557,21 @@
       "material": "High quality PLA",
       "weight": "~130g"
     }
+  },
+  {
+    "id": "mountain_goats_145gm",
+    "name": "Mountain Goats Inserts",
+    "category": "Board Game Inserts",
+    "price": 290,
+    "description": "Custom inserts for Mountain Goats with individual trays for each player's goat pieces, dice holders, and card slots. Keeps all the colorful components sorted and ready to play.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Mountain Goats - base game",
+      "material": "High quality PLA",
+      "weight": "~145g"
+    }
   }
 ]
