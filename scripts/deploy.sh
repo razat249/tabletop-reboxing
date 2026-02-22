@@ -31,6 +31,7 @@ if [ -n "$REPO_NAME" ] && [ "$IS_USER_SITE" = false ]; then
 else
   export NEXT_PUBLIC_BASE_PATH=""
 fi
+export STATIC_EXPORT=1
 
 # Temporarily move API routes (not supported in static export)
 API_DIR="app/api"

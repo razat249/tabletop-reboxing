@@ -36,6 +36,7 @@ jobs:
         run: pnpm next build
         env:
           NEXT_PUBLIC_BASE_PATH: ""
+          STATIC_EXPORT: "1"
 
       - name: Add .nojekyll
         run: touch out/.nojekyll
