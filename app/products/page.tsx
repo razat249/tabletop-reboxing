@@ -1,5 +1,19 @@
+import type { Metadata } from "next";
 import { Suspense } from "react";
 import ProductsClient from "./products-client";
+
+export const metadata: Metadata = {
+  title: "All Products",
+  description:
+    "Browse our full catalog of custom 3D-printed board game inserts, upgrades, dice towers, token trays, and more.",
+  openGraph: {
+    type: "website",
+    title: "All Products",
+    description:
+      "Browse our full catalog of custom 3D-printed board game inserts, upgrades, dice towers, token trays, and more.",
+    url: "https://tabletopreboxing.shop/products",
+  },
+};
 
 export default function ProductsPage() {
   return (

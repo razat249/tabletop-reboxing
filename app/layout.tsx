@@ -15,15 +15,33 @@ const playfair = Playfair_Display({
   display: "swap",
 });
 
+const SITE_NAME = "Tabletop Re-Boxing";
+const SITE_DESCRIPTION =
+  "Premium board game inserts, board game upgrades, and accessories. Re-box your games with custom-fit accessories.";
+
 export const metadata: Metadata = {
-  title: "Tabletop Re-Boxing - Custom Board Game Inserts & Accessories",
-  description:
-    "Premium board game inserts, board game upgrades, and accessories. Re-box your games with custom-fit accessories.",
+  metadataBase: new URL("https://tabletopreboxing.shop"),
+  title: {
+    default: `${SITE_NAME} - Custom Board Game Inserts & Accessories`,
+    template: `%s | ${SITE_NAME}`,
+  },
+  description: SITE_DESCRIPTION,
   icons: {
-    icon: [
-      { url: "/icon.svg", type: "image/svg+xml" },
-    ],
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
     apple: "/icon.svg",
+  },
+  openGraph: {
+    type: "website",
+    siteName: SITE_NAME,
+    title: `${SITE_NAME} - Custom Board Game Inserts & Accessories`,
+    description: SITE_DESCRIPTION,
+    url: "https://tabletopreboxing.shop",
+    images: [{ url: "/icon.svg", width: 40, height: 40, alt: SITE_NAME }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${SITE_NAME} - Custom Board Game Inserts & Accessories`,
+    description: SITE_DESCRIPTION,
   },
 };
 
