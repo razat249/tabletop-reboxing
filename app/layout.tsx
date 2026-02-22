@@ -36,12 +36,13 @@ export const metadata: Metadata = {
     title: `${SITE_NAME} - Custom Board Game Inserts & Accessories`,
     description: SITE_DESCRIPTION,
     url: "https://tabletopreboxing.shop",
-    images: [{ url: "/icon.svg", width: 40, height: 40, alt: SITE_NAME }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: SITE_NAME }],
   },
   twitter: {
     card: "summary_large_image",
     title: `${SITE_NAME} - Custom Board Game Inserts & Accessories`,
     description: SITE_DESCRIPTION,
+    images: ["/og-image.png"],
   },
 };
 
