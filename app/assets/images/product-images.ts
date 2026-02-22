@@ -80,29 +80,30 @@ import img_75 from "./sky_team_inserts_3.jpg";
 import img_76 from "./smash_castle_dice_tower_290gm_1.webp";
 import img_77 from "./stackable_hexagon_token_tray_1.jpg";
 import img_78 from "./stackable_hexagon_token_tray_2.jpg";
-import img_79 from "./terraforming_mars_inserts_1.jpg";
-import img_80 from "./terraforming_mars_inserts_2.jpg";
-import img_81 from "./terraforming_mars_inserts_3.jpg";
-import img_82 from "./terraforming_mars_inserts_4.jpg";
-import img_83 from "./terraforming_mars_overlay_mats_1.jpg";
-import img_84 from "./terraforming_mars_overlay_mats_2.webp";
-import img_85 from "./terraforming_mars_overlay_mats_3.jpg";
-import img_86 from "./terraforming_mars_overlay_mats_4.jpg";
-import img_87 from "./twilight_imperium_base_game_700gm_inserts_1.jpg";
-import img_88 from "./twilight_imperium_base_game_700gm_inserts_2.jpg";
-import img_89 from "./twilight_imperium_base_game_700gm_inserts_3.jpg";
-import img_90 from "./twilight_imperium_base_game_700gm_inserts_4.jpg";
-import img_91 from "./universal_3_slot_card_and_resource_tray_1.jpg";
-import img_92 from "./universal_3_slot_card_and_resource_tray_2.jpg";
-import img_93 from "./viticulture_insert_with_expension_1.jpg";
-import img_94 from "./viticulture_insert_with_expension_2.jpg";
-import img_95 from "./wingspan_food_tokens_1.png";
-import img_96 from "./wingspan_food_tokens_2.jpg";
-import img_97 from "./wingspan_inserts_1.jpeg";
-import img_98 from "./wingspan_inserts_2.jpeg";
-import img_99 from "./wingspan_inserts_3.jpeg";
-import img_100 from "./wingspan_inserts_4.jpeg";
-import img_101 from "./wingspan_inserts_5.jpeg";
+import img_79 from "./straight_2_cards_slot_holder_40gm_1.jpg";
+import img_80 from "./terraforming_mars_inserts_1.jpg";
+import img_81 from "./terraforming_mars_inserts_2.jpg";
+import img_82 from "./terraforming_mars_inserts_3.jpg";
+import img_83 from "./terraforming_mars_inserts_4.jpg";
+import img_84 from "./terraforming_mars_overlay_mats_1.jpg";
+import img_85 from "./terraforming_mars_overlay_mats_2.webp";
+import img_86 from "./terraforming_mars_overlay_mats_3.jpg";
+import img_87 from "./terraforming_mars_overlay_mats_4.jpg";
+import img_88 from "./twilight_imperium_base_game_700gm_inserts_1.jpg";
+import img_89 from "./twilight_imperium_base_game_700gm_inserts_2.jpg";
+import img_90 from "./twilight_imperium_base_game_700gm_inserts_3.jpg";
+import img_91 from "./twilight_imperium_base_game_700gm_inserts_4.jpg";
+import img_92 from "./universal_3_slot_card_and_resource_tray_1.jpg";
+import img_93 from "./universal_3_slot_card_and_resource_tray_2.jpg";
+import img_94 from "./viticulture_insert_with_expension_1.jpg";
+import img_95 from "./viticulture_insert_with_expension_2.jpg";
+import img_96 from "./wingspan_food_tokens_1.png";
+import img_97 from "./wingspan_food_tokens_2.jpg";
+import img_98 from "./wingspan_inserts_1.jpeg";
+import img_99 from "./wingspan_inserts_2.jpeg";
+import img_100 from "./wingspan_inserts_3.jpeg";
+import img_101 from "./wingspan_inserts_4.jpeg";
+import img_102 from "./wingspan_inserts_5.jpeg";
 
 type ImageImport = { src: string; width: number; height: number };
 
@@ -136,13 +137,14 @@ const productImages: Record<string, ImageImport[]> = {
   "sky_team_inserts": [img_73, img_74, img_75],
   "smash_castle_dice_tower_290gm": [img_76],
   "stackable_hexagon_token_tray": [img_77, img_78],
-  "terraforming_mars_inserts": [img_79, img_80, img_81, img_82],
-  "terraforming_mars_overlay_mats": [img_83, img_84, img_85, img_86],
-  "twilight_imperium_base_game_700gm_inserts": [img_87, img_88, img_89, img_90],
-  "universal_3_slot_card_and_resource_tray": [img_91, img_92],
-  "viticulture_insert_with_expension": [img_93, img_94],
-  "wingspan_food_tokens": [img_95, img_96],
-  "wingspan_inserts": [img_97, img_98, img_99, img_100, img_101]
+  "straight_2_cards_slot_holder_40gm": [img_79],
+  "terraforming_mars_inserts": [img_80, img_81, img_82, img_83],
+  "terraforming_mars_overlay_mats": [img_84, img_85, img_86, img_87],
+  "twilight_imperium_base_game_700gm_inserts": [img_88, img_89, img_90, img_91],
+  "universal_3_slot_card_and_resource_tray": [img_92, img_93],
+  "viticulture_insert_with_expension": [img_94, img_95],
+  "wingspan_food_tokens": [img_96, img_97],
+  "wingspan_inserts": [img_98, img_99, img_100, img_101, img_102]
 };
 
 export default productImages;
