@@ -640,7 +640,7 @@
   },
   {
     "id": "ticket_to_ride_train_tray_19gm",
-    "name": "Ticket to Ride Train Tray",
+    "name": "Ticket to Ride Trains Tray",
     "category": "Other Accessories",
     "price": 38,
     "description": "Order saperatly for different colors. A slim tray to hold your train cars during a game of Ticket to Ride. Keeps your pieces organized and easy to grab when claiming routes.",
@@ -665,7 +665,7 @@
     "outOfStock": false,
     "showColorOption": true,
     "specs": {
-      "compatibility": "Ticket to Ride",
+      "compatibility": "Ticket to Ride - Europe",
       "material": "High quality PLA",
       "weight": "~70g"
     }
@@ -681,7 +681,7 @@
     "outOfStock": false,
     "showColorOption": true,
     "specs": {
-      "compatibility": "Ticket to Ride",
+      "compatibility": "Ticket to Ride - Europe",
       "material": "High quality PLA",
       "weight": "~65g"
     }
