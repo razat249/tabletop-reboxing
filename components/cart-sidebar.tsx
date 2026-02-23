@@ -77,6 +77,11 @@ export default function CartSidebar({ isOpen, onClose }: CartSidebarProps) {
                   <h4 className="text-sm font-medium text-foreground line-clamp-1">
                     {item.name}
                   </h4>
+                  {item.customization && (
+                    <p className="text-[11px] text-muted-foreground mt-0.5 line-clamp-2 italic">
+                      Note: {item.customization}
+                    </p>
+                  )}
                   <p className="text-sm font-semibold text-foreground mt-0.5">
                     ₹{item.price.toLocaleString("en-IN")}
                   </p>

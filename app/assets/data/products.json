@@ -358,6 +358,7 @@
     "featured": false,
     "hidden": false,
     "outOfStock": false,
+    "customizable": "Enter card dimensions (e.g., 63mm x 89mm)",
     "specs": {
       "material": "High quality PLA",
       "weight": "~78g",
@@ -584,6 +585,7 @@
     "hidden": false,
     "outOfStock": false,
     "showColorOption": true,
+    "customizable": "Enter length (e.g. 15cm, 20cm, 25cm, etc.) or original length is 20cm.",
     "specs": {
       "material": "High quality PLA",
       "weight": "~40g",

@@ -161,6 +161,7 @@ export default function ProductClient({ params }: ProductClientProps) {
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [failedImages, setFailedImages] = useState<Set<string>>(new Set());
+  const [customization, setCustomization] = useState("");
 
   useEffect(() => {
     params.then((resolvedParams) => setId(resolvedParams.id));
@@ -177,12 +178,17 @@ export default function ProductClient({ params }: ProductClientProps) {
     const colorName = product.showColorOption
       ? colors.find((c) => c.id === selectedColor)?.name || ""
       : "";
+    let cartId = product.showColorOption ? `${product.id}__${selectedColor}` : product.id;
+    if (customization.trim()) {
+      cartId += `__custom_${customization.trim()}`;
+    }
     for (let i = 0; i < quantity; i++) {
       addToCart({
-        id: product.showColorOption ? `${product.id}__${selectedColor}` : product.id,
+        id: cartId,
         name: colorName ? `${product.name} (${colorName})` : product.name,
         price: product.price,
         image: product.image,
+        ...(customization.trim() && { customization: customization.trim() }),
       });
     }
     setIsAdded(true);
@@ -404,6 +410,26 @@ export default function ProductClient({ params }: ProductClientProps) {
                   ))}
                 </div>
               </div>
+
+              {/* Customization Input */}
+              {product.customizable && (
+                <div className="mb-6">
+                  <label
+                    htmlFor="customization"
+                    className="block text-xs font-semibold text-foreground uppercase tracking-wider mb-2 font-sans"
+                  >
+                    Customization
+                  </label>
+                  <textarea
+                    id="customization"
+                    value={customization}
+                    onChange={(e) => setCustomization(e.target.value)}
+                    placeholder={product.customizable}
+                    rows={3}
+                    className="w-full rounded-lg border border-border bg-background px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary/50 smooth-transition resize-none"
+                  />
+                </div>
+              )}
 
               {/* Add to Cart */}
               {product.outOfStock ? (

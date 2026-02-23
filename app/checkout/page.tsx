@@ -413,7 +413,9 @@ export default function CheckoutPage() {
           (item) =>
             `${item.name} x${item.quantity} — ${formatINR(
               item.price
-            )} each = ${formatINR(item.price * item.quantity)}`
+            )} each = ${formatINR(item.price * item.quantity)}${
+              item.customization ? `\n  → Note: ${item.customization}` : ""
+            }`
         )
         .join("\n");
 
@@ -423,6 +425,10 @@ export default function CheckoutPage() {
           <tr>
             <td style="padding:10px 14px;border-bottom:1px solid #e5e7eb;font-size:14px;color:#1f2937;">${
               item.name
+            }${
+              item.customization
+                ? `<br/><span style="font-size:12px;color:#6b7280;font-style:italic;">Note: ${item.customization}</span>`
+                : ""
             }</td>
             <td style="padding:10px 14px;border-bottom:1px solid #e5e7eb;text-align:center;font-size:14px;color:#6b7280;">${
               item.quantity
@@ -726,6 +732,11 @@ export default function CheckoutPage() {
                         <p className="text-sm font-medium text-foreground line-clamp-1">
                           {item.name}
                         </p>
+                        {item.customization && (
+                          <p className="text-[11px] text-muted-foreground italic line-clamp-2">
+                            Note: {item.customization}
+                          </p>
+                        )}
                         <p className="text-xs text-muted-foreground">
                           Qty: {item.quantity}
                         </p>
