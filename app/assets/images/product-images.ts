@@ -99,21 +99,31 @@ import img_94 from "./terraforming_mars_overlay_mats_1.jpg";
 import img_95 from "./terraforming_mars_overlay_mats_2.webp";
 import img_96 from "./terraforming_mars_overlay_mats_3.jpg";
 import img_97 from "./terraforming_mars_overlay_mats_4.jpg";
-import img_98 from "./twilight_imperium_base_game_700gm_inserts_1.jpg";
-import img_99 from "./twilight_imperium_base_game_700gm_inserts_2.jpg";
-import img_100 from "./twilight_imperium_base_game_700gm_inserts_3.jpg";
-import img_101 from "./twilight_imperium_base_game_700gm_inserts_4.jpg";
-import img_102 from "./universal_3_slot_card_and_resource_tray_1.jpg";
-import img_103 from "./universal_3_slot_card_and_resource_tray_2.jpg";
-import img_104 from "./viticulture_insert_with_expension_1.jpg";
-import img_105 from "./viticulture_insert_with_expension_2.jpg";
-import img_106 from "./wingspan_food_tokens_1.png";
-import img_107 from "./wingspan_food_tokens_2.jpg";
-import img_108 from "./wingspan_inserts_1.jpeg";
-import img_109 from "./wingspan_inserts_2.jpeg";
-import img_110 from "./wingspan_inserts_3.jpeg";
-import img_111 from "./wingspan_inserts_4.jpeg";
-import img_112 from "./wingspan_inserts_5.jpeg";
+import img_98 from "./ticket_to_ride_train_tray_19gm_1.webp";
+import img_99 from "./ticket_to_ride_train_tray_19gm_2.webp";
+import img_100 from "./ticket_to_ride_trains_and_station_organizer_70gm_1.webp";
+import img_101 from "./ticket_to_ride_trains_and_station_organizer_70gm_2.webp";
+import img_102 from "./ticket_to_ride_trains_and_station_organizer_70gm_3.webp";
+import img_103 from "./ticket_to_ride_trains_and_station_organizer_70gm_4.jpeg";
+import img_104 from "./ticket_to_ride_trains_storage_65gm_1.webp";
+import img_105 from "./ticket_to_ride_trains_storage_65gm_2.webp";
+import img_106 from "./ticket_to_ride_trains_storage_65gm_3.webp";
+import img_107 from "./ticket_to_ride_trains_storage_65gm_4.jpeg";
+import img_108 from "./twilight_imperium_base_game_700gm_inserts_1.jpg";
+import img_109 from "./twilight_imperium_base_game_700gm_inserts_2.jpg";
+import img_110 from "./twilight_imperium_base_game_700gm_inserts_3.jpg";
+import img_111 from "./twilight_imperium_base_game_700gm_inserts_4.jpg";
+import img_112 from "./universal_3_slot_card_and_resource_tray_1.jpg";
+import img_113 from "./universal_3_slot_card_and_resource_tray_2.jpg";
+import img_114 from "./viticulture_insert_with_expension_1.jpg";
+import img_115 from "./viticulture_insert_with_expension_2.jpg";
+import img_116 from "./wingspan_food_tokens_1.png";
+import img_117 from "./wingspan_food_tokens_2.jpg";
+import img_118 from "./wingspan_inserts_1.jpeg";
+import img_119 from "./wingspan_inserts_2.jpeg";
+import img_120 from "./wingspan_inserts_3.jpeg";
+import img_121 from "./wingspan_inserts_4.jpeg";
+import img_122 from "./wingspan_inserts_5.jpeg";
 
 type ImageImport = { src: string; width: number; height: number };
 
@@ -153,11 +163,14 @@ const productImages: Record<string, ImageImport[]> = {
   "straight_2_cards_slot_holder_40gm": [img_88, img_89],
   "terraforming_mars_inserts": [img_90, img_91, img_92, img_93],
   "terraforming_mars_overlay_mats": [img_94, img_95, img_96, img_97],
-  "twilight_imperium_base_game_700gm_inserts": [img_98, img_99, img_100, img_101],
-  "universal_3_slot_card_and_resource_tray": [img_102, img_103],
-  "viticulture_insert_with_expension": [img_104, img_105],
-  "wingspan_food_tokens": [img_106, img_107],
-  "wingspan_inserts": [img_108, img_109, img_110, img_111, img_112]
+  "ticket_to_ride_train_tray_19gm": [img_98, img_99],
+  "ticket_to_ride_trains_and_station_organizer_70gm": [img_100, img_101, img_102, img_103],
+  "ticket_to_ride_trains_storage_65gm": [img_104, img_105, img_106, img_107],
+  "twilight_imperium_base_game_700gm_inserts": [img_108, img_109, img_110, img_111],
+  "universal_3_slot_card_and_resource_tray": [img_112, img_113],
+  "viticulture_insert_with_expension": [img_114, img_115],
+  "wingspan_food_tokens": [img_116, img_117],
+  "wingspan_inserts": [img_118, img_119, img_120, img_121, img_122]
 };
 
 export default productImages;
