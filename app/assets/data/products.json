@@ -615,11 +615,27 @@
     "featured": false,
     "hidden": false,
     "outOfStock": false,
-    "showColorOption": false,
+    "showColorOption": true,
     "specs": {
       "compatibility": "Splendor - base game",
       "material": "High quality PLA",
       "weight": "~210g"
+    }
+  },
+  {
+    "id": "mountain_goat_meeple",
+    "name": "Mountain Goat Meeple",
+    "category": "Board Game Upgrades",
+    "price": 7,
+    "description": "A chunky 3D-printed goat meeple to upgrade or replace the original Mountain Goats pieces. Cute, tactile, and fun to place on the mountain peaks.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Mountain Goats - base game",
+      "material": "High quality PLA",
+      "weight": "~3g"
     }
   }
 ]
