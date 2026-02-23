@@ -43,11 +43,11 @@ import img_38 from "./clank_caatacombs_token_holder_3.jpg";
 import img_39 from "./codenames_travel_box_1.png";
 import img_40 from "./codenames_travel_box_2.png";
 import img_41 from "./codenames_travel_box_3.png";
-import img_42 from "./Cosmic_Encounter_with_Dominion_&_Incursion_Expansions_Board_Game_Box_Insert_1.webp";
-import img_43 from "./Cosmic_Encounter_with_Dominion_&_Incursion_Expansions_Board_Game_Box_Insert_2.png";
-import img_44 from "./Cosmic_Encounter_with_Dominion_&_Incursion_Expansions_Board_Game_Box_Insert_3.png";
-import img_45 from "./Cosmic_Encounter_with_Dominion_&_Incursion_Expansions_Board_Game_Box_Insert_4.png";
-import img_46 from "./Cosmic_Encounter_with_Dominion_&_Incursion_Expansions_Board_Game_Box_Insert_5.webp";
+import img_42 from "./cosmic_encounter_dominion_incursion_inserts_700gm_1.webp";
+import img_43 from "./cosmic_encounter_dominion_incursion_inserts_700gm_2.png";
+import img_44 from "./cosmic_encounter_dominion_incursion_inserts_700gm_3.png";
+import img_45 from "./cosmic_encounter_dominion_incursion_inserts_700gm_4.png";
+import img_46 from "./cosmic_encounter_dominion_incursion_inserts_700gm_5.webp";
 import img_47 from "./cubitos_with_expensions_inserts_700gm_1.jpg";
 import img_48 from "./cubitos_with_expensions_inserts_700gm_2.jpg";
 import img_49 from "./cubitos_with_expensions_inserts_700gm_3.jpg";
@@ -147,7 +147,7 @@ const productImages: Record<string, ImageImport[]> = {
   "catan_cities_and_knights_player_token_holder_with_lid_75gm": [img_35],
   "clank_caatacombs_token_holder": [img_36, img_37, img_38],
   "codenames_travel_box": [img_39, img_40, img_41],
-  "Cosmic_Encounter_with_Dominion_&_Incursion_Expansions_Board_Game_Box_Insert": [img_42, img_43, img_44, img_45, img_46],
+  "cosmic_encounter_dominion_incursion_inserts_700gm": [img_42, img_43, img_44, img_45, img_46],
   "cubitos_with_expensions_inserts_700gm": [img_47, img_48, img_49, img_50, img_51, img_52],
   "decrypto_inserts": [img_53, img_54],
   "deep_sea_adventure_insert_60gm": [img_55, img_56, img_57, img_58],
