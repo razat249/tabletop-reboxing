@@ -685,5 +685,20 @@
       "material": "High quality PLA",
       "weight": "~65g"
     }
+  },
+  {
+    "id": "Cosmic_Encounter_with_Dominion_&_Incursion_Expansions_Board_Game_Box_Insert",
+    "name": "Cosmic Encounter Inserts (Dominion & Incursion)",
+    "category": "Board Game Inserts",
+    "price": 1500,
+    "description": "Full inserts for Cosmic Encounter with Dominion and Incursion expansions. Organizes all alien sheets, cards, ships, and tokens with dedicated compartments — fits everything back in the original box.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Cosmic Encounter with Dominion & Incursion expansions",
+      "material": "High quality PLA"
+    }
   }
 ]
