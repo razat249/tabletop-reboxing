@@ -589,5 +589,37 @@
       "weight": "~40g",
       "size": "~20cm long"
     }
+  },
+  {
+    "id": "splendor_base_game_insert_440gm",
+    "name": "Splendor Inserts",
+    "category": "Board Game Inserts",
+    "price": 880,
+    "description": "Full inserts for Splendor with dedicated slots for all gem token stacks, card tiers, and noble tiles. Everything fits snugly in the original box — open and play in seconds.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Splendor - base game",
+      "material": "High quality PLA",
+      "weight": "~440g"
+    }
+  },
+  {
+    "id": "splendor_travel_case-210gm",
+    "name": "Splendor Travel Case",
+    "category": "Board Game Inserts",
+    "price": 420,
+    "description": "A compact branded travel case for Splendor that holds all cards and gem tokens in a portable package. Take your favorite engine-builder anywhere.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": false,
+    "specs": {
+      "compatibility": "Splendor - base game",
+      "material": "High quality PLA",
+      "weight": "~210g"
+    }
   }
 ]
