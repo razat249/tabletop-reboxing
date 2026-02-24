@@ -704,5 +704,22 @@
       "weight": "~700g",
       "color": "Single color"
     }
+  },
+  {
+    "id": "arcs_inserts_with_leaders_and_lore_expension_940gms_multicolor",
+    "name": "Arcs Inserts with Leaders & Lore Expansion",
+    "category": "Board Game Inserts",
+    "price": 1760,
+    "description": "It will be multicolor insert. Organizer for Arcs: Conflict & Collapse in the Reach by Leder Games, including space for cards from Leaders & Lore expansion.\n\nEverything in the base game still fits in the box, and there is an additional open cube in the Dice tray for any extras.\n\nTray 3 (Dice & Tokens) can either stack above or below the Token 1 & 2 trays.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": false,
+    "specs": {
+      "compatibility": "Arcs with Leaders & Lore expansion",
+      "material": "High quality PLA",
+      "weight": "~940g",
+      "color": "Multicolor - player trays"
+    }
   }
 ]
