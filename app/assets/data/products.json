@@ -721,5 +721,22 @@
       "weight": "~940g",
       "color": "Multicolor - Player trays"
     }
+  },
+  {
+    "id": "d6_dice_4gm_10mm_to_20mm_size",
+    "name": "D6 Dice",
+    "category": "Other Accessories",
+    "price": 8,
+    "description": "A 3D-printed D6 die available in multiple sizes — from compact 10mm to chunky 20mm. Lightweight, rolls well, and comes in your choice of color.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "customizable": "Enter preferred size (e.g., 10mm, 12mm, 15mm, 16mm, 20mm)",
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~4g",
+      "size": "10mm to 20mm"
+    }
   }
 ]
