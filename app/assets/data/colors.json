@@ -28,5 +28,10 @@
     "id": "dark_green",
     "name": "Dark Green",
     "hex": "#008000"
+  },
+  {
+    "id": "bahama_yellow",
+    "name": "Yellow",
+    "hex": "#f5c713"
   }
 ]
