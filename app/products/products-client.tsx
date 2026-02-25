@@ -6,7 +6,7 @@ import SearchBox from "@/components/search-box";
 import ProductCard from "@/components/product-card";
 import Link from "next/link";
 import { ChevronRight, ArrowUpDown, Check, LayoutGrid, List } from "lucide-react";
-import { products as allProducts, config } from "@/app/assets/data";
+import { products as allProducts, categories, config } from "@/app/assets/data";
 
 export default function ProductsClient() {
   const searchParams = useSearchParams();
@@ -89,11 +89,6 @@ export default function ProductsClient() {
     window.history.replaceState(null, "", `/products?${params.toString()}`);
   };
 
-  const categories = [
-    { id: "board-game-inserts", name: "Board Game Inserts" },
-    { id: "board-game-upgrades", name: "Board Game Upgrades" },
-    { id: "other-accessories", name: "Other Accessories" },
-  ];
 
   return (
     <div>

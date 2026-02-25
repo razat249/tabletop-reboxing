@@ -21,6 +21,7 @@ import wingspanEggs from "./wingspan-eggs.svg";
 import categoryInsertsPng from "./category-inserts.png";
 import categoryTokensPng from "./category-tokens.png";
 import categoryPiecesPng from "./category-pieces.png";
+import carcassonneTravelBox from "./carcassonne_travel_box_220gm_1.webp";
 import phonepeQr from "./phonepe_qr.jpg";
 
 type ImageImport = {
@@ -53,6 +54,7 @@ const imageMap: Record<string, ImageImport> = {
   "/images/category-inserts.png": categoryInsertsPng,
   "/images/category-tokens.png": categoryTokensPng,
   "/images/category-pieces.png": categoryPiecesPng,
+  "/images/carcassonne_travel_box_220gm_1.webp": carcassonneTravelBox,
 };
 
 /** Resolve an image path to the bundled asset src. Falls back to the original path. */
