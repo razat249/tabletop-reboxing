@@ -18,6 +18,7 @@ export default function ProductsClient() {
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
 
   const sortOptions = [
+    { id: "newest", label: "Newest", shortLabel: "Newest" },
     { id: "featured", label: "Featured First", shortLabel: "Featured" },
     { id: "price-asc", label: "Price: Low to High", shortLabel: "Price ↑" },
     { id: "price-desc", label: "Price: High to Low", shortLabel: "Price ↓" },
@@ -51,6 +52,8 @@ export default function ProductsClient() {
 
     const sorted = [...filtered].sort((a, b) => {
       switch (sortBy) {
+        case "newest":
+          return allProducts.indexOf(b) - allProducts.indexOf(a);
         case "featured":
           if (a.featured === b.featured) return 0;
           return a.featured ? -1 : 1;

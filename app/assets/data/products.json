@@ -50,7 +50,7 @@
   {
     "id": "codenames_travel_box",
     "name": "Codenames Travel Box",
-    "category": "Board Game Inserts",
+    "category": "Travel Boxes",
     "price": 250,
     "description": "A slim travel box for Codenames — fits all cards and tiles in a pocket-friendly package. Perfect for game nights away from home.",
     "featured": false,
@@ -146,7 +146,7 @@
   {
     "id": "7_wonders_duel_travel_box",
     "name": "7 Wonders Duel Travel Box",
-    "category": "Board Game Inserts",
+    "category": "Travel Boxes",
     "price": 290,
     "description": "A pocket-sized travel box for 7 Wonders Duel. Holds all components securely so you can take your favorite two-player game anywhere.",
     "featured": false,
@@ -595,7 +595,7 @@
   {
     "id": "splendor_travel_case-210gm",
     "name": "Splendor Travel Case",
-    "category": "Board Game Inserts",
+    "category": "Travel Boxes",
     "price": 420,
     "description": "A compact branded travel case for Splendor that holds all cards and gem tokens in a portable package. Take your favorite engine-builder anywhere.",
     "featured": false,
@@ -841,6 +841,56 @@
       "material": "High quality PLA",
       "weight": "~45g",
       "size": "63mm x 89mm to 76mm x 102mm"
+    }
+  },
+  {
+    "id": "card_organizer_cum_draw_tray_62gm",
+    "name": "Card Storage & Draw Tray (Customizable)",
+    "category": "Other Accessories",
+    "price": 124,
+    "description": "A dual-purpose tray that organizes cards and doubles as a draw tray. Keeps your deck tidy and gives you a dedicated spot to draw from during play.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "customizable": "supports cards are 63mm x 89mm. Enter preferred card size (e.g. 65mm x 89mm, 76mm x 102mm, etc.) if needed.",
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~62g",
+      "size": "63mm x 89mm to 76mm x 102mm"
+    }
+  },
+  {
+    "id": "carcassonne_travel_box_220gm",
+    "name": "Carcassonne Travel Box",
+    "category": "Travel Boxes",
+    "price": 440,
+    "description": "A compact travel box for Carcassonne. Holds all tiles and meeples in a portable case so you can take this classic tile-laying game anywhere.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Carcassonne - base game",
+      "material": "High quality PLA",
+      "weight": "~220g"
+    }
+  },
+  {
+    "id": "cards_storage_customizable_boxes_52gm",
+    "name": "Card Storage Boxes (Customizable)",
+    "category": "Other Accessories",
+    "price": 94,
+    "description": "Customizable card storage boxes. Specify your desired size and we'll tailor them to fit your deck. Great for organizing game cards or keeping decks protected.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "customizable": "Default card size is 63mm x 89mm. Enter preferred card size (e.g. 63mm x 89mm, 76mm x 102mm, etc.) if needed.",
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~47g",
+      "customizable": "Specify dimensions"
     }
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "defaultSort": "price-asc",
+  "defaultSort": "newest",
   "freeShippingThreshold": 1000,
   "shippingCharge": 120,
   "currency": "INR",
