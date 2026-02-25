@@ -738,5 +738,118 @@
       "weight": "~4g",
       "size": "10mm to 20mm"
     }
+  },
+  {
+    "id": "catan_board_organizer_210gm",
+    "name": "Catan Board Organizer",
+    "category": "Board Game Upgrades",
+    "price": 420,
+    "description": "Keeps your Catan board tiles organized and easy to set up. Holds the hex tiles neatly so you can build the island faster and pack away without a scramble.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Catan - base game",
+      "material": "High quality PLA",
+      "weight": "~210g"
+    }
+  },
+  {
+    "id": "catan_cities_and_knights_cards_set_of_2_trays_with_lid_220gm",
+    "name": "Catan Cities & Knights Card Trays (Set of 2)",
+    "category": "Other Accessories",
+    "price": 440,
+    "description": "A set of two lidded card trays for Catan Cities & Knights. Each tray holds a deck with the lid keeping cards secure when not in play.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Catan Cities & Knights",
+      "material": "High quality PLA",
+      "weight": "~220g",
+      "count": "Set of 2 trays with lids"
+    }
+  },
+  {
+    "id": "catan_cities_and_knights_player_meeple_organizer_115gm",
+    "name": "Catan Cities & Knights Player Meeple Organizer",
+    "category": "Other Accessories",
+    "price": 230,
+    "description": "A dedicated organizer for Catan Cities & Knights player meeples. Keeps each player's pieces sorted and ready — no more fishing through a shared pile.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Catan Cities & Knights",
+      "material": "High quality PLA",
+      "weight": "~115g"
+    }
+  },
+  {
+    "id": "catan_cities_and_knights_token_holder_with_lid_195gm",
+    "name": "Catan Cities & Knights Token Holder with Lid",
+    "category": "Other Accessories",
+    "price": 390,
+    "description": "A lidded token holder for Catan Cities & Knights. Keeps all progress tokens, city tokens, and other bits organized and protected between sessions.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Catan Cities & Knights",
+      "material": "High quality PLA",
+      "weight": "~195g"
+    }
+  },
+  {
+    "id": "mountain_tile_2_to_5_cms_7gm",
+    "name": "Mountain Tile Holder (2–5cm)",
+    "category": "Other Accessories",
+    "price": 14,
+    "description": "A compact mountain-tile holder for Catan or similar games. Fits tiles from 2cm to 5cm. Keeps tiles upright for easy viewing and grabbing.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~7g",
+      "size": "Fits 2cm to 5cm tiles"
+    }
+  },
+  {
+    "id": "scrable_tile_holder_10cm_to_16cm_20gm",
+    "name": "Scrabble Tile Holder (10–16cm)",
+    "category": "Other Accessories",
+    "price": 40,
+    "description": "A Scrabble-style tile holder with adjustable length. Fits boards from 10cm to 16cm wide. Keeps your letters organized and visible during word-building.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~20g",
+      "size": "10cm to 16cm (adjustable)"
+    }
+  },
+  {
+    "id": "single_card_tray_customizable_45gm",
+    "name": "Single Card Tray (Customizable)",
+    "category": "Other Accessories",
+    "price": 90,
+    "description": "A single-slot card tray you can customize. Specify your preferred size and we'll tailor it to fit your game. Great for draw piles, discard piles, or reference cards.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~45g",
+      "customizable": "Specify desired dimensions"
+    }
   }
 ]
