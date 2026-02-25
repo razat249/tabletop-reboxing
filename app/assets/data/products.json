@@ -733,6 +733,7 @@
     "hidden": false,
     "outOfStock": false,
     "showColorOption": true,
+    "customizable": "Enter customization if needed.",
     "specs": {
       "compatibility": "Catan - base game",
       "material": "High quality PLA",
@@ -741,7 +742,7 @@
   },
   {
     "id": "catan_cities_and_knights_cards_set_of_2_trays_with_lid_220gm",
-    "name": "Catan Cities & Knights Card Trays (Set of 2)",
+    "name": "Catan Cities & Knights Magnetic Card Trays (Set of 2 trays with 1 lid)",
     "category": "Other Accessories",
     "price": 440,
     "description": "A set of two lidded card trays for Catan Cities & Knights. Each tray holds a deck with the lid keeping cards secure when not in play.",
@@ -749,11 +750,12 @@
     "hidden": false,
     "outOfStock": false,
     "showColorOption": true,
+    "customizable": "Enter customization if needed.",
     "specs": {
       "compatibility": "Catan Cities & Knights",
       "material": "High quality PLA",
       "weight": "~220g",
-      "count": "Set of 2 trays with lids"
+      "count": "Set of 2 trays with 1 lid"
     }
   },
   {
@@ -766,6 +768,7 @@
     "hidden": false,
     "outOfStock": false,
     "showColorOption": true,
+    "customizable": "Enter customization if needed.",
     "specs": {
       "compatibility": "Catan Cities & Knights",
       "material": "High quality PLA",
@@ -782,6 +785,7 @@
     "hidden": false,
     "outOfStock": false,
     "showColorOption": true,
+    "customizable": "Enter customization if needed.",
     "specs": {
       "compatibility": "Catan Cities & Knights",
       "material": "High quality PLA",
@@ -798,6 +802,7 @@
     "hidden": false,
     "outOfStock": false,
     "showColorOption": true,
+    "customizable": "Enter preferred size (e.g. 2cm, 3cm, 4cm, 5cm, etc.)",
     "specs": {
       "material": "High quality PLA",
       "weight": "~7g",
@@ -814,6 +819,7 @@
     "hidden": false,
     "outOfStock": false,
     "showColorOption": true,
+    "customizable": "Enter preferred length (e.g. 10cm, 12cm, 14cm, 16cm, etc.)",
     "specs": {
       "material": "High quality PLA",
       "weight": "~20g",
@@ -830,10 +836,11 @@
     "hidden": false,
     "outOfStock": false,
     "showColorOption": true,
+    "customizable": "Holds 63mm x 89mm cards. Enter preferred card size (e.g. 63mm x 89mm, 76mm x 102mm, etc.)",
     "specs": {
       "material": "High quality PLA",
       "weight": "~45g",
-      "customizable": "Specify desired dimensions"
+      "size": "63mm x 89mm to 76mm x 102mm"
     }
   }
 ]
