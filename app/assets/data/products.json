@@ -892,5 +892,21 @@
       "weight": "~47g",
       "customizable": "Specify dimensions"
     }
+  },
+  {
+    "id": "dune_war_for_arrakis_insert_with_both_exp_1230g",
+    "name": "Dune: War for Arrakis Insert with support for expansions (Smugglers & The Spacing Guild)",
+    "category": "Board Game Inserts",
+    "price": 2460,
+    "description": "Insert for Dune: War for Arrakis with both expansions (Smugglers and The Spacing Guild). Fits plastic tokens and sleeved cards. Keeps the base game and expansion components organized in one box.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Dune: War for Arrakis — base game + Smugglers & The Spacing Guild expansions",
+      "material": "High quality PLA",
+      "weight": "~1230g"
+    }
   }
 ]
