@@ -939,5 +939,36 @@
       "material": "High quality PLA",
       "weight": "~45g"
     }
+  },
+  {
+    "id": "catapult_dice_tower_385gm",
+    "name": "Catapult Dice Tower",
+    "category": "Dice tower and Trays",
+    "price": 770,
+    "description": "A 3D-printed dice tower with a catapult theme. Roll dice from the top and watch them tumble into the tray. Fun and functional for any board game.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~385g"
+    }
+  },
+  {
+    "id": "scout_game_inserts_43gm",
+    "name": "Scout Game Inserts",
+    "category": "Board Game Inserts",
+    "price": 86,
+    "description": "Compact inserts for Scout card game. Keeps cards organized and the box tidy.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Scout",
+      "material": "High quality PLA",
+      "weight": "~43g"
+    }
   }
 ]
