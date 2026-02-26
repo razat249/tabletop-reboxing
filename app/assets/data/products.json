@@ -412,20 +412,21 @@
     }
   },
   {
-    "id": "lords_of_waterdeep_skulls_25_pack_140gm",
-    "name": "Lords of Waterdeep Skull Tokens (25 Pack)",
+    "id": "lords_of_waterdeep_skulls_30_pack_140gm",
+    "name": "Lords of Waterdeep Skull Tokens (30 Pack)",
     "category": "Board Game Upgrades",
     "price": 280,
-    "description": "A set of 25 detailed 3D-printed skull tokens for the Scoundrels of Skullport expansion. Replaces the cardboard corruption tokens with satisfyingly tactile miniatures.",
+    "description": "A set of 30 detailed 3D-printed skull tokens for the Scoundrels of Skullport expansion. Replaces the cardboard corruption tokens with satisfyingly tactile miniatures.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
     "showColorOption": false,
+    "customizable": "Enter count and color of skulls and size of skulls 2cm to 3cm. 4cm is max.",
     "specs": {
       "compatibility": "Lords of Waterdeep: Scoundrels of Skullport",
       "material": "High quality PLA",
       "weight": "~140g",
-      "count": "25 skull tokens"
+      "count": "30 skull tokens"
     }
   },
   {
@@ -907,6 +908,21 @@
       "compatibility": "Dune: War for Arrakis — base game + Smugglers & The Spacing Guild expansions",
       "material": "High quality PLA",
       "weight": "~1230g"
+    }
+  },
+  {
+    "id": "modular_card_and_resource_tray_with_round_card_holder_225gm",
+    "name": "Modular Card & Resource Tray with Round Card Holder",
+    "category": "Other Accessories",
+    "price": 450,
+    "description": "Modular tray that combines card and resource storage with a round card holder. Keeps cards upright and resources organized at the table.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~225g"
     }
   }
 ]
