@@ -970,5 +970,20 @@
       "material": "High quality PLA",
       "weight": "~43g"
     }
+  },
+  {
+    "id": "interlocking_resource_trays_24gm",
+    "name": "Interlocking Resource Trays",
+    "category": "Card and Resource Trays",
+    "price": 48,
+    "description": "Lightweight interlocking trays for resources and tokens. Stack or connect them to organize your table. Great for any board game.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~24g"
+    }
   }
 ]
