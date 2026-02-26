@@ -82,7 +82,7 @@
   {
     "id": "card_and_resource_tray",
     "name": "Card & Resource Tray - 4 Small Slots",
-    "category": "Other Accessories",
+    "category": "Card and Resource Trays",
     "price": 80,
     "description": "A 4-slot tray that keeps cards and resources tidy at the table. Slim enough to pass around, sturdy enough for everyday use.",
     "featured": false,
@@ -98,7 +98,7 @@
   {
     "id": "meeple_shaped_stackable_board_game_resource_tray",
     "name": "Meeple Shaped Stackable Resource Tray",
-    "category": "Other Accessories",
+    "category": "Card and Resource Trays",
     "price": 60,
     "description": "A playful meeple-shaped tray that stacks neatly when not in use. Great for holding tokens, coins, or small resources during any game.",
     "featured": false,
@@ -114,7 +114,7 @@
   {
     "id": "stackable_hexagon_token_tray",
     "name": "Stackable Hexagon Token Tray",
-    "category": "Other Accessories",
+    "category": "Card and Resource Trays",
     "price": 50,
     "description": "Hexagonal trays that stack securely when not in use. Ideal for sorting tokens, dice, and small components across multiple games.",
     "featured": false,
@@ -226,7 +226,7 @@
   {
     "id": "funnel_tray",
     "name": "Stackable Funnel Tray",
-    "category": "Other Accessories",
+    "category": "Card and Resource Trays",
     "price": 37,
     "description": "A lightweight funnel tray for pouring tokens, cubes, and beads back into bags or containers. Stackable and surprisingly handy at the table.",
     "featured": false,
@@ -242,7 +242,7 @@
   {
     "id": "6_comartment_game_tray",
     "name": "Resource Tray - 6 Slots",
-    "category": "Other Accessories",
+    "category": "Card and Resource Trays",
     "price": 146,
     "description": "A roomy 6-slot tray for sorting resources, tokens, and bits during gameplay. Each section is sized to keep things separated and easy to grab.",
     "featured": false,
@@ -257,7 +257,7 @@
   {
     "id": "universal_3_slot_card_and_resource_tray",
     "name": "Card & Resource Tray - 3 Medium Slots",
-    "category": "Other Accessories",
+    "category": "Card and Resource Trays",
     "price": 118,
     "description": "A versatile 3-slot tray sized for cards and medium resources. Works with virtually any game that needs a bit of table organization.",
     "featured": false,
@@ -273,7 +273,7 @@
   {
     "id": "double_slot_resource_tray",
     "name": "Stackable Resource Tray - 2 Slots",
-    "category": "Other Accessories",
+    "category": "Card and Resource Trays",
     "price": 38,
     "description": "A simple two-slot tray for separating beads, tokens, or resources. Compact and useful — the kind of thing you end up wanting multiples of.",
     "featured": false,
@@ -337,7 +337,7 @@
   {
     "id": "castle_dice_150gm_tower",
     "name": "Castle Dice Tower",
-    "category": "Other Accessories",
+    "category": "Dice tower and Trays",
     "price": 300,
     "description": "A castle-themed dice tower that adds flair to every roll. Drop dice in the top, they tumble through internal baffles, and land fairly every time.",
     "featured": false,
@@ -352,7 +352,7 @@
   {
     "id": "draw_and_discard_78gm_tray",
     "name": "Draw & Discard Tray - 63mm x 89mm cards",
-    "category": "Other Accessories",
+    "category": "Card and Resource Trays",
     "price": 156,
     "description": "A clean two-section tray for draw and discard piles. Fits standard and sleeved cards — keeps your table neat during any card-heavy game.",
     "featured": false,
@@ -369,7 +369,7 @@
   {
     "id": "hex_dice_tray_70gm",
     "name": "Hexagonal Dice Tray",
-    "category": "Other Accessories",
+    "category": "Dice tower and Trays",
     "price": 140,
     "description": "A hexagonal dice tray with a geometric low-poly base. Keeps dice from flying off the table and looks great doing it.",
     "featured": false,
@@ -384,7 +384,7 @@
   {
     "id": "smash_castle_dice_tower_290gm",
     "name": "Smash Castle Dice Tower",
-    "category": "Other Accessories",
+    "category": "Dice tower and Trays",
     "price": 580,
     "description": "A bold, oversized castle dice tower that makes every roll feel dramatic. A real conversation starter on game night.",
     "featured": false,
@@ -399,7 +399,7 @@
   {
     "id": "3_row_playing_card_holder_95gm",
     "name": "3-Row Playing Card Holder",
-    "category": "Other Accessories",
+    "category": "Card and Resource Trays",
     "price": 190,
     "description": "A curved three-row card holder that fans your hand out neatly. Great for kids, accessibility, or anyone juggling a big hand of cards.",
     "featured": false,
@@ -563,7 +563,7 @@
   {
     "id": "straight_2_cards_slot_holder_40gm",
     "name": "2-Slot Card Stand - 20cm long",
-    "category": "Other Accessories",
+    "category": "Card and Resource Trays",
     "price": 85,
     "description": "A straight two-slot card stand that holds cards upright for easy viewing. Perfect for games with tableau or display cards — keeps them visible without taking up table space.",
     "featured": false,
@@ -795,10 +795,10 @@
   },
   {
     "id": "mountain_tile_2_to_5_cms_7gm",
-    "name": "Mountain Tile Holder (2–5cm)",
+    "name": "Mountain Tile (2–5cm)",
     "category": "Other Accessories",
     "price": 14,
-    "description": "A compact mountain-tile holder for Catan or similar games. Fits tiles from 2cm to 5cm. Keeps tiles upright for easy viewing and grabbing.",
+    "description": "A compact mountain-tile for Catan or similar games. Fits tiles from 2cm to 5cm.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
@@ -830,7 +830,7 @@
   {
     "id": "single_card_tray_customizable_45gm",
     "name": "Single Card Tray (Customizable)",
-    "category": "Other Accessories",
+    "category": "Card and Resource Trays",
     "price": 90,
     "description": "A single-slot card tray you can customize. Specify your preferred size and we'll tailor it to fit your game. Great for draw piles, discard piles, or reference cards.",
     "featured": false,
@@ -847,7 +847,7 @@
   {
     "id": "card_organizer_cum_draw_tray_62gm",
     "name": "Card Storage & Draw Tray (Customizable)",
-    "category": "Other Accessories",
+    "category": "Card and Resource Trays",
     "price": 124,
     "description": "A dual-purpose tray that organizes cards and doubles as a draw tray. Keeps your deck tidy and gives you a dedicated spot to draw from during play.",
     "featured": false,
@@ -880,7 +880,7 @@
   {
     "id": "cards_storage_customizable_boxes_52gm",
     "name": "Card Storage Boxes (Customizable)",
-    "category": "Other Accessories",
+    "category": "Card and Resource Trays",
     "price": 94,
     "description": "Customizable card storage boxes. Specify your desired size and we'll tailor them to fit your deck. Great for organizing game cards or keeping decks protected.",
     "featured": false,
@@ -913,7 +913,7 @@
   {
     "id": "modular_card_and_resource_tray_with_round_card_holder_225gm",
     "name": "Modular Card & Resource Tray with Round Card Holder",
-    "category": "Other Accessories",
+    "category": "Card and Resource Trays",
     "price": 450,
     "description": "Modular tray that combines card and resource storage with a round card holder. Keeps cards upright and resources organized at the table.",
     "featured": false,

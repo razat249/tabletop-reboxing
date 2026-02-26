@@ -119,7 +119,7 @@ export default function Home() {
               Browse our curated selection of 3D printed board game accessories.
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {categories.map((category) => (
               <CategoryCard
                 key={category.id}

@@ -24,6 +24,22 @@
     "icon": "🧳"
   },
   {
+    "id": "card-and-resource-trays",
+    "name": "Card and Resource Trays",
+    "description": "Trays and holders for cards, resources, and tokens at the table",
+    "image": "/images/modular_card_and_resource_tray_with_round_card_holder_225gm_1.webp",
+    "defaultImage": "/images/default-pieces.svg",
+    "icon": "🗃️"
+  },
+  {
+    "id": "dice-tower-and-trays",
+    "name": "Dice tower and Dice Trays",
+    "description": "Dice towers and trays for rolling and organizing dice",
+    "image": "/images/castle_dice_150gm_tower_1.jpg",
+    "defaultImage": "/images/default-pieces.svg",
+    "icon": "🎲"
+  },
+  {
     "id": "other-accessories",
     "name": "Other Accessories",
     "description": "Essential board game accessories to complete your collection",

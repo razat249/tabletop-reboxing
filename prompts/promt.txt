@@ -1,0 +1,1 @@
+Add products in products.json for new images and generate code.
