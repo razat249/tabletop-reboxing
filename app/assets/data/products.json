@@ -924,5 +924,20 @@
       "material": "High quality PLA",
       "weight": "~225g"
     }
+  },
+  {
+    "id": "player_score_tracker_45gm",
+    "name": "Player Score Tracker",
+    "category": "Other Accessories",
+    "price": 90,
+    "description": "A compact 3D-printed score tracker to keep track of player scores during board games. Sturdy and easy to read.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~45g"
+    }
   }
 ]
