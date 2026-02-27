@@ -3,6 +3,8 @@ import { products, categories } from "@/app/assets/data";
 
 const BASE_URL = "https://tabletopreboxing.shop";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const productEntries: MetadataRoute.Sitemap = products.map((p) => ({
     url: `${BASE_URL}/products/${p.id}`,
