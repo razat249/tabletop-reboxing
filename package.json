@@ -5,7 +5,7 @@
   "scripts": {
     "generate-images": "node scripts/generate-image-manifest.mjs",
     "predev": "node scripts/generate-image-manifest.mjs",
-    "prebuild": "node scripts/generate-image-manifest.mjs",
+    "prebuild": "node scripts/generate-image-manifest.mjs && node scripts/generate-static-seo.mjs",
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",

@@ -1,0 +1,6 @@
+# https://tabletopreboxing.shop
+User-agent: *
+Allow: /
+Disallow: /success
+
+Sitemap: https://tabletopreboxing.shop/sitemap.xml
