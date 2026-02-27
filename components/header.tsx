@@ -78,6 +78,12 @@ export default function Header({ onCartClick, onRequestClick }: HeaderProps) {
               >
                 Products
               </Link>
+              <Link
+                href="/about"
+                className="px-3.5 py-2 text-sm text-muted-foreground hover:text-foreground rounded-lg hover:bg-secondary smooth-transition font-medium"
+              >
+                About
+              </Link>
               <button
                 onClick={onRequestClick}
                 className="relative px-3.5 py-2 text-sm font-medium rounded-lg smooth-transition bg-primary/10 text-primary hover:bg-primary/15 group"
@@ -146,6 +152,13 @@ export default function Header({ onCartClick, onRequestClick }: HeaderProps) {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Products
+            </Link>
+            <Link
+              href="/about"
+              className="block px-3 py-2.5 text-sm text-muted-foreground hover:text-foreground hover:bg-secondary rounded-lg smooth-transition font-medium"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              About
             </Link>
             <button
               onClick={() => {

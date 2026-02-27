@@ -20,18 +20,27 @@ export async function generateMetadata({
     return { title: "Product Not Found" };
   }
 
-  const title = product.name;
-  const description = product.description;
+  const title = product.name.trim();
+  const descBase = product.description.trim();
+  const metaDescription = `${descBase} 3D printed in India.`.slice(0, 160);
   const url = `${BASE_URL}/products/${id}`;
+  const keywords = [
+    title,
+    product.category,
+    "3D printed board game",
+    "board game insert India",
+    "board game organizer",
+  ];
 
   return {
     title,
-    description: description.slice(0, 160),
+    description: metaDescription,
+    keywords: keywords,
     alternates: { canonical: url },
     openGraph: {
       type: "website",
       title,
-      description,
+      description: metaDescription,
       url,
       ...(product.image && {
         images: [{ url: product.image.startsWith("/") ? `${BASE_URL}${product.image}` : product.image, alt: product.name }],
@@ -40,7 +49,7 @@ export async function generateMetadata({
     twitter: {
       card: "summary_large_image",
       title,
-      description,
+      description: metaDescription,
       ...(product.image && { images: [product.image.startsWith("/") ? `${BASE_URL}${product.image}` : product.image] }),
     },
   };

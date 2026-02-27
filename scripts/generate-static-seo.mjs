@@ -53,6 +53,8 @@ const urlEntries = [
   urlNode(BASE_URL, now, "daily", 1),
   urlNode(`${BASE_URL}/products`, now, "daily", 0.9),
   urlNode(`${BASE_URL}/checkout`, now, "monthly", 0.3),
+  urlNode(`${BASE_URL}/about`, now, "monthly", 0.7),
+  urlNode(`${BASE_URL}/guide`, now, "monthly", 0.6),
   ...categoriesData.map((c) =>
     urlNode(`${BASE_URL}/category/${c.id}`, now, "weekly", 0.8)
   ),
