@@ -21,14 +21,21 @@ export async function generateMetadata({
   const title = category.name;
   const description = category.description;
 
+  const url = `https://tabletopreboxing.shop/category/${id}`;
   return {
     title,
     description,
+    alternates: { canonical: url },
     openGraph: {
       type: "website",
       title,
       description,
-      url: `https://tabletopreboxing.shop/category/${id}`,
+      url,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
     },
   };
 }
