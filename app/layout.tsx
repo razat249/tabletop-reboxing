@@ -38,7 +38,9 @@ export const metadata: Metadata = {
     description: SITE_DESCRIPTION,
     url: "https://tabletopreboxing.shop",
     locale: "en_IN",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: SITE_NAME }],
+    images: [
+      { url: "/og-image.png", width: 1200, height: 630, alt: SITE_NAME },
+    ],
   },
   twitter: {
     card: "summary_large_image",
@@ -49,7 +51,23 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://tabletopreboxing.shop",
   },
-  keywords: ["board game inserts", "3D printed board game", "board game organizers", "dice tower", "game storage", "tabletop accessories", "India"],
+  keywords: [
+    "board game inserts",
+    "3D printed board game",
+    "board game organizers",
+    "dice tower",
+    "game storage",
+    "tabletop accessories",
+    "India",
+    "board games india",
+    "board game india",
+    "shuffle with apporva",
+    "board game bazaar",
+    "ttox india",
+    "TTOX",
+    "ttox",
+    "board game company",
+  ],
   authors: [{ name: SITE_NAME, url: "https://tabletopreboxing.shop" }],
   creator: SITE_NAME,
 };
@@ -65,6 +83,13 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: SITE_NAME,
+  alternateName: [
+    "Shuffle with Apporva",
+    "Board Game Bazaar",
+    "TTOX",
+    "TTOX India",
+    "Board Game Company",
+  ],
   url: BASE_URL,
   email: config.contactEmail,
   description: SITE_DESCRIPTION,
@@ -74,12 +99,22 @@ const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: SITE_NAME,
+  alternateName: [
+    "Shuffle with Apporva",
+    "Board Game Bazaar",
+    "TTOX",
+    "TTOX India",
+    "Board Game Company",
+  ],
   url: BASE_URL,
   description: SITE_DESCRIPTION,
   publisher: { "@type": "Organization", name: SITE_NAME },
   potentialAction: {
     "@type": "SearchAction",
-    target: { "@type": "EntryPoint", url: `${BASE_URL}/products?search={search_term_string}` },
+    target: {
+      "@type": "EntryPoint",
+      url: `${BASE_URL}/products?search={search_term_string}`,
+    },
     "query-input": "required name=search_term_string",
   },
 };

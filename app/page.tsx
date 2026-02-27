@@ -41,8 +41,8 @@ export default function Home() {
               Collection
             </h1>
             <p className="text-lg text-muted-foreground mb-6 max-w-xl mx-auto text-balance leading-relaxed">
-              Custom inserts, board game upgrades, and accessories designed
-              and printed for modern board games.
+              Custom inserts, board game upgrades, and accessories designed and
+              printed for modern board games.
             </p>
             <div className="max-w-xl mx-auto">
               <SearchBox
@@ -57,7 +57,11 @@ export default function Home() {
                   className="inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:text-primary/80 smooth-transition group"
                 >
                   Browse all products
-                  <ArrowRight size={14} strokeWidth={2} className="group-hover:translate-x-0.5 smooth-transition" />
+                  <ArrowRight
+                    size={14}
+                    strokeWidth={2}
+                    className="group-hover:translate-x-0.5 smooth-transition"
+                  />
                 </Link>
               </div>
             </div>
@@ -71,24 +75,88 @@ export default function Home() {
           <div className="bg-card border border-border/60 rounded-xl shadow-card p-5 sm:p-6 flex flex-col sm:flex-row items-center gap-5 sm:gap-8">
             {/* SVG Illustration */}
             <div className="flex-shrink-0">
-              <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-primary">
-                <rect x="8" y="16" width="44" height="48" rx="4" stroke="currentColor" strokeWidth="2" opacity="0.3" />
-                <rect x="16" y="8" width="44" height="48" rx="4" stroke="currentColor" strokeWidth="2" opacity="0.5" />
-                <rect x="24" y="24" width="44" height="48" rx="4" fill="currentColor" opacity="0.08" stroke="currentColor" strokeWidth="2" />
-                <path d="M36 44L42 38L54 50" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" opacity="0.6" />
-                <circle cx="40" cy="36" r="3" stroke="currentColor" strokeWidth="2" opacity="0.6" />
-                <path d="M32 60H60" stroke="currentColor" strokeWidth="2" strokeLinecap="round" opacity="0.4" />
-                <path d="M32 56H52" stroke="currentColor" strokeWidth="2" strokeLinecap="round" opacity="0.25" />
+              <svg
+                width="80"
+                height="80"
+                viewBox="0 0 80 80"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="text-primary"
+              >
+                <rect
+                  x="8"
+                  y="16"
+                  width="44"
+                  height="48"
+                  rx="4"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  opacity="0.3"
+                />
+                <rect
+                  x="16"
+                  y="8"
+                  width="44"
+                  height="48"
+                  rx="4"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  opacity="0.5"
+                />
+                <rect
+                  x="24"
+                  y="24"
+                  width="44"
+                  height="48"
+                  rx="4"
+                  fill="currentColor"
+                  opacity="0.08"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                />
+                <path
+                  d="M36 44L42 38L54 50"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  opacity="0.6"
+                />
+                <circle
+                  cx="40"
+                  cy="36"
+                  r="3"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  opacity="0.6"
+                />
+                <path
+                  d="M32 60H60"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  opacity="0.4"
+                />
+                <path
+                  d="M32 56H52"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  opacity="0.25"
+                />
               </svg>
             </div>
 
             {/* Text */}
             <div className="text-center sm:text-left flex-1">
               <p className="text-sm text-foreground leading-relaxed mb-1">
-                Hi, I&apos;m <span className="font-semibold">Rajat</span> — I handcraft every insert and accessory with care, one piece at a time. If you don&apos;t see what you need, just ask.
+                Hi, I&apos;m <span className="font-semibold">Rajat</span> — I
+                handcraft every insert and accessory with care, one piece at a
+                time. If you don&apos;t see what you need, just ask.
               </p>
               <p className="text-xs text-muted-foreground leading-relaxed">
-                Custom orders, special colors, or a game not listed — I&apos;m happy to help.
+                Custom orders, special colors, or a game not listed — I&apos;m
+                happy to help.
               </p>
             </div>
 
@@ -100,7 +168,11 @@ export default function Home() {
               <span className="absolute inset-0 bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-500 opacity-90 group-hover:opacity-100 smooth-transition" />
               <span className="absolute inset-0 bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 opacity-0 group-hover:opacity-40 blur-md smooth-transition" />
               <span className="relative flex items-center gap-2 px-6 py-3 text-sm font-semibold text-white">
-                <MessageCircle size={16} strokeWidth={2} className="group-hover:rotate-12 smooth-transition" />
+                <MessageCircle
+                  size={16}
+                  strokeWidth={2}
+                  className="group-hover:rotate-12 smooth-transition"
+                />
                 Make a Request
               </span>
             </button>
@@ -189,7 +261,6 @@ export default function Home() {
           <NewsletterSignup />
         </div>
       </section>
-
     </div>
   );
 }
