@@ -45,12 +45,12 @@ export default function Home() {
         <div className="relative py-12 md:py-20 px-4 sm:px-6 lg:px-8">
           <div className="page-container max-w-3xl text-center">
             <span className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-2xs font-semibold uppercase tracking-widest border border-primary/20 mb-4">
-              Handcrafted with
+              Handcrafted with passion
             </span>
             <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-foreground mb-5 text-balance leading-tight">
-              Organize. Upgarde.{" "}
+              Organize. Upgrade.{" "}
               <span className="bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-500 bg-clip-text text-transparent">
-                Play More.
+                Game More.
               </span>
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-xl mx-auto text-balance leading-relaxed">
