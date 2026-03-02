@@ -1,1 +1,1 @@
-Add products in products.json for new images and generate code.
+Add products in products.json for new images and generate code. and update sitemap and seo related things if required.

@@ -985,5 +985,37 @@
       "material": "High quality PLA",
       "weight": "~24g"
     }
+  },
+  {
+    "id": "clank_catacombs_inserts_with_expansion_1450gm",
+    "name": "Clank! Catacombs Insert (with Expansions)",
+    "category": "Board Game Inserts",
+    "price": 2900,
+    "description": "Full insert for Clank! Catacombs designed to fit Lairs and Lost Chambers and Adventuring Party. All trays are removable. Includes market trays for displaying cards, a reserve tray with slide-out Goblin card holder, trays for every resource and token type, and individual player trays for cards, clank, meeples, and tokens. Also has Monkey Idol and market token display trays. Works without Adventuring Party or Lairs and Lost Chambers too — you’ll have extra space and only need to print four player trays. Tested with sleeved cards (68×93mm, e.g. Gamegenic and KMC Hypermat).",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Clank! Catacombs — base game; Adventuring Party, Lairs and Lost Chambers.",
+      "material": "High quality PLA",
+      "weight": "~1450g",
+      "sleevedCards": "68×93mm (Gamegenic, KMC Hypermat tested)"
+    }
+  },
+  {
+    "id": "portable_personal_dice_tray_fold_to_close_61gm",
+    "name": "Portable Personal Dice Tray (Fold to Close)",
+    "category": "Dice tower and Trays",
+    "price": 122,
+    "description": "A compact personal dice tray that folds shut for storage or travel. Roll dice in the tray during play, then fold it closed to keep everything tidy. Perfect for board game nights or on the go.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~61g"
+    }
   }
 ]
