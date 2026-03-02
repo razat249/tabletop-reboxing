@@ -1017,5 +1017,20 @@
       "material": "High quality PLA",
       "weight": "~61g"
     }
+  },
+  {
+    "id": "full_dice_set_kit_Card_DIY_18gm",
+    "name": "Full Dice Set Kit with Card (DIY)",
+    "category": "Other Accessories",
+    "price": 36,
+    "description": "A compact dice set kit with a card — ideal for DIY projects, board games, or as a small gift. Lightweight and easy to pack.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~18g"
+    }
   }
 ]
