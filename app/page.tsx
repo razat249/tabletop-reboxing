@@ -48,9 +48,9 @@ export default function Home() {
               Handcrafted with passion
             </span>
             <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-foreground mb-5 text-balance leading-tight">
-              Organize. Upgrade.{" "}
+              Organize. Protect.{" "}
               <span className="bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-500 bg-clip-text text-transparent">
-                Game More.
+                Play More.
               </span>
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-xl mx-auto text-balance leading-relaxed">

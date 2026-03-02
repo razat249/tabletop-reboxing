@@ -1,13 +1,13 @@
 [
   {
-    "id": "black",
-    "name": "Black",
-    "hex": "#1a1a1a"
-  },
-  {
     "id": "white",
     "name": "White",
     "hex": "#f5f5f0"
+  },
+  {
+    "id": "black",
+    "name": "Black",
+    "hex": "#1a1a1a"
   },
   {
     "id": "gray",
