@@ -8,6 +8,8 @@ export interface Product {
   id: string;
   name: string;
   category: string;
+  /** Primary board game this product is for; empty for generic accessories. */
+  game?: string;
   price: number;
   image: string;
   images: string[];

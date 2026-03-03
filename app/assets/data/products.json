@@ -13,7 +13,8 @@
       "compatibility": "Terraforming Mars - base game",
       "material": "High quality PLA",
       "weight": "~450g"
-    }
+    },
+    "game": "Terraforming Mars"
   },
   {
     "id": "wingspan_inserts",
@@ -29,7 +30,8 @@
       "material": "High quality PLA",
       "weight": "~500g"
     },
-    "showColorOption": true
+    "showColorOption": true,
+    "game": "Wingspan"
   },
   {
     "id": "sky_team_inserts",
@@ -45,7 +47,8 @@
       "material": "High quality PLA",
       "weight": "~200g"
     },
-    "showColorOption": true
+    "showColorOption": true,
+    "game": "Sky Team"
   },
   {
     "id": "codenames_travel_box",
@@ -61,7 +64,8 @@
       "material": "High quality PLA",
       "weight": "~150g"
     },
-    "showColorOption": true
+    "showColorOption": true,
+    "game": "Condenames"
   },
   {
     "id": "terraforming_mars_overlay_mats",
@@ -77,7 +81,8 @@
       "weight": "~40g",
       "compatibility": "Terraforming Mars - base game"
     },
-    "showColorOption": true
+    "showColorOption": true,
+    "game": "Terraforming Mars"
   },
   {
     "id": "card_and_resource_tray",
@@ -93,7 +98,8 @@
       "weight": "~40g",
       "size": "20cm x 6cm"
     },
-    "showColorOption": true
+    "showColorOption": true,
+    "game": ""
   },
   {
     "id": "meeple_shaped_stackable_board_game_resource_tray",
@@ -109,7 +115,8 @@
       "weight": "~25g",
       "size": "Meeple shaped (~10cm tall)"
     },
-    "showColorOption": true
+    "showColorOption": true,
+    "game": ""
   },
   {
     "id": "stackable_hexagon_token_tray",
@@ -125,7 +132,8 @@
       "weight": "~25g",
       "size": "Hexagonal (~10cm wide)"
     },
-    "showColorOption": true
+    "showColorOption": true,
+    "game": ""
   },
   {
     "id": "wingspan_food_tokens",
@@ -141,7 +149,8 @@
       "material": "High quality PLA",
       "count": "75 tokens (5 types x 15 each)"
     },
-    "showColorOption": false
+    "showColorOption": false,
+    "game": "Wingspan"
   },
   {
     "id": "7_wonders_duel_travel_box",
@@ -157,7 +166,8 @@
       "material": "High quality PLA",
       "weight": "~200g"
     },
-    "showColorOption": true
+    "showColorOption": true,
+    "game": "7 Wonders Duel"
   },
   {
     "id": "7_wonders_duel_with_all_expansions_inserts",
@@ -173,7 +183,8 @@
       "material": "High quality PLA",
       "weight": "~400g"
     },
-    "showColorOption": true
+    "showColorOption": true,
+    "game": "7 Wonders Duel"
   },
   {
     "id": "cascadia_board_game_Insert",
@@ -189,7 +200,8 @@
       "material": "High quality PLA",
       "weight": "~300g"
     },
-    "showColorOption": true
+    "showColorOption": true,
+    "game": "Cascadia"
   },
   {
     "id": "clank_caatacombs_token_holder",
@@ -205,7 +217,8 @@
       "material": "High quality PLA",
       "weight": "~100g"
     },
-    "showColorOption": true
+    "showColorOption": true,
+    "game": "Clank! Catacombs"
   },
   {
     "id": "decrypto_inserts",
@@ -221,7 +234,8 @@
       "material": "High quality PLA",
       "weight": "~200g"
     },
-    "showColorOption": true
+    "showColorOption": true,
+    "game": "Decrypto"
   },
   {
     "id": "funnel_tray",
@@ -237,7 +251,8 @@
       "weight": "~17g",
       "size": "9.5cm x 9.5cm x 2cm"
     },
-    "showColorOption": true
+    "showColorOption": true,
+    "game": ""
   },
   {
     "id": "6_comartment_game_tray",
@@ -252,7 +267,8 @@
       "material": "High quality PLA",
       "weight": "~80g"
     },
-    "showColorOption": true
+    "showColorOption": true,
+    "game": ""
   },
   {
     "id": "universal_3_slot_card_and_resource_tray",
@@ -268,7 +284,8 @@
       "weight": "~60g",
       "size": "20cm x 9cm x 2cm"
     },
-    "showColorOption": true
+    "showColorOption": true,
+    "game": ""
   },
   {
     "id": "double_slot_resource_tray",
@@ -284,7 +301,8 @@
       "weight": "~18g",
       "size": "7cm x 6cm x 2cm (hexagonal, stackable)"
     },
-    "showColorOption": true
+    "showColorOption": true,
+    "game": ""
   },
   {
     "id": "brass_birmingham_inserts",
@@ -300,7 +318,8 @@
       "material": "High quality PLA",
       "weight": "~350g"
     },
-    "showColorOption": true
+    "showColorOption": true,
+    "game": "Brass Birmingham"
   },
   {
     "id": "lost_ruins_with_all_expensions",
@@ -316,7 +335,8 @@
       "material": "High quality PLA",
       "weight": "~400g"
     },
-    "showColorOption": true
+    "showColorOption": true,
+    "game": "Lost Ruins of Arnak"
   },
   {
     "id": "viticulture_insert_with_expension",
@@ -332,7 +352,8 @@
       "material": "High quality PLA",
       "weight": "~450g"
     },
-    "showColorOption": true
+    "showColorOption": true,
+    "game": "Viticulture Essential Edition, Tuscany Essential Edition, Bordeaux, Moor Visitors, Visit from the Rhine Valley, Metal Coins, Sleeved Cards"
   },
   {
     "id": "castle_dice_150gm_tower",
@@ -347,7 +368,8 @@
       "material": "High quality PLA",
       "weight": "~150g"
     },
-    "showColorOption": true
+    "showColorOption": true,
+    "game": ""
   },
   {
     "id": "draw_and_discard_78gm_tray",
@@ -364,7 +386,8 @@
       "weight": "~78g",
       "size": "15cm x 12cm x 4cm"
     },
-    "showColorOption": true
+    "showColorOption": true,
+    "game": ""
   },
   {
     "id": "hex_dice_tray_70gm",
@@ -379,7 +402,8 @@
       "material": "High quality PLA",
       "weight": "~70g"
     },
-    "showColorOption": true
+    "showColorOption": true,
+    "game": ""
   },
   {
     "id": "smash_castle_dice_tower_290gm",
@@ -394,7 +418,8 @@
       "material": "High quality PLA",
       "weight": "~290g"
     },
-    "showColorOption": true
+    "showColorOption": true,
+    "game": ""
   },
   {
     "id": "3_row_playing_card_holder_95gm",
@@ -409,7 +434,8 @@
     "specs": {
       "material": "High quality PLA",
       "weight": "~95g"
-    }
+    },
+    "game": ""
   },
   {
     "id": "lords_of_waterdeep_skulls_30_pack_140gm",
@@ -427,7 +453,8 @@
       "material": "High quality PLA",
       "weight": "~140g",
       "count": "30 skull tokens"
-    }
+    },
+    "game": "Lords of Waterdeep: Scoundrels of Skullport"
   },
   {
     "id": "twilight_imperium_base_game_700gm_inserts",
@@ -443,7 +470,8 @@
       "compatibility": "Twilight Imperium 4th Edition - base game",
       "material": "High quality PLA",
       "weight": "~2100g"
-    }
+    },
+    "game": "Twilight Imperium 4th Edition"
   },
   {
     "id": "old_kings_crown_insert_1200gm",
@@ -461,7 +489,8 @@
       "weight": "~1200g",
       "sleeves": "Premium sleeve compatible",
       "storage": "Vertical storage supported"
-    }
+    },
+    "game": "Old King's Crown"
   },
   {
     "id": "bomb_busters_inserts_740gm",
@@ -477,7 +506,8 @@
       "compatibility": "Bomb Busters - base game",
       "material": "High quality PLA",
       "weight": "~740g"
-    }
+    },
+    "game": "Bomb Busters"
   },
   {
     "id": "bomb_busters_tile_holder_70gm",
@@ -493,7 +523,8 @@
       "compatibility": "Bomb Busters",
       "material": "High quality PLA",
       "weight": "~90g"
-    }
+    },
+    "game": "Bomb Busters"
   },
   {
     "id": "cubitos_with_expensions_inserts_700gm",
@@ -510,7 +541,8 @@
       "material": "High quality PLA",
       "weight": "~700g",
       "sleeves": "Sleeved card compatible"
-    }
+    },
+    "game": "Cubitos"
   },
   {
     "id": "deep_sea_adventure_insert_60gm",
@@ -526,7 +558,8 @@
       "compatibility": "Deep Sea Adventure - base game",
       "material": "High quality PLA",
       "weight": "~60g"
-    }
+    },
+    "game": "Deep Sea Adventure"
   },
   {
     "id": "bomb_busters_tile_holder_preminum_130gm",
@@ -542,7 +575,8 @@
       "compatibility": "Bomb Busters",
       "material": "High quality PLA",
       "weight": "~130g"
-    }
+    },
+    "game": "Bomb Busters"
   },
   {
     "id": "mountain_goats_145gm",
@@ -558,7 +592,8 @@
       "compatibility": "Mountain Goats - base game",
       "material": "High quality PLA",
       "weight": "~145g"
-    }
+    },
+    "game": "Mountain Goats"
   },
   {
     "id": "straight_2_cards_slot_holder_40gm",
@@ -575,7 +610,8 @@
       "material": "High quality PLA",
       "weight": "~40g",
       "size": "~20cm long"
-    }
+    },
+    "game": ""
   },
   {
     "id": "splendor_base_game_insert_440gm",
@@ -591,7 +627,8 @@
       "compatibility": "Splendor - base game",
       "material": "High quality PLA",
       "weight": "~440g"
-    }
+    },
+    "game": "Splendor"
   },
   {
     "id": "splendor_travel_case-210gm",
@@ -607,7 +644,8 @@
       "compatibility": "Splendor - base game",
       "material": "High quality PLA",
       "weight": "~210g"
-    }
+    },
+    "game": "Splendor"
   },
   {
     "id": "mountain_goat_meeple",
@@ -623,7 +661,8 @@
       "compatibility": "Mountain Goats - base game",
       "material": "High quality PLA",
       "weight": "~4g"
-    }
+    },
+    "game": "Mountain Goats"
   },
   {
     "id": "ticket_to_ride_train_tray_19gm",
@@ -639,7 +678,8 @@
       "compatibility": "Ticket to Ride",
       "material": "High quality PLA",
       "weight": "~19g"
-    }
+    },
+    "game": "Ticket to Ride"
   },
   {
     "id": "ticket_to_ride_trains_and_station_organizer_70gm",
@@ -655,7 +695,8 @@
       "compatibility": "Ticket to Ride - Europe",
       "material": "High quality PLA",
       "weight": "~70g"
-    }
+    },
+    "game": "Ticket to Ride"
   },
   {
     "id": "ticket_to_ride_trains_storage_65gm",
@@ -671,7 +712,8 @@
       "compatibility": "Ticket to Ride - Europe",
       "material": "High quality PLA",
       "weight": "~65g"
-    }
+    },
+    "game": "Ticket to Ride"
   },
   {
     "id": "cosmic_encounter_dominion_incursion_inserts_700gm",
@@ -688,7 +730,8 @@
       "material": "High quality PLA",
       "weight": "~700g",
       "color": "Single color"
-    }
+    },
+    "game": "Cosmic Encounter"
   },
   {
     "id": "arcs_inserts_with_leaders_and_lore_expension_940gms_multicolor",
@@ -705,7 +748,8 @@
       "material": "High quality PLA",
       "weight": "~940g",
       "color": "Multicolor - Player trays"
-    }
+    },
+    "game": "Arcs"
   },
   {
     "id": "d6_dice_4gm_10mm_to_20mm_size",
@@ -722,7 +766,8 @@
       "material": "High quality PLA",
       "weight": "~4g",
       "size": "10mm to 20mm"
-    }
+    },
+    "game": ""
   },
   {
     "id": "catan_board_organizer_210gm",
@@ -739,7 +784,8 @@
       "compatibility": "Catan - base game",
       "material": "High quality PLA",
       "weight": "~210g"
-    }
+    },
+    "game": "Catan"
   },
   {
     "id": "catan_cities_and_knights_cards_set_of_2_trays_with_lid_220gm",
@@ -757,7 +803,8 @@
       "material": "High quality PLA",
       "weight": "~220g",
       "count": "Set of 2 trays with 1 lid"
-    }
+    },
+    "game": "Catan Cities & Knights"
   },
   {
     "id": "catan_cities_and_knights_player_meeple_organizer_115gm",
@@ -774,7 +821,8 @@
       "compatibility": "Catan Cities & Knights",
       "material": "High quality PLA",
       "weight": "~75g"
-    }
+    },
+    "game": "Catan Cities & Knights"
   },
   {
     "id": "catan_cities_and_knights_token_holder_with_lid_195gm",
@@ -791,7 +839,8 @@
       "compatibility": "Catan Cities & Knights",
       "material": "High quality PLA",
       "weight": "~195g"
-    }
+    },
+    "game": "Catan Cities & Knights"
   },
   {
     "id": "mountain_tile_2_to_5_cms_7gm",
@@ -808,7 +857,8 @@
       "material": "High quality PLA",
       "weight": "~7g",
       "size": "Fits 2cm to 5cm tiles"
-    }
+    },
+    "game": ""
   },
   {
     "id": "scrable_tile_holder_10cm_to_16cm_20gm",
@@ -825,7 +875,8 @@
       "material": "High quality PLA",
       "weight": "~20g",
       "size": "10cm to 16cm (adjustable)"
-    }
+    },
+    "game": ""
   },
   {
     "id": "single_card_tray_customizable_45gm",
@@ -842,7 +893,8 @@
       "material": "High quality PLA",
       "weight": "~45g",
       "size": "63mm x 89mm to 76mm x 102mm"
-    }
+    },
+    "game": ""
   },
   {
     "id": "card_organizer_cum_draw_tray_62gm",
@@ -859,7 +911,8 @@
       "material": "High quality PLA",
       "weight": "~62g",
       "size": "63mm x 89mm to 76mm x 102mm"
-    }
+    },
+    "game": ""
   },
   {
     "id": "carcassonne_travel_box_220gm",
@@ -875,7 +928,8 @@
       "compatibility": "Carcassonne - base game",
       "material": "High quality PLA",
       "weight": "~220g"
-    }
+    },
+    "game": "Carcassonne"
   },
   {
     "id": "cards_storage_customizable_boxes_52gm",
@@ -892,7 +946,8 @@
       "material": "High quality PLA",
       "weight": "~47g",
       "customizable": "Specify dimensions"
-    }
+    },
+    "game": ""
   },
   {
     "id": "dune_war_for_arrakis_insert_with_both_exp_1230g",
@@ -908,7 +963,8 @@
       "compatibility": "Dune: War for Arrakis — base game + Smugglers & The Spacing Guild expansions",
       "material": "High quality PLA",
       "weight": "~1230g"
-    }
+    },
+    "game": "Dune: War for Arrakis"
   },
   {
     "id": "modular_card_and_resource_tray_with_round_card_holder_225gm",
@@ -923,7 +979,8 @@
     "specs": {
       "material": "High quality PLA",
       "weight": "~225g"
-    }
+    },
+    "game": ""
   },
   {
     "id": "player_score_tracker_45gm",
@@ -938,7 +995,8 @@
     "specs": {
       "material": "High quality PLA",
       "weight": "~45g"
-    }
+    },
+    "game": ""
   },
   {
     "id": "catapult_dice_tower_385gm",
@@ -953,7 +1011,8 @@
     "specs": {
       "material": "High quality PLA",
       "weight": "~385g"
-    }
+    },
+    "game": ""
   },
   {
     "id": "scout_game_inserts_43gm",
@@ -969,7 +1028,8 @@
       "compatibility": "Scout",
       "material": "High quality PLA",
       "weight": "~43g"
-    }
+    },
+    "game": "Scout"
   },
   {
     "id": "interlocking_resource_trays_24gm",
@@ -984,7 +1044,8 @@
     "specs": {
       "material": "High quality PLA",
       "weight": "~24g"
-    }
+    },
+    "game": ""
   },
   {
     "id": "clank_catacombs_inserts_with_expansion_1450gm",
@@ -1001,7 +1062,8 @@
       "material": "High quality PLA",
       "weight": "~1450g",
       "sleevedCards": "68×93mm (Gamegenic, KMC Hypermat tested)"
-    }
+    },
+    "game": "Clank! Catacombs"
   },
   {
     "id": "portable_personal_dice_tray_fold_to_close_61gm",
@@ -1016,7 +1078,8 @@
     "specs": {
       "material": "High quality PLA",
       "weight": "~61g"
-    }
+    },
+    "game": ""
   },
   {
     "id": "full_dice_set_kit_Card_DIY_18gm",
@@ -1031,7 +1094,8 @@
     "specs": {
       "material": "High quality PLA",
       "weight": "~18g"
-    }
+    },
+    "game": ""
   },
   {
     "id": "Dune_Imperium_uprising_insert_base_game_1200gm",
@@ -1047,7 +1111,8 @@
       "compatibility": "Dune: Imperium Uprising — base game",
       "material": "High quality PLA",
       "weight": "~1200g"
-    }
+    },
+    "game": "Dune: Imperium Uprising"
   },
   {
     "id": "dune_imperium_base_game_insert_980gm",
@@ -1063,7 +1128,8 @@
       "compatibility": "Dune: Imperium — base game",
       "material": "High quality PLA",
       "weight": "~980g"
-    }
+    },
+    "game": "Dune: Imperium"
   },
   {
     "id": "arc_nova_coins_upgrade_120gm",
@@ -1079,7 +1145,8 @@
       "compatibility": "Ark Nova",
       "material": "High quality PLA",
       "weight": "~120g"
-    }
+    },
+    "game": "Ark Nova"
   },
   {
     "id": "brass_birmingham_coins_upgrade_110gm",
@@ -1095,7 +1162,8 @@
       "compatibility": "Brass: Birmingham",
       "material": "High quality PLA",
       "weight": "~110g"
-    }
+    },
+    "game": "Brass: Birmingham"
   },
   {
     "id": "root_base_game_insert_440gm",
@@ -1111,6 +1179,41 @@
       "compatibility": "Root — base game",
       "material": "High quality PLA",
       "weight": "~440g"
-    }
+    },
+    "game": "Root"
+  },
+  {
+    "id": "ticket_to_ride_premium_train_upgrade_290gm",
+    "name": "Ticket to Ride Premium Train Upgrade",
+    "category": "Board Game Upgrades",
+    "price": 580,
+    "description": "Premium 3D-printed train pieces for Ticket to Ride. Upgrade from the standard trains to detailed, satisfying miniatures for your rails.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Ticket to Ride (various editions)",
+      "material": "High quality PLA",
+      "weight": "~290g"
+    },
+    "game": "Ticket to Ride"
+  },
+  {
+    "id": "wingspan_travel_box_445gm",
+    "name": "Wingspan Travel Box",
+    "category": "Travel Boxes",
+    "price": 890,
+    "description": "A travel-friendly box for Wingspan. Holds the base game so you can take your bird collection to game night or on the go.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Wingspan — base game",
+      "material": "High quality PLA",
+      "weight": "~445g"
+    },
+    "game": "Wingspan"
   }
 ]
