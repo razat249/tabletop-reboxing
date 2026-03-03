@@ -23,7 +23,7 @@
     "description": "Magnetic-close inserts for Wingspan with all three expansions (European, Oceania, Asia). Keeps eggs, food tokens, and bird cards perfectly organized between sessions.",
     "featured": false,
     "hidden": false,
-    "outOfStock": true,
+    "outOfStock": false,
     "specs": {
       "compatibility": "Wingspan with expansions (European, Oceana and Asia)",
       "material": "High quality PLA",
@@ -1079,6 +1079,38 @@
       "compatibility": "Ark Nova",
       "material": "High quality PLA",
       "weight": "~120g"
+    }
+  },
+  {
+    "id": "brass_birmingham_coins_upgrade_110gm",
+    "name": "Brass: Birmingham Coins Upgrade",
+    "category": "Board Game Upgrades",
+    "price": 220,
+    "description": "Premium 3D-printed coin tokens for Brass: Birmingham. Replace cardboard money with tactile coins that fit the industrial theme.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Brass: Birmingham",
+      "material": "High quality PLA",
+      "weight": "~110g"
+    }
+  },
+  {
+    "id": "root_base_game_insert_440gm",
+    "name": "Root Insert (Base Game)",
+    "category": "Board Game Inserts",
+    "price": 880,
+    "description": "Insert for Root base game. Organizes factions, cards, tokens, and the clearing board so setup is quick and everything has a place.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Root — base game",
+      "material": "High quality PLA",
+      "weight": "~440g"
     }
   }
 ]
