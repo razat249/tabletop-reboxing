@@ -1032,5 +1032,53 @@
       "material": "High quality PLA",
       "weight": "~18g"
     }
+  },
+  {
+    "id": "Dune_Imperium_uprising_insert_base_game_1200gm",
+    "name": "Dune: Imperium Uprising Insert (Base Game)",
+    "category": "Board Game Inserts",
+    "price": 2400,
+    "description": "Insert for Dune: Imperium Uprising base game. Keeps factions, cards, and tokens organized for faster setup and teardown.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Dune: Imperium Uprising — base game",
+      "material": "High quality PLA",
+      "weight": "~1200g"
+    }
+  },
+  {
+    "id": "dune_imperium_base_game_insert_980gm",
+    "name": "Dune: Imperium Insert (Base Game)",
+    "category": "Board Game Inserts",
+    "price": 1960,
+    "description": "Insert for Dune: Imperium base game. Organizes all cards, tokens, and components so you can get to the table faster.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Dune: Imperium — base game",
+      "material": "High quality PLA",
+      "weight": "~980g"
+    }
+  },
+  {
+    "id": "arc_nova_coins_upgrade_120gm",
+    "name": "Ark Nova Coins Upgrade",
+    "category": "Board Game Upgrades",
+    "price": 240,
+    "description": "Premium coin tokens for Ark Nova. Upgrade from cardboard to satisfying 3D-printed coins that match the theme.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Ark Nova",
+      "material": "High quality PLA",
+      "weight": "~120g"
+    }
   }
 ]
