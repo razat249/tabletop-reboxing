@@ -5,7 +5,13 @@ import { useState, useEffect } from "react";
 import SearchBox from "@/components/search-box";
 import ProductCard from "@/components/product-card";
 import Link from "next/link";
-import { ChevronRight, ArrowUpDown, Check, LayoutGrid, List } from "lucide-react";
+import {
+  ChevronRight,
+  ArrowUpDown,
+  Check,
+  LayoutGrid,
+  List,
+} from "lucide-react";
 import { products as allProducts, categories, config } from "@/app/assets/data";
 
 export default function ProductsClient() {
@@ -37,7 +43,7 @@ export default function ProductsClient() {
       filtered = filtered.filter(
         (p) =>
           p.category.toLowerCase().replace(/\s+/g, "-") ===
-          categoryFilter.toLowerCase()
+          categoryFilter.toLowerCase(),
       );
     }
 
@@ -46,7 +52,7 @@ export default function ProductsClient() {
       filtered = filtered.filter(
         (p) =>
           p.name.toLowerCase().includes(searchFilter.toLowerCase()) ||
-          p.category.toLowerCase().includes(searchFilter.toLowerCase())
+          p.category.toLowerCase().includes(searchFilter.toLowerCase()),
       );
     }
 
@@ -88,7 +94,6 @@ export default function ProductsClient() {
     if (searchQuery) params.set("search", searchQuery);
     window.history.replaceState(null, "", `/products?${params.toString()}`);
   };
-
 
   return (
     <div>
@@ -203,87 +208,98 @@ export default function ProductsClient() {
               {/* Sort & Results Count Bar */}
               <div className="flex items-center justify-between mb-3 sm:mb-5">
                 <p className="text-xs text-muted-foreground">
-                  {filteredProducts.length} product{filteredProducts.length !== 1 ? "s" : ""}
+                  {filteredProducts.length} product
+                  {filteredProducts.length !== 1 ? "s" : ""}
                 </p>
 
                 <div className="flex items-center gap-1.5 sm:gap-2">
-                {/* View Toggle — mobile only */}
-                <div className="flex sm:hidden border border-border/60 rounded-lg overflow-hidden shadow-card">
-                  <button
-                    onClick={() => setViewMode("grid")}
-                    className={`p-1.5 smooth-transition ${
-                      viewMode === "grid"
-                        ? "bg-primary text-primary-foreground"
-                        : "bg-card text-muted-foreground hover:text-foreground"
-                    }`}
-                    aria-label="Grid view"
-                  >
-                    <LayoutGrid size={13} strokeWidth={2} />
-                  </button>
-                  <button
-                    onClick={() => setViewMode("list")}
-                    className={`p-1.5 smooth-transition ${
-                      viewMode === "list"
-                        ? "bg-primary text-primary-foreground"
-                        : "bg-card text-muted-foreground hover:text-foreground"
-                    }`}
-                    aria-label="List view"
-                  >
-                    <List size={13} strokeWidth={2} />
-                  </button>
-                </div>
+                  {/* View Toggle — mobile only */}
+                  <div className="flex sm:hidden border border-border/60 rounded-lg overflow-hidden shadow-card">
+                    <button
+                      onClick={() => setViewMode("grid")}
+                      className={`p-1.5 smooth-transition ${
+                        viewMode === "grid"
+                          ? "bg-primary text-primary-foreground"
+                          : "bg-card text-muted-foreground hover:text-foreground"
+                      }`}
+                      aria-label="Grid view"
+                    >
+                      <LayoutGrid size={13} strokeWidth={2} />
+                    </button>
+                    <button
+                      onClick={() => setViewMode("list")}
+                      className={`p-1.5 smooth-transition ${
+                        viewMode === "list"
+                          ? "bg-primary text-primary-foreground"
+                          : "bg-card text-muted-foreground hover:text-foreground"
+                      }`}
+                      aria-label="List view"
+                    >
+                      <List size={13} strokeWidth={2} />
+                    </button>
+                  </div>
 
-                {/* Sort Dropdown */}
-                <div className="relative">
-                  <button
-                    onClick={() => setIsSortOpen(!isSortOpen)}
-                    onBlur={() => setTimeout(() => setIsSortOpen(false), 150)}
-                    className="flex items-center gap-1.5 px-2.5 py-1.5 sm:px-3.5 sm:py-2 sm:gap-2 text-xs sm:text-sm text-muted-foreground hover:text-foreground bg-card border border-border/60 rounded-lg hover:bg-secondary smooth-transition shadow-card"
-                  >
-                    <ArrowUpDown size={13} strokeWidth={1.75} className="flex-shrink-0 sm:[&]:w-3.5 sm:[&]:h-3.5" />
-                    <span className="font-medium sm:hidden">
-                      {sortOptions.find((o) => o.id === sortBy)?.shortLabel}
-                    </span>
-                    <span className="font-medium hidden sm:inline">
-                      {sortOptions.find((o) => o.id === sortBy)?.label}
-                    </span>
-                  </button>
+                  {/* Sort Dropdown */}
+                  <div className="relative">
+                    <button
+                      onClick={() => setIsSortOpen(!isSortOpen)}
+                      onBlur={() => setTimeout(() => setIsSortOpen(false), 150)}
+                      className="flex items-center gap-1.5 px-2.5 py-1.5 sm:px-3.5 sm:py-2 sm:gap-2 text-xs sm:text-sm text-muted-foreground hover:text-foreground bg-card border border-border/60 rounded-lg hover:bg-secondary smooth-transition shadow-card"
+                    >
+                      <ArrowUpDown
+                        size={13}
+                        strokeWidth={1.75}
+                        className="flex-shrink-0 sm:[&]:w-3.5 sm:[&]:h-3.5"
+                      />
+                      <span className="font-medium sm:hidden">
+                        {sortOptions.find((o) => o.id === sortBy)?.shortLabel}
+                      </span>
+                      <span className="font-medium hidden sm:inline">
+                        {sortOptions.find((o) => o.id === sortBy)?.label}
+                      </span>
+                    </button>
 
-                  {isSortOpen && (
-                    <div className="absolute right-0 top-full mt-1.5 w-52 bg-card border border-border/60 rounded-xl shadow-lg z-20 py-1.5 animate-in fade-in slide-in-from-top-1 duration-150">
-                      {sortOptions.map((option) => (
-                        <button
-                          key={option.id}
-                          onClick={() => {
-                            setSortBy(option.id);
-                            setIsSortOpen(false);
-                          }}
-                          className={`flex items-center justify-between w-full px-3.5 py-2 text-sm smooth-transition ${
-                            sortBy === option.id
-                              ? "text-primary font-medium bg-primary/5"
-                              : "text-muted-foreground hover:text-foreground hover:bg-secondary"
-                          }`}
-                        >
-                          {option.label}
-                          {sortBy === option.id && (
-                            <Check size={14} strokeWidth={2} className="text-primary" />
-                          )}
-                        </button>
-                      ))}
-                    </div>
-                  )}
-                </div>
+                    {isSortOpen && (
+                      <div className="absolute right-0 top-full mt-1.5 w-52 bg-card border border-border/60 rounded-xl shadow-lg z-20 py-1.5 animate-in fade-in slide-in-from-top-1 duration-150">
+                        {sortOptions.map((option) => (
+                          <button
+                            key={option.id}
+                            onClick={() => {
+                              setSortBy(option.id);
+                              setIsSortOpen(false);
+                            }}
+                            className={`flex items-center justify-between w-full px-3.5 py-2 text-sm smooth-transition ${
+                              sortBy === option.id
+                                ? "text-primary font-medium bg-primary/5"
+                                : "text-muted-foreground hover:text-foreground hover:bg-secondary"
+                            }`}
+                          >
+                            {option.label}
+                            {sortBy === option.id && (
+                              <Check
+                                size={14}
+                                strokeWidth={2}
+                                className="text-primary"
+                              />
+                            )}
+                          </button>
+                        ))}
+                      </div>
+                    )}
+                  </div>
                 </div>
               </div>
 
               {/* Results */}
               {filteredProducts.length > 0 ? (
                 <div>
-                  <div className={
-                    viewMode === "list"
-                      ? "flex flex-col gap-3 sm:grid sm:grid-cols-2 xl:grid-cols-3 sm:gap-5"
-                      : "grid grid-cols-2 sm:grid-cols-2 xl:grid-cols-3 gap-3 sm:gap-5"
-                  }>
+                  <div
+                    className={
+                      viewMode === "list"
+                        ? "flex flex-col gap-3 sm:grid sm:grid-cols-2 xl:grid-cols-3 sm:gap-5"
+                        : "grid grid-cols-2 sm:grid-cols-2 xl:grid-cols-3 gap-3 sm:gap-5"
+                    }
+                  >
                     {filteredProducts.map((product) => (
                       <ProductCard
                         key={product.id}
