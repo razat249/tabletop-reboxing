@@ -970,15 +970,16 @@
     "id": "modular_card_and_resource_tray_with_round_card_holder_225gm",
     "name": "Modular Card & Resource Tray with Round Card Holder",
     "category": "Card and Resource Trays",
-    "price": 450,
+    "price": 700,
     "description": "Modular tray that combines card and resource storage with a round card holder. Keeps cards upright and resources organized at the table.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
     "showColorOption": true,
     "specs": {
+      "number of trays": "8 trays (2 sets, each with 4 tray designs)",
       "material": "High quality PLA",
-      "weight": "~225g"
+      "weight": "~350g"
     },
     "game": ""
   },
