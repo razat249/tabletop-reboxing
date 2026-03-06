@@ -149,7 +149,7 @@ export default function SearchBox({
       {showDropdown && (
         <div
           role="listbox"
-          className="absolute z-50 w-full bg-card border border-t-0 border-border rounded-b-xl shadow-card-hover overflow-hidden"
+          className="absolute z-[100] w-full bg-card border border-t-0 border-border rounded-b-xl shadow-card-hover overflow-hidden"
         >
           <ul className="py-1">
             {filtered.map((item, index) => (

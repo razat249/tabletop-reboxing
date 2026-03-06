@@ -44,9 +44,9 @@ export default function Home() {
         />
         <div className="relative py-12 md:py-20 px-4 sm:px-6 lg:px-8">
           <div className="page-container max-w-3xl text-center">
-            <p className="text-2xs font-semibold uppercase tracking-widest text-foreground/80 mb-3">
+            <span className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-2xs font-semibold uppercase tracking-widest border border-primary/20 mb-4">
               Premium Board Game Accessories
-            </p>
+            </span>
             <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-foreground mb-5 text-balance leading-tight">
               Elevate Your{" "}
               <span className="text-emerald-600 dark:text-emerald-400">
