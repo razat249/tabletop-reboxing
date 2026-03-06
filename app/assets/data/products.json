@@ -789,22 +789,22 @@
   },
   {
     "id": "catan_cities_and_knights_cards_set_of_2_trays_with_lid_220gm",
-    "name": "Catan Cities & Knights Magnetic Card Trays (Set of 2 trays with 1 lid)",
+    "name": "Catan Magnetic Card Trays (Set of 2 trays with 1 lid)",
     "category": "Other Accessories",
     "price": 440,
-    "description": "A set of two lidded card trays for Catan Cities & Knights. Each tray holds a deck with the lid keeping cards secure when not in play.",
+    "description": "A set of two magnetic card trays for Catan. Each tray holds a deck and keeps cards secure when not in play. There is one lid for the set.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
     "showColorOption": true,
     "customizable": "Enter customization if needed.",
     "specs": {
-      "compatibility": "Catan Cities & Knights",
+      "compatibility": "Catan",
       "material": "High quality PLA",
       "weight": "~220g",
       "count": "Set of 2 trays with 1 lid"
     },
-    "game": "Catan Cities & Knights"
+    "game": "Catan"
   },
   {
     "id": "catan_cities_and_knights_player_meeple_organizer_115gm",
@@ -1216,5 +1216,57 @@
       "weight": "~445g"
     },
     "game": "Wingspan"
+  },
+  {
+    "id": "pandemic_base_game_insert_290gm",
+    "name": "Pandemic Inserts",
+    "category": "Board Game Inserts",
+    "price": 580,
+    "description": "Full inserts for Pandemic base game. Dedicated compartments for all four disease cubes, role cards, player pawns, infection and player decks, and every token. Open the box and start saving the world in seconds.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Pandemic — base game",
+      "material": "High quality PLA",
+      "weight": "~290g"
+    },
+    "game": "Pandemic"
+  },
+  {
+    "id": "catan_base_plus_5-6_player_exp_730gm",
+    "name": "Catan Inserts (Base + 5–6 Player Expansion)",
+    "category": "Board Game Inserts",
+    "price": 1460,
+    "description": "Multicolor inserts for Catan base game plus the 5–6 player expansion. Color-coded player trays for each faction, dedicated slots for hex tiles, cards, tokens, and dice. Everything fits back in the original box with zero fumbling.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": false,
+    "specs": {
+      "compatibility": "Catan — base game + 5–6 Player Expansion",
+      "material": "High quality PLA",
+      "weight": "~730g",
+      "color": "Multicolor — player trays"
+    },
+    "game": "Catan"
+  },
+  {
+    "id": "DnD_player_character_miniatures",
+    "name": "D&D Player Character Miniatures",
+    "category": "Other Accessories",
+    "price": 150,
+    "description": "3D-printed player character miniatures for Dungeons & Dragons. Detailed, lightweight, and ready for your next campaign. Available in multiple colors.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "customizable": "Enter character class or description for custom miniatures.",
+    "specs": {
+      "compatibility": "Dungeons & Dragons / any TTRPG",
+      "material": "High quality PLA"
+    },
+    "game": "Dungeons & Dragons"
   }
 ]
