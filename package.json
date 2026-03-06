@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "generate-images": "node scripts/generate-image-manifest.mjs",
+    "generate-feed": "node scripts/generate-product-feed.mjs",
+    "generate-feed:images": "COPY_IMAGES=1 node scripts/generate-product-feed.mjs",
     "predev": "node scripts/generate-image-manifest.mjs",
     "prebuild": "node scripts/generate-image-manifest.mjs && node scripts/generate-static-seo.mjs",
     "dev": "next dev --turbo",
