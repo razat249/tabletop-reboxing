@@ -44,14 +44,16 @@ export default function Home() {
         />
         <div className="relative py-12 md:py-20 px-4 sm:px-6 lg:px-8">
           <div className="page-container max-w-3xl text-center">
-            <span className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-2xs font-semibold uppercase tracking-widest border border-primary/20 mb-4">
-              Handcrafted with passion
-            </span>
+            <p className="text-2xs font-semibold uppercase tracking-widest text-foreground/80 mb-3">
+              Premium Board Game Accessories
+            </p>
             <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-foreground mb-5 text-balance leading-tight">
-              Organize. Protect.{" "}
-              <span className="bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-500 bg-clip-text text-transparent">
-                Play More.
-              </span>
+              Elevate Your{" "}
+              <span className="text-emerald-600 dark:text-emerald-400">
+                Board
+              </span>{" "}
+              <span className="text-teal-500 dark:text-teal-400">Game</span>{" "}
+              Collection
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-xl mx-auto text-balance leading-relaxed">
               Premium 3D-printed inserts, dice towers, and accessories for your
