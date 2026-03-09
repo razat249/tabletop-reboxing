@@ -1268,5 +1268,89 @@
       "material": "High quality PLA"
     },
     "game": "Dungeons & Dragons"
+  },
+  {
+    "id": "carcassonnne_meeple_tray_34gm",
+    "name": "Carcassonne Meeple Tray",
+    "category": "Other Accessories",
+    "price": 68,
+    "description": "A compact tray for storing and organizing Carcassonne meeples. Keeps all your followers sorted by color and easy to grab during tile placement.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Carcassonne",
+      "material": "High quality PLA",
+      "weight": "~34g"
+    },
+    "game": "Carcassonne"
+  },
+  {
+    "id": "catan_cities_and_knights_player_token_holder_with_lid_75gm",
+    "name": "Catan Cities & Knights Player Token Holder with Lid",
+    "category": "Other Accessories",
+    "price": 150,
+    "description": "Color-coded token holders with snap-fit lids for Catan Cities & Knights. Each player's settlements, cities, and knights stay neatly sorted between games.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Catan Cities & Knights",
+      "material": "High quality PLA",
+      "weight": "~75g"
+    },
+    "game": "Catan Cities & Knights"
+  },
+  {
+    "id": "heat_padel_to_the_metal_gearbox_overlay_13gm",
+    "name": "Heat: Pedal to the Metal Gearbox Overlay",
+    "category": "Board Game Upgrades",
+    "price": 26,
+    "description": "A snap-fit overlay for the Heat: Pedal to the Metal player dashboard. Locks gear tokens into the gearbox slots so they don't slide around mid-race.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Heat: Pedal to the Metal",
+      "material": "High quality PLA",
+      "weight": "~13g"
+    },
+    "game": "Heat: Pedal to the Metal"
+  },
+  {
+    "id": "hues_and_cues_scorring_fence_14gm",
+    "name": "Hues and Cues Scoring Fence",
+    "category": "Board Game Upgrades",
+    "price": 28,
+    "description": "A 3D-printed scoring fence for Hues and Cues. Sits on the board to clearly mark scoring zones — no more squinting to count squares.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Hues and Cues",
+      "material": "High quality PLA",
+      "weight": "~14g"
+    },
+    "game": "Hues and Cues"
+  },
+  {
+    "id": "pocket_and_travel_dice_tower_90gm",
+    "name": "Pocket & Travel Dice Tower",
+    "category": "Dice tower and Trays",
+    "price": 180,
+    "description": "A compact dice tower that packs flat for travel. Unfolds in seconds for fair, contained rolls at any table. Small enough to toss in a bag, sturdy enough for daily use.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~90g"
+    },
+    "game": ""
   }
 ]
