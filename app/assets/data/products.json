@@ -1335,5 +1335,39 @@
       "weight": "~90g"
     },
     "game": ""
+  },
+  {
+    "id": "catan_cities_and_knights_player_token_holder_with_lid_75gm",
+    "name": "Catan Cities & Knights Player Token Holder with Lid",
+    "category": "Other Accessories",
+    "price": 150,
+    "description": "Color-coded token holders with snap-fit lids for Catan Cities & Knights. Each player's settlements, cities, and knights stay neatly sorted between games.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Catan Cities & Knights",
+      "material": "High quality PLA",
+      "weight": "~75g"
+    },
+    "game": "Catan Cities & Knights"
+  },
+  {
+    "id": "Gloomhaven_JOTL_player_dashboard_72gm",
+    "name": "Gloomhaven: Jaws of the Lion Player Dashboard",
+    "category": "Board Game Upgrades",
+    "price": 144,
+    "description": "A 3D-printed player dashboard for Gloomhaven: Jaws of the Lion. Holds your character card, two ability cards, item cards, and modifier deck in a single organized layout. Keeps everything visible and tidy during scenarios.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Gloomhaven: Jaws of the Lion",
+      "material": "High quality PLA",
+      "weight": "~72g"
+    },
+    "game": "Gloomhaven: Jaws of the Lion"
   }
 ]
