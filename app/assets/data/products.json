@@ -1385,5 +1385,39 @@
       "weight": "~47g"
     },
     "game": ""
+  },
+  {
+    "id": "lords_of_waterdeep_charecter_set_25pcs_150gm",
+    "name": "Lords of Waterdeep Character Set (25 pcs)",
+    "category": "Board Game Upgrades",
+    "price": 300,
+    "description": "A set of 25 detailed character pieces for Lords of Waterdeep. Replaces standard cubes with thematic miniatures for a more immersive experience.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": false,
+    "specs": {
+      "compatibility": "Lords of Waterdeep",
+      "material": "High quality PLA",
+      "weight": "~150g",
+      "count": "25 pieces"
+    },
+    "game": "Lords of Waterdeep"
+  },
+  {
+    "id": "foldable_travel_dice_tower_320gm",
+    "name": "Foldable Travel Dice Tower",
+    "category": "Dice tower and Trays",
+    "price": 640,
+    "description": "A heavy-duty yet foldable dice tower designed for travel. Ensures stable and fair rolls on any surface, then folds flat for easy transport.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~320g"
+    },
+    "game": ""
   }
 ]

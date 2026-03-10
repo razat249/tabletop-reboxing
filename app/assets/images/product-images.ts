@@ -116,139 +116,145 @@ import img_111 from "./dune_war_for_arrakis_insert_with_both_exp_1230g_2.webp";
 import img_112 from "./dune_war_for_arrakis_insert_with_both_exp_1230g_3.webp";
 import img_113 from "./dune_war_for_arrakis_insert_with_both_exp_1230g_4.webp";
 import img_114 from "./dune_war_for_arrakis_insert_with_both_exp_1230g_5.webp";
-import img_115 from "./full_dice_set_kit_Card_DIY_18gm_1.webp";
-import img_116 from "./full_dice_set_kit_Card_DIY_18gm_2.webp";
-import img_117 from "./full_dice_set_kit_Card_DIY_18gm_3.webp";
-import img_118 from "./full_dice_set_kit_Card_DIY_18gm_4.webp";
-import img_119 from "./funnel_tray_1.jpg";
-import img_120 from "./Gloomhaven_JOTL_player_dashboard_72gm_1.webp";
-import img_121 from "./Gloomhaven_JOTL_player_dashboard_72gm_2.webp";
-import img_122 from "./Gloomhaven_JOTL_player_dashboard_72gm_3.jpeg";
-import img_123 from "./Gloomhaven_JOTL_player_dashboard_72gm_4.jpg";
-import img_124 from "./heat_padel_to_the_metal_gearbox_overlay_13gm_1.webp";
-import img_125 from "./heat_padel_to_the_metal_gearbox_overlay_13gm_2.webp";
-import img_126 from "./heat_padel_to_the_metal_gearbox_overlay_13gm_3.jpg";
-import img_127 from "./hex_dice_tray_70gm_1.jpg";
-import img_128 from "./hex_dice_tray_70gm_2.jpg";
-import img_129 from "./honeycomb_dice_tower_key_card_47gm_1.webp";
-import img_130 from "./honeycomb_dice_tower_key_card_47gm_2.webp";
-import img_131 from "./honeycomb_dice_tower_key_card_47gm_3.webp";
-import img_132 from "./hues_and_cues_scorring_fence_14gm_1.webp";
-import img_133 from "./interlocking_resource_trays_24gm_1.jpg";
-import img_134 from "./interlocking_resource_trays_24gm_2.jpg";
-import img_135 from "./interlocking_resource_trays_24gm_3.jpg";
-import img_136 from "./interlocking_resource_trays_24gm_4.jpg";
-import img_137 from "./lords_of_waterdeep_skulls_30_pack_140gm_1.png";
-import img_138 from "./lords_of_waterdeep_skulls_30_pack_140gm_2.webp";
-import img_139 from "./lords_of_waterdeep_skulls_30_pack_140gm_3.webp";
-import img_140 from "./lost_ruins_with_all_expensions_1.jpg";
-import img_141 from "./lost_ruins_with_all_expensions_2.jpg";
-import img_142 from "./lost_ruins_with_all_expensions_3.jpg";
-import img_143 from "./lost_ruins_with_all_expensions_4.jpg";
-import img_144 from "./meeple_shaped_stackable_board_game_resource_tray_1.jpg";
-import img_145 from "./meeple_shaped_stackable_board_game_resource_tray_2.jpg";
-import img_146 from "./modular_card_and_resource_tray_with_round_card_holder_225gm_1.webp";
-import img_147 from "./modular_card_and_resource_tray_with_round_card_holder_225gm_2.webp";
-import img_148 from "./modular_card_and_resource_tray_with_round_card_holder_225gm_3.webp";
-import img_149 from "./mountain_goat_meeple_1.png";
-import img_150 from "./mountain_goat_meeple_2.webp";
-import img_151 from "./mountain_goats_145gm_1.jpg";
-import img_152 from "./mountain_tile_2_to_5_cms_7gm_1.webp";
-import img_153 from "./nucleum_insert_850gm_1.webp";
-import img_154 from "./nucleum_insert_850gm_2.webp";
-import img_155 from "./nucleum_insert_850gm_3.webp";
-import img_156 from "./nucleum_insert_850gm_4.webp";
-import img_157 from "./old_kings_crown_insert_1200gm_1.jpg";
-import img_158 from "./old_kings_crown_insert_1200gm_2.jpg";
-import img_159 from "./old_kings_crown_insert_1200gm_3.jpg";
-import img_160 from "./old_kings_crown_insert_1200gm_4.jpg";
-import img_161 from "./old_kings_crown_insert_1200gm_5.jpg";
-import img_162 from "./pandemic_base_game_insert_290gm_1.webp";
-import img_163 from "./pandemic_base_game_insert_290gm_2.webp";
-import img_164 from "./pandemic_base_game_insert_290gm_3.webp";
-import img_165 from "./pandemic_base_game_insert_290gm_4.jpg";
-import img_166 from "./pandemic_base_game_insert_290gm_5.jpg";
-import img_167 from "./player_score_tracker_45gm_1.jpg";
-import img_168 from "./player_score_tracker_45gm_2.jpg";
-import img_169 from "./player_score_tracker_45gm_3.jpg";
-import img_170 from "./player_score_tracker_45gm_4.jpg";
-import img_171 from "./pocket_and_travel_dice_tower_90gm_1.webp";
-import img_172 from "./pocket_and_travel_dice_tower_90gm_2.webp";
-import img_173 from "./pocket_and_travel_dice_tower_90gm_3.webp";
-import img_174 from "./portable_personal_dice_tray_fold_to_close_61gm_1.webp";
-import img_175 from "./portable_personal_dice_tray_fold_to_close_61gm_2.webp";
-import img_176 from "./portable_personal_dice_tray_fold_to_close_61gm_3.webp";
-import img_177 from "./portable_personal_dice_tray_fold_to_close_61gm_4.webp";
-import img_178 from "./root_base_game_insert_440gm_1.webp";
-import img_179 from "./root_base_game_insert_440gm_2.webp";
-import img_180 from "./root_base_game_insert_440gm_3.webp";
-import img_181 from "./root_base_game_insert_440gm_4.webp";
-import img_182 from "./root_base_game_insert_440gm_5.webp";
-import img_183 from "./root_base_game_insert_440gm_6.webp";
-import img_184 from "./scout_game_inserts_43gm_1.webp";
-import img_185 from "./scout_game_inserts_43gm_2.webp";
-import img_186 from "./scout_game_inserts_43gm_3.webp";
-import img_187 from "./scrable_tile_holder_10cm_to_16cm_20gm_1.webp";
-import img_188 from "./scrable_tile_holder_10cm_to_16cm_20gm_2.webp";
-import img_189 from "./single_card_tray_customizable_45gm_1.webp";
-import img_190 from "./single_card_tray_customizable_45gm_2.webp";
-import img_191 from "./single_card_tray_customizable_45gm_3.webp";
-import img_192 from "./single_card_tray_customizable_45gm_4.webp";
-import img_193 from "./sky_team_inserts_1.jpg";
-import img_194 from "./sky_team_inserts_2.jpg";
-import img_195 from "./sky_team_inserts_3.jpg";
-import img_196 from "./smash_castle_dice_tower_290gm_1.webp";
-import img_197 from "./splendor_base_game_insert_440gm_1.jpg";
-import img_198 from "./splendor_base_game_insert_440gm_2.jpg";
-import img_199 from "./splendor_base_game_insert_440gm_3.jpg";
-import img_200 from "./splendor_travel_case-210gm_1.jpg";
-import img_201 from "./splendor_travel_case-210gm_2.jpg";
-import img_202 from "./splendor_travel_case-210gm_3.jpg";
-import img_203 from "./splendor_travel_case-210gm_4.jpg";
-import img_204 from "./stackable_hexagon_token_tray_1.jpg";
-import img_205 from "./stackable_hexagon_token_tray_2.jpg";
-import img_206 from "./straight_2_cards_slot_holder_40gm_1.jpg";
-import img_207 from "./straight_2_cards_slot_holder_40gm_2.jpg";
-import img_208 from "./terraforming_mars_inserts_1.jpg";
-import img_209 from "./terraforming_mars_inserts_2.jpg";
-import img_210 from "./terraforming_mars_inserts_3.jpg";
-import img_211 from "./terraforming_mars_inserts_4.jpg";
-import img_212 from "./terraforming_mars_overlay_mats_1.jpg";
-import img_213 from "./terraforming_mars_overlay_mats_2.webp";
-import img_214 from "./terraforming_mars_overlay_mats_3.jpg";
-import img_215 from "./terraforming_mars_overlay_mats_4.jpg";
-import img_216 from "./ticket_to_ride_premium_train_upgrade_290gm_1.webp";
-import img_217 from "./ticket_to_ride_train_tray_19gm_1.webp";
-import img_218 from "./ticket_to_ride_train_tray_19gm_2.webp";
-import img_219 from "./ticket_to_ride_trains_and_station_organizer_70gm_1.webp";
-import img_220 from "./ticket_to_ride_trains_and_station_organizer_70gm_2.webp";
-import img_221 from "./ticket_to_ride_trains_and_station_organizer_70gm_3.webp";
-import img_222 from "./ticket_to_ride_trains_and_station_organizer_70gm_4.jpeg";
-import img_223 from "./ticket_to_ride_trains_storage_65gm_1.webp";
-import img_224 from "./ticket_to_ride_trains_storage_65gm_2.webp";
-import img_225 from "./ticket_to_ride_trains_storage_65gm_3.webp";
-import img_226 from "./ticket_to_ride_trains_storage_65gm_4.jpeg";
-import img_227 from "./twilight_imperium_base_game_700gm_inserts_1.jpg";
-import img_228 from "./twilight_imperium_base_game_700gm_inserts_2.jpg";
-import img_229 from "./twilight_imperium_base_game_700gm_inserts_3.jpg";
-import img_230 from "./twilight_imperium_base_game_700gm_inserts_4.jpg";
-import img_231 from "./universal_3_slot_card_and_resource_tray_1.jpg";
-import img_232 from "./universal_3_slot_card_and_resource_tray_2.jpg";
-import img_233 from "./viticulture_insert_with_expension_1.jpg";
-import img_234 from "./viticulture_insert_with_expension_2.jpg";
-import img_235 from "./wingspan_food_tokens_1.png";
-import img_236 from "./wingspan_food_tokens_2.jpg";
-import img_237 from "./wingspan_inserts_1.jpeg";
-import img_238 from "./wingspan_inserts_2.jpeg";
-import img_239 from "./wingspan_inserts_3.jpeg";
-import img_240 from "./wingspan_inserts_4.jpeg";
-import img_241 from "./wingspan_inserts_5.jpeg";
-import img_242 from "./wingspan_travel_box_445gm_1.webp";
-import img_243 from "./wingspan_travel_box_445gm_2.webp";
-import img_244 from "./wingspan_travel_box_445gm_3.webp";
-import img_245 from "./wingspan_travel_box_445gm_4.webp";
-import img_246 from "./wingspan_travel_box_445gm_5.webp";
-import img_247 from "./wingspan_travel_box_445gm_6.webp";
+import img_115 from "./foldable_travel_dice_tower_320gm_1.webp";
+import img_116 from "./foldable_travel_dice_tower_320gm_2.webp";
+import img_117 from "./foldable_travel_dice_tower_320gm_3.webp";
+import img_118 from "./full_dice_set_kit_Card_DIY_18gm_1.webp";
+import img_119 from "./full_dice_set_kit_Card_DIY_18gm_2.webp";
+import img_120 from "./full_dice_set_kit_Card_DIY_18gm_3.webp";
+import img_121 from "./full_dice_set_kit_Card_DIY_18gm_4.webp";
+import img_122 from "./funnel_tray_1.jpg";
+import img_123 from "./Gloomhaven_JOTL_player_dashboard_72gm_1.webp";
+import img_124 from "./Gloomhaven_JOTL_player_dashboard_72gm_2.webp";
+import img_125 from "./Gloomhaven_JOTL_player_dashboard_72gm_3.jpeg";
+import img_126 from "./Gloomhaven_JOTL_player_dashboard_72gm_4.jpg";
+import img_127 from "./heat_padel_to_the_metal_gearbox_overlay_13gm_1.webp";
+import img_128 from "./heat_padel_to_the_metal_gearbox_overlay_13gm_2.webp";
+import img_129 from "./heat_padel_to_the_metal_gearbox_overlay_13gm_3.jpg";
+import img_130 from "./hex_dice_tray_70gm_1.jpg";
+import img_131 from "./hex_dice_tray_70gm_2.jpg";
+import img_132 from "./honeycomb_dice_tower_key_card_47gm_1.webp";
+import img_133 from "./honeycomb_dice_tower_key_card_47gm_2.webp";
+import img_134 from "./honeycomb_dice_tower_key_card_47gm_3.webp";
+import img_135 from "./hues_and_cues_scorring_fence_14gm_1.webp";
+import img_136 from "./interlocking_resource_trays_24gm_1.jpg";
+import img_137 from "./interlocking_resource_trays_24gm_2.jpg";
+import img_138 from "./interlocking_resource_trays_24gm_3.jpg";
+import img_139 from "./interlocking_resource_trays_24gm_4.jpg";
+import img_140 from "./lords_of_waterdeep_charecter_set_25pcs_150gm_1.jpg";
+import img_141 from "./lords_of_waterdeep_charecter_set_25pcs_150gm_2.jpg";
+import img_142 from "./lords_of_waterdeep_charecter_set_25pcs_150gm_3.webp";
+import img_143 from "./lords_of_waterdeep_skulls_30_pack_140gm_1.png";
+import img_144 from "./lords_of_waterdeep_skulls_30_pack_140gm_2.webp";
+import img_145 from "./lords_of_waterdeep_skulls_30_pack_140gm_3.webp";
+import img_146 from "./lost_ruins_with_all_expensions_1.jpg";
+import img_147 from "./lost_ruins_with_all_expensions_2.jpg";
+import img_148 from "./lost_ruins_with_all_expensions_3.jpg";
+import img_149 from "./lost_ruins_with_all_expensions_4.jpg";
+import img_150 from "./meeple_shaped_stackable_board_game_resource_tray_1.jpg";
+import img_151 from "./meeple_shaped_stackable_board_game_resource_tray_2.jpg";
+import img_152 from "./modular_card_and_resource_tray_with_round_card_holder_225gm_1.webp";
+import img_153 from "./modular_card_and_resource_tray_with_round_card_holder_225gm_2.webp";
+import img_154 from "./modular_card_and_resource_tray_with_round_card_holder_225gm_3.webp";
+import img_155 from "./mountain_goat_meeple_1.png";
+import img_156 from "./mountain_goat_meeple_2.webp";
+import img_157 from "./mountain_goats_145gm_1.jpg";
+import img_158 from "./mountain_tile_2_to_5_cms_7gm_1.webp";
+import img_159 from "./nucleum_insert_850gm_1.webp";
+import img_160 from "./nucleum_insert_850gm_2.webp";
+import img_161 from "./nucleum_insert_850gm_3.webp";
+import img_162 from "./nucleum_insert_850gm_4.webp";
+import img_163 from "./old_kings_crown_insert_1200gm_1.jpg";
+import img_164 from "./old_kings_crown_insert_1200gm_2.jpg";
+import img_165 from "./old_kings_crown_insert_1200gm_3.jpg";
+import img_166 from "./old_kings_crown_insert_1200gm_4.jpg";
+import img_167 from "./old_kings_crown_insert_1200gm_5.jpg";
+import img_168 from "./pandemic_base_game_insert_290gm_1.webp";
+import img_169 from "./pandemic_base_game_insert_290gm_2.webp";
+import img_170 from "./pandemic_base_game_insert_290gm_3.webp";
+import img_171 from "./pandemic_base_game_insert_290gm_4.jpg";
+import img_172 from "./pandemic_base_game_insert_290gm_5.jpg";
+import img_173 from "./player_score_tracker_45gm_1.jpg";
+import img_174 from "./player_score_tracker_45gm_2.jpg";
+import img_175 from "./player_score_tracker_45gm_3.jpg";
+import img_176 from "./player_score_tracker_45gm_4.jpg";
+import img_177 from "./pocket_and_travel_dice_tower_90gm_1.webp";
+import img_178 from "./pocket_and_travel_dice_tower_90gm_2.webp";
+import img_179 from "./pocket_and_travel_dice_tower_90gm_3.webp";
+import img_180 from "./portable_personal_dice_tray_fold_to_close_61gm_1.webp";
+import img_181 from "./portable_personal_dice_tray_fold_to_close_61gm_2.webp";
+import img_182 from "./portable_personal_dice_tray_fold_to_close_61gm_3.webp";
+import img_183 from "./portable_personal_dice_tray_fold_to_close_61gm_4.webp";
+import img_184 from "./root_base_game_insert_440gm_1.webp";
+import img_185 from "./root_base_game_insert_440gm_2.webp";
+import img_186 from "./root_base_game_insert_440gm_3.webp";
+import img_187 from "./root_base_game_insert_440gm_4.webp";
+import img_188 from "./root_base_game_insert_440gm_5.webp";
+import img_189 from "./root_base_game_insert_440gm_6.webp";
+import img_190 from "./scout_game_inserts_43gm_1.webp";
+import img_191 from "./scout_game_inserts_43gm_2.webp";
+import img_192 from "./scout_game_inserts_43gm_3.webp";
+import img_193 from "./scrable_tile_holder_10cm_to_16cm_20gm_1.webp";
+import img_194 from "./scrable_tile_holder_10cm_to_16cm_20gm_2.webp";
+import img_195 from "./single_card_tray_customizable_45gm_1.webp";
+import img_196 from "./single_card_tray_customizable_45gm_2.webp";
+import img_197 from "./single_card_tray_customizable_45gm_3.webp";
+import img_198 from "./single_card_tray_customizable_45gm_4.webp";
+import img_199 from "./sky_team_inserts_1.jpg";
+import img_200 from "./sky_team_inserts_2.jpg";
+import img_201 from "./sky_team_inserts_3.jpg";
+import img_202 from "./smash_castle_dice_tower_290gm_1.webp";
+import img_203 from "./splendor_base_game_insert_440gm_1.jpg";
+import img_204 from "./splendor_base_game_insert_440gm_2.jpg";
+import img_205 from "./splendor_base_game_insert_440gm_3.jpg";
+import img_206 from "./splendor_travel_case-210gm_1.jpg";
+import img_207 from "./splendor_travel_case-210gm_2.jpg";
+import img_208 from "./splendor_travel_case-210gm_3.jpg";
+import img_209 from "./splendor_travel_case-210gm_4.jpg";
+import img_210 from "./stackable_hexagon_token_tray_1.jpg";
+import img_211 from "./stackable_hexagon_token_tray_2.jpg";
+import img_212 from "./straight_2_cards_slot_holder_40gm_1.jpg";
+import img_213 from "./straight_2_cards_slot_holder_40gm_2.jpg";
+import img_214 from "./terraforming_mars_inserts_1.jpg";
+import img_215 from "./terraforming_mars_inserts_2.jpg";
+import img_216 from "./terraforming_mars_inserts_3.jpg";
+import img_217 from "./terraforming_mars_inserts_4.jpg";
+import img_218 from "./terraforming_mars_overlay_mats_1.jpg";
+import img_219 from "./terraforming_mars_overlay_mats_2.webp";
+import img_220 from "./terraforming_mars_overlay_mats_3.jpg";
+import img_221 from "./terraforming_mars_overlay_mats_4.jpg";
+import img_222 from "./ticket_to_ride_premium_train_upgrade_290gm_1.webp";
+import img_223 from "./ticket_to_ride_train_tray_19gm_1.webp";
+import img_224 from "./ticket_to_ride_train_tray_19gm_2.webp";
+import img_225 from "./ticket_to_ride_trains_and_station_organizer_70gm_1.webp";
+import img_226 from "./ticket_to_ride_trains_and_station_organizer_70gm_2.webp";
+import img_227 from "./ticket_to_ride_trains_and_station_organizer_70gm_3.webp";
+import img_228 from "./ticket_to_ride_trains_and_station_organizer_70gm_4.jpeg";
+import img_229 from "./ticket_to_ride_trains_storage_65gm_1.webp";
+import img_230 from "./ticket_to_ride_trains_storage_65gm_2.webp";
+import img_231 from "./ticket_to_ride_trains_storage_65gm_3.webp";
+import img_232 from "./ticket_to_ride_trains_storage_65gm_4.jpeg";
+import img_233 from "./twilight_imperium_base_game_700gm_inserts_1.jpg";
+import img_234 from "./twilight_imperium_base_game_700gm_inserts_2.jpg";
+import img_235 from "./twilight_imperium_base_game_700gm_inserts_3.jpg";
+import img_236 from "./twilight_imperium_base_game_700gm_inserts_4.jpg";
+import img_237 from "./universal_3_slot_card_and_resource_tray_1.jpg";
+import img_238 from "./universal_3_slot_card_and_resource_tray_2.jpg";
+import img_239 from "./viticulture_insert_with_expension_1.jpg";
+import img_240 from "./viticulture_insert_with_expension_2.jpg";
+import img_241 from "./wingspan_food_tokens_1.png";
+import img_242 from "./wingspan_food_tokens_2.jpg";
+import img_243 from "./wingspan_inserts_1.jpeg";
+import img_244 from "./wingspan_inserts_2.jpeg";
+import img_245 from "./wingspan_inserts_3.jpeg";
+import img_246 from "./wingspan_inserts_4.jpeg";
+import img_247 from "./wingspan_inserts_5.jpeg";
+import img_248 from "./wingspan_travel_box_445gm_1.webp";
+import img_249 from "./wingspan_travel_box_445gm_2.webp";
+import img_250 from "./wingspan_travel_box_445gm_3.webp";
+import img_251 from "./wingspan_travel_box_445gm_4.webp";
+import img_252 from "./wingspan_travel_box_445gm_5.webp";
+import img_253 from "./wingspan_travel_box_445gm_6.webp";
 
 type ImageImport = { src: string; width: number; height: number };
 
@@ -291,49 +297,51 @@ const productImages: Record<string, ImageImport[]> = {
   "dune_imperium_base_game_insert_980gm": [img_103, img_104],
   "Dune_Imperium_uprising_insert_base_game_1200gm": [img_105, img_106, img_107, img_108, img_109],
   "dune_war_for_arrakis_insert_with_both_exp_1230g": [img_110, img_111, img_112, img_113, img_114],
-  "full_dice_set_kit_Card_DIY_18gm": [img_115, img_116, img_117, img_118],
-  "funnel_tray": [img_119],
-  "Gloomhaven_JOTL_player_dashboard_72gm": [img_120, img_121, img_122, img_123],
-  "heat_padel_to_the_metal_gearbox_overlay_13gm": [img_124, img_125, img_126],
-  "hex_dice_tray_70gm": [img_127, img_128],
-  "honeycomb_dice_tower_key_card_47gm": [img_129, img_130, img_131],
-  "hues_and_cues_scorring_fence_14gm": [img_132],
-  "interlocking_resource_trays_24gm": [img_133, img_134, img_135, img_136],
-  "lords_of_waterdeep_skulls_30_pack_140gm": [img_137, img_138, img_139],
-  "lost_ruins_with_all_expensions": [img_140, img_141, img_142, img_143],
-  "meeple_shaped_stackable_board_game_resource_tray": [img_144, img_145],
-  "modular_card_and_resource_tray_with_round_card_holder_225gm": [img_146, img_147, img_148],
-  "mountain_goat_meeple": [img_149, img_150],
-  "mountain_goats_145gm": [img_151],
-  "mountain_tile_2_to_5_cms_7gm": [img_152],
-  "nucleum_insert_850gm": [img_153, img_154, img_155, img_156],
-  "old_kings_crown_insert_1200gm": [img_157, img_158, img_159, img_160, img_161],
-  "pandemic_base_game_insert_290gm": [img_162, img_163, img_164, img_165, img_166],
-  "player_score_tracker_45gm": [img_167, img_168, img_169, img_170],
-  "pocket_and_travel_dice_tower_90gm": [img_171, img_172, img_173],
-  "portable_personal_dice_tray_fold_to_close_61gm": [img_174, img_175, img_176, img_177],
-  "root_base_game_insert_440gm": [img_178, img_179, img_180, img_181, img_182, img_183],
-  "scout_game_inserts_43gm": [img_184, img_185, img_186],
-  "scrable_tile_holder_10cm_to_16cm_20gm": [img_187, img_188],
-  "single_card_tray_customizable_45gm": [img_189, img_190, img_191, img_192],
-  "sky_team_inserts": [img_193, img_194, img_195],
-  "smash_castle_dice_tower_290gm": [img_196],
-  "splendor_base_game_insert_440gm": [img_197, img_198, img_199],
-  "splendor_travel_case-210gm": [img_200, img_201, img_202, img_203],
-  "stackable_hexagon_token_tray": [img_204, img_205],
-  "straight_2_cards_slot_holder_40gm": [img_206, img_207],
-  "terraforming_mars_inserts": [img_208, img_209, img_210, img_211],
-  "terraforming_mars_overlay_mats": [img_212, img_213, img_214, img_215],
-  "ticket_to_ride_premium_train_upgrade_290gm": [img_216],
-  "ticket_to_ride_train_tray_19gm": [img_217, img_218],
-  "ticket_to_ride_trains_and_station_organizer_70gm": [img_219, img_220, img_221, img_222],
-  "ticket_to_ride_trains_storage_65gm": [img_223, img_224, img_225, img_226],
-  "twilight_imperium_base_game_700gm_inserts": [img_227, img_228, img_229, img_230],
-  "universal_3_slot_card_and_resource_tray": [img_231, img_232],
-  "viticulture_insert_with_expension": [img_233, img_234],
-  "wingspan_food_tokens": [img_235, img_236],
-  "wingspan_inserts": [img_237, img_238, img_239, img_240, img_241],
-  "wingspan_travel_box_445gm": [img_242, img_243, img_244, img_245, img_246, img_247]
+  "foldable_travel_dice_tower_320gm": [img_115, img_116, img_117],
+  "full_dice_set_kit_Card_DIY_18gm": [img_118, img_119, img_120, img_121],
+  "funnel_tray": [img_122],
+  "Gloomhaven_JOTL_player_dashboard_72gm": [img_123, img_124, img_125, img_126],
+  "heat_padel_to_the_metal_gearbox_overlay_13gm": [img_127, img_128, img_129],
+  "hex_dice_tray_70gm": [img_130, img_131],
+  "honeycomb_dice_tower_key_card_47gm": [img_132, img_133, img_134],
+  "hues_and_cues_scorring_fence_14gm": [img_135],
+  "interlocking_resource_trays_24gm": [img_136, img_137, img_138, img_139],
+  "lords_of_waterdeep_charecter_set_25pcs_150gm": [img_140, img_141, img_142],
+  "lords_of_waterdeep_skulls_30_pack_140gm": [img_143, img_144, img_145],
+  "lost_ruins_with_all_expensions": [img_146, img_147, img_148, img_149],
+  "meeple_shaped_stackable_board_game_resource_tray": [img_150, img_151],
+  "modular_card_and_resource_tray_with_round_card_holder_225gm": [img_152, img_153, img_154],
+  "mountain_goat_meeple": [img_155, img_156],
+  "mountain_goats_145gm": [img_157],
+  "mountain_tile_2_to_5_cms_7gm": [img_158],
+  "nucleum_insert_850gm": [img_159, img_160, img_161, img_162],
+  "old_kings_crown_insert_1200gm": [img_163, img_164, img_165, img_166, img_167],
+  "pandemic_base_game_insert_290gm": [img_168, img_169, img_170, img_171, img_172],
+  "player_score_tracker_45gm": [img_173, img_174, img_175, img_176],
+  "pocket_and_travel_dice_tower_90gm": [img_177, img_178, img_179],
+  "portable_personal_dice_tray_fold_to_close_61gm": [img_180, img_181, img_182, img_183],
+  "root_base_game_insert_440gm": [img_184, img_185, img_186, img_187, img_188, img_189],
+  "scout_game_inserts_43gm": [img_190, img_191, img_192],
+  "scrable_tile_holder_10cm_to_16cm_20gm": [img_193, img_194],
+  "single_card_tray_customizable_45gm": [img_195, img_196, img_197, img_198],
+  "sky_team_inserts": [img_199, img_200, img_201],
+  "smash_castle_dice_tower_290gm": [img_202],
+  "splendor_base_game_insert_440gm": [img_203, img_204, img_205],
+  "splendor_travel_case-210gm": [img_206, img_207, img_208, img_209],
+  "stackable_hexagon_token_tray": [img_210, img_211],
+  "straight_2_cards_slot_holder_40gm": [img_212, img_213],
+  "terraforming_mars_inserts": [img_214, img_215, img_216, img_217],
+  "terraforming_mars_overlay_mats": [img_218, img_219, img_220, img_221],
+  "ticket_to_ride_premium_train_upgrade_290gm": [img_222],
+  "ticket_to_ride_train_tray_19gm": [img_223, img_224],
+  "ticket_to_ride_trains_and_station_organizer_70gm": [img_225, img_226, img_227, img_228],
+  "ticket_to_ride_trains_storage_65gm": [img_229, img_230, img_231, img_232],
+  "twilight_imperium_base_game_700gm_inserts": [img_233, img_234, img_235, img_236],
+  "universal_3_slot_card_and_resource_tray": [img_237, img_238],
+  "viticulture_insert_with_expension": [img_239, img_240],
+  "wingspan_food_tokens": [img_241, img_242],
+  "wingspan_inserts": [img_243, img_244, img_245, img_246, img_247],
+  "wingspan_travel_box_445gm": [img_248, img_249, img_250, img_251, img_252, img_253]
 };
 
 export default productImages;
