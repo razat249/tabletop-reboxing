@@ -1352,5 +1352,22 @@
       "weight": "~72g"
     },
     "game": "Gloomhaven: Jaws of the Lion"
+  },
+  {
+    "id": "nucleum_insert_850gm",
+    "name": "Nucleum Inserts (With Both Promo Sets)",
+    "category": "Board Game Inserts",
+    "price": 1720,
+    "description": "Full inserts for Nucleum that hold all base-game components plus both promo sets — Nucleum: Half Tiles Promo (2023) and Nucleum: Acrylic Nucleums Promo (2023). Every tile, token, and card has a dedicated slot for quick setup and clean teardown.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Nucleum — base game + Half Tiles Promo (2023) + Acrylic Nucleums Promo (2023)",
+      "material": "High quality PLA",
+      "weight": "~850g"
+    },
+    "game": "Nucleum"
   }
 ]
