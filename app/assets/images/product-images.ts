@@ -207,54 +207,56 @@ import img_202 from "./smash_castle_dice_tower_290gm_1.webp";
 import img_203 from "./splendor_base_game_insert_440gm_1.jpg";
 import img_204 from "./splendor_base_game_insert_440gm_2.jpg";
 import img_205 from "./splendor_base_game_insert_440gm_3.jpg";
-import img_206 from "./splendor_travel_case-210gm_1.jpg";
-import img_207 from "./splendor_travel_case-210gm_2.jpg";
-import img_208 from "./splendor_travel_case-210gm_3.jpg";
-import img_209 from "./splendor_travel_case-210gm_4.jpg";
-import img_210 from "./stackable_hexagon_token_tray_1.jpg";
-import img_211 from "./stackable_hexagon_token_tray_2.jpg";
-import img_212 from "./straight_2_cards_slot_holder_40gm_1.jpg";
-import img_213 from "./straight_2_cards_slot_holder_40gm_2.jpg";
-import img_214 from "./terraforming_mars_inserts_1.jpg";
-import img_215 from "./terraforming_mars_inserts_2.jpg";
-import img_216 from "./terraforming_mars_inserts_3.jpg";
-import img_217 from "./terraforming_mars_inserts_4.jpg";
-import img_218 from "./terraforming_mars_overlay_mats_1.jpg";
-import img_219 from "./terraforming_mars_overlay_mats_2.webp";
-import img_220 from "./terraforming_mars_overlay_mats_3.jpg";
-import img_221 from "./terraforming_mars_overlay_mats_4.jpg";
-import img_222 from "./ticket_to_ride_premium_train_upgrade_290gm_1.webp";
-import img_223 from "./ticket_to_ride_train_tray_19gm_1.webp";
-import img_224 from "./ticket_to_ride_train_tray_19gm_2.webp";
-import img_225 from "./ticket_to_ride_trains_and_station_organizer_70gm_1.webp";
-import img_226 from "./ticket_to_ride_trains_and_station_organizer_70gm_2.webp";
-import img_227 from "./ticket_to_ride_trains_and_station_organizer_70gm_3.webp";
-import img_228 from "./ticket_to_ride_trains_and_station_organizer_70gm_4.jpeg";
-import img_229 from "./ticket_to_ride_trains_storage_65gm_1.webp";
-import img_230 from "./ticket_to_ride_trains_storage_65gm_2.webp";
-import img_231 from "./ticket_to_ride_trains_storage_65gm_3.webp";
-import img_232 from "./ticket_to_ride_trains_storage_65gm_4.jpeg";
-import img_233 from "./twilight_imperium_base_game_700gm_inserts_1.jpg";
-import img_234 from "./twilight_imperium_base_game_700gm_inserts_2.jpg";
-import img_235 from "./twilight_imperium_base_game_700gm_inserts_3.jpg";
-import img_236 from "./twilight_imperium_base_game_700gm_inserts_4.jpg";
-import img_237 from "./universal_3_slot_card_and_resource_tray_1.jpg";
-import img_238 from "./universal_3_slot_card_and_resource_tray_2.jpg";
-import img_239 from "./viticulture_insert_with_expension_1.jpg";
-import img_240 from "./viticulture_insert_with_expension_2.jpg";
-import img_241 from "./wingspan_food_tokens_1.png";
-import img_242 from "./wingspan_food_tokens_2.jpg";
-import img_243 from "./wingspan_inserts_1.jpeg";
-import img_244 from "./wingspan_inserts_2.jpeg";
-import img_245 from "./wingspan_inserts_3.jpeg";
-import img_246 from "./wingspan_inserts_4.jpeg";
-import img_247 from "./wingspan_inserts_5.jpeg";
-import img_248 from "./wingspan_travel_box_445gm_1.webp";
-import img_249 from "./wingspan_travel_box_445gm_2.webp";
-import img_250 from "./wingspan_travel_box_445gm_3.webp";
-import img_251 from "./wingspan_travel_box_445gm_4.webp";
-import img_252 from "./wingspan_travel_box_445gm_5.webp";
-import img_253 from "./wingspan_travel_box_445gm_6.webp";
+import img_206 from "./splendor_token_holder_80gm_1.webp";
+import img_207 from "./splendor_token_holder_80gm_2.webp";
+import img_208 from "./splendor_travel_case-210gm_1.jpg";
+import img_209 from "./splendor_travel_case-210gm_2.jpg";
+import img_210 from "./splendor_travel_case-210gm_3.jpg";
+import img_211 from "./splendor_travel_case-210gm_4.jpg";
+import img_212 from "./stackable_hexagon_token_tray_1.jpg";
+import img_213 from "./stackable_hexagon_token_tray_2.jpg";
+import img_214 from "./straight_2_cards_slot_holder_40gm_1.jpg";
+import img_215 from "./straight_2_cards_slot_holder_40gm_2.jpg";
+import img_216 from "./terraforming_mars_inserts_1.jpg";
+import img_217 from "./terraforming_mars_inserts_2.jpg";
+import img_218 from "./terraforming_mars_inserts_3.jpg";
+import img_219 from "./terraforming_mars_inserts_4.jpg";
+import img_220 from "./terraforming_mars_overlay_mats_1.jpg";
+import img_221 from "./terraforming_mars_overlay_mats_2.webp";
+import img_222 from "./terraforming_mars_overlay_mats_3.jpg";
+import img_223 from "./terraforming_mars_overlay_mats_4.jpg";
+import img_224 from "./ticket_to_ride_premium_train_upgrade_290gm_1.webp";
+import img_225 from "./ticket_to_ride_train_tray_19gm_1.webp";
+import img_226 from "./ticket_to_ride_train_tray_19gm_2.webp";
+import img_227 from "./ticket_to_ride_trains_and_station_organizer_70gm_1.webp";
+import img_228 from "./ticket_to_ride_trains_and_station_organizer_70gm_2.webp";
+import img_229 from "./ticket_to_ride_trains_and_station_organizer_70gm_3.webp";
+import img_230 from "./ticket_to_ride_trains_and_station_organizer_70gm_4.jpeg";
+import img_231 from "./ticket_to_ride_trains_storage_65gm_1.webp";
+import img_232 from "./ticket_to_ride_trains_storage_65gm_2.webp";
+import img_233 from "./ticket_to_ride_trains_storage_65gm_3.webp";
+import img_234 from "./ticket_to_ride_trains_storage_65gm_4.jpeg";
+import img_235 from "./twilight_imperium_base_game_700gm_inserts_1.jpg";
+import img_236 from "./twilight_imperium_base_game_700gm_inserts_2.jpg";
+import img_237 from "./twilight_imperium_base_game_700gm_inserts_3.jpg";
+import img_238 from "./twilight_imperium_base_game_700gm_inserts_4.jpg";
+import img_239 from "./universal_3_slot_card_and_resource_tray_1.jpg";
+import img_240 from "./universal_3_slot_card_and_resource_tray_2.jpg";
+import img_241 from "./viticulture_insert_with_expension_1.jpg";
+import img_242 from "./viticulture_insert_with_expension_2.jpg";
+import img_243 from "./wingspan_food_tokens_1.png";
+import img_244 from "./wingspan_food_tokens_2.jpg";
+import img_245 from "./wingspan_inserts_1.jpeg";
+import img_246 from "./wingspan_inserts_2.jpeg";
+import img_247 from "./wingspan_inserts_3.jpeg";
+import img_248 from "./wingspan_inserts_4.jpeg";
+import img_249 from "./wingspan_inserts_5.jpeg";
+import img_250 from "./wingspan_travel_box_445gm_1.webp";
+import img_251 from "./wingspan_travel_box_445gm_2.webp";
+import img_252 from "./wingspan_travel_box_445gm_3.webp";
+import img_253 from "./wingspan_travel_box_445gm_4.webp";
+import img_254 from "./wingspan_travel_box_445gm_5.webp";
+import img_255 from "./wingspan_travel_box_445gm_6.webp";
 
 type ImageImport = { src: string; width: number; height: number };
 
@@ -327,21 +329,22 @@ const productImages: Record<string, ImageImport[]> = {
   "sky_team_inserts": [img_199, img_200, img_201],
   "smash_castle_dice_tower_290gm": [img_202],
   "splendor_base_game_insert_440gm": [img_203, img_204, img_205],
-  "splendor_travel_case-210gm": [img_206, img_207, img_208, img_209],
-  "stackable_hexagon_token_tray": [img_210, img_211],
-  "straight_2_cards_slot_holder_40gm": [img_212, img_213],
-  "terraforming_mars_inserts": [img_214, img_215, img_216, img_217],
-  "terraforming_mars_overlay_mats": [img_218, img_219, img_220, img_221],
-  "ticket_to_ride_premium_train_upgrade_290gm": [img_222],
-  "ticket_to_ride_train_tray_19gm": [img_223, img_224],
-  "ticket_to_ride_trains_and_station_organizer_70gm": [img_225, img_226, img_227, img_228],
-  "ticket_to_ride_trains_storage_65gm": [img_229, img_230, img_231, img_232],
-  "twilight_imperium_base_game_700gm_inserts": [img_233, img_234, img_235, img_236],
-  "universal_3_slot_card_and_resource_tray": [img_237, img_238],
-  "viticulture_insert_with_expension": [img_239, img_240],
-  "wingspan_food_tokens": [img_241, img_242],
-  "wingspan_inserts": [img_243, img_244, img_245, img_246, img_247],
-  "wingspan_travel_box_445gm": [img_248, img_249, img_250, img_251, img_252, img_253]
+  "splendor_token_holder_80gm": [img_206, img_207],
+  "splendor_travel_case-210gm": [img_208, img_209, img_210, img_211],
+  "stackable_hexagon_token_tray": [img_212, img_213],
+  "straight_2_cards_slot_holder_40gm": [img_214, img_215],
+  "terraforming_mars_inserts": [img_216, img_217, img_218, img_219],
+  "terraforming_mars_overlay_mats": [img_220, img_221, img_222, img_223],
+  "ticket_to_ride_premium_train_upgrade_290gm": [img_224],
+  "ticket_to_ride_train_tray_19gm": [img_225, img_226],
+  "ticket_to_ride_trains_and_station_organizer_70gm": [img_227, img_228, img_229, img_230],
+  "ticket_to_ride_trains_storage_65gm": [img_231, img_232, img_233, img_234],
+  "twilight_imperium_base_game_700gm_inserts": [img_235, img_236, img_237, img_238],
+  "universal_3_slot_card_and_resource_tray": [img_239, img_240],
+  "viticulture_insert_with_expension": [img_241, img_242],
+  "wingspan_food_tokens": [img_243, img_244],
+  "wingspan_inserts": [img_245, img_246, img_247, img_248, img_249],
+  "wingspan_travel_box_445gm": [img_250, img_251, img_252, img_253, img_254, img_255]
 };
 
 export default productImages;
