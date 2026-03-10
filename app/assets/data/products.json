@@ -1369,5 +1369,21 @@
       "weight": "~850g"
     },
     "game": "Nucleum"
+  },
+  {
+    "id": "honeycomb_dice_tower_key_card_47gm",
+    "name": "Honeycomb Dice Tower",
+    "category": "Dice tower and Trays",
+    "price": 94,
+    "description": "A compact honeycomb-designed dice tower that doubles as a key card. Lightweight, portable, and perfect for ensuring fair rolls at any table.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~47g"
+    },
+    "game": ""
   }
 ]
