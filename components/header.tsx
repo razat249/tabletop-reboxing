@@ -104,23 +104,14 @@ export default function Header({ onCartClick, onRequestClick }: HeaderProps) {
             {mounted && (
               <button
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                className="relative flex items-center w-14 h-7 rounded-full p-0.5 smooth-transition border border-border/60"
-                style={{ backgroundColor: theme === "dark" ? "hsl(var(--secondary))" : "hsl(var(--secondary))" }}
+                className="p-2.5 hover:bg-secondary rounded-lg smooth-transition text-muted-foreground hover:text-foreground"
                 aria-label="Toggle dark mode"
-                role="switch"
-                aria-checked={theme === "dark"}
               >
-                <span className="absolute left-1.5 text-amber-500">
-                  <Sun size={14} strokeWidth={2} />
-                </span>
-                <span className="absolute right-1.5 text-indigo-400">
-                  <Moon size={14} strokeWidth={2} />
-                </span>
-                <span
-                  className={`relative z-10 w-5 h-5 rounded-full bg-background shadow-sm border border-border/40 smooth-transition ${
-                    theme === "dark" ? "translate-x-7" : "translate-x-0"
-                  }`}
-                />
+                {theme === "dark" ? (
+                  <Sun size={20} strokeWidth={1.75} />
+                ) : (
+                  <Moon size={20} strokeWidth={1.75} />
+                )}
               </button>
             )}
 
@@ -199,31 +190,17 @@ export default function Header({ onCartClick, onRequestClick }: HeaderProps) {
               Custom Request
             </button>
             {mounted && (
-              <div className="flex items-center justify-between px-3 py-2.5">
-                <span className="text-sm text-muted-foreground font-medium">
-                  {theme === "dark" ? "Dark mode" : "Light mode"}
-                </span>
-                <button
-                  onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                  className="relative flex items-center w-14 h-7 rounded-full p-0.5 smooth-transition border border-border/60"
-                  style={{ backgroundColor: "hsl(var(--secondary))" }}
-                  aria-label="Toggle dark mode"
-                  role="switch"
-                  aria-checked={theme === "dark"}
-                >
-                  <span className="absolute left-1.5 text-amber-500">
-                    <Sun size={14} strokeWidth={2} />
-                  </span>
-                  <span className="absolute right-1.5 text-indigo-400">
-                    <Moon size={14} strokeWidth={2} />
-                  </span>
-                  <span
-                    className={`relative z-10 w-5 h-5 rounded-full bg-background shadow-sm border border-border/40 smooth-transition ${
-                      theme === "dark" ? "translate-x-7" : "translate-x-0"
-                    }`}
-                  />
-                </button>
-              </div>
+              <button
+                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                className="flex items-center gap-2 w-full px-3 py-2.5 text-sm text-muted-foreground hover:text-foreground hover:bg-secondary rounded-lg smooth-transition font-medium"
+              >
+                {theme === "dark" ? (
+                  <Sun size={14} strokeWidth={2} />
+                ) : (
+                  <Moon size={14} strokeWidth={2} />
+                )}
+                {theme === "dark" ? "Light mode" : "Dark mode"}
+              </button>
             )}
           </nav>
         )}
