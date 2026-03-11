@@ -1156,7 +1156,7 @@
     "price": 220,
     "description": "Premium 3D-printed coin tokens for Brass: Birmingham. Replace cardboard money with tactile coins that fit the industrial theme.",
     "featured": false,
-    "hidden": false,
+    "hidden": true,
     "outOfStock": false,
     "showColorOption": true,
     "specs": {
