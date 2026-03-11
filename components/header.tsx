@@ -2,8 +2,9 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { ShoppingCart, Menu, X, Sparkles } from "lucide-react";
-import { useState } from "react";
+import { ShoppingCart, Menu, X, Sparkles, Sun, Moon } from "lucide-react";
+import { useState, useEffect } from "react";
+import { useTheme } from "next-themes";
 import { useRouter } from "next/navigation";
 import { useCart } from "@/lib/cart-context";
 import SearchBox, { type SearchSuggestion } from "@/components/search-box";
@@ -19,9 +20,13 @@ interface HeaderProps {
 
 export default function Header({ onCartClick, onRequestClick }: HeaderProps) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  const { theme, setTheme } = useTheme();
   const { items } = useCart();
   const cartCount = items.reduce((sum, item) => sum + item.quantity, 0);
   const router = useRouter();
+
+  useEffect(() => setMounted(true), []);
 
   const handleSearch = (query: string) => {
     if (query.trim()) {
@@ -95,6 +100,20 @@ export default function Header({ onCartClick, onRequestClick }: HeaderProps) {
                 <span className="absolute inset-0 rounded-lg border border-primary/20 animate-request-glow pointer-events-none" />
               </button>
             </nav>
+
+            {mounted && (
+              <button
+                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                className="p-2.5 hover:bg-secondary rounded-lg smooth-transition text-muted-foreground hover:text-foreground"
+                aria-label="Toggle dark mode"
+              >
+                {theme === "dark" ? (
+                  <Sun size={20} strokeWidth={1.75} />
+                ) : (
+                  <Moon size={20} strokeWidth={1.75} />
+                )}
+              </button>
+            )}
 
             <button
               onClick={onCartClick}
@@ -170,6 +189,19 @@ export default function Header({ onCartClick, onRequestClick }: HeaderProps) {
               <Sparkles size={14} strokeWidth={2} className="animate-pulse-subtle" />
               Custom Request
             </button>
+            {mounted && (
+              <button
+                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                className="flex items-center gap-2 w-full px-3 py-2.5 text-sm text-muted-foreground hover:text-foreground hover:bg-secondary rounded-lg smooth-transition font-medium"
+              >
+                {theme === "dark" ? (
+                  <Sun size={14} strokeWidth={2} />
+                ) : (
+                  <Moon size={14} strokeWidth={2} />
+                )}
+                {theme === "dark" ? "Light mode" : "Dark mode"}
+              </button>
+            )}
           </nav>
         )}
       </div>

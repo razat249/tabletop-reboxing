@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { ThemeProvider } from "@/components/theme-provider";
 import { CartProvider } from "@/lib/cart-context";
 import { RequestProvider } from "@/lib/request-context";
 import Header from "@/components/header";
@@ -19,21 +20,23 @@ export default function ClientLayout({
   const [isRequestOpen, setIsRequestOpen] = useState(false);
 
   return (
-    <CartProvider>
-      <RequestProvider onOpen={() => setIsRequestOpen(true)}>
-        <AnimatedBackground />
-        <div className="relative z-[1]">
-          <Header onCartClick={() => setIsCartOpen(true)} onRequestClick={() => setIsRequestOpen(true)} />
-          <CartSidebar
-            isOpen={isCartOpen}
-            onClose={() => setIsCartOpen(false)}
-          />
-          <main>{children}</main>
-          <Footer />
-          <FloatingCartBar onCartClick={() => setIsCartOpen(true)} />
-          <RequestModal isOpen={isRequestOpen} onClose={() => setIsRequestOpen(false)} />
-        </div>
-      </RequestProvider>
-    </CartProvider>
+    <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+      <CartProvider>
+        <RequestProvider onOpen={() => setIsRequestOpen(true)}>
+          <AnimatedBackground />
+          <div className="relative z-[1]">
+            <Header onCartClick={() => setIsCartOpen(true)} onRequestClick={() => setIsRequestOpen(true)} />
+            <CartSidebar
+              isOpen={isCartOpen}
+              onClose={() => setIsCartOpen(false)}
+            />
+            <main>{children}</main>
+            <Footer />
+            <FloatingCartBar onCartClick={() => setIsCartOpen(true)} />
+            <RequestModal isOpen={isRequestOpen} onClose={() => setIsRequestOpen(false)} />
+          </div>
+        </RequestProvider>
+      </CartProvider>
+    </ThemeProvider>
   );
 }

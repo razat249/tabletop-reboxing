@@ -208,7 +208,7 @@
     "name": "Clank! Catacombs Token Holder",
     "category": "Other Accessories",
     "price": 190,
-    "description": "A purpose-built holder for Clank! Catacombs tokens. Keeps everything sorted and within reach during those tense dungeon runs.",
+    "description": "A purpose-built holder for Clank! Catacombs tokens. Keeps everything sorted and within reach during those tense dungeon runs. Enhance your Clank! Catacombs experience with this custom-designed token holder, crafted to keep your tokens easily accessible. This practical holder securely stores all the essential tokens from the game, ensuring they’re ready for quick access during gameplay. This token holder reduces game setup. You'll spend less time sorting through piles of tokens and more time enjoying the fun of Clank! Catacombs.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
@@ -1388,10 +1388,10 @@
   },
   {
     "id": "lords_of_waterdeep_charecter_set_25pcs_150gm",
-    "name": "Lords of Waterdeep Character Set (25 pcs)",
+    "name": "Lords of Waterdeep Character Set (25 pcs for each character)",
     "category": "Board Game Upgrades",
     "price": 300,
-    "description": "A set of 25 detailed character pieces for Lords of Waterdeep. Replaces standard cubes with thematic miniatures for a more immersive experience.",
+    "description": "A set of 100 (25 pcs for each character) detailed character pieces for Lords of Waterdeep. Replaces standard cubes with thematic miniatures for a more immersive experience.",
     "featured": false,
     "hidden": false,
     "outOfStock": false,
@@ -1400,7 +1400,7 @@
       "compatibility": "Lords of Waterdeep",
       "material": "High quality PLA",
       "weight": "~150g",
-      "count": "25 pieces"
+      "count": "100 pieces"
     },
     "game": "Lords of Waterdeep"
   },
@@ -1436,5 +1436,23 @@
       "weight": "~80g"
     },
     "game": "Splendor"
+  },
+  {
+    "id": "clank_catacombs_magnetic_tile_grid_24pcs_340gm",
+    "name": "Clank! Catacombs Magnetic Tile Grid (24 pcs)",
+    "category": "Board Game Upgrades",
+    "price": 680,
+    "description": "A set of 24 magnetic hexagonal frames for Clank! Catacombs. Each frame snaps onto a dungeon tile with embedded magnets, locking adjacent tiles together so the map stays aligned no matter how much the table gets bumped. Stackable for compact storage.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Clank! Catacombs",
+      "material": "High quality PLA",
+      "weight": "~340g",
+      "count": "24 magnetic tile grids"
+    },
+    "game": "Clank! Catacombs"
   }
 ]
