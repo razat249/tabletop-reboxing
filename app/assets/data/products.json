@@ -1489,5 +1489,24 @@
       "count": "4 overlay trays"
     },
     "game": "Azul"
+  },
+  {
+    "id": "carcassonne_grid_holder_34gm",
+    "name": "4×4 Grid Holder (Single piece - Stackable & Connectable)",
+    "category": "Card and Resource Trays",
+    "price": 68,
+    "description": "Need to keep tiles or tokens in a neat grid? This 4×4 grid helps with that. Stackable and connectable too! You can use it with Carcassonne.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Carcassonne",
+      "material": "High quality PLA",
+      "weight": "~34g",
+      "quantity": "1 piece",
+      "size": "4×4 grid, stackable, connectable"
+    },
+    "game": "Carcassonne"
   }
 ]
