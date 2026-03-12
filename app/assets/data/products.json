@@ -1508,5 +1508,57 @@
       "size": "4×4 grid, stackable, connectable"
     },
     "game": "Carcassonne"
+  },
+  {
+    "id": "quacks_of_quedlinburg_all_expension_insert_940gm",
+    "name": "Quacks of Quedlinburg Inserts (All Expansions)",
+    "category": "Board Game Inserts",
+    "price": 1880,
+    "description": "Full inserts for The Quacks of Quedlinburg with all expansions — The Herb Witches, The Alchemists, and Mega Box. Dedicated compartments for every ingredient chip, flask, scoring token, and player board. Everything fits back in one box.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "The Quacks of Quedlinburg — base game + The Herb Witches + The Alchemists + Mega Box",
+      "material": "High quality PLA",
+      "weight": "~940g"
+    },
+    "game": "The Quacks of Quedlinburg"
+  },
+  {
+    "id": "catan_hex_tile_lock_grid_20_pcs_95gm",
+    "name": "Catan Hex Tile Lock Grid (20 pcs)",
+    "category": "Board Game Upgrades",
+    "price": 190,
+    "description": "A set of 20 interlocking hex grids that snap onto Catan land tiles, keeping the board locked together during play. No more accidental nudges shifting the island mid-game.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Catan — base game",
+      "material": "High quality PLA",
+      "weight": "~95g",
+      "count": "20 hex tile lock grids"
+    },
+    "game": "Catan"
+  },
+  {
+    "id": "clank_player_tray_84gm",
+    "name": "Clank! Player Tray",
+    "category": "Other Accessories",
+    "price": 168,
+    "description": "A personal player tray for Clank! that holds your cards, clank cubes, meeple, and tokens in one tidy spot. Keeps your side of the table organized during dungeon runs.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Clank! / Clank! Catacombs",
+      "material": "High quality PLA",
+      "weight": "~84g"
+    },
+    "game": "Clank!"
   }
 ]
