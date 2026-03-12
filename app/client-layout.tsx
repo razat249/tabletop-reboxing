@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { CartProvider } from "@/lib/cart-context";
 import { RequestProvider } from "@/lib/request-context";
 import Header from "@/components/header";
+import CustomRequestBar from "@/components/custom-request-bar";
 import CartSidebar from "@/components/cart-sidebar";
 import FloatingCartBar from "@/components/floating-cart-bar";
 import Footer from "@/components/footer";
@@ -26,6 +27,7 @@ export default function ClientLayout({
           <AnimatedBackground />
           <div className="relative z-[1]">
             <Header onCartClick={() => setIsCartOpen(true)} onRequestClick={() => setIsRequestOpen(true)} />
+            <CustomRequestBar onRequestClick={() => setIsRequestOpen(true)} />
             <CartSidebar
               isOpen={isCartOpen}
               onClose={() => setIsCartOpen(false)}
