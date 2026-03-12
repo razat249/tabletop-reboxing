@@ -1454,5 +1454,40 @@
       "count": "24 magnetic tile grids"
     },
     "game": "Clank! Catacombs"
+  },
+  {
+    "id": "Azul_insert_with_board_overlay_tray_450gm",
+    "name": "Azul Insert with Board Overlay Tray",
+    "category": "Board Game Inserts",
+    "price": 900,
+    "description": "Full insert for Azul with an integrated board overlay tray. Holds the pattern grid, floor line, score track, player markers, and all tiles. The overlay keeps your board organized and tiles in place during play.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Azul - base game",
+      "material": "High quality PLA",
+      "weight": "~450g"
+    },
+    "game": "Azul"
+  },
+  {
+    "id": "azul_overlay_tray_4pcs_292gm",
+    "name": "Azul Overlay Trays (4 pcs)",
+    "category": "Board Game Upgrades",
+    "price": 584,
+    "description": "A set of four overlay trays for Azul player boards. Each tray frames the pattern grid and floor line so tiles stay put and scoring is clear. Fits the base game's four player boards.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Azul - base game",
+      "material": "High quality PLA",
+      "weight": "~292g",
+      "count": "4 overlay trays"
+    },
+    "game": "Azul"
   }
 ]
