@@ -1486,7 +1486,7 @@
       "compatibility": "Azul - base game",
       "material": "High quality PLA",
       "weight": "~292g",
-      "count": "4 overlay trays"
+      "quantity": "4 overlay trays"
     },
     "game": "Azul"
   },
