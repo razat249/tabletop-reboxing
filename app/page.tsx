@@ -12,8 +12,10 @@ import {
   Package,
   Truck,
   Sparkles,
+  Gamepad2,
 } from "lucide-react";
 import { products, categories, getFeaturedProducts } from "@/app/assets/data";
+import { miniApps } from "@/app/mini-apps/_data/mini-apps";
 import { useRequest } from "@/lib/request-context";
 
 const allProducts: SearchSuggestion[] = products;
@@ -148,7 +150,7 @@ export default function Home() {
 
       {/* New Arrivals Section */}
       {newArrivals.length > 0 && (
-        <section className="relative overflow-hidden py-14 sm:py-20">
+        <section className="relative py-14 sm:py-20 overflow-hidden">
           <div
             className="absolute inset-0 bg-gradient-to-b from-teal-500/5 via-background to-cyan-500/5"
             aria-hidden
@@ -157,65 +159,76 @@ export default function Home() {
             className="absolute left-0 top-1/2 -translate-y-1/2 w-72 h-72 bg-teal-400/10 rounded-full blur-3xl"
             aria-hidden
           />
-          <div className="relative section-padding">
-            <div className="page-container">
-              <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-10">
-                <div>
-                  <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-teal-500/15 text-teal-700 dark:text-teal-300 text-2xs font-semibold uppercase tracking-widest border border-teal-500/25 mb-3">
-                    Just landed
-                  </span>
-                  <h2 className="font-serif text-3xl sm:text-4xl text-foreground">
-                    New Arrivals
-                  </h2>
-                </div>
-                <p className="text-sm text-muted-foreground max-w-md">
+          <div className="relative page-container">
+            <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-10">
+              <div>
+                <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-teal-500/15 text-teal-700 dark:text-teal-300 text-2xs font-semibold uppercase tracking-widest border border-teal-500/25 mb-3">
+                  Just landed
+                </span>
+                <h2 className="font-serif text-3xl sm:text-4xl text-foreground mb-2">
+                  New Arrivals
+                </h2>
+                <p className="text-muted-foreground max-w-md">
                   The latest inserts and accessories, fresh from the workshop.
                   First to see them, first to organize.
                 </p>
               </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 sm:gap-6">
-                {newArrivals.map((product) => (
-                  <ProductCard
-                    key={product.id}
-                    id={product.id}
-                    name={product.name}
-                    price={product.price}
-                    image={product.image}
-                    category={product.category}
-                    outOfStock={product.outOfStock}
-                  />
-                ))}
-              </div>
-              <div className="mt-10 text-center">
-                <Link
-                  href="/products"
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-semibold text-white bg-gradient-to-r from-teal-500 to-cyan-500 hover:from-teal-600 hover:to-cyan-600 shadow-lg shadow-teal-500/20 smooth-transition"
-                >
-                  View all products
-                  <ArrowRight size={16} strokeWidth={2} />
-                </Link>
-              </div>
+              <Link
+                href="/products"
+                className="hidden sm:flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary/80 smooth-transition shrink-0"
+              >
+                View all
+                <ArrowRight size={14} strokeWidth={2} />
+              </Link>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 sm:gap-6">
+              {newArrivals.map((product) => (
+                <ProductCard
+                  key={product.id}
+                  id={product.id}
+                  name={product.name}
+                  price={product.price}
+                  image={product.image}
+                  category={product.category}
+                  outOfStock={product.outOfStock}
+                />
+              ))}
+            </div>
+            <div className="mt-8 text-center sm:hidden">
+              <Link
+                href="/products"
+                className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary/80 smooth-transition"
+              >
+                View all products
+                <ArrowRight size={14} strokeWidth={2} />
+              </Link>
             </div>
           </div>
         </section>
       )}
 
       {/* Categories Section */}
-      <section className="section-padding relative py-14 sm:py-20">
-        <div className="page-container relative">
-          <div className="text-center mb-12">
-            <span className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-2xs font-semibold uppercase tracking-widest border border-primary/20 mb-3">
-              For every game
-            </span>
-            <h2 className="font-serif text-3xl sm:text-4xl text-foreground mb-3">
-              Shop by Category
-            </h2>
-            <p className="text-muted-foreground max-w-lg mx-auto">
-              Inserts, upgrades, dice towers, travel boxes, and more — find what
-              fits your collection.
-            </p>
+      <section className="relative py-14 sm:py-20 overflow-hidden">
+        <div
+          className="absolute inset-0 bg-gradient-to-b from-emerald-500/5 via-background to-teal-500/5"
+          aria-hidden
+        />
+        <div className="relative page-container">
+          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-10">
+            <div>
+              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 text-2xs font-semibold uppercase tracking-widest border border-emerald-500/25 mb-3">
+                For every game
+              </span>
+              <h2 className="font-serif text-3xl sm:text-4xl text-foreground mb-2">
+                Shop by Category
+              </h2>
+              <p className="text-muted-foreground max-w-md">
+                Inserts, upgrades, dice towers, travel boxes, and more — find
+                what fits your collection.
+              </p>
+            </div>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
             {categories.map((category) => (
               <CategoryCard
                 key={category.id}
@@ -232,6 +245,79 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Mini Apps Section */}
+      <section className="relative py-14 sm:py-20 overflow-hidden">
+        <div
+          className="absolute inset-0 bg-gradient-to-b from-violet-500/5 via-background to-fuchsia-500/5"
+          aria-hidden
+        />
+        <div
+          className="absolute right-0 top-1/3 w-60 h-60 bg-violet-400/10 rounded-full blur-3xl"
+          aria-hidden
+        />
+        <div className="relative page-container">
+          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-10">
+            <div>
+              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-violet-500/15 text-violet-700 dark:text-violet-300 text-2xs font-semibold uppercase tracking-widest border border-violet-500/25 mb-3">
+                <Gamepad2 size={13} strokeWidth={2} />
+                Digital Companions
+              </span>
+              <h2 className="font-serif text-3xl sm:text-4xl text-foreground mb-2">
+                Mini Apps
+              </h2>
+              <p className="text-muted-foreground max-w-md">
+                Free tools to use right at the game table — player mats, score
+                trackers, and more.
+              </p>
+            </div>
+            <Link
+              href="/mini-apps"
+              className="hidden sm:flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary/80 smooth-transition shrink-0"
+            >
+              View all
+              <ArrowRight size={14} strokeWidth={2} />
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+            {miniApps
+              .filter((app) => app.status === "live")
+              .map((app) => (
+                <Link
+                  key={app.slug}
+                  href={`/mini-apps/${app.slug}`}
+                  className={`group block rounded-2xl border border-border/60 bg-gradient-to-br ${app.gradient} p-5 sm:p-6 shadow-card hover:shadow-card-hover ${app.borderAccent} smooth-transition`}
+                >
+                  <div className="flex items-start justify-between gap-3 mb-3">
+                    <span className="text-2xl leading-none">{app.icon}</span>
+                  </div>
+                  <p className="text-2xs font-semibold uppercase tracking-wider text-primary mb-1">
+                    {app.game}
+                  </p>
+                  <h3 className="font-serif text-lg text-foreground mb-2">
+                    {app.name}
+                  </h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+                    {app.description}
+                  </p>
+                  <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-primary group-hover:gap-2 smooth-transition">
+                    Open app
+                    <ArrowRight size={13} strokeWidth={2.5} />
+                  </span>
+                </Link>
+              ))}
+          </div>
+          <div className="mt-8 text-center sm:hidden">
+            <Link
+              href="/mini-apps"
+              className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary/80 smooth-transition"
+            >
+              View all mini apps
+              <ArrowRight size={14} strokeWidth={2} />
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Featured Products Section */}
       {featuredProducts.length > 0 && (
         <section className="relative py-14 sm:py-20 overflow-hidden">
@@ -242,13 +328,13 @@ export default function Home() {
           <div className="relative page-container">
             <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-10">
               <div>
-                <span className="inline-block px-3 py-1 rounded-full bg-amber-500/15 text-amber-700 dark:text-amber-300 text-2xs font-semibold uppercase tracking-widest border border-amber-500/25 mb-3">
+                <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-amber-500/15 text-amber-700 dark:text-amber-300 text-2xs font-semibold uppercase tracking-widest border border-amber-500/25 mb-3">
                   Bestsellers
                 </span>
                 <h2 className="font-serif text-3xl sm:text-4xl text-foreground mb-2">
                   Featured Products
                 </h2>
-                <p className="text-muted-foreground">
+                <p className="text-muted-foreground max-w-md">
                   Top picks from fellow board gamers — inserts and accessories
                   that make game night smoother.
                 </p>
@@ -261,7 +347,7 @@ export default function Home() {
                 <ArrowRight size={14} strokeWidth={2} />
               </Link>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
               {featuredProducts.map((product) => (
                 <ProductCard
                   key={product.id}
@@ -288,7 +374,7 @@ export default function Home() {
       )}
 
       {/* Newsletter Section */}
-      <section className="section-padding relative py-14 sm:py-20">
+      <section className="relative py-14 sm:py-20">
         <div className="page-container max-w-2xl relative">
           <div className="rounded-2xl border border-border/60 bg-card/80 p-6 sm:p-8 shadow-card">
             <NewsletterSignup />
