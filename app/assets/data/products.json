@@ -1560,5 +1560,23 @@
       "weight": "~84g"
     },
     "game": "Clank!"
+  },
+  {
+    "id": "dune_imperium_troops_upgrade_64_troops_16_per_player_73gm",
+    "name": "Dune: Imperium 3D Troops Upgrade (64 pcs)",
+    "category": "Board Game Upgrades",
+    "price": 146,
+    "description": "A set of 64 detailed 3D-printed troop miniatures for Dune: Imperium — 16 per player in four colours. Replace the standard wooden cubes with sculpted troops that bring the conflict for Arrakis to life.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": false,
+    "specs": {
+      "compatibility": "Dune: Imperium / Dune: Imperium Uprising",
+      "material": "High quality PLA",
+      "weight": "~73g",
+      "count": "64 troops (16 per player, 4 colours)"
+    },
+    "game": "Dune: Imperium"
   }
 ]
