@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { products, categories } from "@/app/assets/data";
+import { miniApps } from "@/app/mini-apps/_data/mini-apps";
 
 const BASE_URL = "https://tabletopreboxing.shop";
 
@@ -20,6 +21,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  const miniAppEntries: MetadataRoute.Sitemap = miniApps
+    .filter((app) => app.status === "live")
+    .map((app) => ({
+      url: `${BASE_URL}/mini-apps/${app.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    }));
+
   return [
     {
       url: BASE_URL,
@@ -32,6 +42,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "daily" as const,
       priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/mini-apps`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
     },
     {
       url: `${BASE_URL}/checkout`,
@@ -53,5 +69,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...categoryEntries,
     ...productEntries,
+    ...miniAppEntries,
   ];
 }

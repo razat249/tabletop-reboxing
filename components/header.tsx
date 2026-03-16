@@ -84,6 +84,12 @@ export default function Header({ onCartClick, onRequestClick }: HeaderProps) {
                 Products
               </Link>
               <Link
+                href="/mini-apps"
+                className="px-3.5 py-2 text-sm text-muted-foreground hover:text-foreground rounded-lg hover:bg-secondary smooth-transition font-medium"
+              >
+                Mini Apps
+              </Link>
+              <Link
                 href="/about"
                 className="px-3.5 py-2 text-sm text-muted-foreground hover:text-foreground rounded-lg hover:bg-secondary smooth-transition font-medium"
               >
@@ -171,6 +177,13 @@ export default function Header({ onCartClick, onRequestClick }: HeaderProps) {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Products
+            </Link>
+            <Link
+              href="/mini-apps"
+              className="block px-3 py-2.5 text-sm text-muted-foreground hover:text-foreground hover:bg-secondary rounded-lg smooth-transition font-medium"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Mini Apps
             </Link>
             <Link
               href="/about"
