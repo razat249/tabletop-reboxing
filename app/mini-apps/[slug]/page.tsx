@@ -154,9 +154,10 @@ export default async function MiniAppPage({
           }}
         />
       )}
-      <div className="py-6 sm:py-10 px-4 sm:px-6 lg:px-8">
+
+      {/* Desktop: padded layout with card container */}
+      <div className="hidden sm:block py-10 px-6 lg:px-8">
         <div className="page-container max-w-4xl">
-          {/* Back link + title */}
           <div className="flex items-center gap-3 mb-6">
             <Link
               href="/mini-apps"
@@ -166,17 +167,34 @@ export default async function MiniAppPage({
               All Mini Apps
             </Link>
           </div>
-
           <div className="mb-6">
             <h1 className="font-serif text-2xl sm:text-3xl text-foreground">
               {app.icon} {app.name}
             </h1>
           </div>
-
-          {/* App container */}
           <div className="rounded-2xl border border-border/60 bg-card/80 shadow-card overflow-hidden">
             <AppComponent />
           </div>
+        </div>
+      </div>
+
+      {/* Mobile: full-bleed app with compact inline header */}
+      <div className="sm:hidden flex flex-col min-h-[calc(100dvh-4rem)]">
+        <div className="flex items-center justify-between px-3 py-2 border-b border-border/40 bg-background/80 backdrop-blur-sm">
+          <Link
+            href="/mini-apps"
+            className="flex items-center gap-1 text-xs text-muted-foreground active:text-foreground transition-colors"
+          >
+            <ArrowLeft size={13} strokeWidth={2} />
+            Back
+          </Link>
+          <h1 className="text-sm font-semibold text-foreground truncate px-2">
+            {app.icon} {app.name}
+          </h1>
+          <div className="w-10" />
+        </div>
+        <div className="flex-1 overflow-auto">
+          <AppComponent />
         </div>
       </div>
     </>
