@@ -40,6 +40,14 @@
     "icon": "🎲"
   },
   {
+    "id": "pnp-board-games",
+    "name": "PnP Board Games",
+    "description": "Premium print-and-play board games with professionally printed cards, boards, and 3D-printed components — ready to play out of the box",
+    "image": "/images/category-pnp.svg",
+    "defaultImage": "/images/default-pieces.svg",
+    "icon": "🖨️"
+  },
+  {
     "id": "other-accessories",
     "name": "Other Accessories",
     "description": "Essential board game accessories to complete your collection",

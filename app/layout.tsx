@@ -18,7 +18,7 @@ const playfair = Playfair_Display({
 
 const SITE_NAME = "Tabletop Re-Boxing";
 const SITE_DESCRIPTION =
-  "Premium board game inserts, board game upgrades, and accessories. Re-box your games with custom-fit accessories.";
+  "Premium board game inserts, upgrades, print-and-play games, and accessories. Re-box your games with custom-fit accessories.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://tabletopreboxing.shop"),
@@ -75,6 +75,9 @@ export const metadata: Metadata = {
     "Terraforming Mars player mat",
     "board game score counter",
     "board game companion app",
+    "print and play board games",
+    "PnP board games India",
+    "premium print and play",
   ],
   authors: [{ name: SITE_NAME, url: "https://tabletopreboxing.shop" }],
   creator: SITE_NAME,

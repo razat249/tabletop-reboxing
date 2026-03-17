@@ -58,8 +58,8 @@ export default function Home() {
               Collection
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-xl mx-auto text-balance leading-relaxed">
-              Premium 3D-printed inserts, dice towers, and accessories for your
-              favourite board games. Less setup, more game time.
+              Premium 3D-printed inserts, dice towers, print-and-play games, and
+              accessories for your favourite board games. Less setup, more game time.
             </p>
             <div className="max-w-xl mx-auto">
               <SearchBox
@@ -223,8 +223,8 @@ export default function Home() {
                 Shop by Category
               </h2>
               <p className="text-muted-foreground max-w-md">
-                Inserts, upgrades, dice towers, travel boxes, and more — find
-                what fits your collection.
+                Inserts, upgrades, dice towers, PnP games, travel boxes, and
+                more — find what fits your collection.
               </p>
             </div>
           </div>

@@ -24,6 +24,7 @@ import categoryPiecesPng from "./category-pieces.png";
 import carcassonneTravelBox from "./carcassonne_travel_box_220gm_1.webp";
 import modularCardTray from "./modular_card_and_resource_tray_with_round_card_holder_225gm_1.webp";
 import castleDiceTower from "./castle_dice_150gm_tower_1.jpg";
+import categoryPnp from "./category-pnp.svg";
 import phonepeQr from "./phonepe_qr.jpg";
 
 type ImageImport = {
@@ -59,6 +60,7 @@ const imageMap: Record<string, ImageImport> = {
   "/images/carcassonne_travel_box_220gm_1.webp": carcassonneTravelBox,
   "/images/modular_card_and_resource_tray_with_round_card_holder_225gm_1.webp": modularCardTray,
   "/images/castle_dice_150gm_tower_1.jpg": castleDiceTower,
+  "/images/category-pnp.svg": categoryPnp,
 };
 
 /** Resolve an image path to the bundled asset src. Falls back to the original path. */
@@ -79,6 +81,7 @@ export const categoryFallbacks: Record<string, string> = {
   "Travel Boxes": defaultInserts.src,
   "Card and Resource Trays": defaultPieces.src,
   "Dice tower and Trays": defaultPieces.src,
+  "PnP Board Games": defaultPieces.src,
   "Other Accessories": defaultPieces.src,
 };
 

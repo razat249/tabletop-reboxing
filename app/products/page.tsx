@@ -5,20 +5,20 @@ import ProductsClient from "./products-client";
 export const metadata: Metadata = {
   title: "All Products",
   description:
-    "Browse our full catalog of custom 3D-printed board game inserts, upgrades, dice towers, token trays, and more.",
+    "Browse our full catalog of custom 3D-printed board game inserts, upgrades, dice towers, PnP games, token trays, and more.",
   alternates: { canonical: "https://tabletopreboxing.shop/products" },
   openGraph: {
     type: "website",
     title: "All Products",
     description:
-      "Browse our full catalog of custom 3D-printed board game inserts, upgrades, dice towers, token trays, and more.",
+      "Browse our full catalog of custom 3D-printed board game inserts, upgrades, dice towers, PnP games, token trays, and more.",
     url: "https://tabletopreboxing.shop/products",
   },
   twitter: {
     card: "summary_large_image",
     title: "All Products",
     description:
-      "Browse our full catalog of custom 3D-printed board game inserts, upgrades, dice towers, token trays, and more.",
+      "Browse our full catalog of custom 3D-printed board game inserts, upgrades, dice towers, PnP games, token trays, and more.",
   },
 };
 

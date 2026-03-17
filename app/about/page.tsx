@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Tabletop Re-Boxing makes custom 3D-printed board game inserts and accessories in India. Handcrafted organizers, dice towers, and travel boxes for your favourite games.",
+    "Tabletop Re-Boxing makes custom 3D-printed board game inserts, PnP games, and accessories in India. Handcrafted organizers, dice towers, and travel boxes for your favourite games.",
   openGraph: {
     title: "About Tabletop Re-Boxing – Board Game Inserts India",
     description:
@@ -24,9 +24,9 @@ export default function AboutPage() {
 
         <div className="prose prose-neutral dark:prose-invert max-w-none space-y-6 text-muted-foreground">
           <p className="leading-relaxed">
-            We design and 3D-print board game inserts, organizers, dice towers, and
-            travel boxes in India. Every piece is made to fit your games so
-            setup is faster and storage stays tidy.
+            We design and 3D-print board game inserts, organizers, dice towers,
+            premium print-and-play games, and travel boxes in India. Every piece
+            is made to fit your games so setup is faster and storage stays tidy.
           </p>
 
           <h2 className="text-lg font-semibold text-foreground mt-8">
