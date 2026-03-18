@@ -1578,5 +1578,21 @@
       "count": "64 troops (16 per player, 4 colours)"
     },
     "game": "Dune: Imperium"
+  },
+  {
+    "id": "portable_collapsible_dice_tower_140gm",
+    "name": "Portable Collapsible Dice Tower",
+    "category": "Dice tower and Trays",
+    "price": 280,
+    "description": "A portable, collapsible dice tower. Easy to carry and assemble for your tabletop gaming needs.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~140g"
+    },
+    "showColorOption": true,
+    "game": ""
   }
 ]
