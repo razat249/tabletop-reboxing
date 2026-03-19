@@ -17,6 +17,8 @@ import {
   ShoppingBag,
 } from "lucide-react";
 import { phonepeQr } from "@/app/assets/images";
+import { config } from "@/app/assets/data";
+import { Info, AlertTriangle, Wrench, AlertOctagon } from "lucide-react";
 
 const FREE_SHIPPING_THRESHOLD = 1000;
 const SHIPPING_CHARGE = 120;
@@ -109,6 +111,21 @@ function PaymentModal({
               {" "}— happy to help before, during, or after your purchase.
             </p>
           </div>
+
+          {/* Site-wide banner notice */}
+          {config.banner?.message && (() => {
+            const bannerIcons = { info: Info, warning: AlertTriangle, maintenance: Wrench, critical: AlertOctagon } as const;
+            const bannerColors = { info: "bg-blue-50 border-blue-200/60 text-blue-800", warning: "bg-amber-50 border-amber-200/60 text-amber-800", maintenance: "bg-purple-50 border-purple-200/60 text-purple-800", critical: "bg-red-50 border-red-200/60 text-red-800" } as const;
+            const type = config.banner.type ?? "info";
+            const BannerIcon = bannerIcons[type] ?? Info;
+            const colors = bannerColors[type] ?? bannerColors.info;
+            return (
+              <div className={`${colors} border rounded-lg px-3.5 py-2.5 mb-3 flex items-start gap-2`}>
+                <BannerIcon size={14} className="flex-shrink-0 mt-0.5" strokeWidth={2.5} />
+                <p className="text-[11px] leading-relaxed font-medium">{config.banner.message}</p>
+              </div>
+            );
+          })()}
 
           {/* UPI Pay Link */}
           <a
