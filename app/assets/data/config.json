@@ -6,5 +6,9 @@
   "currencySymbol": "₹",
   "whatsappNumber": "917014186406",
   "contactEmail": "razat249@gmail.com",
-  "shippingDays": "4-5"
+  "shippingDays": "4-5",
+  "banner": {
+    "message": "Our printers have gone for maintenance so we can continue delivering the quality you deserve. Orders are welcome and will ship starting April 5th — thank you for bearing with us!",
+    "type": "maintenance"
+  }
 }

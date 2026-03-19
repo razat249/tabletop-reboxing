@@ -11,6 +11,7 @@ import FloatingCartBar from "@/components/floating-cart-bar";
 import Footer from "@/components/footer";
 import RequestModal from "@/components/request-modal";
 import AnimatedBackground from "@/components/animated-background";
+import AnnouncementBanner from "@/components/announcement-banner";
 
 export default function ClientLayout({
   children,
@@ -26,6 +27,7 @@ export default function ClientLayout({
         <RequestProvider onOpen={() => setIsRequestOpen(true)}>
           <AnimatedBackground />
           <div className="relative z-[1]">
+            <AnnouncementBanner />
             <Header onCartClick={() => setIsCartOpen(true)} onRequestClick={() => setIsRequestOpen(true)} />
             <CustomRequestBar onRequestClick={() => setIsRequestOpen(true)} />
             <CartSidebar

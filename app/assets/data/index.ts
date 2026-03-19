@@ -33,6 +33,15 @@ export interface Color {
 
 export const colors: Color[] = colorsData as Color[];
 
+export type BannerType = "info" | "warning" | "maintenance" | "critical";
+
+export interface SiteBanner {
+  /** The message to display. Leave empty to hide the banner. */
+  message: string;
+  /** Controls the banner's color scheme: info (blue), warning (amber), maintenance (purple), critical (red). */
+  type: BannerType;
+}
+
 export interface SiteConfig {
   defaultSort: string;
   freeShippingThreshold: number;
@@ -42,6 +51,7 @@ export interface SiteConfig {
   whatsappNumber: string;
   contactEmail: string;
   shippingDays: string;
+  banner: SiteBanner;
 }
 
 export const config: SiteConfig = configData as SiteConfig;
