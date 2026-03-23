@@ -1594,5 +1594,22 @@
     },
     "showColorOption": true,
     "game": ""
+  },
+  {
+    "id": "wingspan_dice_tower_190gm",
+    "name": "Wingspan Birdhouse Dice Tower",
+    "category": "Dice tower and Trays",
+    "price": 380,
+    "description": "A charming birdhouse-shaped dice tower inspired by Wingspan. Features a beautiful wood-grain texture, two bird-hole windows on the front, and a flat landing tray at the base. Drop your dice through the roof and watch them tumble out — perfect for Wingspan nights or any tabletop session.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Wingspan (all editions) and any board game",
+      "material": "High quality PLA",
+      "weight": "~190g"
+    },
+    "game": "Wingspan"
   }
 ]

@@ -33,5 +33,10 @@
     "id": "bahama_yellow",
     "name": "Yellow",
     "hex": "#f5c713"
+  },
+  {
+    "id": "wood",
+    "name": "Wood",
+    "hex": "#a0522d"
   }
 ]

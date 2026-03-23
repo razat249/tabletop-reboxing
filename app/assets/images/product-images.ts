@@ -281,19 +281,24 @@ import img_276 from "./universal_3_slot_card_and_resource_tray_1.jpg";
 import img_277 from "./universal_3_slot_card_and_resource_tray_2.jpg";
 import img_278 from "./viticulture_insert_with_expension_1.jpg";
 import img_279 from "./viticulture_insert_with_expension_2.jpg";
-import img_280 from "./wingspan_food_tokens_1.png";
-import img_281 from "./wingspan_food_tokens_2.jpg";
-import img_282 from "./wingspan_inserts_1.jpeg";
-import img_283 from "./wingspan_inserts_2.jpeg";
-import img_284 from "./wingspan_inserts_3.jpeg";
-import img_285 from "./wingspan_inserts_4.jpeg";
-import img_286 from "./wingspan_inserts_5.jpeg";
-import img_287 from "./wingspan_travel_box_445gm_1.webp";
-import img_288 from "./wingspan_travel_box_445gm_2.webp";
-import img_289 from "./wingspan_travel_box_445gm_3.webp";
-import img_290 from "./wingspan_travel_box_445gm_4.webp";
-import img_291 from "./wingspan_travel_box_445gm_5.webp";
-import img_292 from "./wingspan_travel_box_445gm_6.webp";
+import img_280 from "./wingspan_dice_tower_190gm_1.webp";
+import img_281 from "./wingspan_dice_tower_190gm_2.webp";
+import img_282 from "./wingspan_dice_tower_190gm_3.jpg";
+import img_283 from "./wingspan_dice_tower_190gm_4.jpg";
+import img_284 from "./wingspan_dice_tower_190gm_5.jpg";
+import img_285 from "./wingspan_food_tokens_1.png";
+import img_286 from "./wingspan_food_tokens_2.jpg";
+import img_287 from "./wingspan_inserts_1.jpeg";
+import img_288 from "./wingspan_inserts_2.jpeg";
+import img_289 from "./wingspan_inserts_3.jpeg";
+import img_290 from "./wingspan_inserts_4.jpeg";
+import img_291 from "./wingspan_inserts_5.jpeg";
+import img_292 from "./wingspan_travel_box_445gm_1.webp";
+import img_293 from "./wingspan_travel_box_445gm_2.webp";
+import img_294 from "./wingspan_travel_box_445gm_3.webp";
+import img_295 from "./wingspan_travel_box_445gm_4.webp";
+import img_296 from "./wingspan_travel_box_445gm_5.webp";
+import img_297 from "./wingspan_travel_box_445gm_6.webp";
 
 type ImageImport = { src: string; width: number; height: number };
 
@@ -388,9 +393,10 @@ const productImages: Record<string, ImageImport[]> = {
   "twilight_imperium_base_game_700gm_inserts": [img_272, img_273, img_274, img_275],
   "universal_3_slot_card_and_resource_tray": [img_276, img_277],
   "viticulture_insert_with_expension": [img_278, img_279],
-  "wingspan_food_tokens": [img_280, img_281],
-  "wingspan_inserts": [img_282, img_283, img_284, img_285, img_286],
-  "wingspan_travel_box_445gm": [img_287, img_288, img_289, img_290, img_291, img_292]
+  "wingspan_dice_tower_190gm": [img_280, img_281, img_282, img_283, img_284],
+  "wingspan_food_tokens": [img_285, img_286],
+  "wingspan_inserts": [img_287, img_288, img_289, img_290, img_291],
+  "wingspan_travel_box_445gm": [img_292, img_293, img_294, img_295, img_296, img_297]
 };
 
 export default productImages;
