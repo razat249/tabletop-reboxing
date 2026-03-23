@@ -1628,5 +1628,22 @@
       "weight": "~1300g"
     },
     "game": "SETI: Search for Extraterrestrial Intelligence"
+  },
+  {
+    "id": "blood_rage_all_retail_exp_insert_1250gm",
+    "name": "Blood Rage Insert (All Retail Expansions)",
+    "category": "Board Game Inserts",
+    "price": 2760,
+    "description": "Full insert for Blood Rage with support for all retail expansions — 5th Player, Gods of Asgard, and Mystics of Midgard. Dedicated slots for every miniature, card, and token. Fits everything into the original box with no wasted space, so setup and cleanup are quick and painless.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Blood Rage with all retail expansions (5th Player, Gods of Asgard, Mystics of Midgard)",
+      "material": "High quality PLA",
+      "weight": "~1250g"
+    },
+    "game": "Blood Rage"
   }
 ]
