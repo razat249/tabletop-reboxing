@@ -1611,5 +1611,22 @@
       "weight": "~190g"
     },
     "game": "Wingspan"
+  },
+  {
+    "id": "SETI_with_space_agencies_exp_insert_1300gm",
+    "name": "SETI Insert with Space Agencies Expansion",
+    "category": "Board Game Inserts",
+    "price": 2600,
+    "description": "Comprehensive insert for SETI: Search for Extraterrestrial Intelligence with support for the Space Agencies expansion. Every token, card, and component gets its own dedicated slot — setup and teardown become effortless. Fits everything back into the original box with no lift.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "SETI with Space Agencies expansion",
+      "material": "High quality PLA",
+      "weight": "~1300g"
+    },
+    "game": "SETI: Search for Extraterrestrial Intelligence"
   }
 ]
