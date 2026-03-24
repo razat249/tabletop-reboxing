@@ -35,7 +35,7 @@ export default function Header({ onCartClick, onRequestClick }: HeaderProps) {
   };
 
   return (
-    <header className="sticky top-0 z-40 overflow-hidden bg-background/50 dark:bg-background/40 backdrop-blur-xl backdrop-saturate-150 border-b border-white/20 dark:border-white/10 shadow-[0_1px_3px_rgba(0,0,0,0.05)]">
+    <header className="sticky top-0 z-40 bg-background/50 dark:bg-background/40 backdrop-blur-xl backdrop-saturate-150 border-b border-white/20 dark:border-white/10 shadow-[0_1px_3px_rgba(0,0,0,0.05)]">
       <div className="page-container">
         <div className="flex items-center justify-between h-16 md:h-[4.25rem] gap-4">
           {/* Logo */}
