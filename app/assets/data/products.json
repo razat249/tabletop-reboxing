@@ -1672,7 +1672,7 @@
     "featured": false,
     "hidden": false,
     "outOfStock": false,
-    "showColorOption": false,
+    "showColorOption": true,
     "specs": {
       "compatibility": "SETI: Search for Extraterrestrial Intelligence",
       "material": "High quality PLA",
