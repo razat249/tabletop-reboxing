@@ -1662,5 +1662,22 @@
       "weight": "~145g"
     },
     "game": "SETI: Search for Extraterrestrial Intelligence"
+  },
+  {
+    "id": "seti_publicity_and_score_counter_set_10gm",
+    "name": "SETI Publicity & Score Counter Set",
+    "category": "Board Game Upgrades",
+    "price": 20,
+    "description": "3D-printed publicity and score counter tokens for SETI. A small but satisfying upgrade that replaces the default markers with chunky, easy-to-read counters on the scoring track.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": false,
+    "specs": {
+      "compatibility": "SETI: Search for Extraterrestrial Intelligence",
+      "material": "High quality PLA",
+      "weight": "~10g"
+    },
+    "game": "SETI: Search for Extraterrestrial Intelligence"
   }
 ]
