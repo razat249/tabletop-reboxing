@@ -1645,5 +1645,22 @@
       "weight": "~1250g"
     },
     "game": "Blood Rage"
+  },
+  {
+    "id": "SETI_Energy_and_credit_tokens_145gm",
+    "name": "SETI Energy & Credit Tokens Upgrade",
+    "category": "Board Game Upgrades",
+    "price": 290,
+    "description": "Premium 3D-printed energy and credit tokens for SETI. Replace the cardboard tokens with satisfying, tactile pieces that elevate every game session.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": false,
+    "specs": {
+      "compatibility": "SETI: Search for Extraterrestrial Intelligence",
+      "material": "High quality PLA",
+      "weight": "~145g"
+    },
+    "game": "SETI: Search for Extraterrestrial Intelligence"
   }
 ]
