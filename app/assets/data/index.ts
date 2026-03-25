@@ -18,6 +18,7 @@ export interface Product {
   hidden: boolean;
   outOfStock: boolean;
   showColorOption: boolean;
+  showAssortedColor?: boolean;
   customizable?: string;
   specs: {
     material?: string;

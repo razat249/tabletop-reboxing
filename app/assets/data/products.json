@@ -1690,6 +1690,7 @@
     "hidden": false,
     "outOfStock": false,
     "showColorOption": true,
+    "showAssortedColor": true,
     "specs": {
       "compatibility": "Orléans Deluxe with all expansions",
       "material": "High quality PLA",
@@ -1707,6 +1708,7 @@
     "hidden": false,
     "outOfStock": false,
     "showColorOption": true,
+    "showAssortedColor": true,
     "specs": {
       "compatibility": "Anno 1800",
       "material": "High quality PLA",
@@ -1715,7 +1717,7 @@
     "game": "Anno 1800"
   },
   {
-    "id": "seize_the_bean_insert_675gm",
+    "id": "seize_the_bean_insert_775gm",
     "name": "Seize the Bean Insert",
     "category": "Board Game Inserts",
     "price": 1350,
@@ -1724,6 +1726,7 @@
     "hidden": false,
     "outOfStock": false,
     "showColorOption": true,
+    "showAssortedColor": true,
     "specs": {
       "compatibility": "Seize the Bean",
       "material": "High quality PLA",

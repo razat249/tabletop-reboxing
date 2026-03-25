@@ -359,32 +359,37 @@ export default function ProductClient({ params }: ProductClientProps) {
                     </span>
                   </div>
                   <div className="flex items-center gap-2.5">
-                    {colors.map((color) => (
-                      <button
-                        key={color.id}
-                        onClick={() => setSelectedColor(color.id)}
-                        className={`relative w-9 h-9 rounded-full smooth-transition ${
-                          selectedColor === color.id
-                            ? "ring-2 ring-primary ring-offset-2 ring-offset-background scale-110"
-                            : "ring-1 ring-border hover:scale-105"
-                        }`}
-                        style={{ backgroundColor: color.hex }}
-                        aria-label={`Select ${color.name}`}
-                        title={color.name}
-                      >
-                        {selectedColor === color.id && (
-                          <Check
-                            size={14}
-                            strokeWidth={3}
-                            className={`absolute inset-0 m-auto ${
-                              color.id === "white" || color.id === "wood"
-                                ? "text-foreground"
-                                : "text-white"
+                    {colors
+                      .filter((color) => color.id !== "assorted" || product.showAssortedColor)
+                      .map((color) => {
+                        const isGradient = color.hex.includes("gradient");
+                        return (
+                          <button
+                            key={color.id}
+                            onClick={() => setSelectedColor(color.id)}
+                            className={`relative w-9 h-9 rounded-full smooth-transition ${
+                              selectedColor === color.id
+                                ? "ring-2 ring-primary ring-offset-2 ring-offset-background scale-110"
+                                : "ring-1 ring-border hover:scale-105"
                             }`}
-                          />
-                        )}
-                      </button>
-                    ))}
+                            style={isGradient ? { background: color.hex } : { backgroundColor: color.hex }}
+                            aria-label={`Select ${color.name}`}
+                            title={color.name}
+                          >
+                            {selectedColor === color.id && (
+                              <Check
+                                size={14}
+                                strokeWidth={3}
+                                className={`absolute inset-0 m-auto ${
+                                  color.id === "white" || color.id === "wood"
+                                    ? "text-foreground"
+                                    : "text-white"
+                                }`}
+                              />
+                            )}
+                          </button>
+                        );
+                      })}
                   </div>
                 </div>
               )}
