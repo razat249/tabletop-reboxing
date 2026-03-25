@@ -358,7 +358,7 @@ export default function ProductClient({ params }: ProductClientProps) {
                       — {colors.find((c) => c.id === selectedColor)?.name}
                     </span>
                   </div>
-                  <div className="flex items-center gap-2.5">
+                  <div className="flex flex-wrap items-center gap-2.5">
                     {colors
                       .filter((color) => color.id !== "assorted" || product.showAssortedColor)
                       .map((color) => {
@@ -367,7 +367,7 @@ export default function ProductClient({ params }: ProductClientProps) {
                           <button
                             key={color.id}
                             onClick={() => setSelectedColor(color.id)}
-                            className={`relative w-9 h-9 rounded-full smooth-transition ${
+                            className={`relative w-9 h-9 flex-shrink-0 rounded-full smooth-transition ${
                               selectedColor === color.id
                                 ? "ring-2 ring-primary ring-offset-2 ring-offset-background scale-110"
                                 : "ring-1 ring-border hover:scale-105"
