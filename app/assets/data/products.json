@@ -1727,11 +1727,28 @@
     "outOfStock": false,
     "showColorOption": true,
     "showAssortedColor": true,
+    "customizable": "Enter customization if needed.",
     "specs": {
       "compatibility": "Seize the Bean",
       "material": "High quality PLA",
       "weight": "~675g"
     },
     "game": "Seize the Bean"
+  },
+  {
+    "id": "mario_plant_dice_tower_190gm",
+    "name": "Mario Piranha Plant Dice Tower",
+    "category": "Dice tower and Trays",
+    "price": 380,
+    "description": "A fun Piranha Plant-themed dice tower inspired by the Super Mario universe. Drop your dice into the plant's mouth and watch them roll out from the base — a playful centerpiece for any game night.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": false,
+    "specs": {
+      "material": "High quality PLA",
+      "weight": "~190g"
+    },
+    "game": ""
   }
 ]
