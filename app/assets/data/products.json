@@ -1691,6 +1691,7 @@
     "outOfStock": false,
     "showColorOption": true,
     "showAssortedColor": true,
+    "customizable": "Enter customization if needed.",
     "specs": {
       "compatibility": "Orléans Deluxe with all expansions",
       "material": "High quality PLA",
@@ -1709,6 +1710,7 @@
     "outOfStock": false,
     "showColorOption": true,
     "showAssortedColor": true,
+    "customizable": "Enter customization if needed.",
     "specs": {
       "compatibility": "Anno 1800",
       "material": "High quality PLA",
@@ -1745,6 +1747,7 @@
     "hidden": false,
     "outOfStock": false,
     "showColorOption": false,
+    "customizable": "Enter customization if needed.",
     "specs": {
       "material": "High quality PLA",
       "weight": "~190g"
