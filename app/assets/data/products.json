@@ -1753,5 +1753,22 @@
       "weight": "~190g"
     },
     "game": ""
+  },
+  {
+    "id": "project_L_board_game_210gm",
+    "name": "Project L Insert",
+    "category": "Board Game Inserts",
+    "price": 420,
+    "description": "Neat insert for Project L that keeps all puzzle pieces, tiles, and tokens organized. Each piece type has its own dedicated slot — no more digging through bags. Makes setup instant and packing a breeze.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "specs": {
+      "compatibility": "Project L",
+      "material": "High quality PLA",
+      "weight": "~210g"
+    },
+    "game": "Project L"
   }
 ]
