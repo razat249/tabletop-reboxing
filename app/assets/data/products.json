@@ -1770,5 +1770,23 @@
       "weight": "~210g"
     },
     "game": "Project L"
+  },
+  {
+    "id": "Shackleton_Base_Domes_and_Inserts_1300gm",
+    "name": "Shackleton Base Domes & Inserts",
+    "category": "Board Game Inserts",
+    "price": 2600,
+    "description": "Full insert set for Shackleton Base with 3D-printed dome pieces. Keeps all modules, tiles, cards, and tokens organized in the original box. The domes double as both storage and table-ready game components.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "showAssortedColor": true,
+    "specs": {
+      "compatibility": "Shackleton Base",
+      "material": "High quality PLA",
+      "weight": "~1300g"
+    },
+    "game": "Shackleton Base"
   }
 ]
