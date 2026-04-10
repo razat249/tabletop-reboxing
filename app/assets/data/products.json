@@ -571,6 +571,7 @@
     "hidden": false,
     "outOfStock": false,
     "showColorOption": false,
+    "customizable": "Enter customization if needed.",
     "specs": {
       "compatibility": "Bomb Busters",
       "material": "High quality PLA",
