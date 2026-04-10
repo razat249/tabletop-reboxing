@@ -1788,5 +1788,24 @@
       "weight": "~1300g"
     },
     "game": "Shackleton Base"
+  },
+  {
+    "id": "7flip_with_a_vengence_180gm",
+    "name": "7 Flip: With a Vengeance Insert",
+    "category": "Board Game Inserts",
+    "price": 360,
+    "description": "Custom insert for 7 Flip: With a Vengeance. Keeps all cards and components neatly organized in the box — no more loose cards sliding around.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "showAssortedColor": true,
+    "customizable": "Enter customization if needed.",
+    "specs": {
+      "compatibility": "7 Flip: With a Vengeance",
+      "material": "High quality PLA",
+      "weight": "~180g"
+    },
+    "game": "7 Flip: With a Vengeance"
   }
 ]
