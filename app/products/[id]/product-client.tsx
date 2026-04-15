@@ -526,12 +526,6 @@ export default function ProductClient({ params }: ProductClientProps) {
                 ₹{displayPrice.toLocaleString("en-IN")}
               </p>
 
-              <div className="text-sm text-muted-foreground mb-6 leading-relaxed space-y-2">
-                {displayDescription.split("\n").filter(Boolean).map((para, i) => (
-                  <p key={i}>{para}</p>
-                ))}
-              </div>
-
               {/* Variant Selector */}
               {variants && variants.length > 0 && (
                 <div className="mb-6">
@@ -569,6 +563,12 @@ export default function ProductClient({ params }: ProductClientProps) {
                   )}
                 </div>
               )}
+
+              <div className="text-sm text-muted-foreground mb-6 leading-relaxed space-y-2">
+                {displayDescription.split("\n").filter(Boolean).map((para, i) => (
+                  <p key={i}>{para}</p>
+                ))}
+              </div>
 
               {/* Color Selector */}
               {product.showColorOption && (
