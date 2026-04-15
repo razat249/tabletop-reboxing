@@ -31,6 +31,20 @@ function isModelFile(src: string): boolean {
   return /\.(glb|gltf)$/i.test(src);
 }
 
+function modelLabel(src: string): string {
+  const filename = src.split("/").pop() ?? "";
+  const base = filename.replace(/\.(glb|gltf)$/i, "");
+  // Strip common prefixes like "unmatched-battle-of-legends-1-" or "unmatched-tmnt-"
+  const stripped = base
+    .replace(/^unmatched-(?:battle-of-legends-\d+-|cobble-and-fog-|brains-and-brawn-|for-king-and-country-|hells-kitchen-|jurassic-park-|redemption-row-|slings-and-arrows-|suns-origin-|tales-to-amaze-(?:minion-)?|teen-spirit-|the-witcher-|tmnt-(?:extra-toppings-|minion-)?|buffy-)?/i, "")
+    .replace(/[-_](BLACK|WHITE|GRAY|RED|GREEN|BLUE|YELLOW|ORANGE|PURPLE|BROWN)(?:[-_].*)?$/i, "")
+    .replace(/[-_]\d+gm[-_]\d+$/i, "");
+  return stripped
+    .split(/[-_]/)
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}
+
 export interface ProductClientProps {
   params: Promise<{ id: string }>;
 }
@@ -431,6 +445,11 @@ export default function ProductClient({ params }: ProductClientProps) {
                     <Box size={12} strokeWidth={2.5} />
                     3D
                   </div>
+                  <div className="absolute bottom-3 left-0 right-0 flex justify-center pointer-events-none">
+                    <span className="bg-black/60 backdrop-blur-sm text-white text-xs font-medium px-3 py-1.5 rounded-full">
+                      {modelLabel(allSlides[selectedImageIndex].src)}
+                    </span>
+                  </div>
                 </div>
               ) : (
                 <div
@@ -472,9 +491,11 @@ export default function ProductClient({ params }: ProductClientProps) {
                       }`}
                     >
                       {slide.type === "model" ? (
-                        <div className="w-full h-full bg-slate-700 flex flex-col items-center justify-center gap-1">
-                          <Box size={20} strokeWidth={1.5} className="text-white" />
-                          <span className="text-2xs font-semibold text-white">3D</span>
+                        <div className="w-full h-full bg-slate-700 flex flex-col items-center justify-center gap-0.5 px-1">
+                          <Box size={14} strokeWidth={1.5} className="text-white/80 flex-shrink-0" />
+                          <span className="text-[8px] leading-tight font-medium text-white text-center line-clamp-2">
+                            {modelLabel(slide.src)}
+                          </span>
                         </div>
                       ) : (
                         <Image

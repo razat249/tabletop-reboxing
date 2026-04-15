@@ -1832,41 +1832,31 @@
         "subname": "Vol. 1 — Alice (Blue)",
         "description": "Back from Wonderland with a vorpal blade and the Jabberwock by her side.",
         "price": 140,
-        "images": [
-          "/models/unmatched-battle-of-legends-1-alice-BLUE.glb"
-        ]
+        "images": ["/models/unmatched-battle-of-legends-1-alice-BLUE.glb"]
       },
       {
         "subname": "Vol. 1 — Medusa (Green)",
         "description": "The Gorgon whose petrifying gaze can end any battle in an instant.",
         "price": 140,
-        "images": [
-          "/models/unmatched-battle-of-legends-1-medusa-GREEN.glb"
-        ]
+        "images": ["/models/unmatched-battle-of-legends-1-medusa-GREEN.glb"]
       },
       {
         "subname": "Vol. 1 — Sinbad (Red)",
         "description": "The legendary sailor who grows stronger with every voyage.",
         "price": 130,
-        "images": [
-          "/models/unmatched-battle-of-legends-1-sinbad-RED.glb"
-        ]
+        "images": ["/models/unmatched-battle-of-legends-1-sinbad-RED.glb"]
       },
       {
         "subname": "Vol. 2 — Achilles (Orange)",
         "description": "The near-invincible Greek warrior, feared across the battlefield.",
         "price": 140,
-        "images": [
-          "/models/unmatched-battle-of-legends-2-achilles-ORANGE.glb"
-        ]
+        "images": ["/models/unmatched-battle-of-legends-2-achilles-ORANGE.glb"]
       },
       {
         "subname": "Vol. 2 — Bloody Mary (Red)",
         "description": "The spectral legend who strikes fear with every appearance.",
         "price": 140,
-        "images": [
-          "/models/unmatched-battle-of-legends-2-bloody-mary-RED.glb"
-        ]
+        "images": ["/models/unmatched-battle-of-legends-2-bloody-mary-RED.glb"]
       },
       {
         "subname": "Vol. 2 — Sun Wukong (Yellow)",
@@ -1880,9 +1870,7 @@
         "subname": "Vol. 2 — Yennenga (Purple)",
         "description": "The warrior princess of Dagomba, skilled archer and fearless leader.",
         "price": 120,
-        "images": [
-          "/models/unmatched-battle-of-legends-2-yennenga-PURPLE.glb"
-        ]
+        "images": ["/models/unmatched-battle-of-legends-2-yennenga-PURPLE.glb"]
       },
       {
         "subname": "Vol. 3 — Blackbeard (Black)",
@@ -1896,41 +1884,31 @@
         "subname": "Vol. 3 — Chupacabra (Red)",
         "description": "The legendary cryptid, captured in a menacing pose with razor-sharp claws.",
         "price": 140,
-        "images": [
-          "/models/unmatched-battle-of-legends-3-chupacabra-RED.glb"
-        ]
+        "images": ["/models/unmatched-battle-of-legends-3-chupacabra-RED.glb"]
       },
       {
         "subname": "Vol. 3 — Loki (Green)",
         "description": "The trickster god of mischief, posed with characteristic cunning and flair.",
         "price": 140,
-        "images": [
-          "/models/unmatched-battle-of-legends-3-loki-GREEN.glb"
-        ]
+        "images": ["/models/unmatched-battle-of-legends-3-loki-GREEN.glb"]
       },
       {
         "subname": "Vol. 3 — Pandora (Yellow)",
         "description": "The mythical figure of curiosity, delicately sculpted mid-reveal.",
         "price": 140,
-        "images": [
-          "/models/unmatched-battle-of-legends-3-pandora-YELLOW.glb"
-        ]
+        "images": ["/models/unmatched-battle-of-legends-3-pandora-YELLOW.glb"]
       },
       {
         "subname": "Cobble & Fog — Dracula (Red)",
         "description": "The Lord of Vampires, draining opponents of their power with his sisters.",
         "price": 120,
-        "images": [
-          "/models/unmatched-cobble-and-fog-dracula-RED.glb"
-        ]
+        "images": ["/models/unmatched-cobble-and-fog-dracula-RED.glb"]
       },
       {
         "subname": "Cobble & Fog — Invisible Man (Gray)",
         "description": "Darting through fog, striking without warning from the shadows.",
         "price": 120,
-        "images": [
-          "/models/unmatched-cobble-and-fog-invisible-man-GRAY.glb"
-        ]
+        "images": ["/models/unmatched-cobble-and-fog-invisible-man-GRAY.glb"]
       },
       {
         "subname": "Cobble & Fog — Jekyll & Hyde (Purple)",
@@ -1952,73 +1930,55 @@
         "subname": "Buffy — Buffy Summers (Yellow)",
         "description": "The Slayer herself, ready to save the world with a quip and a stake.",
         "price": 120,
-        "images": [
-          "/models/unmatched-buffy-buffy-YELLOW.glb"
-        ]
+        "images": ["/models/unmatched-buffy-buffy-YELLOW.glb"]
       },
       {
         "subname": "Buffy — Angel (Blue)",
         "description": "The vampire with a soul, fighting for redemption one battle at a time.",
         "price": 120,
-        "images": [
-          "/models/unmatched-buffy-angel-BLUE.glb"
-        ]
+        "images": ["/models/unmatched-buffy-angel-BLUE.glb"]
       },
       {
         "subname": "Buffy — Spike (Purple)",
         "description": "The punk-rock vampire, unpredictable and dangerous in every fight.",
         "price": 120,
-        "images": [
-          "/models/unmatched-buffy-spike-PURPLE.glb"
-        ]
+        "images": ["/models/unmatched-buffy-spike-PURPLE.glb"]
       },
       {
         "subname": "Buffy — Willow (Green)",
         "description": "The powerful witch, channeling magic to tip the scales of battle.",
         "price": 120,
-        "images": [
-          "/models/unmatched-buffy-willow-GREEN.glb"
-        ]
+        "images": ["/models/unmatched-buffy-willow-GREEN.glb"]
       },
       {
         "subname": "Bigfoot (Orange)",
         "description": "The elusive cryptid of the forest, surprisingly nimble for his size.",
         "price": 120,
-        "images": [
-          "/models/unmatched-bigfoot-ORANGE.glb"
-        ]
+        "images": ["/models/unmatched-bigfoot-ORANGE.glb"]
       },
       {
         "subname": "Bruce Lee (Yellow)",
         "description": "The martial arts legend, striking with lightning speed and precision.",
         "price": 120,
-        "images": [
-          "/models/unmatched-bruce-lee-YELLOW.glb"
-        ]
+        "images": ["/models/unmatched-bruce-lee-YELLOW.glb"]
       },
       {
         "subname": "Beowulf (Blue)",
         "description": "The legendary Geatish hero, slayer of Grendel and his mother.",
         "price": 120,
-        "images": [
-          "/models/unmatched-beowulf-BLUE.glb"
-        ]
+        "images": ["/models/unmatched-beowulf-BLUE.glb"]
       },
       {
         "subname": "Deadpool (Red)",
         "description": "The Merc with a Mouth — breaking the fourth wall and his opponents.",
         "price": 120,
-        "images": [
-          "/models/unmatched-deadpool-RED.glb"
-        ]
+        "images": ["/models/unmatched-deadpool-RED.glb"]
       },
       {
         "subname": "Brains & Brawn — Spider-Man (Red)",
         "description": "Your friendly neighbourhood Spider-Man, swinging into action.",
         "price": 120,
-        "images": [
-          "/models/unmatched-brains-and-brawn-spider-man-RED.glb"
-        ]
+        "images": ["/models/unmatched-brains-and-brawn-spider-man-RED.glb"]
       },
       {
         "subname": "Brains & Brawn — Doctor Strange (Purple)",
@@ -2032,9 +1992,7 @@
         "subname": "Brains & Brawn — She-Hulk (Green)",
         "description": "Attorney at law and gamma-powered powerhouse — objection sustained.",
         "price": 120,
-        "images": [
-          "/models/unmatched-brains-and-brawn-she-hulk-GREEN.glb"
-        ]
+        "images": ["/models/unmatched-brains-and-brawn-she-hulk-GREEN.glb"]
       },
       {
         "subname": "For King & Country — Black Panther (Purple)",
@@ -2064,137 +2022,103 @@
         "subname": "Hell's Kitchen — Daredevil (Red)",
         "description": "The Man Without Fear, patrolling the streets of Hell's Kitchen with heightened senses.",
         "price": 120,
-        "images": [
-          "/models/unmatched-hells-kitchen-daredevil-RED.glb"
-        ]
+        "images": ["/models/unmatched-hells-kitchen-daredevil-RED.glb"]
       },
       {
         "subname": "Hell's Kitchen — Elektra (Black)",
         "description": "The lethal assassin, wielding her twin sai with deadly precision.",
         "price": 130,
-        "images": [
-          "/models/unmatched-hells-kitchen-elektra-BLACK.glb"
-        ]
+        "images": ["/models/unmatched-hells-kitchen-elektra-BLACK.glb"]
       },
       {
         "subname": "Hell's Kitchen — Bullseye (Orange)",
         "description": "The psychopathic marksman who never misses his target.",
         "price": 140,
-        "images": [
-          "/models/unmatched-hells-kitchen-bullseye-ORANGE.glb"
-        ]
+        "images": ["/models/unmatched-hells-kitchen-bullseye-ORANGE.glb"]
       },
       {
         "subname": "Houdini (Blue)",
         "description": "The master escape artist, slipping out of every trap his opponents set.",
         "price": 150,
-        "images": [
-          "/models/unmatched-houdini-BLUE.glb"
-        ]
+        "images": ["/models/unmatched-houdini-BLUE.glb"]
       },
       {
         "subname": "The Genie (Purple)",
         "description": "Phenomenal cosmic power, itty bitty living space — but limitless on the battlefield.",
         "price": 120,
-        "images": [
-          "/models/unmatched-the-genie-PURPLE.glb"
-        ]
+        "images": ["/models/unmatched-the-genie-PURPLE.glb"]
       },
       {
         "subname": "Jurassic Park — Dr. Sattler (Green)",
         "description": "The brilliant paleobotanist who proves life finds a way.",
         "price": 130,
-        "images": [
-          "/models/unmatched-jurassic-park-dr-satler-GREEN.glb"
-        ]
+        "images": ["/models/unmatched-jurassic-park-dr-satler-GREEN.glb"]
       },
       {
         "subname": "Jurassic Park — InGen (Gray)",
         "description": "The corporate hunters, armed and dangerous in pursuit of their quarry.",
         "price": 140,
-        "images": [
-          "/models/unmatched-jurassic-park-ingen-GRAY.glb"
-        ]
+        "images": ["/models/unmatched-jurassic-park-ingen-GRAY.glb"]
       },
       {
         "subname": "Jurassic Park — Raptors (Orange)",
         "description": "Clever girls — the pack hunters that stalk with terrifying intelligence.",
         "price": 150,
-        "images": [
-          "/models/unmatched-jurassic-park-raptors-ORANGE.glb"
-        ]
+        "images": ["/models/unmatched-jurassic-park-raptors-ORANGE.glb"]
       },
       {
         "subname": "Jurassic Park — T-Rex (Red)",
         "description": "The king of the dinosaurs, shaking the earth with every thundering step.",
         "price": 120,
-        "images": [
-          "/models/unmatched-jurassic-park-t-rex-RED.glb"
-        ]
+        "images": ["/models/unmatched-jurassic-park-t-rex-RED.glb"]
       },
       {
         "subname": "Muhammad Ali (Red)",
         "description": "The Greatest, floating like a butterfly and stinging like a bee.",
         "price": 130,
-        "images": [
-          "/models/unmatched-muhammad-ali-RED.glb"
-        ]
+        "images": ["/models/unmatched-muhammad-ali-RED.glb"]
       },
       {
         "subname": "Little Red (Red)",
         "description": "Little Red Riding Hood, far more dangerous than she appears.",
         "price": 140,
-        "images": [
-          "/models/unmatched-red-RED.glb"
-        ]
+        "images": ["/models/unmatched-red-RED.glb"]
       },
       {
         "subname": "Robin Hood (Green)",
         "description": "The outlaw of Sherwood Forest, robbing from the rich with unmatched aim.",
         "price": 150,
-        "images": [
-          "/models/unmatched-robin-hood-GREEN.glb"
-        ]
+        "images": ["/models/unmatched-robin-hood-GREEN.glb"]
       },
       {
         "subname": "Redemption Row — Ghost Rider (Orange)",
         "description": "The Spirit of Vengeance, blazing through opponents on his hellfire chain.",
         "price": 120,
-        "images": [
-          "/models/unmatched-redemption-row-ghost-rider-ORANGE.glb"
-        ]
+        "images": ["/models/unmatched-redemption-row-ghost-rider-ORANGE.glb"]
       },
       {
         "subname": "Redemption Row — Luke Cage (Yellow)",
         "description": "The unbreakable Power Man, Harlem's Hero for Hire with steel-hard skin.",
         "price": 130,
-        "images": [
-          "/models/unmatched-redemption-row-luke-cage-YELLOW.glb"
-        ]
+        "images": ["/models/unmatched-redemption-row-luke-cage-YELLOW.glb"]
       },
       {
         "subname": "Redemption Row — Moon Knight (White)",
         "description": "The Fist of Khonshu, a vigilante cloaked in silver and madness.",
         "price": 140,
-        "images": [
-          "/models/unmatched-redemption-row-moon-knight-WHITE.glb"
-        ]
+        "images": ["/models/unmatched-redemption-row-moon-knight-WHITE.glb"]
       },
       {
         "subname": "Slings & Arrows — Hamlet (Black)",
         "description": "The brooding Prince of Denmark, torn between action and contemplation.",
         "price": 150,
-        "images": [
-          "/models/unmatched-slings-and-arrows-hamlet-BLACK.glb"
-        ]
+        "images": ["/models/unmatched-slings-and-arrows-hamlet-BLACK.glb"]
       },
       {
         "subname": "Slings & Arrows — Shakespeare (Purple)",
         "description": "The Bard himself, wielding words as weapons mightier than any sword.",
         "price": 120,
-        "images": [
-          "/models/unmatched-slings-and-arrows-shakespeare-PURPLE.glb"
-        ]
+        "images": ["/models/unmatched-slings-and-arrows-shakespeare-PURPLE.glb"]
       },
       {
         "subname": "Slings & Arrows — The Wayward Sisters (Green)",
@@ -2208,193 +2132,67 @@
         "subname": "Slings & Arrows — Titania (Blue)",
         "description": "The Queen of the Fairies, commanding enchantment and midsummer magic.",
         "price": 140,
-        "images": [
-          "/models/unmatched-slings-and-arrows-titania-BLUE.glb"
-        ]
+        "images": ["/models/unmatched-slings-and-arrows-titania-BLUE.glb"]
       },
       {
         "subname": "Sun's Origin — Oda Nobunaga (Red)",
         "description": "The Demon King, the ruthless warlord who unified Japan through fire and ambition.",
         "price": 150,
-        "images": [
-          "/models/unmatched-suns-origin-oda-nobunaga-RED.glb"
-        ]
+        "images": ["/models/unmatched-suns-origin-oda-nobunaga-RED.glb"]
       },
       {
         "subname": "Sun's Origin — Tomoe Gozen (Blue)",
         "description": "The legendary onna-musha, a samurai warrior of unmatched grace and skill.",
         "price": 120,
-        "images": [
-          "/models/unmatched-suns-origin-tomoe-gozen-BLUE.glb"
-        ]
-      },
-      {
-        "subname": "Tales to Amaze — Annie Christmas (Red)",
-        "description": "The towering keelboat woman of the Mississippi, stronger than any ten men.",
-        "price": 130,
-        "images": [
-          "/models/unmatched-tales-to-amaze-annie-christmas-RED.glb"
-        ]
-      },
-      {
-        "subname": "Tales to Amaze — Dr. Jill Trent (Blue)",
-        "description": "The Science Sleuth, solving crimes with brilliant deduction and invention.",
-        "price": 140,
-        "images": [
-          "/models/unmatched-tales-to-amaze-dr-jill-trent-BLUE.glb"
-        ]
-      },
-      {
-        "subname": "Tales to Amaze — Nikola Tesla (Yellow)",
-        "description": "The visionary inventor, harnessing the power of lightning itself.",
-        "price": 150,
-        "images": [
-          "/models/unmatched-tales-to-amaze-nikola-tesla-YELLOW.glb"
-        ]
-      },
-      {
-        "subname": "Tales to Amaze — The Golden Bat (Orange)",
-        "description": "The ancient skeletal superhero, awakened to fight evil with golden fury.",
-        "price": 120,
-        "images": [
-          "/models/unmatched-tales-to-amaze-the-golden-bat-ORANGE.glb"
-        ]
-      },
-      {
-        "subname": "Tales to Amaze — Mothman Part A (Brown)",
-        "description": "The cryptid of Point Pleasant, spreading dread with luminous red eyes — front section.",
-        "price": 130,
-        "images": [
-          "/models/unmatched-tales-to-amaze-mothman-part-a-BROWN.glb"
-        ]
-      },
-      {
-        "subname": "Tales to Amaze — Mothman Part B (Brown)",
-        "description": "The cryptid of Point Pleasant, spreading dread with luminous red eyes — rear section.",
-        "price": 140,
-        "images": [
-          "/models/unmatched-tales-to-amaze-mothman-part-b-BROWN.glb"
-        ]
-      },
-      {
-        "subname": "Tales to Amaze — Martian Invader (Green)",
-        "description": "The extraterrestrial threat from Mars, devastating all in its path.",
-        "price": 150,
-        "images": [
-          "/models/unmatched-tales-to-amaze-martian-invader-GREEN.glb"
-        ]
-      },
-      {
-        "subname": "Tales to Amaze — Giant Ant Minion (Red)",
-        "description": "A monstrous insect minion, swarming to overwhelm the opposition.",
-        "price": 120,
-        "images": [
-          "/models/unmatched-tales-to-amaze-minion-giant-ant-RED.glb"
-        ]
-      },
-      {
-        "subname": "Tales to Amaze — Jersey Devil Minion (Red)",
-        "description": "The winged terror of the Pine Barrens, shrieking through the night.",
-        "price": 130,
-        "images": [
-          "/models/unmatched-tales-to-amaze-minion-jersey-devil-RED.glb"
-        ]
-      },
-      {
-        "subname": "Tales to Amaze — Loveland Frog Minion (Green)",
-        "description": "The bizarre amphibian cryptid of Ohio, hopping into battle.",
-        "price": 140,
-        "images": [
-          "/models/unmatched-tales-to-amaze-minion-loveland-frog-GREEN.glb"
-        ]
-      },
-      {
-        "subname": "Tales to Amaze — Skunk Ape Minion (Brown)",
-        "description": "Florida's answer to Bigfoot, lurking in the swamps.",
-        "price": 150,
-        "images": [
-          "/models/unmatched-tales-to-amaze-minion-skunk-ape-BROWN.glb"
-        ]
-      },
-      {
-        "subname": "Tales to Amaze — Tarantula Minion (Black)",
-        "description": "The creeping eight-legged terror, spinning webs of danger.",
-        "price": 120,
-        "images": [
-          "/models/unmatched-tales-to-amaze-minion-tarantula-BLACK.glb"
-        ]
-      },
-      {
-        "subname": "Tales to Amaze — The Blob Minion (Purple)",
-        "description": "The gelatinous horror, engulfing everything in its amorphous mass.",
-        "price": 130,
-        "images": [
-          "/models/unmatched-tales-to-amaze-minion-the-blob-PURPLE.glb"
-        ]
+        "images": ["/models/unmatched-suns-origin-tomoe-gozen-BLUE.glb"]
       },
       {
         "subname": "Teen Spirit — Cloak & Dagger (Purple)",
         "description": "The duo of darkness and light, balancing each other in every battle.",
         "price": 140,
-        "images": [
-          "/models/unmatched-teen-spirit-cloak-and-dagger-PURPLE.glb"
-        ]
+        "images": ["/models/unmatched-teen-spirit-cloak-and-dagger-PURPLE.glb"]
       },
       {
         "subname": "Teen Spirit — Ms. Marvel (Blue)",
         "description": "Kamala Khan, the shape-shifting Inhuman hero with an embiggen-ed heart.",
         "price": 150,
-        "images": [
-          "/models/unmatched-teen-spirit-ms-marvel-BLUE.glb"
-        ]
+        "images": ["/models/unmatched-teen-spirit-ms-marvel-BLUE.glb"]
       },
       {
         "subname": "Teen Spirit — Squirrel Girl (Brown)",
         "description": "The unbeatable Squirrel Girl, defeating villains with squirrel power and optimism.",
         "price": 120,
-        "images": [
-          "/models/unmatched-teen-spirit-squirrel-girl-BROWN.glb"
-        ]
+        "images": ["/models/unmatched-teen-spirit-squirrel-girl-BROWN.glb"]
       },
       {
         "subname": "The Witcher — Geralt (White)",
         "description": "The White Wolf, a monster hunter of legendary skill and silver sword.",
         "price": 130,
-        "images": [
-          "/models/unmatched-the-witcher-geralt-WHITE.glb"
-        ]
+        "images": ["/models/unmatched-the-witcher-geralt-WHITE.glb"]
       },
       {
         "subname": "The Witcher — Ciri (Green)",
         "description": "The Lady of Space and Time, wielding Elder Blood power to teleport across the battlefield.",
         "price": 140,
-        "images": [
-          "/models/unmatched-the-witcher-ciri-GREEN.glb"
-        ]
+        "images": ["/models/unmatched-the-witcher-ciri-GREEN.glb"]
       },
       {
         "subname": "The Witcher — Ancient Leshen (Brown)",
         "description": "The primeval forest spirit, commanding nature itself against intruders.",
         "price": 150,
-        "images": [
-          "/models/unmatched-the-witcher-ancient-leshen-BROWN.glb"
-        ]
+        "images": ["/models/unmatched-the-witcher-ancient-leshen-BROWN.glb"]
       },
       {
         "subname": "The Witcher — Eredin (Black)",
         "description": "The King of the Wild Hunt, leading his spectral riders across worlds.",
         "price": 120,
-        "images": [
-          "/models/unmatched-the-witcher-eredin-BLACK.glb"
-        ]
+        "images": ["/models/unmatched-the-witcher-eredin-BLACK.glb"]
       },
       {
         "subname": "The Witcher — Phillipa (Blue)",
         "description": "The cunning sorceress, manipulating politics and magic with equal mastery.",
         "price": 130,
-        "images": [
-          "/models/unmatched-the-witcher-phillipa-BLUE.glb"
-        ]
+        "images": ["/models/unmatched-the-witcher-phillipa-BLUE.glb"]
       },
       {
         "subname": "The Witcher — Yennefer & Triss (Purple)",
@@ -2405,146 +2203,47 @@
         ]
       },
       {
-        "subname": "TMNT — Leonardo (Blue)",
-        "description": "The disciplined leader of the Turtles, slicing through enemies with twin katanas.",
-        "price": 150,
+        "subname": "Tales to Amaze Complete Set",
+        "description": "The complete Tales to Amaze collection — Annie Christmas, Dr. Jill Trent, Nikola Tesla, The Golden Bat, Mothman, Martian Invader, and all minions. 13 models in one set.",
+        "price": 1750,
         "images": [
-          "/models/unmatched-tmnt-leonardo-BLUE.glb"
+          "/models/unmatched-tales-to-amaze-annie-christmas-RED.glb",
+          "/models/unmatched-tales-to-amaze-dr-jill-trent-BLUE.glb",
+          "/models/unmatched-tales-to-amaze-nikola-tesla-YELLOW.glb",
+          "/models/unmatched-tales-to-amaze-the-golden-bat-ORANGE.glb",
+          "/models/unmatched-tales-to-amaze-mothman-part-a-BROWN.glb",
+          "/models/unmatched-tales-to-amaze-mothman-part-b-BROWN.glb",
+          "/models/unmatched-tales-to-amaze-martian-invader-GREEN.glb",
+          "/models/unmatched-tales-to-amaze-minion-giant-ant-RED.glb",
+          "/models/unmatched-tales-to-amaze-minion-jersey-devil-RED.glb",
+          "/models/unmatched-tales-to-amaze-minion-loveland-frog-GREEN.glb",
+          "/models/unmatched-tales-to-amaze-minion-skunk-ape-BROWN.glb",
+          "/models/unmatched-tales-to-amaze-minion-tarantula-BLACK.glb",
+          "/models/unmatched-tales-to-amaze-minion-the-blob-PURPLE.glb"
         ]
       },
       {
-        "subname": "TMNT — Donatello (Purple)",
-        "description": "The tech genius Turtle, wielding his bo staff with calculated precision.",
-        "price": 120,
+        "subname": "TMNT Complete Set",
+        "description": "The complete Teenage Mutant Ninja Turtles collection — all four Turtles, Shredder, Krang, Foot Soldiers, minions, and the Extra Toppings expansion. 18 models in one epic set.",
+        "price": 2450,
         "images": [
-          "/models/unmatched-tmnt-donatello-PURPLE.glb"
-        ]
-      },
-      {
-        "subname": "TMNT — Michelangelo (Orange)",
-        "description": "The party dude Turtle, nunchaku-spinning his way through every fight.",
-        "price": 130,
-        "images": [
-          "/models/unmatched-tmnt-michelangelo-ORANGE.glb"
-        ]
-      },
-      {
-        "subname": "TMNT — Raphael (Red)",
-        "description": "The hot-headed Turtle, charging into battle sai-first with raw fury.",
-        "price": 140,
-        "images": [
-          "/models/unmatched-tmnt-raphael-RED.glb"
-        ]
-      },
-      {
-        "subname": "TMNT — Shredder (Gray)",
-        "description": "The armoured leader of the Foot Clan, a martial arts master of deadly blades.",
-        "price": 150,
-        "images": [
-          "/models/unmatched-tmnt-shredder-GRAY.glb"
-        ]
-      },
-      {
-        "subname": "TMNT — Krang (Purple)",
-        "description": "The interdimensional brain in a robot body, bent on conquest.",
-        "price": 120,
-        "images": [
-          "/models/unmatched-tmnt-krang-PURPLE.glb"
-        ]
-      },
-      {
-        "subname": "TMNT — Shredder & Foot Soldiers (Black)",
-        "description": "Shredder and his ninja army, overwhelming enemies with sheer numbers.",
-        "price": 130,
-        "images": [
-          "/models/unmatched-tmnt-shredder-foot-soldiers-BLACK.glb"
-        ]
-      },
-      {
-        "subname": "TMNT — Baxter Stockman Minion (Gray)",
-        "description": "The mad scientist turned mutant fly, buzzing with villainous schemes.",
-        "price": 140,
-        "images": [
-          "/models/unmatched-tmnt-minion-baxter-stockman-GRAY.glb"
-        ]
-      },
-      {
-        "subname": "TMNT — Bebop & Rocksteady Minion (Purple)",
-        "description": "The bumbling mutant duo, smashing everything in their path.",
-        "price": 150,
-        "images": [
-          "/models/unmatched-tmnt-minion-bebop-and-rocksteady-PURPLE.glb"
-        ]
-      },
-      {
-        "subname": "TMNT — Leatherhead Minion (Green)",
-        "description": "The mutant alligator, a gentle giant with a ferocious bite.",
-        "price": 120,
-        "images": [
-          "/models/unmatched-tmnt-minion-leatherhead-GREEN.glb"
-        ]
-      },
-      {
-        "subname": "TMNT — Rat King Minion (Brown)",
-        "description": "The mysterious pied piper of the sewers, commanding his rodent army.",
-        "price": 130,
-        "images": [
-          "/models/unmatched-tmnt-minion-rat-king-BROWN.glb"
-        ]
-      },
-      {
-        "subname": "TMNT — Slash Minion (Green)",
-        "description": "The mutant snapping turtle, a dark mirror of the heroes.",
-        "price": 140,
-        "images": [
-          "/models/unmatched-tmnt-minion-slash-GREEN.glb"
-        ]
-      },
-      {
-        "subname": "TMNT — Wingnut Minion (Blue)",
-        "description": "The alien bat creature, swooping in from another dimension.",
-        "price": 150,
-        "images": [
-          "/models/unmatched-tmnt-minion-wingnut-BLUE.glb"
-        ]
-      },
-      {
-        "subname": "TMNT Extra Toppings — Leonardo (Blue)",
-        "description": "Leonardo variant with extra accessories for the ultimate display.",
-        "price": 120,
-        "images": [
-          "/models/unmatched-tmnt-extra-toppings-leonardo-BLUE.glb"
-        ]
-      },
-      {
-        "subname": "TMNT Extra Toppings — Donatello (Purple)",
-        "description": "Donatello variant with extra accessories for the ultimate display.",
-        "price": 130,
-        "images": [
-          "/models/unmatched-tmnt-extra-toppings-donatello-PURPLE.glb"
-        ]
-      },
-      {
-        "subname": "TMNT Extra Toppings — Michelangelo (Orange)",
-        "description": "Michelangelo variant with extra accessories for the ultimate display.",
-        "price": 140,
-        "images": [
-          "/models/unmatched-tmnt-extra-toppings-michelangelo-ORANGE.glb"
-        ]
-      },
-      {
-        "subname": "TMNT Extra Toppings — Raphael (Red)",
-        "description": "Raphael variant with extra accessories for the ultimate display.",
-        "price": 150,
-        "images": [
-          "/models/unmatched-tmnt-extra-toppings-raphael-RED.glb"
-        ]
-      },
-      {
-        "subname": "TMNT Extra Toppings — Minions (Gray)",
-        "description": "Minion accessories for the TMNT Extra Toppings expansion.",
-        "price": 120,
-        "images": [
+          "/models/unmatched-tmnt-leonardo-BLUE.glb",
+          "/models/unmatched-tmnt-donatello-PURPLE.glb",
+          "/models/unmatched-tmnt-michelangelo-ORANGE.glb",
+          "/models/unmatched-tmnt-raphael-RED.glb",
+          "/models/unmatched-tmnt-shredder-GRAY.glb",
+          "/models/unmatched-tmnt-krang-PURPLE.glb",
+          "/models/unmatched-tmnt-shredder-foot-soldiers-BLACK.glb",
+          "/models/unmatched-tmnt-minion-baxter-stockman-GRAY.glb",
+          "/models/unmatched-tmnt-minion-bebop-and-rocksteady-PURPLE.glb",
+          "/models/unmatched-tmnt-minion-leatherhead-GREEN.glb",
+          "/models/unmatched-tmnt-minion-rat-king-BROWN.glb",
+          "/models/unmatched-tmnt-minion-slash-GREEN.glb",
+          "/models/unmatched-tmnt-minion-wingnut-BLUE.glb",
+          "/models/unmatched-tmnt-extra-toppings-leonardo-BLUE.glb",
+          "/models/unmatched-tmnt-extra-toppings-donatello-PURPLE.glb",
+          "/models/unmatched-tmnt-extra-toppings-michelangelo-ORANGE.glb",
+          "/models/unmatched-tmnt-extra-toppings-raphael-RED.glb",
           "/models/unmatched-tmnt-extra-toppings-minions-GRAY.glb"
         ]
       }
