@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -13,11 +14,20 @@ import {
   ZoomIn,
   Sparkles,
   MessageCircle,
+  Box,
 } from "lucide-react";
 import { useCart } from "@/lib/cart-context";
 import { useRequest } from "@/lib/request-context";
 import { products, colors, type Product } from "@/app/assets/data";
 import { getImageSrc, categoryFallbacks } from "@/app/assets/images";
+
+const ModelViewer = dynamic(() => import("@/components/model-viewer"), { ssr: false });
+
+type CarouselSlide = { type: "image"; src: string } | { type: "model"; src: string };
+
+function isModelFile(src: string): boolean {
+  return /\.(glb|gltf)$/i.test(src);
+}
 
 export interface ProductClientProps {
   params: Promise<{ id: string }>;
@@ -162,6 +172,7 @@ export default function ProductClient({ params }: ProductClientProps) {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [failedImages, setFailedImages] = useState<Set<string>>(new Set());
   const [customization, setCustomization] = useState("");
+  const [selectedVariantIndex, setSelectedVariantIndex] = useState(0);
 
   useEffect(() => {
     params.then((resolvedParams) => setId(resolvedParams.id));
@@ -178,15 +189,22 @@ export default function ProductClient({ params }: ProductClientProps) {
     const colorName = product.showColorOption
       ? colors.find((c) => c.id === selectedColor)?.name || ""
       : "";
-    let cartId = product.showColorOption ? `${product.id}__${selectedColor}` : product.id;
+    const variantSuffix = activeVariant ? `__var_${selectedVariantIndex}` : "";
+    let cartId = product.showColorOption
+      ? `${product.id}${variantSuffix}__${selectedColor}`
+      : `${product.id}${variantSuffix}`;
     if (customization.trim()) {
       cartId += `__custom_${customization.trim()}`;
     }
+    const cartName = activeVariant
+      ? `${product.name} — ${activeVariant.subname}`
+      : product.name;
+    const cartDisplayName = colorName ? `${cartName} (${colorName})` : cartName;
     for (let i = 0; i < quantity; i++) {
       addToCart({
         id: cartId,
-        name: colorName ? `${product.name} (${colorName})` : product.name,
-        price: product.price,
+        name: cartDisplayName,
+        price: displayPrice,
         image: product.image,
         ...(customization.trim() && { customization: customization.trim() }),
       });
@@ -195,18 +213,44 @@ export default function ProductClient({ params }: ProductClientProps) {
     setTimeout(() => setIsAdded(false), 2000);
   };
 
+  const variants = product?.enableVariants;
+  const activeVariant = variants?.[selectedVariantIndex];
+
+  const displayName = product
+    ? activeVariant
+      ? `${product.name} — ${activeVariant.subname}`
+      : product.name
+    : "";
+
+  const displayDescription = product
+    ? activeVariant
+      ? `${product.description}\n${activeVariant.description}`
+      : product.description
+    : "";
+
+  const displayPrice = activeVariant?.price ?? product?.price ?? 0;
+
   const fallbackSrc = product
     ? categoryFallbacks[product.category] || ""
     : "";
 
-  const allImages =
-    product?.images && product.images.length > 0
-      ? product.images.map(getImageSrc)
-      : product?.image
-      ? [getImageSrc(product.image)]
-      : fallbackSrc
-      ? [fallbackSrc]
-      : [];
+  const rawSrcs = activeVariant?.images?.length
+    ? activeVariant.images
+    : product?.images && product.images.length > 0
+    ? product.images
+    : product?.image
+    ? [product.image]
+    : fallbackSrc
+    ? [fallbackSrc]
+    : [];
+
+  const allSlides: CarouselSlide[] = rawSrcs.map((src) =>
+    isModelFile(src)
+      ? { type: "model" as const, src }
+      : { type: "image" as const, src: getImageSrc(src) }
+  );
+
+  const allImages = allSlides.filter((s): s is { type: "image"; src: string } => s.type === "image").map((s) => s.src);
 
   const handleOpenLightbox = (index: number) => {
     setSelectedImageIndex(index);
@@ -279,32 +323,49 @@ export default function ProductClient({ params }: ProductClientProps) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-14">
             {/* Image Gallery */}
             <div className="space-y-3">
-              {/* Main Image */}
-              <div
-                className="relative bg-secondary rounded-xl overflow-hidden aspect-square cursor-zoom-in group"
-                onClick={() => handleOpenLightbox(selectedImageIndex)}
-              >
-                <Image
-                  src={resolveImageSrc(allImages[selectedImageIndex])}
-                  alt={product.name}
-                  width={600}
-                  height={600}
-                  className="w-full h-full object-cover smooth-transition group-hover:scale-[1.02]"
-                  priority
-                  onError={() =>
-                    handleImageError(allImages[selectedImageIndex])
-                  }
-                />
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 smooth-transition" />
-                <div className="absolute bottom-3 right-3 bg-black/50 backdrop-blur-sm text-white p-2 rounded-lg opacity-0 group-hover:opacity-100 smooth-transition">
-                  <ZoomIn size={18} strokeWidth={1.5} />
+              {/* Main Image / 3D Model */}
+              {allSlides[selectedImageIndex]?.type === "model" ? (
+                <div className="relative rounded-xl overflow-hidden aspect-square bg-gradient-to-br from-slate-600 via-slate-700 to-slate-800 dark:from-slate-700 dark:via-slate-800 dark:to-slate-950">
+                  <ModelViewer
+                    src={allSlides[selectedImageIndex].src}
+                    alt={product.name}
+                    className="absolute inset-0 w-full h-full"
+                  />
+                  <div className="absolute top-3 left-3 bg-primary/90 text-primary-foreground text-2xs font-semibold px-2.5 py-1 rounded-full flex items-center gap-1.5 pointer-events-none">
+                    <Box size={12} strokeWidth={2.5} />
+                    3D
+                  </div>
                 </div>
-              </div>
+              ) : (
+                <div
+                  className="relative bg-secondary rounded-xl overflow-hidden aspect-square cursor-zoom-in group"
+                  onClick={() => {
+                    const imgIndex = allImages.indexOf(allSlides[selectedImageIndex]?.src);
+                    handleOpenLightbox(imgIndex >= 0 ? imgIndex : 0);
+                  }}
+                >
+                  <Image
+                    src={resolveImageSrc(allSlides[selectedImageIndex]?.src)}
+                    alt={product.name}
+                    width={600}
+                    height={600}
+                    className="w-full h-full object-cover smooth-transition group-hover:scale-[1.02]"
+                    priority
+                    onError={() =>
+                      handleImageError(allSlides[selectedImageIndex]?.src)
+                    }
+                  />
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 smooth-transition" />
+                  <div className="absolute bottom-3 right-3 bg-black/50 backdrop-blur-sm text-white p-2 rounded-lg opacity-0 group-hover:opacity-100 smooth-transition">
+                    <ZoomIn size={18} strokeWidth={1.5} />
+                  </div>
+                </div>
+              )}
 
               {/* Thumbnails */}
-              {allImages.length > 1 && (
+              {allSlides.length > 1 && (
                 <div className="flex gap-2 overflow-x-auto pb-1">
-                  {allImages.map((img, idx) => (
+                  {allSlides.map((slide, idx) => (
                     <button
                       key={idx}
                       onClick={() => setSelectedImageIndex(idx)}
@@ -314,13 +375,20 @@ export default function ProductClient({ params }: ProductClientProps) {
                           : "ring-transparent opacity-60 hover:opacity-100"
                       }`}
                     >
-                      <Image
-                        src={resolveImageSrc(img)}
-                        alt={`${product.name} - Image ${idx + 1}`}
-                        fill
-                        className="object-cover"
-                        onError={() => handleImageError(img)}
-                      />
+                      {slide.type === "model" ? (
+                        <div className="w-full h-full bg-slate-700 flex flex-col items-center justify-center gap-1">
+                          <Box size={20} strokeWidth={1.5} className="text-white" />
+                          <span className="text-2xs font-semibold text-white">3D</span>
+                        </div>
+                      ) : (
+                        <Image
+                          src={resolveImageSrc(slide.src)}
+                          alt={`${product.name} - Image ${idx + 1}`}
+                          fill
+                          className="object-cover"
+                          onError={() => handleImageError(slide.src)}
+                        />
+                      )}
                     </button>
                   ))}
                 </div>
@@ -334,18 +402,45 @@ export default function ProductClient({ params }: ProductClientProps) {
               </p>
 
               <h1 className="font-serif text-3xl sm:text-4xl text-foreground mb-3">
-                {product.name}
+                {displayName}
               </h1>
 
               <p className="text-2xl font-semibold text-foreground mb-6 tabular-nums">
-                ₹{product.price.toLocaleString("en-IN")}
+                ₹{displayPrice.toLocaleString("en-IN")}
               </p>
 
               <div className="text-sm text-muted-foreground mb-6 leading-relaxed space-y-2">
-                {product.description.split("\n").filter(Boolean).map((para, i) => (
+                {displayDescription.split("\n").filter(Boolean).map((para, i) => (
                   <p key={i}>{para}</p>
                 ))}
               </div>
+
+              {/* Variant Selector */}
+              {variants && variants.length > 0 && (
+                <div className="mb-6">
+                  <h3 className="text-xs font-semibold text-foreground uppercase tracking-wider mb-3 font-sans">
+                    Variant
+                  </h3>
+                  <div className="flex flex-wrap gap-2">
+                    {variants.map((v, idx) => (
+                      <button
+                        key={idx}
+                        onClick={() => {
+                          setSelectedVariantIndex(idx);
+                          setSelectedImageIndex(0);
+                        }}
+                        className={`px-4 py-2 rounded-lg text-sm font-medium smooth-transition border ${
+                          idx === selectedVariantIndex
+                            ? "bg-primary text-primary-foreground border-primary shadow-sm"
+                            : "bg-secondary/60 text-foreground border-border hover:bg-secondary hover:border-border/80"
+                        }`}
+                      >
+                        {v.subname}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* Color Selector */}
               {product.showColorOption && (

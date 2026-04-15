@@ -4,6 +4,13 @@ import colorsData from "./colors.json";
 import configData from "./config.json";
 import productImages from "../images/product-images";
 
+export interface ProductVariant {
+  subname: string;
+  description: string;
+  images: string[];
+  price?: number;
+}
+
 export interface Product {
   id: string;
   name: string;
@@ -20,6 +27,7 @@ export interface Product {
   showColorOption: boolean;
   showAssortedColor?: boolean;
   customizable?: string;
+  enableVariants?: ProductVariant[];
   specs: {
     material?: string;
     [key: string]: string | undefined;
@@ -74,13 +82,19 @@ export interface Category {
  * If no images exist, components fall back to category default images.
  */
 const allProducts: Product[] = (
-  productsData as Omit<Product, "image" | "images">[]
+  productsData as (Omit<Product, "image" | "images"> & { models?: string[]; enableVariants?: ProductVariant[] })[]
 ).map((p) => {
+  const { models, enableVariants, ...rest } = p;
   const imgs = productImages[p.id] || [];
+  const imageSrcs = imgs.map((img) => img.src);
+  const merged = models?.length
+    ? [imageSrcs[0], ...models, ...imageSrcs.slice(1)].filter(Boolean)
+    : imageSrcs;
   return {
-    ...p,
+    ...rest,
     image: imgs[0]?.src || "",
-    images: imgs.map((img) => img.src),
+    images: merged,
+    ...(enableVariants && { enableVariants }),
   };
 });
 

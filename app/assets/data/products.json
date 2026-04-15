@@ -1808,5 +1808,49 @@
       "weight": "~180g"
     },
     "game": "7 Flip: With a Vengeance"
+  },
+  {
+    "id": "unmatched",
+    "name": "Unmatched Board Game Inserts",
+    "category": "Board Game Upgrades",
+    "price": 140,
+    "description": "Unmatched Board Game Inserts.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": false,
+    "enableVariants": [
+      {
+        "subname": "Battle of Legends Volume 3 - Blackbeard",
+        "description": "The infamous pirate captain, sculpted with his iconic hat and fearsome stance.",
+        "price": 140,
+        "images": [
+          "/models/unmatched-battle-of-legends-3-blackbeard-BLACK_70gm_2.glb"
+        ]
+      },
+      {
+        "subname": "Battle of Legends Volume 3 - Chupacabra",
+        "description": "The legendary cryptid, captured in a menacing pose with razor-sharp claws.",
+        "price": 120,
+        "images": ["/models/unmatched-battle-of-legends-3-chupacabra-RED.glb"]
+      },
+      {
+        "subname": "Battle of Legends Volume 3 - Loki",
+        "description": "The trickster god of mischief, posed with characteristic cunning and flair.",
+        "price": 120,
+        "images": ["/models/unmatched-battle-of-legends-3-loki-GREEN.glb"]
+      },
+      {
+        "subname": "Battle of Legends Volume 3 - Pandora",
+        "description": "The mythical figure of curiosity, delicately sculpted mid-reveal.",
+        "price": 120,
+        "images": ["/models/unmatched-battle-of-legends-3-pandora-YELLOW.glb"]
+      }
+    ],
+    "specs": {
+      "compatibility": "Unmatched Board Game",
+      "material": "High quality PLA"
+    },
+    "game": "Unmatched"
   }
 ]
