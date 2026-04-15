@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
@@ -15,10 +15,12 @@ import {
   Sparkles,
   MessageCircle,
   Box,
+  Search,
+  ChevronsUpDown,
 } from "lucide-react";
 import { useCart } from "@/lib/cart-context";
 import { useRequest } from "@/lib/request-context";
-import { products, colors, type Product } from "@/app/assets/data";
+import { products, colors, type Product, type ProductVariant } from "@/app/assets/data";
 import { getImageSrc, categoryFallbacks } from "@/app/assets/images";
 
 const ModelViewer = dynamic(() => import("@/components/model-viewer"), { ssr: false });
@@ -31,6 +33,100 @@ function isModelFile(src: string): boolean {
 
 export interface ProductClientProps {
   params: Promise<{ id: string }>;
+}
+
+function VariantCombobox({
+  variants,
+  selectedIndex,
+  onSelect,
+}: {
+  variants: ProductVariant[];
+  selectedIndex: number;
+  onSelect: (idx: number) => void;
+}) {
+  const [open, setOpen] = useState(false);
+  const [query, setQuery] = useState("");
+  const inputRef = useRef<HTMLInputElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  const filtered = query
+    ? variants
+        .map((v, i) => ({ v, i }))
+        .filter(({ v }) => v.subname.toLowerCase().includes(query.toLowerCase()))
+    : variants.map((v, i) => ({ v, i }));
+
+  useEffect(() => {
+    if (open) {
+      setTimeout(() => inputRef.current?.focus(), 0);
+    } else {
+      setQuery("");
+    }
+  }, [open]);
+
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
+        setOpen(false);
+      }
+    }
+    if (open) document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [open]);
+
+  return (
+    <div ref={containerRef} className="relative">
+      <button
+        onClick={() => setOpen(!open)}
+        className="w-full flex items-center justify-between gap-2 px-4 py-3 rounded-lg border border-border bg-background text-left smooth-transition hover:border-primary/40 focus:outline-none focus:ring-2 focus:ring-primary/30"
+      >
+        <span className="text-sm font-medium text-foreground truncate">
+          {variants[selectedIndex]?.subname}
+        </span>
+        <ChevronsUpDown size={16} className="flex-shrink-0 text-muted-foreground" strokeWidth={2} />
+      </button>
+
+      {open && (
+        <div className="absolute z-50 mt-1.5 w-full bg-background border border-border rounded-xl shadow-elevated overflow-hidden animate-in fade-in slide-in-from-top-1 duration-150">
+          <div className="flex items-center gap-2 px-3 py-2.5 border-b border-border">
+            <Search size={14} className="text-muted-foreground flex-shrink-0" strokeWidth={2} />
+            <input
+              ref={inputRef}
+              type="text"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Search variants..."
+              className="flex-1 text-sm bg-transparent text-foreground placeholder:text-muted-foreground/60 focus:outline-none"
+            />
+          </div>
+          <div className="max-h-60 overflow-y-auto overscroll-contain">
+            {filtered.length === 0 ? (
+              <div className="px-4 py-6 text-center text-sm text-muted-foreground">
+                No variants found
+              </div>
+            ) : (
+              filtered.map(({ v, i }) => (
+                <button
+                  key={i}
+                  onClick={() => {
+                    onSelect(i);
+                    setOpen(false);
+                  }}
+                  className={`w-full text-left px-4 py-2.5 text-sm smooth-transition flex items-center gap-2.5 ${
+                    i === selectedIndex
+                      ? "bg-primary/10 text-primary font-medium"
+                      : "text-foreground hover:bg-secondary"
+                  }`}
+                >
+                  {i === selectedIndex && <Check size={14} strokeWidth={2.5} className="flex-shrink-0" />}
+                  <span className={i === selectedIndex ? "" : "pl-[22px]"}>{v.subname}</span>
+                </button>
+              ))
+            )}
+          </div>
+        </div>
+      )}
+    </div>
+  );
 }
 
 function LightboxModal({
@@ -421,24 +517,35 @@ export default function ProductClient({ params }: ProductClientProps) {
                   <h3 className="text-xs font-semibold text-foreground uppercase tracking-wider mb-3 font-sans">
                     Variant
                   </h3>
-                  <div className="flex flex-wrap gap-2">
-                    {variants.map((v, idx) => (
-                      <button
-                        key={idx}
-                        onClick={() => {
-                          setSelectedVariantIndex(idx);
-                          setSelectedImageIndex(0);
-                        }}
-                        className={`px-4 py-2 rounded-lg text-sm font-medium smooth-transition border ${
-                          idx === selectedVariantIndex
-                            ? "bg-primary text-primary-foreground border-primary shadow-sm"
-                            : "bg-secondary/60 text-foreground border-border hover:bg-secondary hover:border-border/80"
-                        }`}
-                      >
-                        {v.subname}
-                      </button>
-                    ))}
-                  </div>
+                  {variants.length <= 5 ? (
+                    <div className="flex flex-wrap gap-2">
+                      {variants.map((v, idx) => (
+                        <button
+                          key={idx}
+                          onClick={() => {
+                            setSelectedVariantIndex(idx);
+                            setSelectedImageIndex(0);
+                          }}
+                          className={`px-4 py-2 rounded-lg text-sm font-medium smooth-transition border ${
+                            idx === selectedVariantIndex
+                              ? "bg-primary text-primary-foreground border-primary shadow-sm"
+                              : "bg-secondary/60 text-foreground border-border hover:bg-secondary hover:border-border/80"
+                          }`}
+                        >
+                          {v.subname}
+                        </button>
+                      ))}
+                    </div>
+                  ) : (
+                    <VariantCombobox
+                      variants={variants}
+                      selectedIndex={selectedVariantIndex}
+                      onSelect={(idx) => {
+                        setSelectedVariantIndex(idx);
+                        setSelectedImageIndex(0);
+                      }}
+                    />
+                  )}
                 </div>
               )}
 

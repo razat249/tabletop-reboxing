@@ -1821,7 +1821,59 @@
     "showColorOption": false,
     "enableVariants": [
       {
-        "subname": "Battle of Legends Volume 3 - Blackbeard",
+        "subname": "Vol. 1 — King Arthur (Yellow)",
+        "description": "The legendary king, wielding Excalibur with Merlin at his side.",
+        "price": 120,
+        "images": [
+          "/models/unmatched-battle-of-legends-1-king-arthur-YELLOW.glb"
+        ]
+      },
+      {
+        "subname": "Vol. 1 — Alice (Blue)",
+        "description": "Back from Wonderland with a vorpal blade and the Jabberwock by her side.",
+        "price": 140,
+        "images": ["/models/unmatched-battle-of-legends-1-alice-BLUE.glb"]
+      },
+      {
+        "subname": "Vol. 1 — Medusa (Green)",
+        "description": "The Gorgon whose petrifying gaze can end any battle in an instant.",
+        "price": 140,
+        "images": ["/models/unmatched-battle-of-legends-1-medusa-GREEN.glb"]
+      },
+      {
+        "subname": "Vol. 1 — Sinbad (Red)",
+        "description": "The legendary sailor who grows stronger with every voyage.",
+        "price": 130,
+        "images": ["/models/unmatched-battle-of-legends-1-sinbad-RED.glb"]
+      },
+      {
+        "subname": "Vol. 2 — Achilles (Orange)",
+        "description": "The near-invincible Greek warrior, feared across the battlefield.",
+        "price": 140,
+        "images": ["/models/unmatched-battle-of-legends-2-achilles-ORANGE.glb"]
+      },
+      {
+        "subname": "Vol. 2 — Bloody Mary (Red)",
+        "description": "The spectral legend who strikes fear with every appearance.",
+        "price": 140,
+        "images": ["/models/unmatched-battle-of-legends-2-bloody-mary-RED.glb"]
+      },
+      {
+        "subname": "Vol. 2 — Sun Wukong (Yellow)",
+        "description": "The Monkey King, wielding his legendary staff with unmatched agility.",
+        "price": 140,
+        "images": [
+          "/models/unmatched-battle-of-legends-2-sun-wukong-YELLOW.glb"
+        ]
+      },
+      {
+        "subname": "Vol. 2 — Yennenga (Purple)",
+        "description": "The warrior princess of Dagomba, skilled archer and fearless leader.",
+        "price": 120,
+        "images": ["/models/unmatched-battle-of-legends-2-yennenga-PURPLE.glb"]
+      },
+      {
+        "subname": "Vol. 3 — Blackbeard (Black)",
         "description": "The infamous pirate captain, sculpted with his iconic hat and fearsome stance.",
         "price": 140,
         "images": [
@@ -1829,24 +1881,145 @@
         ]
       },
       {
-        "subname": "Battle of Legends Volume 3 - Chupacabra",
+        "subname": "Vol. 3 — Chupacabra (Red)",
         "description": "The legendary cryptid, captured in a menacing pose with razor-sharp claws.",
-        "price": 120,
+        "price": 140,
         "images": ["/models/unmatched-battle-of-legends-3-chupacabra-RED.glb"]
       },
       {
-        "subname": "Battle of Legends Volume 3 - Loki",
+        "subname": "Vol. 3 — Loki (Green)",
         "description": "The trickster god of mischief, posed with characteristic cunning and flair.",
-        "price": 130,
+        "price": 140,
         "images": ["/models/unmatched-battle-of-legends-3-loki-GREEN.glb"]
       },
       {
-        "subname": "Battle of Legends Volume 3 - Pandora",
+        "subname": "Vol. 3 — Pandora (Yellow)",
         "description": "The mythical figure of curiosity, delicately sculpted mid-reveal.",
-        "price": 150,
+        "price": 140,
         "images": ["/models/unmatched-battle-of-legends-3-pandora-YELLOW.glb"]
+      },
+      {
+        "subname": "Cobble & Fog — Dracula (Red)",
+        "description": "The Lord of Vampires, draining opponents of their power with his sisters.",
+        "price": 120,
+        "images": ["/models/unmatched-cobble-and-fog-dracula-RED.glb"]
+      },
+      {
+        "subname": "Cobble & Fog — Invisible Man (Gray)",
+        "description": "Darting through fog, striking without warning from the shadows.",
+        "price": 120,
+        "images": ["/models/unmatched-cobble-and-fog-invisible-man-GRAY.glb"]
+      },
+      {
+        "subname": "Cobble & Fog — Jekyll & Hyde (Purple)",
+        "description": "Two minds in one body — cunning intellect meets brute force.",
+        "price": 140,
+        "images": [
+          "/models/unmatched-cobble-and-fog-jekyll-and-hyde-PURPLE.glb"
+        ]
+      },
+      {
+        "subname": "Cobble & Fog — Sherlock Holmes (Yellow)",
+        "description": "The world's greatest detective, scheming with Watson to ensure victory.",
+        "price": 120,
+        "images": [
+          "/models/unmatched-cobble-and-fog-sherlock-holmes-YELLOW.glb"
+        ]
+      },
+      {
+        "subname": "Buffy — Buffy Summers (Yellow)",
+        "description": "The Slayer herself, ready to save the world with a quip and a stake.",
+        "price": 120,
+        "images": ["/models/unmatched-buffy-buffy-YELLOW.glb"]
+      },
+      {
+        "subname": "Buffy — Angel (Blue)",
+        "description": "The vampire with a soul, fighting for redemption one battle at a time.",
+        "price": 120,
+        "images": ["/models/unmatched-buffy-angel-BLUE.glb"]
+      },
+      {
+        "subname": "Buffy — Spike (Purple)",
+        "description": "The punk-rock vampire, unpredictable and dangerous in every fight.",
+        "price": 120,
+        "images": ["/models/unmatched-buffy-spike-PURPLE.glb"]
+      },
+      {
+        "subname": "Buffy — Willow (Green)",
+        "description": "The powerful witch, channeling magic to tip the scales of battle.",
+        "price": 120,
+        "images": ["/models/unmatched-buffy-willow-GREEN.glb"]
+      },
+      {
+        "subname": "Bigfoot (Orange)",
+        "description": "The elusive cryptid of the forest, surprisingly nimble for his size.",
+        "price": 120,
+        "images": ["/models/unmatched-bigfoot-ORANGE.glb"]
+      },
+      {
+        "subname": "Bruce Lee (Yellow)",
+        "description": "The martial arts legend, striking with lightning speed and precision.",
+        "price": 120,
+        "images": ["/models/unmatched-bruce-lee-YELLOW.glb"]
+      },
+      {
+        "subname": "Beowulf (Blue)",
+        "description": "The legendary Geatish hero, slayer of Grendel and his mother.",
+        "price": 120,
+        "images": ["/models/unmatched-beowulf-BLUE.glb"]
+      },
+      {
+        "subname": "Deadpool (Red)",
+        "description": "The Merc with a Mouth — breaking the fourth wall and his opponents.",
+        "price": 120,
+        "images": ["/models/unmatched-deadpool-RED.glb"]
+      },
+      {
+        "subname": "Brains & Brawn — Spider-Man (Red)",
+        "description": "Your friendly neighbourhood Spider-Man, swinging into action.",
+        "price": 120,
+        "images": ["/models/unmatched-brains-and-brawn-spider-man-RED.glb"]
+      },
+      {
+        "subname": "Brains & Brawn — Doctor Strange (Purple)",
+        "description": "The Sorcerer Supreme, bending reality to outmanoeuvre his foes.",
+        "price": 120,
+        "images": [
+          "/models/unmatched-brains-and-brawn-doctor-strange-PURPLE.glb"
+        ]
+      },
+      {
+        "subname": "Brains & Brawn — She-Hulk (Green)",
+        "description": "Attorney at law and gamma-powered powerhouse — objection sustained.",
+        "price": 120,
+        "images": ["/models/unmatched-brains-and-brawn-she-hulk-GREEN.glb"]
+      },
+      {
+        "subname": "For King & Country — Black Panther (Purple)",
+        "description": "The King of Wakanda, protector of his people and vibranium-clad warrior.",
+        "price": 120,
+        "images": [
+          "/models/unmatched-for-king-and-country-black-panther-PURPLE.glb"
+        ]
+      },
+      {
+        "subname": "For King & Country — Black Widow (Black)",
+        "description": "The master spy, lethal in close quarters and always one step ahead.",
+        "price": 120,
+        "images": [
+          "/models/unmatched-for-king-and-country-black-widow-BLACK.glb"
+        ]
+      },
+      {
+        "subname": "For King & Country — Winter Soldier (Gray)",
+        "description": "The brainwashed super-soldier, a ghost story come to life.",
+        "price": 120,
+        "images": [
+          "/models/unmatched-for-king-and-country-winter-soldier-GRAY.glb"
+        ]
       }
     ],
+    "customizable": "Enter customization if needed. Can be customized with different color.",
     "specs": {
       "compatibility": "Unmatched Board Game",
       "material": "High quality PLA"
