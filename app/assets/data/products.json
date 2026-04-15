@@ -1837,13 +1837,13 @@
       {
         "subname": "Battle of Legends Volume 3 - Loki",
         "description": "The trickster god of mischief, posed with characteristic cunning and flair.",
-        "price": 120,
+        "price": 130,
         "images": ["/models/unmatched-battle-of-legends-3-loki-GREEN.glb"]
       },
       {
         "subname": "Battle of Legends Volume 3 - Pandora",
         "description": "The mythical figure of curiosity, delicately sculpted mid-reveal.",
-        "price": 120,
+        "price": 150,
         "images": ["/models/unmatched-battle-of-legends-3-pandora-YELLOW.glb"]
       }
     ],
