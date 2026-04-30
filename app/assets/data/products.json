@@ -2254,5 +2254,41 @@
       "material": "High quality PLA"
     },
     "game": "Unmatched"
+  },
+  {
+    "id": "dune_imperium_uprising_leader_tray_45gm",
+    "name": "Dune: Imperium Uprising Leader Tray",
+    "category": "Board Game Upgrades",
+    "price": 90,
+    "description": "A compact, purpose-built tray for your Dune: Imperium Uprising leader cards. Keeps leaders neatly organized and easily accessible during play.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "customizable": "Enter customization if needed.",
+    "specs": {
+      "compatibility": "Dune: Imperium Uprising",
+      "material": "High quality PLA",
+      "weight": "~45g"
+    },
+    "game": "Dune: Imperium Uprising"
+  },
+  {
+    "id": "eternal_decks_insert_480gm",
+    "name": "Eternal Decks Insert",
+    "category": "Board Game Inserts",
+    "price": 960,
+    "description": "A precision-crafted insert for Eternal Decks. Organizes all cards, tokens, and components for quick setup and teardown — everything has its place.",
+    "featured": false,
+    "hidden": false,
+    "outOfStock": false,
+    "showColorOption": true,
+    "customizable": "Enter customization if needed.",
+    "specs": {
+      "compatibility": "Eternal Decks",
+      "material": "High quality PLA",
+      "weight": "~480g"
+    },
+    "game": "Eternal Decks"
   }
 ]
