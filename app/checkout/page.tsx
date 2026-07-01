@@ -129,7 +129,7 @@ function PaymentModal({
 
           {/* UPI Pay Link */}
           <a
-            href={`upi://pay?pa=razathdfc@ybl&am=${total}&cu=INR`}
+            href={`upi://pay?pa=tabletop-reboxing@ybl&am=${total}&cu=INR`}
             className="flex items-center justify-center gap-2 w-full py-2.5 rounded-lg text-sm font-medium smooth-transition mb-3 bg-primary/10 backdrop-blur-md text-primary border border-primary/20 shadow-sm hover:bg-primary/15 hover:shadow-md"
           >
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
